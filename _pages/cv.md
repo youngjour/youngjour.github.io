@@ -14,7 +14,7 @@ redirect_from:
 {% include pdf-script.html %}
 
 <div class="cv-contact-info">
-<strong>PostDoc Researcher</strong>, School of Computing, Korea Advanced Institute of Science and Technology<br>
+<strong>PostDoc Researcher</strong>, Urban AI Institute, Korea Advanced Institute of Science and Technology<br>
 <strong>Partner Architect</strong>, Ar-ge Architects, Inc.<br>
 Email: youngjourpark@gmail.com | Phone: (+82) 10-2399-4900<br>
 Seoul, South Korea
