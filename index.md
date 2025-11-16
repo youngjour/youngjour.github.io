@@ -38,22 +38,25 @@ Thesis: Car-sharing and urban mobility in residential neighborhoods
 
 ## Professional Experience
 
-**Partner Architect**, Ar-ge Architects, Inc. (2024-present)
-Leading architectural design projects integrating computational methods
+**PostDoc Researcher**, Urban AI Institute, KAIST (2025-present)
+Research in urban analytics and science and manage the international projects for Center for Advanced Urban Systems at KAIST
 
-**PostDoc Researcher**, School of Computing, KAIST (2022-present)
-Research in urban analytics, AI applications, and smart city technologies
+**Partner Architect**, Ar-ge Architects, Inc. (2024-present)
+Leading architectural design projects integrating computational techniques
+
+**PostDoc Researcher**, School of Computing, KAIST (2022-2025)
+Research in AI-centered urban solution with smart city technologies, based on IoT and distributed computing systems
 
 **Lecturer**, Department of Architecture, Seoul National University (2021-2023)
 "Urban Design Analysis: The Pedestrian and the City" and "Theory of Urban Design"
 
 ## Technical Skills
 
-**Programming & Data Science**: Python, R, SQL, Machine Learning, Deep Learning, GIS analysis, Geospatial data analysis and visualization
+**Programming & Data Science**: Python, R, SQL, Machine Learning, Deep Learning, Time-Series Prediction, Large Language Model, GIS analysis, Geospatial data analysis and visualization
 
-**Urban Design & Architecture**: Urban planning methodologies, CAD software, BIM & parametric design, sustainable design principles
+**Urban Design & Architecture**: Urban planning methodologies, participatory design process, neighborhood design principles, BIM with ArchiCAD tool, Adobe Illustrator, Photoshop, and other design tools
 
-**Research Methods**: Evidence-based urban analysis, smartphone-based activity recognition, spatiotemporal data modeling
+**Research Methods**: Evidence-based urban analysis, smartphone-based activity recognition, spatiotemporal data modeling, large language model application, graph network analysis
 
 ## Awards and Honors
 
