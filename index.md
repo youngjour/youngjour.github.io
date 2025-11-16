@@ -4,9 +4,9 @@ author_profile: true
 permalink: /
 ---
 
-## Biography
+<!-- ## Biography -->
 
-I am a PostDoc Researcher at the School of Computing, Korea Advanced Institute of Science and Technology (KAIST) and Partner Architect at Ar-ge Architects, Inc. As an urban researcher with a background in Architecture and Urban Design, my academic journey has focused on exploring the relationship between human activities and urban environments.
+I am a PostDoc Researcher at Urban AI Institute, Korea Advanced Institute of Science and Technology (KAIST) and Partner Architect at Ar-ge Architects, Inc. As an urban researcher with a background in Architecture and Urban Design, my academic journey has focused on exploring the relationship between human activities and urban environments.
 
 My doctoral work, centered on walking activities in urban parks, laid the groundwork for my evidence-based approach to urban studies, providing insights into analyzing human behavior in urban contexts. Currently, as a postdoctoral researcher in Computer Science, I have expanded my expertise to integrate scientific and mathematical frameworks into the analysis of urban planning and design issues.
 
