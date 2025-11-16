@@ -1,64 +1,51 @@
-# Academic Portfolio Website
+# Youngjun Park - Career Website
 
-This is your personal academic portfolio website built with Jekyll and the Minimal Mistakes theme, enhanced with Academic Pages content structure.
+Personal career website showcasing my work as a PostDoc Researcher at KAIST and Partner Architect at AR-GE Architects. This site combines my academic research in urban science and data analytics with my professional practice in computational architecture.
 
-## Quick Start
+🌐 **Live Site**: [https://youngjour.github.io](https://youngjour.github.io)
 
-### 1. Customize Your Information
+## About
 
-Edit `_config.yml` to update:
-- Your name, bio, and contact information
-- Social media links (Twitter, LinkedIn, etc.)
-- Site title and description
-- Google Scholar profile (add `googlescholar: "your_profile_url"` to author section)
+I am a PostDoc Researcher at the School of Computing, Korea Advanced Institute of Science and Technology (KAIST) and Partner Architect at Ar-ge Architects, Inc. My work focuses on the intersection of urban environments, human behavior, and computational methods.
 
-### 2. Add Your Content
+### Research Areas
+- Urban Science & Data Analytics
+- Human Mobility & Behavior Analysis
+- Computational Urban Design
+- Health & Environment Relationships
+- Smart Cities & IoT Applications
 
-#### Publications (`_publications/`)
-- Create new files like `YYYY-publication-title.md`
-- Include title, venue, date, citation, and paper URL
-- Add abstracts and additional details
+### Professional Focus
+- Evidence-based urban design
+- AI applications in architecture and urban planning
+- Spatiotemporal data modeling
+- Deep learning for mobility patterns
 
-#### Talks (`_talks/`)
-- Add conference presentations, seminars, and workshops
-- Include venue, date, location, and slides/video links
+## Website Features
 
-#### Teaching (`_teaching/`)
-- Document courses you've taught or assisted with
-- Include course descriptions and your role
+- **Research Portfolio**: Publications and ongoing research projects
+- **Design Work**: Architectural projects and computational design
+- **Academic Profile**: CV, publications, and professional experience
+- **Blog Posts**: Latest updates and project highlights
+- **Contact Information**: Multiple ways to connect
 
-#### Portfolio (`_portfolio/`)
-- Showcase research projects, software, or other work
-- Include project descriptions, technologies used, and links
+## Technical Stack
 
-### 3. Customize Design
+This website is built with:
+- **Jekyll** static site generator
+- **Minimal Mistakes** theme
+- **GitHub Pages** for hosting
+- **Markdown** for content management
 
-The site uses Minimal Mistakes theme with these customization options:
+## Local Development
 
-#### Color Schemes
-In `_config.yml`, change `minimal_mistakes_skin` to:
-- `"default"` - White background with dark text
-- `"air"` - Light and airy
-- `"aqua"` - Blue accent colors
-- `"contrast"` - High contrast dark theme
-- `"dark"` - Dark theme
-- `"dirt"` - Brown earth tones
-- `"neon"` - Bright neon accents
-- `"mint"` - Green mint theme
-- `"plum"` - Purple theme
-- `"sunrise"` - Orange/yellow theme
-
-#### Navigation
-Edit `_data/navigation.yml` to modify the main navigation menu.
-
-#### Author Profile
-Update the author section in `_config.yml` to customize your sidebar information.
-
-### 4. Local Development
-
-To run the site locally:
+To run this site locally:
 
 ```bash
+# Clone the repository
+git clone https://github.com/youngjour/youngjour.github.io.git
+cd youngjour.github.io
+
 # Install dependencies
 bundle install
 
@@ -68,67 +55,53 @@ bundle exec jekyll serve
 # View at http://localhost:4000
 ```
 
-### 5. GitHub Pages Deployment
-
-Your site will automatically deploy to `https://youngjour.github.io` when you push to the main branch.
-
-## File Structure
+## Site Structure
 
 ```
-├── _config.yml           # Site configuration
-├── _data/
-│   └── navigation.yml     # Navigation menu
-├── _pages/               # Main pages (About, CV, etc.)
-├── _publications/        # Publication entries
-├── _talks/              # Talk and presentation entries
-├── _teaching/           # Teaching experience entries
-├── _portfolio/          # Portfolio/project entries
-├── assets/
-│   └── images/          # Images for your site
-├── Gemfile              # Ruby dependencies
-└── index.md             # Homepage
+├── _config.yml           # Site configuration and personal info
+├── _data/navigation.yml  # Main navigation menu
+├── _pages/               # Main pages (CV, Research, Design, etc.)
+├── _posts/               # Blog posts and news updates
+├── assets/images/        # Profile photos and project images
+├── index.md              # Homepage with biography
+└── Gemfile               # Ruby dependencies
 ```
 
-## Adding Content
+## Content Areas
 
-### Publications Example
+### Research (`_pages/research.md`)
+Academic research projects, methodologies, and findings in urban science and computational design.
 
-Create `_publications/2024-your-paper.md`:
+### Publications (`_pages/publications.md`)
+Peer-reviewed publications, conference papers, and academic contributions.
 
-```yaml
+### Design (`_pages/design.md`)
+Architectural projects and computational design work from AR-GE Architects.
+
+### CV (`_pages/cv.md`)
+Complete academic and professional curriculum vitae.
+
+### Contact (`_pages/contact.md`)
+Professional contact information and collaboration opportunities.
+
+## Recent Updates
+
+- **Nov 2024**: Joined AR-GE Architects as Partner Architect
+- **Oct 2024**: Won KAIST-NYU Innovation Award
+- **Sep 2024**: Published Airbnb prediction model research
+
+## Connect
+
+- **Email**: youngjourpark@gmail.com
+- **Google Scholar**: [Research Profile](https://scholar.google.com/citations?user=sGRKN6UAAAAJ&hl)
+- **ORCID**: [0000-0002-4254-2268](https://orcid.org/0000-0002-4254-2268)
+- **LinkedIn**: [youngjourpark](https://linkedin.com/in/youngjourpark)
+- **GitHub**: [youngjour](https://github.com/youngjour)
+
+## License
+
+This website content is available under [MIT License](LICENSE). Feel free to use it as a template for your own academic website.
+
 ---
-title: "Your Paper Title"
-collection: publications
-permalink: /publication/2024-your-paper
-excerpt: 'Brief description of your paper.'
-date: 2024-01-01
-venue: 'Conference/Journal Name'
-paperurl: 'https://link-to-paper.com'
-citation: 'Author, A. (2024). "Paper Title." Journal Name.'
----
 
-Paper content and details here.
-```
-
-### Profile Photo
-
-Add your photo to `assets/images/` and update the `avatar` field in `_config.yml`:
-
-```yaml
-author:
-  avatar: "/assets/images/your-photo.jpg"
-```
-
-## Tips
-
-1. Use meaningful filenames (YYYY-title-format) for chronological ordering
-2. Include relevant keywords in your content for better searchability
-3. Link to external resources (papers, code repositories, etc.)
-4. Keep your content updated regularly
-5. Test locally before pushing to ensure everything works
-
-## Support
-
-- [Minimal Mistakes Documentation](https://mmistakes.github.io/minimal-mistakes/)
-- [Jekyll Documentation](https://jekyllrb.com/docs/)
-- [GitHub Pages Documentation](https://docs.github.com/en/pages)
+*Last updated: November 2024*
