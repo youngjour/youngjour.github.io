@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: "Notes"
 permalink: /notes/
 author_profile: true
@@ -9,15 +9,15 @@ Recent thoughts, updates, and reflections on my research, design work, and acade
 
 {% for post in site.posts %}
   <article class="blog-post">
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <h3>{{ post.title }}</h3>
     <div class="blog-meta">
       {{ post.date | date: "%B %d, %Y" }}
     </div>
-    <div class="blog-excerpt">
-      {{ post.excerpt }}
-      {% if post.content != post.excerpt %}
-        <a href="{{ post.url }}">Read more →</a>
-      {% endif %}
+    <div class="blog-content">
+      {{ post.content }}
     </div>
+    {% unless forloop.last %}
+      <hr style="margin: 2em 0; border: none; border-top: 2px solid #eee;">
+    {% endunless %}
   </article>
 {% endfor %}

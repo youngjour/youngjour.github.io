@@ -33,9 +33,6 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=sGRKN6UAAAAJ&hl"
   orcid            : "https://orcid.org/0000-0002-4254-2268"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:youngjourpark@gmail.com"
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=sGRKN6UAAAAJ&hl"
