@@ -32,6 +32,18 @@ Seoul, South Korea
 
 ## Professional Positions
 
+* **PostDoc Researcher**, Urban AI Institute, KAIST (2025-present)
+  * Research in urban analytics and science with Agentic AI framework
+  * Manage the interdisciplinary and international research projects for Center for Advanced Urban Systems at KAIST
+
+* **Partner Architect**, Ar-ge Architects, Inc. (2024-present)
+  * Leading architectural design projects integrating computational techniques
+
+* **PostDoc Researcher**, School of Computing, KAIST (2022-2025)
+  * Research in AI-centered urban solution with smart city technologies, based on IoT and distributed computing systems
+  * Cross-disciplinary collaborations in urban computing
+
+
 * **Partner Architect**, Ar-ge Architects, Inc. (2024-present)
   * Leading architectural design projects integrating computational methods
 
@@ -40,8 +52,8 @@ Seoul, South Korea
   * Cross-disciplinary collaborations in urban computing
 
 * **Lecturer**, Department of Architecture, Seoul National University (2021-2023)
-  * "Urban Design Analysis: The Pedestrian and the City" (Master level)
-  * "Theory of Urban Design: From Classic to Today" (Master level)
+  * "Urban Design Analysis: The Pedestrian and the City" (Graduate level in Architecture Major)
+  * "Theory of Urban Design: From Classic to Today" (Graduate level in Urban Design Major)
 
 * **Military Officer (1st Lieutenant)**, Combat Engineer, Republic of Korea Army (2013-2015)
   * Leadership and project management experience
@@ -52,25 +64,25 @@ Seoul, South Korea
 * Programming Languages: Python, R, SQL
 * Machine Learning: scikit-learn, TensorFlow, PyTorch
 * GIS & Spatial Analysis: QGIS, ArcGIS, PostGIS, GeoPandas
-* Data Visualization: Matplotlib, D3.js, Plotly
-* Mobile Development: Android, iOS app development
+* Data Visualization: Matplotlib, Plotly, CSS, Deck.gl
+* AI techniques: Language Model, Graph Network, Time-Series Prediction
+<!-- * Mobile Development: Android, iOS app development -->
 
 ### Urban Design & Architecture
-* Design Software: AutoCAD, Rhino, SketchUp, Adobe Creative Suite
-* BIM & Parametric Design: Revit, Grasshopper
-* Analysis Tools: Space Syntax, Urban simulation software
+* Design Software: ArchiCAD with BIM, AutoCAD, SketchUp, Adobe Creative Suite
+* BIM & Parametric Design: ArchiCAD, Grasshopper
+* Analysis Tools: OSMnx, Space Syntax, GIS Software
 * Visualization: 3D rendering, architectural presentation
 
 ### Research Methods
-* Statistical Analysis: Advanced statistical modeling and hypothesis testing
+* Statistical Analysis: Advanced statistical modeling and hypothesis testing, spatiotemporal analysis, graph network analysis
 * Big Data Processing: Handling large-scale urban datasets
 * Survey Design: Questionnaire development and analysis
-* Field Research: Urban observation and data collection methods
+* Field Research: Participatory community design, travel survey with GPS sensor, urban observation and video analysis
 
 ### Languages
 * Korean: Native
 * English: Fluent
-* Vietnamese: Basic (from Hue project experience)
 
 ## Publications
 
