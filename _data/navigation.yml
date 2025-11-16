@@ -1,16 +1,16 @@
 # main links
 main:
   - title: "About"
-    url: /about/
+    url: /
+  - title: "Notes"
+    url: /notes/
   - title: "Publications"
     url: /publications/
   - title: "Research"
     url: /research/
   - title: "Design"
     url: /design/
-  - title: "Talks"
-    url: /talks/
-  - title: "Teaching"
-    url: /teaching/
   - title: "CV"
     url: /cv/
+  - title: "Contact"
+    url: /contact/

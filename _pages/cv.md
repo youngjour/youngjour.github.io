@@ -1,13 +1,24 @@
 ---
 layout: archive
-title: "CV"
+title: "Youngjun Park"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-[Download PDF version of CV](/resources/CV_Youngjun Park.pdf)
+<a href="javascript:generatePDF()" class="pdf-download-btn" title="Print or save as PDF">
+  <i class="fas fa-download"></i>Download as PDF
+</a>
+
+{% include pdf-script.html %}
+
+<div class="cv-contact-info">
+<strong>PostDoc Researcher</strong>, School of Computing, Korea Advanced Institute of Science and Technology<br>
+<strong>Partner Architect</strong>, Ar-ge Architects, Inc.<br>
+Email: youngjourpark@gmail.com | Phone: (+82) 10-2399-4900<br>
+Seoul, South Korea
+</div>
 
 ## Education
 

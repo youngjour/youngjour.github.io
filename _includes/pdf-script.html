@@ -1,0 +1,48 @@
+<!-- PDF Generation JavaScript -->
+<script>
+function generatePDF() {
+  // Add print-specific styling
+  document.body.classList.add('printing');
+
+  // Open print dialog
+  window.print();
+
+  // Remove print class after print dialog closes
+  setTimeout(function() {
+    document.body.classList.remove('printing');
+  }, 1000);
+}
+
+// Optimize for print
+window.addEventListener('beforeprint', function() {
+  document.body.classList.add('printing');
+});
+
+window.addEventListener('afterprint', function() {
+  document.body.classList.remove('printing');
+});
+</script>
+
+<!-- Print optimization for different browsers -->
+<style>
+@media print {
+  /* Webkit browsers (Chrome, Safari) print optimization */
+  body {
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+
+  /* Ensure proper page breaks */
+  .cv-section-item {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Publications with hanging indent */
+  .publication-entry {
+    text-indent: -0.5in;
+    padding-left: 0.5in;
+    margin-bottom: 0.1in;
+    break-inside: avoid;
+  }
+}</style>

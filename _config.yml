@@ -21,7 +21,7 @@ baseurl                  : ""
 repository               : "youngjour/youngjour.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "Youngjun Park" # Site title that links to homepage
 
 # Site Author
 author:
@@ -31,6 +31,7 @@ author:
   location         : "Seoul, South Korea"
   email            : "youngjourpark@gmail.com"
   googlescholar    : "https://scholar.google.com/citations?user=sGRKN6UAAAAJ&hl"
+  orcid            : "https://orcid.org/0000-0002-4254-2268"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -38,6 +39,9 @@ author:
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=sGRKN6UAAAAJ&hl"
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0000-0002-4254-2268"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/youngjour"
@@ -114,13 +118,12 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+# paginate: 5 # disabled - not using blog-style pagination
+# paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -128,7 +131,6 @@ plugins:
 
 # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -158,23 +160,8 @@ compress_html:
   ignore:
     envs: development
 
-# Collections
-collections:
-  publications:
-    output: true
-    permalink: /:collection/:name/
-  talks:
-    output: true
-    permalink: /:collection/:name/
-  teaching:
-    output: true
-    permalink: /:collection/:name/
-  research:
-    output: true
-    permalink: /:collection/:name/
-  design:
-    output: true
-    permalink: /:collection/:name/
+# Collections (minimal setup for posts only)
+# Individual collections removed - content now shown inline
 
 # Defaults
 defaults:
