@@ -2,6 +2,7 @@
 layout: archive
 title: "Design"
 permalink: /en/design/
+lang: en
 author_profile: true
 
 ---

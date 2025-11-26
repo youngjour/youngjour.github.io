@@ -1,11 +1,12 @@
-
 ---
 layout: single
 title: "박영준"
 permalink: /
+lang: ko
 author_profile: true
 sidebar:
   nav: "main"
+  
 ---
 
 <div class="cv-contact-info">

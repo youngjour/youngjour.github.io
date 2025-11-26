@@ -2,6 +2,7 @@
 layout: archive
 title: "Research"
 permalink: /en/research/
+lang: en
 author_profile: true
 
 ---

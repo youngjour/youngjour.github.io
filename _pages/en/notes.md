@@ -2,6 +2,7 @@
 layout: archive
 title: "Notes"
 permalink: /en/notes/
+lang: en
 author_profile: true
 
 ---
