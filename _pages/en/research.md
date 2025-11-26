@@ -3,8 +3,7 @@ layout: archive
 title: "Research"
 permalink: /en/research/
 author_profile: true
-sidebar:
-  nav: "main_en"
+
 ---
 
 
