@@ -63,42 +63,46 @@ classes: kr-font
 ### 연구 프로젝트 (Research Projects)
 
 * **GS-KAIST 스마트시티 연구센터** (2024-2025)
-  * *PostDoc Researcher*
-  * KAIST, GS건설
+  * *박사후 연구원*
+  * 한국과학기술원(KAIST), GS건설
   * AI 기반 도시 시스템 개발 및 스마트 시티 기술
 
-* **AI-based Contactless Drug Detection Technology** (2024-2025)
-  * *PostDoc Researcher*
-  * Korea Advanced Institute of Science and Technology (KAIST)
+* **AI기반 비접촉 마약 탐지 기술 연구** (2024-2025)
+  * *박사후 연구원*
+  * 한국과학기술원(KAIST)
   * Project No. RS-2024-00459749
 
-* **Multimodal Spatiotemporal Urban Prediction Model Based on Large-Language Model** (2024-2025)
-  * *PostDoc Researcher*
-  * Korea Advanced Institute of Science and Technology (KAIST)
+* **대규모 언어모델 기반 멀티모달 시공간 도시 예측 모델 연구** (2024-2025)
+  * *박사후 연구원*
+  * 한국과학기술원(KAIST)
   * Project No. RS-2024-00356597
 
-* **Self-learning Based Autonomic IoT Edge Computing Technology** (2022-2025)
-  * *PostDoc Researcher*
-  * SW StarLab Project, Korea Advanced Institute of Science and Technology (KAIST)
+* **자가 학습 기반 Autonomic IoT 에지 컴퓨팅 기술 연구** (2022-2025)
+  * *박사후 연구원*
+  * SW StarLab Project, 한국과학기술원(KAIST)
   * Project No. RS-2019-II191126
 
-* **AI-based Smart Transportation System, Daegu city** (2022-2024)
-  * *Participatory Researcher*
-  * Korea Advanced Institute of Science and Technology (KAIST)
+* **AI 기반 스마트모빌리티 시스템 개발** (2022-2024)
+  * *참여 연구원*
+  * 대구광역시, 한국과학기술원(KAIST)
   * Project No. N04230030
 
-* **Text analysis of the Government Budget for Pedestrian Projects** (2022-2023)
-  * *Research Consultant*
-  * Architecture and Urban Research Institute of Korea (AURI)
+* **정부 예산에 대한 보행자 관련 사업 텍스트 분석** (2022-2023)
+  * *연구 용역*
+  * 건축공간연구원(AURI)
 
-* **Data analysis, mobile app design & development for WalkON™** (2019-2020)
-  * *Leading Researcher*
-  * Swallaby, Inc.
+* **개별 GPS경로분석을 통한 근린 내 걷기실천 저조자와 양호자 그룹 간 보행활동 비교 연구** (2019-2021)
+  * *연구장학금 수혜자*
+  * 한국연구재단, 서울대학교
 
-* **GIS analysis of Urban Environment for Infant Welfare** (2018-2019)
-  * *Research Assistant*
-  * Dept. of Architecture, Ewha Womans University
+* **WalkON 스마트폰 앱 개발을 위한 보행 데이터 분석 및 서비스 기획™** (2019-2020)
+  * *연구팀장, 외부소속기관 참여연구원*
+  * 스왈라비(주)
 
-* **Urban design and masterplan, Hue city, Vietnam** (2015-2016)
-  * *Research Intern*
-  * ODA project of KOICA, Graduate School of Environmental Studies, Seoul National University군
+* **영유아 공간복지를 위한 GIS 분석 연구** (2018-2019)
+  * *연구 조교, 외부소속기관 참여연구원*
+  * 이화여자대학교
+
+* **베트남 후에시 ODA사업 도시기본계획 수립 연구** (2015-2016)
+  * *연구 조교*
+  * 한국국제협력단(KOICA), 서울대학교

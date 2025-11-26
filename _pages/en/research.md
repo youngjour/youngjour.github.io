@@ -69,6 +69,10 @@ author_profile: true
   * *Research Consultant*
   * Architecture and Urban Research Institute of Korea (AURI)
 
+* **Comparative Study on Walking Activity between Inactive and Active Groups in Neighborhoods using Individual GPS Path Analysis** (2019-2021)
+  * *Research Grant Recipient*
+  * National Research Foundation of Korea (NRF), Seoul National University
+
 * **Data analysis, mobile app design & development for WalkON™** (2019-2020)
   * *Leading Researcher*
   * Swallaby, Inc.
