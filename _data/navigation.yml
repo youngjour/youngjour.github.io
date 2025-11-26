@@ -1,5 +1,7 @@
 # main links
 main:
+# main links
+main:
   - title: "About/CV"
     url: /
   - title: "Research"
@@ -8,6 +10,8 @@ main:
     url: /design/
   - title: "Notes"
     url: /notes/
+  - title: "<i class='fas fa-globe'></i> EN"
+    url: /en/
 
 main_en:
   - title: "About/CV"
@@ -18,3 +22,5 @@ main_en:
     url: /en/design/
   - title: "Notes"
     url: /en/notes/
+  - title: "<i class='fas fa-globe'></i> KR"
+    url: /
