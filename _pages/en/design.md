@@ -3,6 +3,8 @@ layout: archive
 title: "Design"
 permalink: /en/design/
 author_profile: true
+sidebar:
+  nav: "main_en"
 ---
 
 

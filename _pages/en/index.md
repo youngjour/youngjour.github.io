@@ -1,8 +1,10 @@
 ---
-layout: archive
+layout: single
 title: "Youngjun Park"
 permalink: /en/
 author_profile: true
+sidebar:
+  nav: "main_en"
 ---
 
 
