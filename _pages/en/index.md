@@ -30,50 +30,51 @@ My research and practice focus on data-driven urban analytics, AI-based solution
 <strong>PostDoc Researcher</strong>, Urban AI Institute, KAIST<br>
 <strong>Partner Architect</strong>, Ar-ge Architects, Inc.<br>
 Email: youngjourpark@gmail.com | Phone: (+82) 10-2399-4900<br>
-Seoul, South Korea
+Daejeon, South Korea
 </div>
 
 ## Education
 
 * **Ph.D in Architecture**, Seoul National University, 2022
-  * Focus: Walking activities in urban parks, evidence-based urban design
+  * Focus: Smartphone data-based walking activity analysis, urban facility planning for physical activity promotion
 
 * **M.S. in Urban Design**, Seoul National University, 2017
-  * Thesis: Car-sharing and urban mobility in residential neighborhoods
+  * Thesis: A study on car-use behavior of housewives and mobility characteristics in neighborhood
 
 * **B.A. in Architecture**, Seoul National University, 2013
 
 ## Professional Positions
 
-* **PostDoc Researcher**, Urban AI Institute, KAIST (2025-present)
+* **PostDoc Researcher**, Urban AI Institute, KAIST (2025)
   * Research in urban analytics and science with Agentic AI framework
   * Manage the interdisciplinary and international research projects for Center for Advanced Urban Systems at KAIST
 
 * **Partner Architect**, Ar-ge Architects, Inc. (2024-present)
-  * Leading architectural design projects integrating computational techniques
+  * Leading architectural/urban design projects integrating computational techniques
 
 * **PostDoc Researcher**, School of Computing, KAIST (2022-2025)
   * Research in AI-centered urban solution with smart city technologies, based on IoT and distributed computing systems
   * Cross-disciplinary collaborations in urban computing
 
 * **Lecturer**, Department of Architecture, Seoul National University (2021-2023)
-  * "Urban Design Analysis: The Pedestrian and the City" (Graduate level in Architecture Major)
-  * "Theory of Urban Design: From Classic to Today" (Graduate level in Urban Design Major)
+  * "Urban Design Research: Pedestrian-Urban Data Analysis" (Graduate level in Architecture Major)
+  * "Urban Design Theory: Old Urban Design, New Urban Design" (Graduate level in Urban Design Major)
 
 * **Military Officer (1st Lieutenant)**, Combat Engineer, Republic of Korea Army (2013-2015)
-  * Leadership and project management experience
+  * Leadership and personnel management experience
+  * DMZ Operation Mine Detection and Removal Team Leader
 
 ## Technical Skills
 
 ### Programming & Data Science
 * Programming Languages: Python, R, SQL
 * Machine Learning: scikit-learn, TensorFlow, PyTorch
-* GIS & Spatial Analysis: QGIS, ArcGIS, PostGIS, GeoPandas
-* Data Visualization: Matplotlib, Plotly, CSS, Deck.gl
-* AI techniques: Language Model, Graph Network, Time-Series Prediction
+* GIS & Spatial Analysis: QGIS, ArcGIS, GeoPandas, OSMnx
+* Data Visualization: Matplotlib, Plotly, Processing, p5.js
+* AI techniques: Language Model, Graph Network, Time-Series Prediction, Spatial Analysis
 
 ### Urban Design & Architecture
-* Design Software: ArchiCAD with BIM, AutoCAD, SketchUp, Adobe Creative Suite
+* Design Software: ArchiCAD (BIM), AutoCAD, SketchUp, Adobe Creative Suite
 * BIM & Parametric Design: ArchiCAD, Grasshopper
 * Analysis Tools: OSMnx, Space Syntax, GIS Software
 * Visualization: 3D rendering, architectural presentation
@@ -84,9 +85,10 @@ Seoul, South Korea
 * Survey Design: Questionnaire development and analysis
 * Field Research: Participatory community design, travel survey with GPS sensor, urban observation and video analysis
 
+<!-- 
 ### Languages
 * Korean: Native
-* English: Fluent
+* English: Fluent -->
 
 ## Publications
 
@@ -103,7 +105,7 @@ Seoul, South Korea
 * **Park, Youngjun**; An, Jisun; Lee, Dongman (2025). "A Model for Monthly, Local-Level Airbnb Changes Using Public Dataset." *ICTR 2025*.
 * **Han, Sumin**; **Park, Youngjun**; Lee, Minji; An, Jisun; Lee, Dongman (2023). "Enhancing Spatiotemporal Traffic Prediction through Urban Human Activity Analysis." *CIKM 2023*.
 
-## Research Projects
+<!-- ## Research Projects
 
 {% for post in site.research reversed %}
   * **{{ post.title }}** - {{ post.excerpt }}
@@ -127,6 +129,18 @@ Seoul, South Korea
   * **{{ post.title }}** - {{ post.venue }}, {{ post.date | date: "%Y" }}
 {% endfor %}
 
+## Current Research Projects
+
+* **GS-KAIST Research Center for Smart City** (2024-current)
+  * KAIST, GS Engineering & Construction Corporation
+  * AI-based urban system development and smart city technologies
+
+* **AI-based Contactless Drug Detection Technology** (2024-current)
+  * KAIST research project focusing on public safety applications
+
+* **Multimodal Spatiotemporal Urban Prediction Model** (2024-current)
+  * Large Language Model applications for urban analytics -->
+
 ## Patents & Intellectual Property
 
 * **Korean Patent (Applied)** No.10-2024-0108083: Method and Device for Estimating House Value Using Neural Network Model
@@ -135,14 +149,15 @@ Seoul, South Korea
 
 ## Awards and Honors
 
-* **G-School Best Innovation Awards** (2023) - "Spatial Awareness in Deep Learning", KAIST-NYU Young Researcher Day, Urban X
-* **1st Prize, AI-based Population Prediction** (2023) - Data Analysis Competition, Korea Land & Housing Corporation
+* **G-School Best Innovation Awards** (2023) - KAIST-NYU Young Researcher Day
+* **1st Prize, AI-based Population Prediction** (2023) - COMPAS Data Analysis Competition, Korea Land & Housing Corporation
 * **Thesis Award** (2018) - Master thesis, Architectural Institute of Korea
-* **Young Architectural Fellowship** (2016) - Korean Institute of Architects
-* **Excellent Officer Award** (2015) - Republic of Korea Army
+* **Future Architectural Education Talent Selection** (2016) - Korean Institute of Architects
+* **Excellent Junior Officer Selection** (2015) - Republic of Korea Army
 
 ## Professional Service
 
-* **Reviewer**: International conferences and journals in urban planning and computer science
+* **Reviewer**: BMC Public Health, Archives of Public Health, Frontiers in Public Health
 * **Research Consultant**: Architecture and Urban Research Institute of Korea (AURI), 2022-2023
-* **Industry Collaboration**: Technology transfer and commercial applications of research
+* **Industry Collaboration**: GS E&C, Kia Motors-Innocean, Swallaby
+* **Special Lecture/Seminar**: Seoul National University (Dept. of Architecture), Korea University of Technology and Education (Dept. of Architectural Engineering), Chung-Ang University (Dept. of Architecture)
