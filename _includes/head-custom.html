@@ -41,38 +41,19 @@
   }
 
   @media print {
-
-    .pdf-download-btn,
-    .cv-language-switch {
-      display: none !important;
-    }
+    if (currentPath==='/en/') targetPath='/';
+    link.href=targetPath;
   }
-</style>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    var currentPath = window.location.pathname;
-
-    // Find the nav item with the globe icon
-    var navLinks = document.querySelectorAll('.visible-links a');
-    navLinks.forEach(function (link) {
-      if (link.innerHTML.includes('fa-globe')) {
-        if (currentPath.startsWith('/en/')) {
-          // We are in English, link should point to Korean equivalent
-          // Remove /en/ from start
-          var targetPath = currentPath.replace(/^\/en\//, '/');
-          // Handle root /en/ -> /
-          if (currentPath === '/en/') targetPath = '/';
-          link.href = targetPath;
-        } else {
-          // We are in Korean, link should point to English equivalent
-          // Add /en/ to start
-          var targetPath = '/en' + currentPath;
-          // Handle root / -> /en/
-          if (currentPath === '/') targetPath = '/en/';
-          link.href = targetPath;
-        }
-      }
-    });
+  else {
+    // We are in Korean, link should point to English equivalent
+    // Add /en/ to start
+    var targetPath='/en'+currentPath;
+    // Handle root / -> /en/
+    if (currentPath==='/') targetPath='/en/';
+    link.href=targetPath;
+  }
+  }
   });
-</script>
+  });
+  </script>
