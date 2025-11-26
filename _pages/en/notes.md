@@ -1,16 +1,15 @@
 ---
 layout: archive
-title: "노트 (Notes)"
-permalink: /notes/
+title: "Notes"
+permalink: /en/notes/
 author_profile: true
-classes: kr-font
 ---
 
 <div class="cv-language-switch">
-  <a href="/en/notes/">[EN] English</a>
+  <a href="/notes/">[KR] Korean</a>
 </div>
 
-*준비 중입니다.*
+*Under construction.*
 
 {% for post in site.posts %}
   * [{{ post.title }}]({{ post.url }})

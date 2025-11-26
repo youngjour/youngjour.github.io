@@ -1,16 +1,20 @@
 # main links
 main:
-  - title: "About"
+  - title: "About/CV"
     url: /
-  - title: "Notes"
-    url: /notes/
-  - title: "Publications"
-    url: /publications/
   - title: "Research"
     url: /research/
   - title: "Design"
     url: /design/
-  - title: "CV"
-    url: /cv/
-  - title: "Contact"
-    url: /contact/
+  - title: "Notes"
+    url: /notes/
+
+main_en:
+  - title: "About/CV"
+    url: /en/
+  - title: "Research"
+    url: /en/research/
+  - title: "Design"
+    url: /en/design/
+  - title: "Notes"
+    url: /en/notes/

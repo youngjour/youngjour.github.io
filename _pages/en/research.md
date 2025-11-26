@@ -1,63 +1,62 @@
 ---
 layout: archive
-title: "연구 (Research)"
-permalink: /research/
+title: "Research"
+permalink: /en/research/
 author_profile: true
-classes: kr-font
 ---
 
 <div class="cv-language-switch">
-  <a href="/en/research/">[EN] English</a>
+  <a href="/research/">[KR] Korean</a>
 </div>
 
-## 논문 (Publications)
+## Publications
 
-### 진행 중인 논문 (Working Papers)
+### Working Papers
 * **Park, Youngjun**; Na, Jihye; Jang, Keonhee; Lee, Dongman; Kwon, Changhyun; Yoon, Yoonjin (2025). "Food Deserts in Context: How Site-Specific Factors Reshape Food Deserts Discussion." *Submitted to npj Urban Sustainability* (in-review).
 
-### 저널 논문 (Journal Articles)
+### Journal Articles (Peer-reviewed)
 * **Park, Youngjun**; Lee, Sunjae; Park, Sohyun (2022). "Differences in park walking, comparing the physically inactive and active groups: data from mHealth monitoring system in Seoul." *International Journal of Environmental Research and Public Health*. <a href="https://www.mdpi.com/1660-4601/19/19/12213" class="external-link" title="View paper"><i class="fas fa-external-link-alt"></i></a>
 * **Park, Youngjun**; Chung, Haegwon; Park, Sohyun (2021). "Changes of walking activity during the first cycle phases of COVID-19 pandemic: A case study of Seoul, Korea." *HERD: Health Environments Research & Design Journal*. <a href="https://journals.sagepub.com/doi/full/10.1177/19375867211043743" class="external-link" title="View paper"><i class="fas fa-external-link-alt"></i></a>
 * **Jeong, Jiwoon**; **Park, Youngjun**; Park, Sohyun (2023). "Safety-critical events in bicycle lanes in Jongno, Seoul." *Journal of Urbanism*. <a href="https://www.tandfonline.com/doi/abs/10.1080/17549175.2023.2209307" class="external-link" title="View paper"><i class="fas fa-external-link-alt"></i></a>
 
-### 학술대회 발표 (Conference Proceedings)
+### Conference Proceedings & Presentations
 * **Lee, Hongju**; **Park, Youngjun**; An, Jisun; Lee, Dongman (2025). "Enhancing Regional Airbnb Trend Forecasting Using LLM-Based Embeddings of Accessibility and Human Mobility." *ASONAM 2025*.
 * **Park, Youngjun**; An, Jisun; Lee, Dongman (2025). "A Model for Monthly, Local-Level Airbnb Changes Using Public Dataset." *ICTR 2025*.
 * **Han, Sumin**; **Park, Youngjun**; Lee, Minji; An, Jisun; Lee, Dongman (2023). "Enhancing Spatiotemporal Traffic Prediction through Urban Human Activity Analysis." *CIKM 2023*. <a href="https://dl.acm.org/doi/abs/10.1145/3583780.3615243" class="external-link" title="View paper"><i class="fas fa-external-link-alt"></i></a>
 
-### 특허 및 지식재산권 (Patents & IP)
-* **한국 특허 (출원)** 10-2024-0108083: 신경망 모델을 이용한 주택 가치 추정 방법 및 장치
-* **한국 특허 (등록)** 10-23679770000: 상업용 부동산 정보 제공 방법 및 서버
-* **한국 저작권 (등록)** C-2023-062275: 지리 데이터 시각화 프로그램
+### Patents & Intellectual Property
+* **Korean Patent (Applied)** No.10-2024-0108083: Method and Device for Estimating House Value Using Neural Network Model
+* **Korean Patent (Registered)** No.10-23679770000: Method and Server for Providing Commercial Real Estate Information
+* **Korean Copyright (Registered)** C-2023-062275: Geographic Data Visualization Program
 
 ---
 
-## 연구 프로젝트 (Research Projects)
+## Research Projects
 
-### 현재 진행 중인 프로젝트 (Current Projects)
+### Current Projects
 
-* **GS-KAIST 스마트시티 연구센터** (2024-현재)
-  * KAIST, GS건설
-  * AI 기반 도시 시스템 개발 및 스마트 시티 기술
+* **GS-KAIST Research Center for Smart City** (2024-current)
+  * KAIST, GS Engineering & Construction Corporation
+  * AI-based urban system development and smart city technologies
 
-* **AI 기반 비접촉 마약 탐지 기술** (2024-현재)
-  * 공공 안전을 위한 KAIST 연구 프로젝트
+* **AI-based Contactless Drug Detection Technology** (2024-current)
+  * KAIST research project focusing on public safety applications
 
-* **멀티모달 시공간 도시 예측 모델** (2024-현재)
-  * 도시 분석을 위한 거대 언어 모델(LLM) 응용
+* **Multimodal Spatiotemporal Urban Prediction Model** (2024-current)
+  * Large Language Model applications for urban analytics
 
-### 최근 완료된 프로젝트 (Recent Projects)
+### Recent Projects
 
-* **스마트시티 혁신 인재 양성 사업** (2022-2023)
-  * 국토교통부
-  * 스마트시티 교육 프로그램 개발 및 운영
+* **Smart City Innovative Talent Education Program** (2022-2023)
+  * Ministry of Land, Infrastructure and Transport
+  * Development and operation of smart city education programs
 
 ---
 
-## 수상 및 표창 (Awards and Honors)
+## Awards and Honors
 
-* **G-School 최우수 혁신상** (2023) - "Spatial Awareness in Deep Learning", KAIST-NYU Young Researcher Day, Urban X
-* **1등상, AI 기반 인구 예측** (2023) - 데이터 분석 경진대회, 한국토지주택공사(LH)
-* **우수졸업논문상** (2018) - 석사 학위 논문, 대한건축학회
-* **청년건축인상** (2016) - 한국건축가협회
-* **모범장교상** (2015) - 대한민국 육군
+* **G-School Best Innovation Awards** (2023) - "Spatial Awareness in Deep Learning", KAIST-NYU Young Researcher Day, Urban X
+* **1st Prize, AI-based Population Prediction** (2023) - Data Analysis Competition, Korea Land & Housing Corporation
+* **Thesis Award** (2018) - Master thesis, Architectural Institute of Korea
+* **Young Architectural Fellowship** (2016) - Korean Institute of Architects
+* **Excellent Officer Award** (2015) - Republic of Korea Army

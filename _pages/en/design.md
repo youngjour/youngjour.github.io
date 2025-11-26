@@ -1,16 +1,15 @@
 ---
 layout: archive
-title: "디자인 (Design)"
-permalink: /design/
+title: "Design"
+permalink: /en/design/
 author_profile: true
-classes: kr-font
 ---
 
 <div class="cv-language-switch">
-  <a href="/en/design/">[EN] English</a>
+  <a href="/design/">[KR] Korean</a>
 </div>
 
-*준비 중입니다.*
+*Under construction.*
 
 {% for post in site.design reversed %}
   * **{{ post.title }}** - {{ post.excerpt }}

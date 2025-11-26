@@ -1,20 +1,33 @@
 ---
 layout: archive
 title: "Youngjun Park"
-permalink: /cv/
+permalink: /en/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
-<a href="javascript:generatePDF()" class="pdf-download-btn" title="Print or save as PDF">
-  <i class="fas fa-download"></i>Download as PDF
+<div class="cv-language-switch">
+  <a href="/">[KR] Korean</a>
+</div>
+
+<a href="/assets/cv_en.pdf" class="pdf-download-btn" title="Download CV (EN)">
+  <i class="fas fa-download"></i> Download PDF (EN)
+</a>
+<a href="javascript:generatePDF()" class="pdf-download-btn" title="Save as PDF (KR)" style="margin-right: 10px;">
+  <i class="fas fa-download"></i> Download PDF (KR)
 </a>
 
 {% include pdf-script.html %}
 
+## About
+
+Hello, I am Youngjun Park, an urban researcher and architect.
+I am currently a PostDoc Researcher at the Urban AI Institute at KAIST and a Partner Architect at Ar-ge Architects, Inc.
+My research and practice focus on data-driven urban analytics, AI-based solutions for urban problems, and evidence-based urban design.
+
+---
+
 <div class="cv-contact-info">
-<strong>PostDoc Researcher</strong>, Urban AI Institute, Korea Advanced Institute of Science and Technology<br>
+<strong>PostDoc Researcher</strong>, Urban AI Institute, KAIST<br>
 <strong>Partner Architect</strong>, Ar-ge Architects, Inc.<br>
 Email: youngjourpark@gmail.com | Phone: (+82) 10-2399-4900<br>
 Seoul, South Korea
@@ -43,14 +56,6 @@ Seoul, South Korea
   * Research in AI-centered urban solution with smart city technologies, based on IoT and distributed computing systems
   * Cross-disciplinary collaborations in urban computing
 
-
-* **Partner Architect**, Ar-ge Architects, Inc. (2024-present)
-  * Leading architectural design projects integrating computational methods
-
-* **PostDoc Researcher**, School of Computing, KAIST (2022-present)
-  * Research in urban analytics, AI applications, and smart city technologies
-  * Cross-disciplinary collaborations in urban computing
-
 * **Lecturer**, Department of Architecture, Seoul National University (2021-2023)
   * "Urban Design Analysis: The Pedestrian and the City" (Graduate level in Architecture Major)
   * "Theory of Urban Design: From Classic to Today" (Graduate level in Urban Design Major)
@@ -66,7 +71,6 @@ Seoul, South Korea
 * GIS & Spatial Analysis: QGIS, ArcGIS, PostGIS, GeoPandas
 * Data Visualization: Matplotlib, Plotly, CSS, Deck.gl
 * AI techniques: Language Model, Graph Network, Time-Series Prediction
-<!-- * Mobile Development: Android, iOS app development -->
 
 ### Urban Design & Architecture
 * Design Software: ArchiCAD with BIM, AutoCAD, SketchUp, Adobe Creative Suite
@@ -86,9 +90,18 @@ Seoul, South Korea
 
 ## Publications
 
-{% for post in site.publications reversed %}
-  * **{{ post.title }}** - {{ post.venue }}, {{ post.date | date: "%Y" }}
-{% endfor %}
+### Working Papers
+* **Park, Youngjun**; Na, Jihye; Jang, Keonhee; Lee, Dongman; Kwon, Changhyun; Yoon, Yoonjin (2025). "Food Deserts in Context: How Site-Specific Factors Reshape Food Deserts Discussion." *Submitted to npj Urban Sustainability* (in-review).
+
+### Selected Journal Articles
+* **Park, Youngjun**; Lee, Sunjae; Park, Sohyun (2022). "Differences in park walking, comparing the physically inactive and active groups: data from mHealth monitoring system in Seoul." *International Journal of Environmental Research and Public Health*.
+* **Park, Youngjun**; Chung, Haegwon; Park, Sohyun (2021). "Changes of walking activity during the first cycle phases of COVID-19 pandemic: A case study of Seoul, Korea." *HERD: Health Environments Research & Design Journal*.
+* **Jeong, Jiwoon**; **Park, Youngjun**; Park, Sohyun (2023). "Safety-critical events in bicycle lanes in Jongno, Seoul." *Journal of Urbanism*.
+
+### Selected Conference Proceedings
+* **Lee, Hongju**; **Park, Youngjun**; An, Jisun; Lee, Dongman (2025). "Enhancing Regional Airbnb Trend Forecasting Using LLM-Based Embeddings of Accessibility and Human Mobility." *ASONAM 2025*.
+* **Park, Youngjun**; An, Jisun; Lee, Dongman (2025). "A Model for Monthly, Local-Level Airbnb Changes Using Public Dataset." *ICTR 2025*.
+* **Han, Sumin**; **Park, Youngjun**; Lee, Minji; An, Jisun; Lee, Dongman (2023). "Enhancing Spatiotemporal Traffic Prediction through Urban Human Activity Analysis." *CIKM 2023*.
 
 ## Research Projects
 
@@ -113,18 +126,6 @@ Seoul, South Korea
 {% for post in site.teaching reversed %}
   * **{{ post.title }}** - {{ post.venue }}, {{ post.date | date: "%Y" }}
 {% endfor %}
-
-## Current Research Projects
-
-* **Center for Advanced Urban System** (2024-current)
-  * KAIST, GS Engineering & Construction Corporation
-  * AI-based urban system development and smart city technologies
-
-* **AI-based Contactless Drug Detection Technology** (2024-current)
-  * KAIST research project focusing on public safety applications
-
-* **Multimodal Spatiotemporal Urban Prediction Model** (2024-current)
-  * Large Language Model applications for urban analytics
 
 ## Patents & Intellectual Property
 
