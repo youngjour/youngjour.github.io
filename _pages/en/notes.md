@@ -5,9 +5,7 @@ permalink: /en/notes/
 author_profile: true
 ---
 
-<div class="cv-language-switch">
-  <a href="/notes/">[KR] Korean</a>
-</div>
+
 
 *Under construction.*
 

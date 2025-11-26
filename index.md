@@ -1,20 +1,5 @@
 ---
 layout: archive
-title: "박영준 (Youngjun Park)"
-permalink: /
-author_profile: true
-classes: kr-font
----
-
-<div class="cv-language-switch">
-  <a href="/en/">[EN] English</a>
-</div>
-
-<a href="javascript:generatePDF()" class="pdf-download-btn" title="PDF로 저장 또는 인쇄">
-  <i class="fas fa-download"></i> PDF 다운로드 (KR)
-</a>
-<a href="/assets/cv_en.pdf" class="pdf-download-btn" title="영문 CV 다운로드" style="margin-right: 10px;">
-  <i class="fas fa-download"></i> PDF 다운로드 (EN)
 </a>
 
 {% include pdf-script.html %}

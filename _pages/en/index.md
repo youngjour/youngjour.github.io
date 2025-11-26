@@ -5,9 +5,7 @@ permalink: /en/
 author_profile: true
 ---
 
-<div class="cv-language-switch">
-  <a href="/">[KR] Korean</a>
-</div>
+
 
 <a href="/assets/cv_en.pdf" class="pdf-download-btn" title="Download CV (EN)">
   <i class="fas fa-download"></i> Download PDF (EN)

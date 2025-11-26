@@ -5,9 +5,7 @@ permalink: /en/research/
 author_profile: true
 ---
 
-<div class="cv-language-switch">
-  <a href="/research/">[KR] Korean</a>
-</div>
+
 
 ## Publications
 

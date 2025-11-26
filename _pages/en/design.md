@@ -5,9 +5,7 @@ permalink: /en/design/
 author_profile: true
 ---
 
-<div class="cv-language-switch">
-  <a href="/design/">[KR] Korean</a>
-</div>
+
 
 *Under construction.*
 

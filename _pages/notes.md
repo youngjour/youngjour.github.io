@@ -1,14 +1,12 @@
 ---
 layout: archive
+---
+layout: archive
 title: "노트 (Notes)"
 permalink: /notes/
 author_profile: true
 classes: kr-font
 ---
-
-<div class="cv-language-switch">
-  <a href="/en/notes/">[EN] English</a>
-</div>
 
 *준비 중입니다.*
 
