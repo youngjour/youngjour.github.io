@@ -1,5 +1,12 @@
 
 ---
+layout: single
+title: "박영준"
+permalink: /
+author_profile: true
+sidebar:
+  nav: "main"
+---
 
 <div class="cv-contact-info">
 <strong>박사후연구원</strong>, KAIST 도시인공지능연구소<br>
