@@ -21,14 +21,14 @@ author_profile: true
 ## About
 
 Hello, I am Youngjun Park, an urban researcher and architect.
-I am currently a PostDoc Researcher at the Urban AI Institute at KAIST and a Partner Architect at Ar-ge Architects, Inc.
+<!-- I am currently a PostDoc Researcher at the Urban AI Institute at KAIST and a Partner Architect at Ar-ge Architects, Inc. -->
 My research and practice focus on data-driven urban analytics, AI-based solutions for urban problems, and evidence-based urban design.
 
 ---
 
 <div class="cv-contact-info">
-<strong>PostDoc Researcher</strong>, Urban AI Institute, KAIST<br>
 <strong>Partner Architect</strong>, Ar-ge Architects, Inc.<br>
+<!-- <strong>PostDoc Researcher</strong>, Urban AI Institute, KAIST<br> -->
 Email: youngjourpark@gmail.com | Phone: (+82) 10-2399-4900<br>
 Daejeon, South Korea
 </div>
@@ -45,12 +45,12 @@ Daejeon, South Korea
 
 ## Professional Positions
 
+* **Partner Architect**, Ar-ge Architects, Inc. (2024-present)
+  * Leading architectural/urban design projects integrating computational techniques
+
 * **PostDoc Researcher**, Urban AI Institute, KAIST (2025)
   * Research in urban analytics and science with Agentic AI framework
   * Manage the interdisciplinary and international research projects for Center for Advanced Urban Systems at KAIST
-
-* **Partner Architect**, Ar-ge Architects, Inc. (2024-present)
-  * Leading architectural/urban design projects integrating computational techniques
 
 * **PostDoc Researcher**, School of Computing, KAIST (2022-2025)
   * Research in AI-centered urban solution with smart city technologies, based on IoT and distributed computing systems
@@ -61,8 +61,8 @@ Daejeon, South Korea
   * "Urban Design Theory: Old Urban Design, New Urban Design" (Graduate level in Urban Design Major)
 
 * **Military Officer (1st Lieutenant)**, Combat Engineer, Republic of Korea Army (2013-2015)
-  * Leadership and personnel management experience
-  * DMZ Operation Mine Detection and Removal Team Leader
+  * Operation execution and leadership experience
+  * DMZ Operation Land Mine Detection and Removal Team Leader
 
 ## Technical Skills
 
@@ -157,7 +157,7 @@ Daejeon, South Korea
 
 ## Professional Service
 
-* **Reviewer**: BMC Public Health, Archives of Public Health, Frontiers in Public Health
+* **Reviewer**: Scientific Reports, BMC Public Health, Archives of Public Health, Frontiers in Public Health
 * **Research Consultant**: Architecture and Urban Research Institute of Korea (AURI), 2022-2023
 * **Industry Collaboration**: GS E&C, Kia Motors-Innocean, Swallaby
-* **Special Lecture/Seminar**: Seoul National University (Dept. of Architecture), Korea University of Technology and Education (Dept. of Architectural Engineering), Chung-Ang University (Dept. of Architecture)
+* **Special Lecture/Seminar**: Seoul National University (Dept. of Architecture), Korea Advanced Institute of Science and Technology (School of Computing), Korea University of Technology and Education (Dept. of Architectural Engineering), Chung-Ang University (Dept. of Architecture)

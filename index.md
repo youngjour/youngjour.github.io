@@ -9,8 +9,27 @@ sidebar:
   
 ---
 
+
+<a href="javascript:generatePDF()" class="pdf-download-btn" title="Save as PDF (KR)" style="margin-right: 10px;">
+  <i class="fas fa-download"></i> PDF 다운로드 (KR)
+</a>
+<a href="/assets/cv_en.pdf" class="pdf-download-btn" title="Download CV (EN)">
+  <i class="fas fa-download"></i> Download PDF (EN)
+</a>
+
+
+{% include pdf-script.html %}
+
+## 소개
+
+반갑습니다. 도시 연구자이자 건축가 박영준입니다.
+건축 및 도시설계 지식을 바탕으로, 데이터 사이언스 기법을 활용하여 합리적이고 근거 기반의 도시 연구 및 디자인을 탐구하고 있습니다.
+
+---
+
+
 <div class="cv-contact-info">
-<strong>박사후연구원</strong>, KAIST 도시인공지능연구소<br>
+<!-- <strong>박사후연구원</strong>, KAIST 도시인공지능연구소<br> -->
 <strong>파트너 건축가</strong>, 아게 건축사사무소<br>
 이메일: youngjourpark@gmail.com | 전화: (+82) 10-2399-4900<br>
 대한민국 대전광역시
@@ -28,12 +47,13 @@ sidebar:
 
 ## 경력
 
+* **파트너 건축가**, 아게 건축사사무소 (2024-현재)
+  * Agentic AI를 활용한 건축/도시 설계 솔루션 연구  개발
+  * 공공부문 건축/도시 설계 프로젝트 주도
+
 * **박사후연구원**, KAIST 도시인공지능연구소 (2025)
   * Agentic AI 프레임워크를 활용한 도시 분석 및 과학 연구
   * 연구센터의 학제간 및 국제 협력 연구 프로젝트 관리
-
-* **파트너 건축가**, 아게 건축사사무소 (2024-현재)
-  * 컴퓨테이셔널 기법을 통합한 건축/도시 설계 프로젝트 주도
 
 * **박사후연구원**, KAIST 전산학부 (2022-2025)
   * IoT 및 분산 컴퓨팅 시스템 기반의 스마트 시티 기술을 위한 연구
@@ -133,7 +153,17 @@ sidebar:
 
 * **G-School 최우수 혁신상** (2023) - KAIST-NYU Young Researcher Day
 * **1등상, AI 기반 인구 예측** (2023) - COMPAS 데이터 분석 경진대회, 한국토지주택공사(LH)
----
+* **우수졸업논문상** (2018) - 석사 학위 논문, 대한건축학회
+* **미래건축교육인재 선발** (2016) - 한국건축가협회
+
+## 전문 활동 (Professional Service)
+
+* **리뷰어**: Scientific Reports, BMC Public Health, Archives of Public Health, Frontiers in Public Health
+* **연구 자문**: 건축공간연구원(AURI), 2022-2023
+* **산학 협력**: GS건설, 기아자동차-이노션, 스왈라비
+* **특강/세미나**: 서울대학교 건축학과, 카이스트 전산학부, 한국기술교육대학교 건축공학과, 중앙대학교 건축학과 -->
+
+<!-- ---
 layout: single
 ---
 
@@ -213,7 +243,7 @@ layout: single
 ### 학술대회 발표 (Conference Proceedings)
 * **Lee, Hongju**; **Park, Youngjun**; An, Jisun; Lee, Dongman (2025). "Enhancing Regional Airbnb Trend Forecasting Using LLM-Based Embeddings of Accessibility and Human Mobility." *ASONAM 2025*.
 * **Park, Youngjun**; An, Jisun; Lee, Dongman (2025). "A Model for Monthly, Local-Level Airbnb Changes Using Public Dataset." *ICTR 2025*.
-* **Han, Sumin**; **Park, Youngjun**; Lee, Minji; An, Jisun; Lee, Dongman (2023). "Enhancing Spatiotemporal Traffic Prediction through Urban Human Activity Analysis." *CIKM 2023*.
+* **Han, Sumin**; **Park, Youngjun**; Lee, Minji; An, Jisun; Lee, Dongman (2023). "Enhancing Spatiotemporal Traffic Prediction through Urban Human Activity Analysis." *CIKM 2023*. -->
 
 <!-- ## 연구 프로젝트 (Research Projects)
 
@@ -251,7 +281,7 @@ layout: single
 * **멀티모달 시공간 도시 예측 모델** (2024-현재)
   * 도시 분석을 위한 거대 언어 모델(LLM) 응용 -->
 
-## 특허 및 지식재산권 (Patents & IP)
+<!-- ## 특허 및 지식재산권 (Patents & IP)
 
 * **한국 특허 (출원)** 10-2024-0108083: 신경망 모델을 이용한 주택 가치 추정 방법 및 장치
 * **한국 특허 (등록)** 10-23679770000: 상업용 부동산 정보 제공 방법 및 서버
@@ -270,4 +300,4 @@ layout: single
 * **리뷰어**: Scientific Reports, BMC Public Health, Archives of Public Health, Frontiers in Public Health
 * **연구 자문**: 건축공간연구원(AURI), 2022-2023
 * **산학 협력**: GS건설, 기아자동차-이노션, 스왈라비
-* **특강/세미나**: 서울대학교 건축학과, 한국기술교육대학교 건축공학과, 중앙대학교 건축학과
+* **특강/세미나**: 서울대학교 건축학과, 한국기술교육대학교 건축공학과, 중앙대학교 건축학과 -->
