@@ -312,9 +312,9 @@ a[role="button"] {
 }
 
 // ============================================
-// 모바일 반응형 (≤768px) — 압축 헤더 방식
+// 모바일 반응형 (≤640px) — 압축 헤더 방식
 // ============================================
-@media (max-width: 768px) {
+@media (max-width: 640px) {
 
   // trestles 전체 레이아웃 재구성
   .quarto-about-trestles {
@@ -456,8 +456,8 @@ a[role="button"] {
   }
 }
 
-// 매우 작은 화면 (≤380px) 추가 조정
-@media (max-width: 380px) {
+// 매우 작은 화면 (≤480px) 추가 조정
+@media (max-width: 480px) {
   .quarto-about-trestles .about-entity {
     padding: 0.875rem 1rem;
 
