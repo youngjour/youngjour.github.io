@@ -24,41 +24,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -79,7 +44,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-aa638b250bc8446d00b0843f850aa88a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a79ffaf4ff13dae01b38522730209131.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -110,7 +75,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <style>html{ scroll-behavior: smooth; }</style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" as="style" crossorigin="" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 
 
@@ -180,12 +145,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">목차</h2>
    
   <ul class="collapse">
-  <li><a href="#teaching" id="toc-teaching" class="nav-link active" data-scroll-target="#teaching">Teaching</a>
-  <ul class="collapse">
-  <li><a href="#courses" id="toc-courses" class="nav-link" data-scroll-target="#courses">Courses</a></li>
+  <li><a href="#courses" id="toc-courses" class="nav-link active" data-scroll-target="#courses">Courses</a></li>
   <li><a href="#student-collaborations" id="toc-student-collaborations" class="nav-link" data-scroll-target="#student-collaborations">Student Collaborations</a></li>
   <li><a href="#invited-lectures-seminars" id="toc-invited-lectures-seminars" class="nav-link" data-scroll-target="#invited-lectures-seminars">Invited Lectures · Seminars</a></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
@@ -194,7 +156,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title">Teaching</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> 코드</button></div></div>
+<h1 class="title">Teaching</h1>
 </div>
 
 
@@ -211,8 +173,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="teaching" class="level1">
-<h1>Teaching</h1>
 <p>서울대학교 건축학과에서 강사로 재직하며 대학원 과정을 지도했습니다. 주로 <strong>도시설계 방법론</strong> 과 <strong>도시 데이터 분석</strong>을 다루었고, 건축학 전공과 도시설계학 협동과정 대학원생을 대상으로 이론강의·세미나 형식의 수업을 운영했습니다.</p>
 <section id="courses" class="level2">
 <h2 class="anchored" data-anchor-id="courses">Courses</h2>
@@ -439,9 +399,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 
 
-<!-- -->
-
-</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> 맨 위로</a></main> <!-- /main -->
@@ -515,57 +472,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         container: window.document.getElementById('quarto-embedded-source-code-modal')
       });
       clipboardModal.on('success', onCopySuccess);
-    }
-    const viewSource = window.document.getElementById('quarto-view-source') ||
-                       window.document.getElementById('quarto-code-tools-source');
-    if (viewSource) {
-      const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
-      viewSource.addEventListener("click", function(e) {
-        if (sourceUrl) {
-          // rstudio viewer pane
-          if (/\bcapabilities=\b/.test(window.location)) {
-            window.open(sourceUrl);
-          } else {
-            window.location.href = sourceUrl;
-          }
-        } else {
-          const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
-          modal.show();
-        }
-        return false;
-      });
-    }
-    function toggleCodeHandler(show) {
-      return function(e) {
-        const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
-        for (let i=0; i<detailsSrc.length; i++) {
-          const details = detailsSrc[i].parentElement;
-          if (show) {
-            details.open = true;
-          } else {
-            details.removeAttribute("open");
-          }
-        }
-        const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
-        const fromCls = show ? "hidden" : "unhidden";
-        const toCls = show ? "unhidden" : "hidden";
-        for (let i=0; i<cellCodeDivs.length; i++) {
-          const codeDiv = cellCodeDivs[i];
-          if (codeDiv.classList.contains(fromCls)) {
-            codeDiv.classList.remove(fromCls);
-            codeDiv.classList.add(toCls);
-          } 
-        }
-        return false;
-      }
-    }
-    const hideAllCode = window.document.getElementById("quarto-hide-all-code");
-    if (hideAllCode) {
-      hideAllCode.addEventListener("click", toggleCodeHandler(false));
-    }
-    const showAllCode = window.document.getElementById("quarto-show-all-code");
-    if (showAllCode) {
-      showAllCode.addEventListener("click", toggleCodeHandler(true));
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
@@ -900,131 +806,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       }
     }
   });
-  </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">소스 코드</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Teaching"</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">pagetitle:</span><span class="co"> "Teaching | 박영준"</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">description-meta:</span><span class="co"> "박영준 — 서울대학교 건축학과 대학원 강의, 도시설계와 도시 데이터 분석."</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="an">toc:</span><span class="co"> true</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="an">toc-location:</span><span class="co"> right</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="an">toc-title:</span><span class="co"> "목차"</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="an">toc-depth:</span><span class="co"> 2</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu"># Teaching</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>서울대학교 건축학과에서 강사로 재직하며 대학원 과정을 지도했습니다. 주로 **도시설계 방법론** 과 **도시 데이터 분석**을 다루었고, 건축학 전공과 도시설계학 협동과정 대학원생을 대상으로 이론강의·세미나 형식의 수업을 운영했습니다.</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="fu">## Courses</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="fu">### 도시설계연구(도시보행): Urban Design Research — Urban Walking</span></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>*건축학 전공 대학원 과정 · 서울대학교 · 2020-2021*</span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>**건축학 전공 대학원생이 도시설계 분야에 처음 진입하기 위한 입문 수업**입니다. 도시설계의 필요성·진행과정·현재 이슈를 소개하고, 디자인·연구·공간기획·도시계획이 서로 맞물리는 방식을 이해하도록 합니다.</span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>한 학기의 모든 논의는 **사람들의 행태(behavior)가 도시의 물리적 공간(built environment)과 맺는 관계** 라는 하나의 관점을 축으로 전개됩니다. 이 관점을 구체적으로 체험하기 위해 수업은 "도시보행" 하나의 주제에 집중합니다 — 보행 연구자들이 걷기 행태를 관찰하는 방법, 보행환경을 평가하는 지표 개발, 그리고 관련된 도시설계 기법·제도·정책이 다시 사람들의 행태에 영향을 주는 순환 구조를 다룹니다.</span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>주교재는 Hass-Klau의 *The Pedestrian and the City* (Routledge, 2014) 입니다.</span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>**운영 방식**</span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>매주 이론 강의와 사례 발표, 토론으로 진행되었습니다. 학기 동안 학생은 두 가지 과제를 수행합니다.</span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**사례 발표** — 서울의 대표적 보행 정책 사례 중 하나를 선정하여 **직접 답사한 뒤** 정책 배경과 현장 경험을 비판적으로 발표. 이 과제는 수강생이 "서술된 정책"과 "경험된 공간"의 간극을 직접 느끼도록 설계되었습니다.</span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**프로젝트** — 서울의 길 한 곳을 선정하여 도시 문제를 파악하고 설계 해법을 제안. 현장 답사·인터뷰·공공 데이터로 근거를 구축하고, 개념도나 도면으로 물리적 공간 변화를 설명합니다. 최종 발표는 **시민들에게 정책을 설명하는 공청회 형식의 토론회**로 진행되어, 지역경제·교통·공중보건·문화관광·생태환경·복지의 다양한 관점에서 제안이 검증되도록 했습니다.</span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>**주차별 주제 및 사례 연구**</span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>아래는 각 주차에서 다룬 이론적 주제와 현장 답사 대상을 쌍으로 정리한 것입니다.</span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 주 <span class="pp">|</span> 주제 및 내용 <span class="pp">|</span> 사례 연구 <span class="pp">|</span></span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="pp">|---|---|---|</span></span>
-<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 1 <span class="pp">|</span> 강의 소개 — 도시설계란 무엇인가? <span class="pp">|</span> — <span class="pp">|</span></span>
-<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 2 <span class="pp">|</span> 도시 문제와 보행 이슈의 탐색 <span class="pp">|</span> — <span class="pp">|</span></span>
-<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 3 <span class="pp">|</span> 무엇을 목표로 하는가 — 보행권 운동과 보행기본계획 <span class="pp">|</span> 서울로7017, 청계천로 <span class="pp">|</span></span>
-<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 4 <span class="pp">|</span> 누가 설계하는가 — 공공과 민간, 도시설계의 역할 <span class="pp">|</span> 도로다이어트: 이태원 앤틱가구거리, 구로구 구일로10길 <span class="pp">|</span></span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 5 <span class="pp">|</span> 어떻게 설계하는가 — 보행환경 개선 정책과 설계 <span class="pp">|</span> 건축물: 세운상가, 인사 센트럴뮤지엄, 서울로 테라스 <span class="pp">|</span></span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 6 <span class="pp">|</span> 보행행태와 환경분석 (1) — 유동인구, 지점 관찰, 응답에 의한 방법 <span class="pp">|</span> 광장: 시청광장, 광화문광장 <span class="pp">|</span></span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 7 <span class="pp">|</span> 보행행태와 환경분석 (2) — 생활인구, 위치 데이터, 공간 보행 지표 <span class="pp">|</span> IoT: 서대문 스마트 둘레길, 스마트하남 위례길 <span class="pp">|</span></span>
-<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 9 <span class="pp">|</span> 도시설계와 보행 (1) — 가로 네트워크와 안전: Neighborhood Unit, Fused Grid System <span class="pp">|</span> 범죄예방: 금호4가동 생활안심 디자인, 관악구 안심 골목길 <span class="pp">|</span></span>
-<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 10 <span class="pp">|</span> 도시설계와 보행 (2) — 자동차 없는 도시: Woonerf, 보행전용도로, Ciclovia <span class="pp">|</span> 차 없는 거리: 인사동, 명동길, 관철동길 <span class="pp">|</span></span>
-<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 11 <span class="pp">|</span> 도시설계와 보행 (3) — 건강 증진 / 상업 활성화 <span class="pp">|</span> 역사보존: 한양도성 낙산구간, 피맛골길 건축 유도 지침 <span class="pp">|</span></span>
-<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 12 <span class="pp">|</span> 도시설계와 보행 (4) — 기술 발전: 라스트마일과 스마트 모빌리티 <span class="pp">|</span> 녹색교통: 종로 자전거전용도로, 신촌 대중교통진흥지역 <span class="pp">|</span></span>
-<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 15 <span class="pp">|</span> 마지막 강의 — 우리가 해야 할 일과 할 수 있는 일 <span class="pp">|</span> — <span class="pp">|</span></span>
-<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="fu">### 도시설계론: 옛날 도시설계, 요즘 도시설계</span></span>
-<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>*협동과정 도시설계학 전공 대학원 과정 · 서울대학교 · 2020–2021*</span>
-<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>도시설계를 공부하는 학생들이 **한 명의 연구자로 성장** 하기 위해 가져야 할 이론적 토대와 연구 과정을 다루는 수업입니다. 기본 전제는 연구가 **현상과 이론을 수시로 교차하는 양방향 프로세스** 라는 것입니다 — 현실의 도시 현상에서 출발해 이론적 틀을 발전시키고, 거꾸로 알려진 이론을 적용해 복잡한 상황을 해석합니다. 이 양방향 움직임의 **핵심 매개는 데이터, 주요 연구 대상은 케이스** 입니다.</span>
-<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>매주 수업은 세 부분으로 진행되었습니다. (1) 해당 주제의 역사적 배경과 현재 이슈를 다루는 주제 강의, (2) 관련 사례와 문헌을 비판적으로 검토하는 학생 발제, (3) 오늘날 서울에서 찾을 수 있는 케이스와 데이터를 가지고 연구 방법을 토론하는 세미나. 학기의 상당 부분은 2인 1조 팀 프로젝트에 할애되어, 학생들이 서울시 내 대상지를 선정하고 직접 데이터를 수집·분석하여 매거진 원고 형식의 연구 보고서를 작성하도록 했습니다.</span>
-<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>학기 내내 수강생이 견지하도록 한 질문은 세 가지입니다.</span>
-<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>도시설계에서 전통적으로 다뤄온 **핵심 관심사(topic)** 는 무엇인가</span>
-<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>그 관심사가 **현 시대에는 어떻게 변형되어 나타나는가**</span>
-<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>그리고 **다음 변화는 무엇일까**</span>
-<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a>이 구조를 아래 주차별 커리큘럼으로 구현했습니다. 각 주차의 강의 주제 옆에 다룬 역사적 사례와 현재적 대응을 쌍으로 배치했습니다.</span>
-<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 주 <span class="pp">|</span> 강의 주제 <span class="pp">|</span> 도시설계의 관심사 <span class="pp">|</span> 현 시대의 변화 <span class="pp">|</span></span>
-<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a><span class="pp">|---|---|---|---|</span></span>
-<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 1 <span class="pp">|</span> 기존 도시설계, 요즘 도시설계 — 백종원의 골목식당 <span class="pp">|</span> Realm/Range of Urban Design <span class="pp">|</span> Profession <span class="pp">|</span></span>
-<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 2 <span class="pp">|</span> 도시문제의 발생과 대응 — 1854년 콜레라와 2020년 코로나바이러스 <span class="pp">|</span> Defining Problem <span class="pp">|</span> Scientific Approach <span class="pp">|</span></span>
-<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 3 <span class="pp">|</span> 움직이는 사람들 — 관찰과 교통 CCTV, 모빌리티 산업 <span class="pp">|</span> People's Behavior <span class="pp">|</span> Observation Technology <span class="pp">|</span></span>
-<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 4 <span class="pp">|</span> 도시설계의 주체 — 공공과 민간, 참여디자인, DIY, DIT <span class="pp">|</span> Actors &amp; Sectors <span class="pp">|</span> Governance <span class="pp">|</span></span>
-<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 5 <span class="pp">|</span> 매체의 변화, 소비 방식의 변화 — SNS, 공유경제, 플랫폼 비즈니스 <span class="pp">|</span> Citizen Participation <span class="pp">|</span> Social Media <span class="pp">|</span></span>
-<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 6 <span class="pp">|</span> 공공의 데이터, 개인의 데이터 — 가구통행조사와 GPS 보행경로 <span class="pp">|</span> Data <span class="pp">|</span> Big-data and Research Ethics <span class="pp">|</span></span>
-<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 7 <span class="pp">|</span> 동네, 근린 — 거주인구와 생활인구, 컴팩트 시티 <span class="pp">|</span> Area <span class="pp">|</span> Mid-scale City Plan <span class="pp">|</span></span>
-<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 8 <span class="pp">|</span> 우리는 무엇을 계획하는가 — Radburn·Perry부터 Seoul·Singapore <span class="pp">|</span> Design Feature <span class="pp">|</span> Urbanization <span class="pp">|</span></span>
-<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 10 <span class="pp">|</span> 시간의 흐름 — 서울역사박물관과 도시기록 <span class="pp">|</span> Time <span class="pp">|</span> Archiving <span class="pp">|</span></span>
-<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 11 <span class="pp">|</span> 도시기획과 운영 — 공유도시, 로컬 콘텐츠, 젠트리피케이션 <span class="pp">|</span> Contents <span class="pp">|</span> Urban Business <span class="pp">|</span></span>
-<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 12 <span class="pp">|</span> 요즘 도시설계, 다음 도시설계 — 기술혁신, 공동체, 노마드 라이프 <span class="pp">|</span> Future <span class="pp">|</span> Modeling and Simulation <span class="pp">|</span></span>
-<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a>**주요 읽기자료** (선별)</span>
-<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a>매주차 강의주제와 관련된 대표 문헌입니다. 전통적인 도시설계의 필독 문헌을 읽고, 현재의 도시 과제와의 연결점을 항시 토론했습니다.</span>
-<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>제이슨 코번 (2009), *건강도시를 향하여*</span>
-<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>리처드 세넷 (2020), *짓기와 거주하기*</span>
-<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>얀 갤 외 (2014), *인간을 위한 도시 만들기*</span>
-<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>찰스 몽고메리 (2014), *우리는 도시에서 행복한가*</span>
-<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>제레미 리프킨 (2014), *한계비용 제로 사회*</span>
-<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>앤서니 타운센드 (2018), *스마트시티, 더 나은 도시를 만들다*</span>
-<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>박소현 외 (2015), *동네 걷기 동네 계획*</span>
-<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>조은 (2012), *사당동 더하기 25*</span>
-<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>디트마르 오펜후퍼·카를로 라티 (2014), *도시 디코딩: 빅데이터 시대의 어바니즘*</span>
-<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a><span class="fu">## Student Collaborations</span></span>
-<span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a>학생들과의 공동 연구 및 작업은 항시 어려운 과제에 대한 해결 경험을 통해 서로를 성장시키는 계기가 되었습니다. 지도·공저·기술 멘토링 관계로 여러 학생들과 협력해왔고, 이는 **함께 공부하고 성장하는 교육자**의 마음가짐을 항시 되새기는 소중한 경험입니다.</span>
-<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**배형찬** (KAIST)</span>
-<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a>  NLP·LLM 기반 도시 분석. 공저 (PAKDD 2024, KCC 2024, AESOP 2024).</span>
-<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**이홍주** (KAIST)</span>
-<span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a>  Airbnb 트렌드 예측, LLM 임베딩 기반 시계열 모델링. 공저 (ASONAM 2025).</span>
-<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Sonia Sabir** (KAIST)</span>
-<span id="cb1-109"><a href="#cb1-109" aria-hidden="true" tabindex="-1"></a>  LLM 임베딩 기반 지역 부동산 평가. 공저 (PAKDD 2024).</span>
-<span id="cb1-110"><a href="#cb1-110" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-111"><a href="#cb1-111" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**장건희** (KAIST)</span>
-<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a>  시공간 도시 미시경제-미시기후 데이터 분석. 공저 (npj Urban Sustainability 2025 (in-review)).</span>
-<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-114"><a href="#cb1-114" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb1-115"><a href="#cb1-115" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-116"><a href="#cb1-116" aria-hidden="true" tabindex="-1"></a><span class="fu">## Invited Lectures · Seminars</span></span>
-<span id="cb1-117"><a href="#cb1-117" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-118"><a href="#cb1-118" aria-hidden="true" tabindex="-1"></a>초청으로 진행한 특강 및 세미나입니다.</span>
-<span id="cb1-119"><a href="#cb1-119" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-120"><a href="#cb1-120" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**서울대학교 건축학과** — 도시 데이터 분석과 설계 교육</span>
-<span id="cb1-121"><a href="#cb1-121" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**KAIST 전산학부** — 도시 컴퓨팅 및 스마트시티 연구</span>
-<span id="cb1-122"><a href="#cb1-122" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**한국기술교육대학교 건축공학과** — 스마트시티와 AI</span>
-<span id="cb1-123"><a href="#cb1-123" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**중앙대학교 건축학과** — 데이터 사이언스와 건축 연구</span></code></pre></div><button title="클립보드 복사" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
-</div></div></div></div></div>
+  </script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -1058,6 +840,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </div>
   </div>
 </footer>
+<script src="./assets/js/relocate-sidebar-elements.js"></script>
 
 
 
