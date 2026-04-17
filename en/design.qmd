@@ -11,6 +11,8 @@ toc-depth: 2
 
 Architecture and urban design are both the starting point of my research and the field where its outcomes return to practice. My work has moved from master's studio projects through competitions and side projects, and now continues at [ar-ge inc.](https://ar-ge.xyz), where I design buildings and spaces for the public sector. As the work shifted from paper proposals to real construction, and from solo studies to team collaboration, the questions that design has to answer have shifted with it. Observations that accumulate in the design process, in turn, feed back into the questions of my research.
 
+---
+
 ## University X City
 
 ![](../assets/images/design/University x City actor map.png){fig-alt="Actor-relationship diagram of the Sinchon area, showing how universities, merchants, companies, and young people are interconnected"}
@@ -41,6 +43,8 @@ Building on that observation, I proposed **Shinchon Street College**, jointly op
 
 The project was awarded the **Best Prize** at the Urban Design Works Exhibition of the Graduate School of Environmental Studies, recognized for the **rigor of its design process in analyzing the site's problems and latent potentials**. Sinchon was subsequently designated an Urban Regeneration Activation Area by the Seoul Metropolitan Government, and related public projects followed. This studio work also became the seed for a research thread that ran through my Ph.D., where I returned to the **interaction between physical space and the behavior of young people** — this time to analyze it quantitatively.
 
+---
+
 ## Running Everyday
 
 ![](../assets/images/design/Running everyday_axo2.png){fig-alt="Perspective view of a double-deck transit hub over a Han River bridge, connecting a bicycle lane above with a water-transport platform below"}
@@ -68,24 +72,7 @@ The proposal took shape as two modular interventions:
 
 The project's title, **"Running Everyday"**, layers two kinds of running — the 1988 marathoner and today's morning commuter. The design was an attempt to redefine this corridor not as a monument, but as **an instrument for recovering the everyday**.
 
-
-
-## Stage Design for a Student Play
-
-![](../assets/images/design/stage_detail-axo.png){fig-alt="Detailed axonometric of a student-play stage wall, showing the interior-space configuration"}
-
-::: {.project-meta}
-- **Year** · 2016–2017
-- **Type** · Stage Design · Student Theatre
-- **Production** · *Last Show*, Winter Production of the SNU Theatre Club
-- **Role** · Art Director · planning, design, fabrication, and installation
-- **Duration** · ~3 months
-:::
-
-I designed the stage for *Last Show*, the winter production of the Seoul National University Theatre Club (총연극회). I took on the whole process — from reading the script and planning the spatial composition, to drafting the drawings, to the actual fabrication and installation. The scale was very different from a city corridor or a district master plan — a single small stage in which several characters pass through one interior — but in the sense of **designing space to follow the flow of a story**, it was actually closer to the archetype of architecture than those larger projects were.
-
-The design brought a single ordinary room onto the stage, while organizing its elements so that the actors could move and the scenes could change. Entryway, living room, bedroom, and bathroom had to coexist within a single scene without their spatial senses colliding — so the key move was to separate them through boundaries of material and lighting. It was a rare chance to design space at a scale outside architecture and urbanism, and the perspective it left me with — **that the movement of the viewer is what completes the space** — became one axis of how I now think about design.
-
+---
 
 ## Jamsil Sports Complex Reimagined
 
@@ -115,6 +102,7 @@ The core of my proposal was to **open a new primary entry toward Samseong-dong i
 
 Because this was my first urban-design studio, what I took from it was not a resolved solution but rather **a way of reading an urban context**. It was my first attempt to address a very general problem — the way a specialized building type like a stadium isolates itself from the city — through a rearrangement of access and axes. It also became the **starting point** of the line of urban-design research that carried through my master's and Ph.D.
 
+---
 
 ## Ganghwa Urimaul · Group Home for Elderly Adults with Developmental Disabilities
 
@@ -139,7 +127,7 @@ Architectural details, too, were chosen to **echo the materials and textures of 
 
 This project is a different order of experience from the design work I had done as a student. It is not a proposal but **a building that will actually stand**, and the fact that specific people will live their lives inside it added weight to every decision. Working with the ar-ge inc. team, I participated throughout the early design phases — site analysis, concept, and site planning.
 
-
+---
 
 ## Danyang Happy-Olle Platform · The House That Embraces
 

@@ -7,7 +7,7 @@ toc-location: right
 toc-depth: 2
 ---
 
-## Teaching
+# Teaching
 
 I served as a lecturer in the Department of Architecture at Seoul National University, teaching graduate-level courses. The courses focused mainly on **urban design methodology** and **urban data analysis**, and were run as lectures and seminars for graduate students in the Architecture major and the Interdisciplinary Program in Urban Design.
 
@@ -111,3 +111,14 @@ Joint research and projects with students have consistently been a source of mut
 
 - **Jang, Keonhee** (KAIST)
   Spatiotemporal urban microeconomic–microclimate data analysis. Co-author (npj Urban Sustainability 2025, in-review).
+
+---
+
+## Invited Lectures · Seminars
+
+Invited lectures and seminars I have given.
+
+- **Seoul National University, Department of Architecture** — Urban data analysis and design education
+- **KAIST School of Computing** — Urban computing and smart city research
+- **KOREATECH (Korea University of Technology and Education), Department of Architectural Engineering** — Smart cities and AI
+- **Chung-Ang University, Department of Architecture** — Data science and architectural research
