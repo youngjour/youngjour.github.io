@@ -41,6 +41,8 @@ about:
 [⬇ CV (English)](/assets/cv_en.pdf){.btn-cv}
 :::
 
+---
+
 ## Introduction
 
 반갑습니다. 도시 연구자이자 건축가 박영준입니다.
