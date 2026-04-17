@@ -1,45 +1,165 @@
 ---
 title: "Design"
+pagetitle: "Design | Youngjun Park"
+description-meta: "Youngjun Park — urban and architectural design projects, from Sinchon and Seoul studios to AI-driven practice at ar-ge inc."
 toc: true
 toc-location: right
+toc-depth: 2
 ---
 
-## Design Philosophy
+# Design
 
-Research-based design approach and philosophy to be written.
+Architecture and urban design are both the starting point of my research and the field where its outcomes return to practice. My work has moved from master's studio projects through competitions and side projects, and now continues at [ar-ge inc.](https://ar-ge.xyz), where I design buildings and spaces for the public sector. As the work shifted from paper proposals to real construction, and from solo studies to team collaboration, the questions that design has to answer have shifted with it. Observations that accumulate in the design process, in turn, feed back into the questions of my research.
 
-## AR-GE Architects Introduction
+## University X City
 
-Introduction to activities and projects at AR-GE Architects to be written.
+![](../assets/images/design/University x City actor map.png){fig-alt="Actor-relationship diagram of the Sinchon area, showing how universities, merchants, companies, and young people are interconnected"}
 
-## Research-Based Design
+**Start-up Campus City: Economic Decline of Sinchon and Generative Potentials of Young People**
 
-### Agentic AI-Based Design
+::: {.project-meta}
+- **Year** · 2016
+- **Location** · Sinchon, Seoul
+- **Type** · Urban Design · Master's Studio
+- **Affiliation** · Seoul National University, Interdisciplinary Program in Urban Design · 3rd semester of M.S.
+- **Studio** · Environmental Design Studio, Graduate School of Environmental Studies
+- **Advisor** · Yelee Seo (Studio Director)
+- **Role** · Sole researcher and designer (Investigator)
+- **Award** · **Best Prize**, Urban Design Works Exhibition, Graduate School of Environmental Studies, Seoul National University
+:::
 
-AI-powered architectural/urban design projects to be introduced.
+Sinchon has long been a symbolic place for Korean university culture. Higher-education institutions, starting with Gwanghyewon Medical School in the 1880s, clustered there and grew through the late twentieth century into a center of youth culture. After the 2000s, however, with Yonsei University's Songdo Campus opening and the rise of the Hongdae commercial district, Sinchon's local economy entered a long stagnation. This project began from a single question: **"Is Sinchon's decline really a problem of competing commercial districts, or has the kind of space young people need simply changed?"**
 
-### Data-Driven Design
+The research phase traced the area's economic decline and the shift in its young population through a **historical timeline of Sinchon**, enrollment trends at its major universities, a newspaper-article analysis, and site visits. Interestingly, young people at the time cited the **lack of entrepreneurial experience and practical training** as their greatest difficulty when moving from academic life into the workforce — a need that existing university spaces struggled to address.
 
-Design decision-making process through data analysis to be introduced.
+Building on that observation, I proposed **Shinchon Street College**, jointly operated by the Seoul Metropolitan Government, the Sinchon Merchants' Association, the major universities, and large fashion/IT companies. It is a distributed-campus model in which young people can make and sell products outside the university walls and, in doing so, learn start-up know-how and technical skills. I divided the Sinchon area into four design zones, each pairing a different set of actors with a different program:
 
-### Public Projects
+- **MADE in sinchon** · a production-and-sales space developed with local merchants
+- **gonna be BIG** · a mentoring cluster supported by fashion/IT companies and education academies
+- **OCCUPY the street** · a start-up street where universities open up their unused spaces
+- **STAY our basecamp** · a residence zone for young people that repurposes nearby motels and housing stock
 
-Public sector architectural/urban design projects to be introduced.
+The project was awarded the **Best Prize** at the Urban Design Works Exhibition of the Graduate School of Environmental Studies, recognized for the **rigor of its design process in analyzing the site's problems and latent potentials**. Sinchon was subsequently designated an Urban Regeneration Activation Area by the Seoul Metropolitan Government, and related public projects followed. This studio work also became the seed for a research thread that ran through my Ph.D., where I returned to the **interaction between physical space and the behavior of young people** — this time to analyze it quantitatively.
 
-## Intersection of Research and Design
+## Running Everyday
 
-### Interdisciplinary Collaboration
+![](../assets/images/design/Running everyday_axo2.png){fig-alt="Perspective view of a double-deck transit hub over a Han River bridge, connecting a bicycle lane above with a water-transport platform below"}
 
-Connection points between research and design practice to be explained.
+**Re-interpreting the 1988 Seoul Olympic Marathon Course**
 
-### Experimental Projects
+::: {.project-meta}
+- **Year** · 2016
+- **Location** · Seoul · 1988 Olympic Marathon Course (Yeouido–Gangnam–Jamsil)
+- **Type** · Urban Design · International Student Competition
+- **Competition** · The 15th Korea–Japan–China International Students Conference for Landscape Architecture Design
+- **Role** · Sole submission (Investigator)
+:::
 
-Cases of applying research results to actual design to be introduced.
+In 1988, 187 marathon runners ran down newly opened streets in Seoul. Linking Yeouido, Gangnam, and Jamsil, the course was a **symbolic route** through which the city of Seoul presented itself to the world. By 2016, the same streets were filled with a different kind of "running" — they had become **major arterial corridors of a dense city center, on which thousands of commuters wear themselves out every morning**. This project began from that **temporal inversion: the same space, once a stage for a sporting event, had become an apparatus of daily pressure**.
 
-### Future Directions
+Korea, Japan, and China have all hosted the Olympic Games (Tokyo 1964, Seoul 1988, Beijing 2008), and each city's marathon course served as a symbolic device for presenting the nation's representative landscape to the world. The competition asked, from the vantage of 2016, how the three cities might re-read their respective courses today.
 
-Future directions of research-based design to be presented.
+My reading of the Seoul course was to **insert nodes of multiple mobility modes into a corridor saturated by the automobile**. Bicycles, subway lines, buses, water taxis, ferries — modes that already exist in Seoul but fail to connect — were designed to meet at key points along the marathon route. The core idea was to give citizens, who "run every day" without wanting to, a **GREEN station where they can briefly stop and transfer**.
 
-## Project Portfolio
+The proposal took shape as two modular interventions:
 
-Portfolio of major design projects to be added.
+- **2×2 GREEN MODULE** · A small park-like hub that combines a dedicated bus lane with a bicycle station. Placed near subway stops, it bundles subway–surface–bicycle transfers into one location while inserting small patches of greenery between the grey transport infrastructure.
+- **DECK & BIG WHEEL** · A vertical restacking of a Han River bridge into a double deck. The upper deck carries vehicles, pedestrians, and bicycles; the lower deck serves as a platform for water transport. Users arriving by boat step directly onto the bridge's bicycle lane without any intermediate transfer.
+
+The project's title, **"Running Everyday"**, layers two kinds of running — the 1988 marathoner and today's morning commuter. The design was an attempt to redefine this corridor not as a monument, but as **an instrument for recovering the everyday**.
+
+
+
+## Stage Design for a Student Play
+
+![](../assets/images/design/stage_detail-axo.png){fig-alt="Detailed axonometric of a student-play stage wall, showing the interior-space configuration"}
+
+::: {.project-meta}
+- **Year** · 2016–2017
+- **Type** · Stage Design · Student Theatre
+- **Production** · *Last Show*, Winter Production of the SNU Theatre Club
+- **Role** · Art Director · planning, design, fabrication, and installation
+- **Duration** · ~3 months
+:::
+
+I designed the stage for *Last Show*, the winter production of the Seoul National University Theatre Club (총연극회). I took on the whole process — from reading the script and planning the spatial composition, to drafting the drawings, to the actual fabrication and installation. The scale was very different from a city corridor or a district master plan — a single small stage in which several characters pass through one interior — but in the sense of **designing space to follow the flow of a story**, it was actually closer to the archetype of architecture than those larger projects were.
+
+The design brought a single ordinary room onto the stage, while organizing its elements so that the actors could move and the scenes could change. Entryway, living room, bedroom, and bathroom had to coexist within a single scene without their spatial senses colliding — so the key move was to separate them through boundaries of material and lighting. It was a rare chance to design space at a scale outside architecture and urbanism, and the perspective it left me with — **that the movement of the viewer is what completes the space** — became one axis of how I now think about design.
+
+
+## Jamsil Sports Complex Reimagined
+
+![](../assets/images/design/Jamsil Studio.png){fig-alt="Master plan of a remodeling proposal for the Jamsil Sports Complex: a deck plaza stretching from Samseong-dong in the west to the Han River in the east, wrapping around the Main Stadium"}
+
+**A First Urban Design Studio · Reconnecting the Stadium with the City**
+
+::: {.project-meta}
+- **Year** · 2015 (Sep–Dec)
+- **Location** · Jamsil Sports Complex area, Seoul
+- **Type** · Urban Design · Master's Studio · First urban-design project
+- **Affiliation** · Seoul National University, Interdisciplinary Program in Urban Design · 1st semester of M.S.
+- **Role** · Sole researcher and designer
+:::
+
+This was my first urban-design studio project, done in the first semester of my master's program (Fall 2015). At that moment the Seoul Metropolitan Government had just begun serious discussions about remodeling the Jamsil Sports Complex, and this project was my own student contribution to that public conversation.
+
+For all its enormous seating capacity and land area, the Jamsil Main Stadium struggled to engage its urban context. It was surrounded on all sides by arterial roads, and the Han River waterfront next to it sat without any meaningful use. The only active entry point was from the south, toward the Olympic Complex, and the only routinely used facility was the baseball stadium to the south. The Main Stadium read almost as **a vast isolated parcel inside the city**.
+
+The core of my proposal was to **open a new primary entry toward Samseong-dong in the west, creating an axis that cuts through the stadium from Samseong-dong to the Han River**.
+
+- **West–East deck plaza** · A vehicle-accessible deck wrapping the Main Stadium and extending to the Han River waterfront. It introduces a new flow perpendicular to the existing north–south entry axis, turning the Main Stadium and the baseball stadium into one continuous active zone.
+- **Tancheon-side entry plaza** · A large plaza that lets people step up from the Tancheon stream into the stadium area, greatly expanding pedestrian and bicycle access.
+- **Han River waterfront activation** · Urban agriculture and a spectator-oriented waterfront park, so that the riverside is used every day — not only on event days.
+- **Separation of operations and public circulation** · Ancillary stadium facilities were tucked under the new deck so they would not interrupt the public walking experience.
+- **Commercial plot in the southeast** · A newly allocated commercial program that redefined the stadium precinct as **a daily commercial street worth visiting even when no sporting event is on**.
+
+Because this was my first urban-design studio, what I took from it was not a resolved solution but rather **a way of reading an urban context**. It was my first attempt to address a very general problem — the way a specialized building type like a stadium isolates itself from the city — through a rearrangement of access and axes. It also became the **starting point** of the line of urban-design research that carried through my master's and Ph.D.
+
+
+## Ganghwa Urimaul · Group Home for Elderly Adults with Developmental Disabilities
+
+![](../assets/images/design/arge-urimaul.png){fig-alt="Exterior rendering of a single-story brick building set among a park's lawn, planting beds, and trees, with residents walking or resting on benches"}
+
+**A Residential Care Home for Elderly Adults with Developmental Disabilities**
+
+::: {.project-meta}
+- **Year** · 2024– · *in progress · construction underway*
+- **Location** · Ganghwa Island
+- **Client** · Urimaul Social Welfare Foundation
+- **Type** · Architecture · Welfare Facility · New Construction
+- **Role** · **Site analysis · concept design · site planning** (ar-ge inc. team project)
+- **Status** · Under construction — the first built project of my career
+:::
+
+This is an ongoing project at *[ar-ge inc.](https://ar-ge.xyz)* and the **first building I have worked on that is actually being built**. The client, *Ganghwa Urimaul*, is a social-welfare foundation that has cared for people with developmental disabilities since they were young. As those residents have grown older alongside the foundation and are now entering old age, a **dedicated group home for elderly adults with developmental disabilities** became necessary so that they could continue to age within the community they have lived in their whole lives. The project began from that request.
+
+The central design decision was simple — **keep the existing building as it is, and place the new building carefully beside it**. For residents who have lived here their whole lives, the memory of the place becomes more, not less, important in old age. So rather than treating this as a move to a new facility, we treated it as **an extension of a familiar place**, making the relationship to the existing building the starting point of the design. During site planning we closely studied the orientation and approach of the existing building so that the new building would form a natural courtyard with it.
+
+Architectural details, too, were chosen to **echo the materials and textures of the existing building**. The tone of the brick, the form of the roof, the proportions of the windows — the goal was for the new building to dissolve into the existing place rather than stand out from it. The relationship to the park in front of the building was considered from the earliest design phase, so that residents' daily lives could flow naturally into and out of the space.
+
+This project is a different order of experience from the design work I had done as a student. It is not a proposal but **a building that will actually stand**, and the fact that specific people will live their lives inside it added weight to every decision. Working with the ar-ge inc. team, I participated throughout the early design phases — site analysis, concept, and site planning.
+
+
+
+## Danyang Happy-Olle Platform · The House That Embraces
+
+![](../assets/images/design/arge-danyang.png){fig-alt="Isometric view of a public housing complex in which bent, angled masses embrace an outer space; building heights vary with the slope of the site"}
+
+**A Public Housing Proposal that Embraces the Landscape**
+
+::: {.project-meta}
+- **Year** · 2024
+- **Location** · Danyang County, North Chungcheong Province
+- **Type** · Architecture · Public Multi-Family Housing · Design Competition
+- **Competition** · Danyang Happy-Olle Platform Public Housing Design Competition
+- **Role** · **Site analysis · schematic design** (ar-ge inc. team project)
+- **Result** · **Selected as a prize-winning entry**
+:::
+
+This public-housing competition at *[ar-ge inc.](https://ar-ge.xyz)* pushed back against a very established habit in Korean housing. Most Korean multi-family housing is built as **uniform, homogeneous volumes** — the same floor plan, the same height, the same layout repeated anywhere in the country. This project was an attempt to work against that inertia.
+
+The first decision was to accept the slope of the site as it is. Instead of flattening the ground and raising buildings of uniform height, we **varied the number of stories with the topography**. The next decision was to avoid laying the plan out in straight lines, and instead compose it of **masses that bend at a central hinge**. The effect of that bend is captured in the project's title — **'The House That Embraces'**. Four buildings bend at different angles, and together they form a layout that **gathers the central outdoor space inward**. Residents do not get an outdoors that opens in all directions, but rather **an embraced courtyard** shared by the community.
+
+We avoided simple repetition inside the plans as well. The interior at the bent hinge was organized around **vertical circulation and auxiliary rooms**, so that units could flex as family composition or lifestyle changed. It is one answer to the practical demand that multi-family housing should be able to serve as a lifelong home.
+
+My role on this project was in site analysis and schematic design. What has stayed with me most from the process is **the long, serious discussion inside the ar-ge team about what public-sector facilities and spaces ought to be**. We did not take first place, but being selected as a prize-winning entry confirmed that this approach carried real weight in the competition review.

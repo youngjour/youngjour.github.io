@@ -1,107 +1,85 @@
-# Youngjun Park - Career Website
+# Youngjun Park — Personal Website
 
-Personal career website showcasing my work as a PostDoc Researcher at KAIST and Partner Architect at AR-GE Architects. This site combines my academic research in urban science and data analytics with my professional practice in computational architecture.
+Bilingual (Korean / English) academic website for Youngjun Park — architect, urban data scientist, and co-founder / CTO of ar-ge inc.
 
-🌐 **Live Site**: [https://youngjour.github.io](https://youngjour.github.io)
+Live site: [https://youngjour.github.io](https://youngjour.github.io)
 
-## About
+## Stack
 
-I am a PostDoc Researcher at the School of Computing, Korea Advanced Institute of Science and Technology (KAIST) and Partner Architect at Ar-ge Architects, Inc. My work focuses on the intersection of urban environments, human behavior, and computational methods.
+- **[Quarto](https://quarto.org/)** — static site generator
+- **GitHub Pages** — hosting (deployed to the `gh-pages` branch)
+- **GitHub Actions** — automated render and publish on push to `main`
+- **SCSS** — custom theme extending Quarto's `cosmo` bootswatch
 
-### Research Areas
-- Urban Science & Data Analytics
-- Human Mobility & Behavior Analysis
-- Computational Urban Design
-- Health & Environment Relationships
-- Smart Cities & IoT Applications
+## Repository layout
 
-### Professional Focus
-- Evidence-based urban design
-- AI applications in architecture and urban planning
-- Spatiotemporal data modeling
-- Deep learning for mobility patterns
+```
+.
+├── _quarto.yml              # Korean (root) site config — navbar, theme, metadata
+├── index.qmd                # Korean About / landing page (trestles template)
+├── research.qmd             # Korean Research page
+├── teaching.qmd             # Korean Teaching page
+├── design.qmd               # Korean Design page
+├── _paper-template.qmd      # Template for individual paper pages
+├── en/
+│   ├── _quarto.yml          # English site config
+│   ├── index.qmd            # English About / landing page
+│   ├── research.qmd
+│   ├── teaching.qmd
+│   └── design.qmd
+├── assets/
+│   ├── css/
+│   │   ├── custom.scss      # Theme overrides
+│   │   └── main.scss
+│   └── images/              # Profile photos and figures
+├── resources/               # CVs and other downloadable files
+├── .github/workflows/
+│   └── publish.yml          # Renders both sites and publishes to gh-pages
+├── build.sh                 # Local build helper (KO + EN)
+└── robots.txt
+```
 
-## Website Features
+The Korean site is the root (`/`); the English site is published under `/en/`. The language switcher in each navbar links across.
 
-- **Research Portfolio**: Publications and ongoing research projects
-- **Design Work**: Architectural projects and computational design
-- **Academic Profile**: CV, publications, and professional experience
-- **Blog Posts**: Latest updates and project highlights
-- **Contact Information**: Multiple ways to connect
+## Local development
 
-## Technical Stack
-
-This website is built with:
-- **Jekyll** static site generator
-- **Minimal Mistakes** theme
-- **GitHub Pages** for hosting
-- **Markdown** for content management
-
-## Local Development
-
-To run this site locally:
+Requires [Quarto CLI](https://quarto.org/docs/get-started/) (v1.4+).
 
 ```bash
-# Clone the repository
-git clone https://github.com/youngjour/youngjour.github.io.git
-cd youngjour.github.io
+# Preview the Korean site with live reload
+quarto preview .
 
-# Install dependencies
-bundle install
+# Preview the English site
+cd en && quarto preview .
 
-# Serve the site locally
-bundle exec jekyll serve
-
-# View at http://localhost:4000
+# Build both sites (outputs to _site/ and _site/en/)
+./build.sh
 ```
 
-## Site Structure
+## Deployment
 
-```
-├── _config.yml           # Site configuration and personal info
-├── _data/navigation.yml  # Main navigation menu
-├── _pages/               # Main pages (CV, Research, Design, etc.)
-├── _posts/               # Blog posts and news updates
-├── assets/images/        # Profile photos and project images
-├── index.md              # Homepage with biography
-└── Gemfile               # Ruby dependencies
-```
+Pushes to `main` trigger `.github/workflows/publish.yml`, which:
 
-## Content Areas
+1. Renders the Korean site (`quarto render .`)
+2. Renders the English site (`cd en && quarto render .`)
+3. Publishes `_site/` to the `gh-pages` branch via `peaceiris/actions-gh-pages`
 
-### Research (`_pages/research.md`)
-Academic research projects, methodologies, and findings in urban science and computational design.
+GitHub Pages serves `gh-pages`.
 
-### Publications (`_pages/publications.md`)
-Peer-reviewed publications, conference papers, and academic contributions.
+## Adding a paper page
 
-### Design (`_pages/design.md`)
-Architectural projects and computational design work from AR-GE Architects.
+1. Copy `_paper-template.qmd` into a papers directory (e.g. `papers/2025-food-deserts.qmd`).
+2. Fill in the YAML front matter — keep `google-scholar: true` so citation metadata is emitted.
+3. Add a link to the paper from `research.qmd` (and `en/research.qmd` if bilingual).
 
-### CV (`_pages/cv.md`)
-Complete academic and professional curriculum vitae.
+## Contact
 
-### Contact (`_pages/contact.md`)
-Professional contact information and collaboration opportunities.
-
-## Recent Updates
-
-- **Nov 2024**: Joined AR-GE Architects as Partner Architect
-- **Oct 2024**: Won KAIST-NYU Innovation Award
-- **Sep 2024**: Published Airbnb prediction model research
-
-## Connect
-
-- **Email**: youngjourpark@gmail.com
-- **Google Scholar**: [Research Profile](https://scholar.google.com/citations?user=sGRKN6UAAAAJ&hl)
-- **ORCID**: [0000-0002-4254-2268](https://orcid.org/0000-0002-4254-2268)
-- **LinkedIn**: [youngjourpark](https://linkedin.com/in/youngjourpark)
-- **GitHub**: [youngjour](https://github.com/youngjour)
+- Email: youngjourpark@gmail.com
+- Google Scholar: [sGRKN6UAAAAJ](https://scholar.google.com/citations?user=sGRKN6UAAAAJ)
+- ORCID: [0000-0002-4254-2268](https://orcid.org/0000-0002-4254-2268)
+- GitHub: [@youngjour](https://github.com/youngjour)
+- LinkedIn: [youngjourpark](https://linkedin.com/in/youngjourpark)
 
 ## License
 
-This website content is available under [MIT License](LICENSE). Feel free to use it as a template for your own academic website.
-
----
-
-*Last updated: November 2024*
+Content © Youngjun Park. Site scaffolding available under MIT License.

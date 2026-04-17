@@ -1,39 +1,113 @@
 ---
 title: "Teaching"
+pagetitle: "Teaching | Youngjun Park"
+description-meta: "Youngjun Park — graduate courses at Seoul National University's Department of Architecture, covering urban design and urban data analysis."
 toc: true
 toc-location: right
+toc-depth: 2
 ---
 
-## Teaching Philosophy
+## Teaching
 
-Philosophy and approach to education to be written.
+I served as a lecturer in the Department of Architecture at Seoul National University, teaching graduate-level courses. The courses focused mainly on **urban design methodology** and **urban data analysis**, and were run as lectures and seminars for graduate students in the Architecture major and the Interdisciplinary Program in Urban Design.
 
 ## Courses
 
-### Seoul National University Department of Architecture (2021-2023)
+### 도시설계연구(도시보행): Urban Design Research — Urban Walking
 
-#### Urban Design Research: Pedestrian-Urban Data Analysis
-- Program: Graduate course in Architecture major
-- Content: Course content and curriculum to be written.
+*Graduate course, Architecture major · Seoul National University · 2020–2021*
 
-#### Urban Design Theory: Traditional vs. Contemporary Urban Design
-- Program: Graduate course in Urban Design Program
-- Content: Course content and curriculum to be written.
+An **introductory course designed for graduate students in Architecture entering the urban design field for the first time**. It introduces the purpose of urban design, how design processes unfold, and current issues in the field, and shows how design, research, spatial programming, and urban planning interlock.
 
-## Student Research Supervision
+Across the semester, all discussion is organized around a single perspective: **the relationship between people's behavior and the built environment**. To make that perspective tangible, the course concentrates on one theme — urban walking — covering how pedestrian researchers observe walking behavior, how they develop indicators to assess pedestrian environments, and how urban design methods, institutions, and policies in turn reshape that behavior.
 
-### Graduate Student Mentoring
+The main textbook is Hass-Klau, *The Pedestrian and the City* (Routledge, 2014).
 
-Research topics and achievements of supervised graduate students to be written.
+**Format**
 
-### Undergraduate Research Participation
+Each week combined a theory lecture, a case presentation, and discussion. Students completed two assignments during the semester.
 
-Undergraduate research participation programs and related content to be written.
+- **Case presentation** — Each student selects a representative pedestrian-policy case in Seoul, **visits the site in person**, and then gives a critical presentation on the policy's background and their own on-site experience. The assignment is designed so that students directly feel the gap between "policy as written" and "space as experienced."
+- **Project** — Each student picks one street in Seoul, identifies the urban issues there, and proposes a design response. Evidence is built from site visits, interviews, and public datasets, and physical-space changes are explained through concept drawings or plans. Final presentations are run as a **public hearing-style discussion in which students explain their proposals to citizens**, so that the proposals are examined from the perspectives of local economy, transportation, public health, culture and tourism, ecology, and social welfare.
 
-## Special Lectures and Seminars
+**Weekly topics and case studies**
 
-List of special lectures and seminars conducted to be written.
+The table below pairs the theoretical topic of each week with the corresponding field-visit case.
 
-## Educational Materials
+| Week | Topic and content | Case study |
+|---|---|---|
+| 1 | Course introduction — What is urban design? | — |
+| 2 | Exploring urban problems and pedestrian issues | — |
+| 3 | What do we aim for — the pedestrian-rights movement and the Pedestrian Master Plan | Seoullo 7017, Cheonggyecheon-ro |
+| 4 | Who designs — public and private sectors, and the role of urban design | Road diets: Itaewon Antique Furniture Street, Guilro 10-gil in Guro-gu |
+| 5 | How to design — policies and design for improving the pedestrian environment | Buildings: Sewoon Sangga, Insa Central Museum, Seoullo Terrace |
+| 6 | Pedestrian behavior and environmental analysis (1) — floating population, point observation, survey-based methods | Plazas: Seoul Plaza, Gwanghwamun Plaza |
+| 7 | Pedestrian behavior and environmental analysis (2) — de facto population, location data, spatial pedestrian metrics | IoT: Seodaemun Smart Dulle-gil, Smart Hanam Wirye-gil |
+| 9 | Urban design and walking (1) — street networks and safety: Neighborhood Unit, Fused Grid System | Crime prevention: Safe-Living Design in Geumho 4-ga, Safe Alleys in Gwanak-gu |
+| 10 | Urban design and walking (2) — the car-free city: Woonerf, pedestrian-only streets, Ciclovía | Car-free streets: Insa-dong, Myeong-dong-gil, Gwancheol-dong-gil |
+| 11 | Urban design and walking (3) — health promotion / commercial vitalization | Heritage preservation: Hanyang City Wall Naksan section, Pimatgol building guidelines |
+| 12 | Urban design and walking (4) — technological change: last-mile and smart mobility | Green transport: Jongno bike lane, Sinchon Public Transit Promotion Zone |
+| 15 | Final lecture — what we should do and what we can do | — |
 
-Educational materials and curricula developed to be introduced.
+
+### 도시설계론: Theories of Urban Design — Traditional and Contemporary
+
+*Graduate course, Interdisciplinary Program in Urban Design · Seoul National University · 2020–2021*
+
+A course covering the theoretical foundations and research process that students of urban design need in order to **grow into researchers in their own right**. The underlying premise is that research is a **two-way process that continually crosses between phenomena and theory** — starting from real urban phenomena to develop theoretical frameworks, and conversely, applying established theory to interpret complex situations. The **key mediator of this movement is data, and the principal object of study is the case**.
+
+Each session ran in three parts: (1) a topic lecture on the historical background and current issues of the week's theme; (2) critical student presentations on related cases and literature; and (3) a seminar in which we discussed research methods using cases and data drawn from present-day Seoul. A large portion of the semester was devoted to two-person team projects, in which students chose a site in Seoul, collected and analyzed their own data, and wrote up the work as a magazine-style research report.
+
+Three questions were kept in view throughout the semester:
+
+- What are the **core topics** urban design has traditionally engaged with?
+- How are those topics **transformed in the present era**?
+- And **what will the next change be**?
+
+This structure is realized in the week-by-week curriculum below, which pairs each lecture topic with a historical case and its present-day counterpart.
+
+| Week | Lecture topic | Topic in urban design | Contemporary change |
+|---|---|---|---|
+| 1 | Classical and contemporary urban design — Baek Jong-won's Alley Restaurant (TV show) | Realm/Range of Urban Design | Profession |
+| 2 | The emergence of urban problems and responses — the 1854 cholera outbreak and the 2020 coronavirus | Defining Problem | Scientific Approach |
+| 3 | People on the move — observation, traffic CCTV, the mobility industry | People's Behavior | Observation Technology |
+| 4 | Actors in urban design — public and private, participatory design, DIY, DIT | Actors & Sectors | Governance |
+| 5 | Changes in media and in modes of consumption — social media, the sharing economy, platform business | Citizen Participation | Social Media |
+| 6 | Public data and personal data — the Household Travel Survey and GPS pedestrian trajectories | Data | Big-data and Research Ethics |
+| 7 | Neighborhoods — resident population and de facto population, the compact city | Area | Mid-scale City Plan |
+| 8 | What are we planning? — from Radburn and Perry to Seoul and Singapore | Design Feature | Urbanization |
+| 10 | The flow of time — the Seoul Museum of History and urban records | Time | Archiving |
+| 11 | Urban planning and operation — the sharing city, local content, gentrification | Contents | Urban Business |
+| 12 | Contemporary urban design and what comes next — technological innovation, community, nomadic life | Future | Modeling and Simulation |
+
+**Selected readings**
+
+Representative readings tied to each week's topic. We read the canonical texts of traditional urban design and continually discussed how they connect to present-day urban challenges.
+
+- Jason Corburn (2009), *Toward the Healthy City*
+- Richard Sennett (2018), *Building and Dwelling*
+- Jan Gehl et al. (2010), *Cities for People*
+- Charles Montgomery (2013), *Happy City*
+- Jeremy Rifkin (2014), *The Zero Marginal Cost Society*
+- Anthony Townsend (2013), *Smart Cities: Big Data, Civic Hackers, and the Quest for a New Utopia*
+- Park, Sohyun et al. (2015), *Neighborhood Walking, Neighborhood Planning*
+- Cho, Eun (2012), *Sadang-dong Plus 25*
+- Dietmar Offenhuber & Carlo Ratti (2014), *Decoding the City: Urbanism in the Age of Big Data*
+
+---
+
+## Student Collaborations
+
+Joint research and projects with students have consistently been a source of mutual growth through the experience of solving difficult problems together. I have worked with many students in advising, co-authoring, and technical mentoring relationships — experiences that continually remind me of the posture of an **educator who studies and grows alongside their students**.
+
+- **Bae, Hyeongchan** (KAIST)
+  NLP- and LLM-based urban analysis. Co-author (PAKDD 2024, KCC 2024, AESOP 2024).
+
+- **Lee, Hongju** (KAIST)
+  Airbnb trend prediction; LLM-embedding-based time-series modeling. Co-author (ASONAM 2025).
+
+- **Sonia Sabir** (KAIST)
+  LLM-embedding-based regional real estate appraisal. Co-author (PAKDD 2024).
+
+- **Jang, Keonhee** (KAIST)
+  Spatiotemporal urban microeconomic–microclimate data analysis. Co-author (npj Urban Sustainability 2025, in-review).

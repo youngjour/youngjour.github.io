@@ -2,7 +2,7 @@
 title: "Youngjun Park"
 subtitle: "Co-founder · CTO, ar-ge inc."
 pagetitle: "Youngjun Park"
-description-meta: "Youngjun Park — Architect and urban data scientist. Co-founder and CTO at ar-ge inc."
+description-meta: "Youngjun Park — Architect and urban data scientist. Co-founder and CTO at ar-ge inc. Urban computing, smart cities, AI-driven urban analysis."
 toc: true
 toc-location: right
 toc-depth: 2
@@ -40,105 +40,148 @@ about:
 [⬇ CV (한국어)](../assets/cv_ko.pdf){.btn-cv}
 :::
 
+---
+
 ## Introduction
 
-Hello! I'm Youngjun Park, an urban researcher and architect.
+Hello. I'm Youngjun Park, an urban researcher and architect.
 
-Based on my knowledge in architecture and urban design, I explore rational and evidence-based urban research and design using data science techniques.
+Does this street actually get people walking?
+Is this park being used the way it was planned?
+How does the perception of a neighborhood differ from one person to another?
 
-Currently, I work as a partner architect at AR-GE Architects, participating in research and development of architectural/urban design solutions using Agentic AI.
+Chasing questions like these, I have extended my work into smartphone GPS data, urban computing systems, ML/DL, and artificial intelligence. I completed my M.S. in Urban Design and Ph.D. in Architecture at Seoul National University, and conducted research at KAIST's School of Computing and Urban AI Institute. I am currently co-founder and CTO of [ar-ge inc.](https://ar-ge.kr), developing Agentic AI-based architectural and urban design agent systems.
+
+I explore evidence-based urban research and design practice by placing the traditional language of architecture and the analytical tools of data science on the same desk.
+
+---
 
 ## Education
 
-### Doctoral Degree
-- **Ph.D. in Architecture**, Seoul National University (2022)
-  - Dissertation: Urban Pedestrian Pattern Analysis Using Smartphone GPS Data
+- **Ph.D. in Architecture** · Seoul National University · 2022
+  - Dissertation: Analysis of pedestrian activity using smartphone data, and urban planning facilities for the promotion of physical activity
+- **M.S. in Urban Design** · Seoul National University · 2017
+  - Thesis: A study on homemakers' automobile use behavior and intra-neighborhood travel characteristics
+- **B.S. in Architecture** · Seoul National University · 2013
 
-### Master's Degree
-- **M.S. in Urban Design**, Seoul National University (2017)
-  - Thesis: Analysis of Correlation between Urban Spatial Structure and Human Behavior
-
-### Bachelor's Degree
-- **B.S. in Architecture**, Seoul National University (2013)
+---
 
 ## Career
 
-### Current Position
-- **Partner Architect**, AR-GE Architects (2024-Present)
-  - Lead AI-based architectural/urban design solution research and development
-  - Technical advisory for smart city projects
+**Co-founder · Director · CTO** — ar-ge Architects (ar-ge inc.)
+*Present*
 
-### Previous Experience
-- **Postdoctoral Researcher**, KAIST Urban AI Institute (2025)
-- **Postdoctoral Researcher**, KAIST School of Computing (2022-2025)
-- **Lecturer**, Department of Architecture, Seoul National University (2021-2023)
-- **Officer (First Lieutenant)**, Republic of Korea Army Corps of Engineers (2013-2015)
+- Development of Agentic AI-based architectural and urban design solutions
+- Leading the research and engineering organization
+- Public-sector architectural and urban design practice
 
+**External Advisor** — KAIST Urban AI Institute
+*Present*
+
+**Postdoctoral Researcher** — KAIST Urban AI Institute
+*2025*
+
+- Supported institute operations
+- Managed interdisciplinary and international collaborative research projects
+- Research on multi-agent systems and Urban Foundation Models
+- Participated in AI Seoul 2025 and exhibited MIT–KAIST research outcomes
+
+**Postdoctoral Researcher** — KAIST School of Computing
+*2022 – 2025*
+
+- Research on smart city technologies based on IoT edge computing
+- Urban data processing methodologies including spatiotemporal analysis, graph networks, and LLM embeddings
+- Led 'DeepUrban', the urban research group within the lab
+
+**Lecturer** — Department of Architecture, Seoul National University
+*2021 – 2024*
+
+- Studies in Urban Design: Pedestrian–Urban Data Analysis (graduate course, Architecture)
+- Theories of Urban Design: Traditional and Contemporary Urban Design (graduate course, Interdisciplinary Program in Urban Design)
+
+**Officer (First Lieutenant)** — Republic of Korea Army Corps of Engineers
+*2013 – 2015*
+
+- Led live operational missions and unit management
+- Mine-detection-and-removal team leader for DMZ operations
+
+---
 ## Research Works
 
-**Main Research Areas**
+A complete list of papers and presentations, with details for each topic, is organized on the [Research page](research.qmd).
 
-- Urban Computing Systems
-- Smartphone/GPS Data-based Pedestrian Activity Analysis
-- Smart City AI Applications
-- Large Language Model (LLM)-based Urban Prediction
+**Ph.D. · Spatial Statistics and Mobile Location Data** — Dept. of Architecture, Seoul National University
 
-Please refer to the [Research page](research.qmd) for a complete list of publications and presentations.
+- Park et al. (2022) *Int. J. Environmental Research and Public Health* — Differences in park walking between inactive and active populations
+- Park et al. (2021) *HERD Journal* — Changes in pedestrian activity during the COVID-19 period
+
+**Postdoc · ML/DL and Urban Computing** — KAIST School of Computing
+
+- Han, Park et al. (2023) *CIKM* — Spatiotemporal traffic prediction based on urban activity
+- Lee, Park et al. (2025) *ASONAM* — LLM embedding-based Airbnb trend prediction
+- Park, Han et al. (2023) *ACSP* — Language modeling applied to individual travel data
+
+**Postdoc · Agents and Foundation Models** — KAIST Urban AI Institute
+
+- Park et al. (2025, in-review) *npj Urban Sustainability* — Site-specific factor analysis of food deserts
+
+**Current · Agentic AI-based Design Systems** — ar-ge inc.
+
+---
 
 ## Projects
 
-### Major Research Projects
+Five major research projects. See the [Research page](research.qmd) for the complete list.
 
-- **Urban Pedestrian Pattern Prediction System** (2022-2024)
-  - Real-time pedestrian flow prediction using smartphone GPS data
-  - Winner of KAIST-NYU Innovation Award
+**GS–KAIST Smart City Research Center** (2024–2025)
+*Postdoctoral Researcher* · KAIST
+GS E&C · AI-based urban system development and smart city technology research · Operation of and participation in a large industry–academic research center.
 
-- **AI-based Real Estate Valuation Model** (2023-2024)
-  - Development of accommodation demand prediction model using Airbnb data
-  - Achieved 85% accuracy
+**Multimodal Spatiotemporal Urban Prediction Models Based on Large Language Models** (2024–2025)
+*Postdoctoral Researcher* · KAIST
+National Research Foundation of Korea · Project No. RS-2024-00356597 · Development of urban prediction models using LLMs and spatiotemporal data methods.
 
-- **Smart City Integrated Platform** (2021-2023)
-  - Integrated analysis of IoT sensor data and urban planning information
-  - Applied to Daejeon Metropolitan City Smart City Project
+**Self-Learning Autonomic IoT Edge Computing Technology** (2022–2025)
+*Postdoctoral Researcher* · KAIST
+Ministry of Science and ICT, SW StarLab long-term project · Project No. RS-2019-II191126 · Application of edge computing technology in IoT smart city environments.
 
-Please refer to the [Design page](design.qmd) for a complete list of projects.
+**Comparative Study on Walking Practice within Neighborhoods via Individual GPS Trajectory Analysis** (2019–2021)
+*Research Grant Recipient* · Seoul National University
+National Research Foundation of Korea, Next-Generation Researcher Program · Analysis of pedestrian activity and urban planning facilities based on smartphone GPS trajectory data.
 
-## Awards · Honors
+**Pedestrian Data Analysis for WalkON Smartphone App Development** (2019–2020)
+*External Researcher · Research Team Lead* · Swallaby Inc.
+Pedestrian data analysis and health-promotion service design. Practical application of doctoral research.
 
-- **KAIST-NYU Innovation Award** (2024)
-  - Recognition for outstanding research achievements in urban data analysis
-- **Excellent Paper Award**, Architectural Institute of Korea (2022)
-- **Best Graduation Project Award**, Seoul National University Department of Architecture (2013)
-
-## Technical Skills
-
-### Programming & Data Science
-- **Python**: pandas, numpy, scikit-learn, PyTorch
-- **R**: tidyverse, ggplot2, shiny
-- **SQL**: PostgreSQL, MySQL
-- **GIS**: QGIS, ArcGIS, PostGIS
-- **Web**: HTML/CSS, JavaScript, Quarto
-
-### Urban Design & Architecture
-- **CAD**: AutoCAD, Rhino, Grasshopper
-- **BIM**: Revit, ArchiCAD
-- **Visualization**: SketchUp, V-Ray, KeyShot
-- **Analysis**: Urban Network Analysis, Space Syntax
-
-### Research Methodology
-- Spatial statistical analysis, network analysis, machine learning, deep learning
-- Survey design, interview methodology
-- Literature review, case study analysis
+---
 
 ## Professional Service
 
-- **Reviewer**, Korea Planning Association (2023-Present)
-- **Editorial Board Member**, Journal of the Architectural Institute of Korea (2022-2024)
-- **Advisory Committee Member**, Daejeon Metropolitan City Smart City Committee (2021-Present)
-- **Mentor**, KAIST Startup Support Center (2023-Present)
+**Journal Reviewer**
+Scientific Reports · BMC Public Health · Archives of Public Health · Frontiers in Public Health
+
+**Research Advisory**
+KAIST Urban AI Institute · Architecture & Urban Research Institute (AURI)
+
+**Industry–Academic Collaboration**
+GS E&C · Kia Motors–Innocean · Swallaby
+
+**Guest Lectures · Seminars**
+Dept. of Architecture, Seoul National University · KAIST School of Computing · Dept. of Architectural Engineering, KOREATECH · Dept. of Architecture, Chung-Ang University
+
+---
 
 ## Patents · Intellectual Property
 
-- **Smartphone GPS-based Urban Pedestrian Pattern Analysis System** (Filed: 2023-10-15)
-- **AI-based Real Estate Valuation Method and System** (Granted: 2024-03-22)
-- **Data Analysis Platform for Urban Space Optimization** (Filed: 2024-08-10)
+- **Korean Patent (Filed)** 10-2024-0108083 — Method and apparatus for estimating housing value using a neural network model
+- **Korean Patent (Registered)** 10-23679770000 — Method and server for providing commercial real estate information
+- **Korean Copyright (Registered)** C-2023-062275 — Geographic data visualization program
+
+---
+
+## Awards · Honors
+
+- **KAIST–NYU Innovation Award** (2024)
+  - Recognition for outstanding research achievements in urban data analysis
+- **Excellent Paper Award**, Architectural Institute of Korea (2022)
+- **Best Graduation Project Award**, Dept. of Architecture, Seoul National University (2013)
