@@ -37,9 +37,6 @@ body {
   line-height: 1.7;
   letter-spacing: -0.005em;
   word-break: keep-all;
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 0 1rem;
   font-size: 16px; // iOS Safari auto-zoom prevention
 }
 
@@ -297,11 +294,6 @@ a[role="button"] {
       padding: 2px 8px;
     }
   }
-}
-
-// Content max-width for readability
-.quarto-container {
-  max-width: 720px;
 }
 
 // Ensure About trestles template stacks properly on mobile
