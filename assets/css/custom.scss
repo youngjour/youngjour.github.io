@@ -1,0 +1,186 @@
+/*-- scss:defaults --*/
+
+// Font stacks - Korean + English fallback
+$font-family-sans-serif: "Pretendard", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+
+// Color palette
+$body-color: #2a2a2a !default;
+$link-color: #1a5490 !default;
+$navbar-bg: #ffffff !default;
+$body-bg: #ffffff !default;
+$border-color: #e8e8e8 !default;
+
+// Typography
+$h1-font-size: 2rem !default;
+$h2-font-size: 1.5rem !default;
+$h3-font-size: 1.25rem !default;
+$h4-font-size: 1.1rem !default;
+$h5-font-size: 1rem !default;
+$h6-font-size: 0.9rem !default;
+$headings-font-weight: 500 !default;
+
+/*-- scss:rules --*/
+
+// Base typography
+body {
+  line-height: 1.7;
+  letter-spacing: -0.005em;
+  word-break: keep-all;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  font-size: 16px; // iOS Safari auto-zoom prevention
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.02em;
+}
+
+// Navigation bar
+.navbar {
+  border-bottom: 1px solid $border-color;
+  box-shadow: none;
+
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link[aria-current="page"] {
+    font-weight: 500;
+  }
+}
+
+// About template adjustments (Trestles)
+.about-entity {
+  .about-image {
+    border: none !important;
+  }
+
+  .about-links {
+    .about-link {
+      margin: 0 0.75rem 0.5rem 0;
+
+      &:hover {
+        color: $link-color;
+      }
+    }
+  }
+}
+
+// Links styling
+a {
+  color: $body-color;
+  text-decoration: none;
+
+  &:hover {
+    color: $link-color;
+    text-decoration: underline;
+  }
+}
+
+// Research page - publication lists
+.research-content {
+  h3 {
+    border-left: 3px solid $link-color;
+    padding-left: 1rem;
+    margin: 2rem 0 1rem 0;
+  }
+
+  li {
+    margin-bottom: 1rem;
+  }
+}
+
+// Multi-persona badges (home page only)
+.persona-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 1.5rem 0;
+
+  span {
+    padding: 4px 12px;
+    border-radius: 14px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    background-color: #f0f2f5;
+    color: #1e3a5f;
+    white-space: nowrap;
+  }
+}
+
+// Footer adjustments
+.nav-footer {
+  border-top: 1px solid $border-color;
+  font-size: 0.875rem;
+  color: #666;
+}
+
+// Touch target size optimization
+.navbar-nav .nav-link,
+.about-link,
+a[role="button"] {
+  min-height: 44px;
+  min-width: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// Mobile responsive adjustments
+@media (max-width: 768px) {
+  body {
+    padding: 0 0.75rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.1rem;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0.75rem 1rem; // Larger touch targets
+  }
+
+  .persona-badges {
+    justify-content: center;
+
+    span {
+      font-size: 0.75rem;
+      padding: 3px 10px;
+    }
+  }
+
+  // Prevent horizontal scroll
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  pre {
+    overflow-x: auto;
+  }
+}
+
+@media (max-width: 375px) {
+  body {
+    padding: 0 0.5rem;
+  }
+
+  .persona-badges {
+    gap: 6px;
+
+    span {
+      font-size: 0.7rem;
+      padding: 2px 8px;
+    }
+  }
+}
+
+// Content max-width for readability
+.quarto-container {
+  max-width: 720px;
+}
+
+// Ensure About trestles template stacks properly on mobile
+@media (max-width: 767px) {
+  .about-entity .about-contents {
+    flex-direction: column;
+  }
+}
