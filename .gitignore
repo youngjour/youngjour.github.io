@@ -1,13 +1,25 @@
-resources/
+# Quarto build outputs
 _site/
+.quarto/
+*.html
+/.luarc.json
+
+# Jupyter notebook outputs
+**/*.quarto_ipynb
+
+# Jekyll (legacy - keeping for reference)
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+
+# Dependencies
 node_modules/
 *.gem
 *.rbc
 .bundle
 .config
+
+# Build artifacts
 coverage
 InstalledFiles
 lib/bundler/man
@@ -25,3 +37,17 @@ tmp
 .vscode/
 .idea/
 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.env
+
+# R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+/.quarto/

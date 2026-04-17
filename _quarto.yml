@@ -1,0 +1,86 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - "robots.txt"
+    - "assets/"
+  render:
+    - "*.qmd"
+    - "!en/"
+
+website:
+  title: "Youngjun Park"
+  description: "박영준 — 건축가 · 도시 데이터 사이언티스트 · ar-ge inc. 공동창립자 및 CTO. 도시 컴퓨팅, 스마트시티, AI 기반 도시 분석."
+  site-url: "https://youngjour.github.io"
+  image: "/assets/images/og-image.jpg"
+  favicon: "assets/icons/favicon.ico"
+  open-graph:
+    locale: ko_KR
+    site-name: "Youngjun Park"
+  twitter-card:
+    card-style: summary_large_image
+
+  page-navigation: true
+  back-to-top-navigation: true
+
+  navbar:
+    title: "Youngjun Park"
+    background: white
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+      - text: "Design"
+        href: design.qmd
+    right:
+      - text: "EN"
+        href: en/index.html
+
+  page-footer:
+    background: light
+    left: |
+      © 2024 Youngjun Park. All rights reserved.
+    center: |
+      Built with [Quarto](https://quarto.org)
+    right: |
+      [GitHub](https://github.com/youngjour){target="_blank"}
+      [Scholar](https://scholar.google.com/citations?user=sGRKN6UAAAAJ){target="_blank"}
+      [LinkedIn](https://linkedin.com/in/youngjourpark){target="_blank"}
+      [ORCID](https://orcid.org/0000-0002-4254-2268){target="_blank"}
+      [Email](mailto:youngjourpark@gmail.com)
+
+format:
+  html:
+    theme:
+      - cosmo
+      - assets/css/custom.scss
+    lang: ko
+    mainfont: "Pretendard, -apple-system, BlinkMacSystemFont, sans-serif"
+    linkcolor: "#1a5490"
+    toc: true
+    toc-location: right
+    code-fold: show
+    code-tools: true
+    code-copy: true
+    citations-hover: true
+    footnotes-hover: true
+    link-external-newwindow: true
+    smooth-scroll: true
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+          <link rel="stylesheet" as="style" crossorigin
+                href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
+
+filters:
+  - quarto
+
+execute:
+  freeze: auto

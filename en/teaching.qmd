@@ -1,0 +1,39 @@
+---
+title: "Teaching"
+toc: true
+toc-location: right
+---
+
+## Teaching Philosophy
+
+Philosophy and approach to education to be written.
+
+## Courses
+
+### Seoul National University Department of Architecture (2021-2023)
+
+#### Urban Design Research: Pedestrian-Urban Data Analysis
+- Program: Graduate course in Architecture major
+- Content: Course content and curriculum to be written.
+
+#### Urban Design Theory: Traditional vs. Contemporary Urban Design
+- Program: Graduate course in Urban Design Program
+- Content: Course content and curriculum to be written.
+
+## Student Research Supervision
+
+### Graduate Student Mentoring
+
+Research topics and achievements of supervised graduate students to be written.
+
+### Undergraduate Research Participation
+
+Undergraduate research participation programs and related content to be written.
+
+## Special Lectures and Seminars
+
+List of special lectures and seminars conducted to be written.
+
+## Educational Materials
+
+Educational materials and curricula developed to be introduced.

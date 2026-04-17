@@ -1,0 +1,55 @@
+---
+title: "Youngjun Park"
+subtitle: "Urban Researcher & Architect"
+pagetitle: "Youngjun Park - Urban Researcher & Architect"
+description-meta: "Personal website of Youngjun Park, urban researcher and architect. Combining data science techniques with architectural and urban design knowledge."
+page-layout: full
+toc: false
+about:
+  template: trestles
+  image: ../assets/images/youngjun.jpg
+  image-width: 16em
+  image-shape: round
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:youngjourpark@gmail.com
+    - icon: mortarboard-fill
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=sGRKN6UAAAAJ
+      target: _blank
+    - icon: person-badge
+      text: ORCID
+      href: https://orcid.org/0000-0002-4254-2268
+      target: _blank
+    - icon: github
+      text: GitHub
+      href: https://github.com/youngjour
+      target: _blank
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/youngjourpark
+      target: _blank
+---
+
+<div class="persona-badges">
+  <span>Architect</span>
+  <span>Urban Data Scientist</span>
+  <span>CTO</span>
+</div>
+
+## Introduction
+
+Hello! I'm Youngjun Park, an urban researcher and architect.
+
+Based on my knowledge in architecture and urban design, I explore rational and evidence-based urban research and design using data science techniques.
+
+Currently, I work as a partner architect at AR-GE Architects, participating in research and development of architectural/urban design solutions using Agentic AI.
+
+[Learn more about me](about.qmd) | [View my research](research.qmd) | [Explore design projects](design.qmd)
+
+::: {.contact-info}
+**Current Position**: Partner Architect at AR-GE Architects
+**Email**: youngjourpark@gmail.com
+**Location**: Daejeon, South Korea
+:::

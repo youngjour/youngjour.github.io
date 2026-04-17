@@ -1,0 +1,55 @@
+---
+title: "박영준"
+subtitle: "Urban Researcher & Architect"
+pagetitle: "박영준 (Youngjun Park) - 도시 연구자 & 건축가"
+description-meta: "도시 연구자이자 건축가 박영준의 개인 웹사이트입니다. 데이터 사이언스와 건축 설계를 결합한 연구를 수행하고 있습니다."
+page-layout: full
+toc: false
+about:
+  template: trestles
+  image: assets/images/youngjun.jpg
+  image-width: 16em
+  image-shape: round
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:youngjourpark@gmail.com
+    - icon: mortarboard-fill
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=sGRKN6UAAAAJ
+      target: _blank
+    - icon: person-badge
+      text: ORCID
+      href: https://orcid.org/0000-0002-4254-2268
+      target: _blank
+    - icon: github
+      text: GitHub
+      href: https://github.com/youngjour
+      target: _blank
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/youngjourpark
+      target: _blank
+---
+
+<div class="persona-badges">
+  <span>건축가</span>
+  <span>도시 데이터 사이언티스트</span>
+  <span>CTO</span>
+</div>
+
+## 소개
+
+반갑습니다. 도시 연구자이자 건축가 박영준입니다.
+
+건축 및 도시설계 지식을 바탕으로, 데이터 사이언스 기법을 활용하여 합리적이고 근거 기반의 도시 연구 및 디자인을 탐구하고 있습니다.
+
+현재 아게 건축사사무소의 파트너 건축가로 활동하며, Agentic AI를 활용한 건축/도시 설계 솔루션 연구 개발에 참여하고 있습니다.
+
+[더 자세한 소개 보기](about.qmd) | [연구 업적 보기](research.qmd) | [설계 프로젝트 보기](design.qmd)
+
+::: {.contact-info}
+**현재 소속**: 아게 건축사사무소 파트너 건축가
+**이메일**: youngjourpark@gmail.com
+**위치**: 대한민국 대전광역시
+:::

@@ -1,0 +1,45 @@
+---
+title: "Research"
+toc: true
+toc-location: right
+---
+
+## Research Overview
+
+Overview and direction of research combining data science with urban planning to be written.
+
+## Publications
+
+### 2025
+
+Ongoing papers and research to be presented will be written.
+
+### 2024
+
+List of 2024 publications to be written.
+
+### 2023
+
+List of 2023 publications to be written.
+
+### 2022 and Earlier
+
+Major papers from previous years to be written.
+
+## Research Projects
+
+### Ongoing Projects
+
+Current ongoing research projects to be written.
+
+### Completed Projects
+
+Major completed research projects to be written.
+
+## Research Interests
+
+- Urban data analysis
+- Smart city technology
+- Pedestrian behavior analysis
+- AI-based urban planning
+- Additional research areas to be added.

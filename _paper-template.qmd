@@ -1,0 +1,72 @@
+---
+# Academic Paper Template for Google Scholar
+# Copy this file and rename to create individual paper pages
+# Example: papers/2024-food-deserts-analysis.qmd
+
+title: "Food Deserts in Context: How Site-Specific Factors Reshape Food Deserts Discussion"
+author:
+  - name: "Park, Youngjun"
+    orcid: "0000-0002-4254-2268"
+    affiliations:
+      - name: "KAIST Urban AI Institute"
+      - name: "AR-GE Architects"
+  - name: "Na, Jihye"
+  - name: "Jang, Keonhee"
+  - name: "Lee, Dongman"
+  - name: "Kwon, Changhyun"
+  - name: "Yoon, Yoonjin"
+date: "2025-01-01"
+categories: [urban planning, food systems, GIS analysis]
+citation:
+  type: article-journal
+  container-title: "npj Urban Sustainability"
+  doi: "10.1038/s42949-xxx-xxxx-x"
+  url: "https://www.nature.com/articles/s42949-xxx-xxxx-x"
+  volume: "5"
+  issue: "1"
+  page: "1-15"
+google-scholar: true
+format:
+  html:
+    toc: true
+    toc-location: right
+---
+
+## Abstract
+
+[논문 초록을 여기에 작성합니다. Google Scholar가 메타데이터를 올바르게 인식할 수 있도록 구조화된 형태로 작성하세요.]
+
+## Key Findings
+
+- 주요 발견사항 1
+- 주요 발견사항 2
+- 주요 발견사항 3
+
+## Full Text
+
+[논문 전문 링크 또는 PDF 다운로드 링크]
+
+## Citation
+
+```
+Park, Y., Na, J., Jang, K., Lee, D., Kwon, C., & Yoon, Y. (2025).
+Food Deserts in Context: How Site-Specific Factors Reshape Food Deserts Discussion.
+npj Urban Sustainability, 5(1), 1-15.
+```
+
+## Usage Instructions
+
+이 템플릿을 사용하여 개별 논문 페이지를 만들려면:
+
+1. 이 파일을 복사하여 `papers/` 디렉토리에 저장 (예: `papers/2024-food-deserts.qmd`)
+2. YAML front matter의 메타데이터를 실제 논문 정보로 수정
+3. `_quarto.yml`의 네비게이션에 논문 섹션 추가
+4. Google Scholar가 인식할 수 있도록 `google-scholar: true` 유지
+
+Google Scholar 호환 메타태그가 자동으로 생성됩니다:
+- citation_title
+- citation_author
+- citation_publication_date
+- citation_journal_title
+- citation_doi
+- citation_pdf_url

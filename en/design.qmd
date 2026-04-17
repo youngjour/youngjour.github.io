@@ -1,0 +1,45 @@
+---
+title: "Design"
+toc: true
+toc-location: right
+---
+
+## Design Philosophy
+
+Research-based design approach and philosophy to be written.
+
+## AR-GE Architects Introduction
+
+Introduction to activities and projects at AR-GE Architects to be written.
+
+## Research-Based Design
+
+### Agentic AI-Based Design
+
+AI-powered architectural/urban design projects to be introduced.
+
+### Data-Driven Design
+
+Design decision-making process through data analysis to be introduced.
+
+### Public Projects
+
+Public sector architectural/urban design projects to be introduced.
+
+## Intersection of Research and Design
+
+### Interdisciplinary Collaboration
+
+Connection points between research and design practice to be explained.
+
+### Experimental Projects
+
+Cases of applying research results to actual design to be introduced.
+
+### Future Directions
+
+Future directions of research-based design to be presented.
+
+## Project Portfolio
+
+Portfolio of major design projects to be added.
