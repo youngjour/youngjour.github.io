@@ -184,3 +184,170 @@ a[role="button"] {
     flex-direction: column;
   }
 }
+
+// ============================================
+// 모바일 반응형 (≤768px) — 압축 헤더 방식
+// ============================================
+@media (max-width: 768px) {
+
+  // trestles 전체 레이아웃 재구성
+  .quarto-about-trestles {
+    display: block;  // 기본 grid 해제
+
+    .about-entity {
+      // 사이드바 전체를 얇은 카드로
+      background: #fafafa;
+      border: 1px solid #e8e8e8;
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 1.5rem;
+      position: relative;
+
+      // 프로필 이미지 · 이름 · 직함을 가로 배치
+      .about-image-container,
+      .about-image {
+        float: left;
+        width: 64px !important;
+        height: 64px !important;
+        margin: 0 12px 0 0;
+      }
+
+      // 이름 크기 조정
+      h1.title, .about-contents h1.title {
+        font-size: 1.125rem;
+        font-weight: 600;
+        margin: 0;
+        line-height: 1.3;
+      }
+
+      // 직함 (subtitle) 이름 바로 아래로
+      p.subtitle, .about-contents p.subtitle {
+        font-size: 0.8125rem;
+        color: #555;
+        margin: 2px 0 8px;
+        line-height: 1.4;
+      }
+
+      // 소셜 링크 가로 아이콘 행
+      .about-links {
+        clear: both;
+        padding-top: 10px;
+        margin-top: 10px;
+        border-top: 1px solid #e8e8e8;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 14px;
+
+        .about-link {
+          font-size: 0.75rem;
+          padding: 0;
+
+          // 아이콘만 우선, 텍스트는 옆에 작게
+          i, .bi {
+            font-size: 0.875rem;
+            margin-right: 4px;
+          }
+        }
+      }
+    }
+
+    // 메인 영역은 카드 아래로 자연스럽게
+    .about-contents, main.content {
+      padding: 0;
+    }
+  }
+
+  // 페르소나 배지 — 사이드바 카드 아래로 배치
+  .persona-badges {
+    margin-top: -1rem; // 카드와 간격 줄이기
+    margin-bottom: 1rem;
+    gap: 4px;
+
+    span {
+      font-size: 0.6875rem;
+      padding: 2px 8px;
+    }
+  }
+
+  // 본문 섹션 여백 조정
+  h2 {
+    margin-top: 1.75em;
+    font-size: 1.25rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  // 섹션 제목 앞에 얇은 구분선 (첫 섹션 제외)
+  h2:not(:first-of-type) {
+    padding-top: 1.25em;
+    border-top: 1px solid #eaeaea;
+  }
+
+  // Contact info 카드 스타일링
+  .contact-info {
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 6px;
+    padding: 0.875rem 1rem;
+    margin: 1.5rem 0;
+    font-size: 0.8125rem;
+    line-height: 1.5;
+  }
+
+  // 링크 섹션 간격 개선
+  p {
+    margin-bottom: 0.875rem;
+  }
+
+  // 더 나은 섹션 구분
+  .about-contents > main > * + h2 {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e8e8e8;
+  }
+
+  // Strong(굵은 텍스트) 의 가독성 강화
+  strong {
+    font-weight: 700;
+  }
+
+  // 목록 들여쓰기 줄이기 (좁은 화면 공간 확보)
+  ul, ol {
+    padding-left: 1.25rem;
+  }
+
+  // TOC 는 모바일에서 숨김 (Quarto 기본 동작 강화)
+  .sidebar.margin-sidebar, #TOC, .toc-active {
+    display: none !important;
+  }
+
+  // 본문 좌우 패딩 여유
+  main.content, .page-columns main.content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+// 매우 작은 화면 (≤380px) 추가 조정
+@media (max-width: 380px) {
+  .quarto-about-trestles .about-entity {
+    padding: 0.875rem 1rem;
+
+    .about-image-container, .about-image {
+      width: 56px !important;
+      height: 56px !important;
+    }
+
+    h1.title { font-size: 1rem; }
+    p.subtitle { font-size: 0.75rem; }
+  }
+
+  .persona-badges {
+    span {
+      font-size: 0.625rem;
+      padding: 1px 6px;
+    }
+  }
+}

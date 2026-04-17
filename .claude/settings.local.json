@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:github.com)"
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:youngjour.github.io)",
+      "Bash(git add assets/css/custom.scss)"
     ],
     "deny": [],
     "ask": []
