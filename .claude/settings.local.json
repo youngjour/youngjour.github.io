@@ -4,7 +4,8 @@
       "WebFetch(domain:github.com)",
       "WebFetch(domain:youngjour.github.io)",
       "Bash(git add assets/css/custom.scss)",
-      "Bash(quarto render . --quiet)"
+      "Bash(quarto render . --quiet)",
+      "Bash(quarto preview *)"
     ],
     "deny": [],
     "ask": []

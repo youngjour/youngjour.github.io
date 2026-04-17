@@ -31,17 +31,15 @@ about:
 ---
 
 ::: {.persona-badges}
-<span>건축가</span>
-<span>도시 데이터 사이언티스트</span>
-<span>CTO</span>
+<span>도시 연구자</span>
+<span>사람, 공간, 그리고 건물</span>
+<span>책임감 있는 도시</span>
 :::
 
 ::: {.cv-download}
 [⬇ CV (한국어)](/assets/cv_ko.pdf){.btn-cv}
 [⬇ CV (English)](/assets/cv_en.pdf){.btn-cv}
 :::
-
----
 
 ## Introduction
 
@@ -69,7 +67,7 @@ about:
 
 ## Career
 
-**공동창립자 · 이사 · CTO** — ar-ge 건축사사무소 (ar-ge inc.)
+**공동창립자 · CTO** — ar-ge 건축사사무소 (ar-ge inc.)
 *현재*
 
 - Agentic AI 기반의 건축·도시 설계 솔루션 개발

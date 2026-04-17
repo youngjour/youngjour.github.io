@@ -30,9 +30,9 @@ about:
 ---
 
 ::: {.persona-badges}
-<span>Architect</span>
-<span>Urban Data Scientist</span>
-<span>CTO</span>
+<span>Urban Researcher</span>
+<span>Life, Space, Buildings</span>
+<span>Accountable City</span>
 :::
 
 ::: {.cv-download}
