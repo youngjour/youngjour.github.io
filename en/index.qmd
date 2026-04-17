@@ -68,7 +68,7 @@ I explore evidence-based urban research and design practice by placing the tradi
 
 ## Career
 
-**Co-founder · Director · CTO** — ar-ge Architects (ar-ge inc.)
+**Co-founder · CTO** — ar-ge Architects (ar-ge inc.)
 *Present*
 
 - Development of Agentic AI-based architectural and urban design solutions
@@ -106,6 +106,7 @@ I explore evidence-based urban research and design practice by placing the tradi
 - Mine-detection-and-removal team leader for DMZ operations
 
 ---
+
 ## Research Works
 
 A complete list of papers and presentations, with details for each topic, is organized on the [Research page](research.qmd).
@@ -181,7 +182,16 @@ Dept. of Architecture, Seoul National University · KAIST School of Computing ·
 
 ## Awards · Honors
 
-- **KAIST–NYU Innovation Award** (2024)
-  - Recognition for outstanding research achievements in urban data analysis
-- **Excellent Paper Award**, Architectural Institute of Korea (2022)
-- **Best Graduation Project Award**, Dept. of Architecture, Seoul National University (2013)
+- **G-School Best Innovation Award** — KAIST–NYU Young Researcher Day (2023)
+- **First Prize, AI-based Population Prediction** — COMPAS Data Analysis Competition, Korea Land & Housing Corporation (LH) (2023)
+- **Outstanding Graduation Thesis Award** — Master's thesis, Architectural Institute of Korea (2018)
+- **Best Prize** — Design Works Exhibition, Graduate School of Environmental Studies, Seoul National University (2017)
+- **Selected as Future Architectural Education Talent** — Korean Institute of Architects (2016)
+- **Selected as Outstanding Junior Officer** — Republic of Korea Army (2014)
+
+*Extracurricular*
+
+- Champion, Men's Doubles — SNU Athletic Games, Tennis (2017)
+- Champion, Mixed Doubles — SNU Athletic Games, Tennis (2017)
+- Champion, Men's Singles — SNU Athletic Games, Tennis (2017)
+- Champion, Team ACRO — SNU Athletic Games, Football (2013)
