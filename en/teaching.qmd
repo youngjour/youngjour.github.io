@@ -7,8 +7,6 @@ toc-location: right
 toc-depth: 2
 ---
 
-# Teaching
-
 I served as a lecturer in the Department of Architecture at Seoul National University, teaching graduate-level courses. The courses focused mainly on **urban design methodology** and **urban data analysis**, and were run as lectures and seminars for graduate students in the Architecture major and the Interdisciplinary Program in Urban Design.
 
 ## Courses

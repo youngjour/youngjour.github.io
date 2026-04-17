@@ -7,8 +7,6 @@ toc-location: right
 toc-depth: 2
 ---
 
-# Design
-
 Architecture and urban design are both the starting point of my research and the field where its outcomes return to practice. My work has moved from master's studio projects through competitions and side projects, and now continues at [ar-ge inc.](https://ar-ge.xyz), where I design buildings and spaces for the public sector. As the work shifted from paper proposals to real construction, and from solo studies to team collaboration, the questions that design has to answer have shifted with it. Observations that accumulate in the design process, in turn, feed back into the questions of my research.
 
 ---
@@ -85,6 +83,8 @@ The project's title, **"Running Everyday"**, layers two kinds of running — the
 - **Location** · Jamsil Sports Complex area, Seoul
 - **Type** · Urban Design · Master's Studio · First urban-design project
 - **Affiliation** · Seoul National University, Interdisciplinary Program in Urban Design · 1st semester of M.S.
+- **Studio** · Urban Design Studio 2
+- **Advisor** · Sehun Kim (Studio Director)
 - **Role** · Sole researcher and designer
 :::
 

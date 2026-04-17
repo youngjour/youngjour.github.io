@@ -7,8 +7,6 @@ toc-location: right
 toc-depth: 2
 ---
 
-## Overview
-
 My research holds **behavior- and activity-based, evidence-based urban design** as a consistent goal, and I have progressively extended the methodologies that support it.
 During my Ph.D. I became immersed in data science and statistics; at KAIST I expanded into deep learning and the smart city domain; and I have now entered a stage of directly integrating AI agent systems into architectural and urban design.
 
