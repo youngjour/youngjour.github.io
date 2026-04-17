@@ -49,11 +49,67 @@
     "text": "건축가 도시 데이터 사이언티스트 CTO"
   },
   {
-    "objectID": "index.html#소개",
-    "href": "index.html#소개",
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
     "title": "박영준",
-    "section": "소개",
-    "text": "소개\n반갑습니다. 도시 연구자이자 건축가 박영준입니다.\n건축 및 도시설계 지식을 바탕으로, 데이터 사이언스 기법을 활용하여 합리적이고 근거 기반의 도시 연구 및 디자인을 탐구하고 있습니다.\n현재 아게 건축사사무소의 파트너 건축가로 활동하며, Agentic AI를 활용한 건축/도시 설계 솔루션 연구 개발에 참여하고 있습니다.\n더 자세한 소개 보기 | 연구 업적 보기 | 설계 프로젝트 보기\n\n현재 소속: 아게 건축사사무소 파트너 건축가 이메일: youngjourpark@gmail.com 위치: 대한민국 대전광역시"
+    "section": "Introduction",
+    "text": "Introduction\n반갑습니다. 도시 연구자이자 건축가 박영준입니다.\n건축 및 도시설계 지식을 바탕으로, 데이터 사이언스 기법을 활용하여 합리적이고 근거 기반의 도시 연구 및 디자인을 탐구하고 있습니다.\n현재 아게 건축사사무소의 파트너 건축가로 활동하며, Agentic AI를 활용한 건축/도시 설계 솔루션 연구 개발에 참여하고 있습니다."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "박영준",
+    "section": "Education",
+    "text": "Education\n\n박사과정\n\n건축학 박사, 서울대학교 (2022)\n\n연구주제: 스마트폰 GPS 데이터를 활용한 도시 보행 패턴 분석\n\n\n\n\n석사과정\n\n도시설계학 석사, 서울대학교 (2017)\n\n논문: 도시 공간 구조와 인간 행동의 상관관계 분석\n\n\n\n\n학사과정\n\n건축학 학사, 서울대학교 (2013)"
+  },
+  {
+    "objectID": "index.html#career",
+    "href": "index.html#career",
+    "title": "박영준",
+    "section": "Career",
+    "text": "Career\n\n현재\n\n파트너 건축가, 아게 건축사사무소 (2024-현재)\n\nAI 기반 건축/도시 설계 솔루션 연구개발 총괄\n스마트시티 프로젝트 기술 자문\n\n\n\n\n과거 경력\n\n박사후연구원, KAIST 도시인공지능연구소 (2025)\n박사후연구원, KAIST 전산학부 (2022-2025)\n강사, 서울대학교 건축학과 (2021-2023)\n장교 (중위), 대한민국 육군 공병 (2013-2015)"
+  },
+  {
+    "objectID": "index.html#research-works",
+    "href": "index.html#research-works",
+    "title": "박영준",
+    "section": "Research Works",
+    "text": "Research Works\n주요 연구 주제\n\n도시 컴퓨팅 시스템\n스마트폰·GPS 데이터 기반 보행 활동 분석\n스마트시티 AI 응용\n대규모 언어모델(LLM) 기반 도시 예측\n\n전체 논문·발표 목록은 Research 페이지를 참고해주세요."
+  },
+  {
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "박영준",
+    "section": "Projects",
+    "text": "Projects\n\n주요 연구 프로젝트\n\n도시 보행 패턴 예측 시스템 (2022-2024)\n\n스마트폰 GPS 데이터를 활용한 실시간 보행 흐름 예측\nKAIST-NYU 혁신상 수상\n\nAI 기반 부동산 가치 평가 모델 (2023-2024)\n\nAirbnb 데이터를 활용한 숙박 수요 예측 모델 개발\n정확도 85% 달성\n\n스마트시티 통합 플랫폼 (2021-2023)\n\nIoT 센서 데이터와 도시 계획 정보 통합 분석\n대전광역시 스마트시티 프로젝트 적용\n\n\n전체 프로젝트 목록은 Design 페이지를 참고해주세요."
+  },
+  {
+    "objectID": "index.html#awards-honors",
+    "href": "index.html#awards-honors",
+    "title": "박영준",
+    "section": "Awards · Honors",
+    "text": "Awards · Honors\n\nKAIST-NYU 혁신상 (2024)\n\n도시 데이터 분석 우수 연구 성과 인정\n\n우수 논문상, 한국건축학회 (2022)\n최우수 졸업작품상, 서울대학교 건축학과 (2013)"
+  },
+  {
+    "objectID": "index.html#technical-skills",
+    "href": "index.html#technical-skills",
+    "title": "박영준",
+    "section": "Technical Skills",
+    "text": "Technical Skills\n\n프로그래밍 & 데이터 사이언스\n\nPython: pandas, numpy, scikit-learn, PyTorch\nR: tidyverse, ggplot2, shiny\nSQL: PostgreSQL, MySQL\nGIS: QGIS, ArcGIS, PostGIS\nWeb: HTML/CSS, JavaScript, Quarto\n\n\n\n도시 설계 & 건축\n\nCAD: AutoCAD, Rhino, Grasshopper\nBIM: Revit, ArchiCAD\nVisualization: SketchUp, V-Ray, KeyShot\nAnalysis: Urban Network Analysis, Space Syntax\n\n\n\n연구 방법론\n\n공간 통계 분석, 네트워크 분석, 머신러닝, 딥러닝\n설문조사 설계, 인터뷰 방법론\n문헌 연구, 사례 분석"
+  },
+  {
+    "objectID": "index.html#professional-service",
+    "href": "index.html#professional-service",
+    "title": "박영준",
+    "section": "Professional Service",
+    "text": "Professional Service\n\n심사위원, 대한국토·도시계획학회 (2023-현재)\n편집위원, 한국건축학회지 (2022-2024)\n자문위원, 대전광역시 스마트시티 위원회 (2021-현재)\n멘토, KAIST 창업지원센터 (2023-현재)"
+  },
+  {
+    "objectID": "index.html#patents-intellectual-property",
+    "href": "index.html#patents-intellectual-property",
+    "title": "박영준",
+    "section": "Patents · Intellectual Property",
+    "text": "Patents · Intellectual Property\n\n스마트폰 GPS 기반 도시 보행 패턴 분석 시스템 (출원: 2023-10-15)\nAI 기반 부동산 가치 평가 방법 및 시스템 (등록: 2024-03-22)\n도시 공간 최적화를 위한 데이터 분석 플랫폼 (출원: 2024-08-10)"
   },
   {
     "objectID": "about.html",

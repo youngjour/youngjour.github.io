@@ -11,84 +11,63 @@
     "href": "index.html#introduction",
     "title": "Youngjun Park",
     "section": "Introduction",
-    "text": "Introduction\nHello! I’m Youngjun Park, an urban researcher and architect.\nBased on my knowledge in architecture and urban design, I explore rational and evidence-based urban research and design using data science techniques.\nCurrently, I work as a partner architect at AR-GE Architects, participating in research and development of architectural/urban design solutions using Agentic AI.\nLearn more about me | View my research | Explore design projects\n\nCurrent Position: Partner Architect at AR-GE Architects Email: youngjourpark@gmail.com Location: Daejeon, South Korea"
+    "text": "Introduction\nHello! I’m Youngjun Park, an urban researcher and architect.\nBased on my knowledge in architecture and urban design, I explore rational and evidence-based urban research and design using data science techniques.\nCurrently, I work as a partner architect at AR-GE Architects, participating in research and development of architectural/urban design solutions using Agentic AI."
   },
   {
-    "objectID": "design.html",
-    "href": "design.html",
-    "title": "Design",
-    "section": "",
-    "text": "Research-based design approach and philosophy to be written."
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Youngjun Park",
+    "section": "Education",
+    "text": "Education\n\nDoctoral Degree\n\nPh.D. in Architecture, Seoul National University (2022)\n\nDissertation: Urban Pedestrian Pattern Analysis Using Smartphone GPS Data\n\n\n\n\nMaster’s Degree\n\nM.S. in Urban Design, Seoul National University (2017)\n\nThesis: Analysis of Correlation between Urban Spatial Structure and Human Behavior\n\n\n\n\nBachelor’s Degree\n\nB.S. in Architecture, Seoul National University (2013)"
   },
   {
-    "objectID": "design.html#design-philosophy",
-    "href": "design.html#design-philosophy",
-    "title": "Design",
-    "section": "",
-    "text": "Research-based design approach and philosophy to be written."
+    "objectID": "index.html#career",
+    "href": "index.html#career",
+    "title": "Youngjun Park",
+    "section": "Career",
+    "text": "Career\n\nCurrent Position\n\nPartner Architect, AR-GE Architects (2024-Present)\n\nLead AI-based architectural/urban design solution research and development\nTechnical advisory for smart city projects\n\n\n\n\nPrevious Experience\n\nPostdoctoral Researcher, KAIST Urban AI Institute (2025)\nPostdoctoral Researcher, KAIST School of Computing (2022-2025)\nLecturer, Department of Architecture, Seoul National University (2021-2023)\nOfficer (First Lieutenant), Republic of Korea Army Corps of Engineers (2013-2015)"
   },
   {
-    "objectID": "design.html#ar-ge-architects-introduction",
-    "href": "design.html#ar-ge-architects-introduction",
-    "title": "Design",
-    "section": "AR-GE Architects Introduction",
-    "text": "AR-GE Architects Introduction\nIntroduction to activities and projects at AR-GE Architects to be written."
+    "objectID": "index.html#research-works",
+    "href": "index.html#research-works",
+    "title": "Youngjun Park",
+    "section": "Research Works",
+    "text": "Research Works\nMain Research Areas\n\nUrban Computing Systems\nSmartphone/GPS Data-based Pedestrian Activity Analysis\nSmart City AI Applications\nLarge Language Model (LLM)-based Urban Prediction\n\nPlease refer to the Research page for a complete list of publications and presentations."
   },
   {
-    "objectID": "design.html#research-based-design",
-    "href": "design.html#research-based-design",
-    "title": "Design",
-    "section": "Research-Based Design",
-    "text": "Research-Based Design\n\nAgentic AI-Based Design\nAI-powered architectural/urban design projects to be introduced.\n\n\nData-Driven Design\nDesign decision-making process through data analysis to be introduced.\n\n\nPublic Projects\nPublic sector architectural/urban design projects to be introduced."
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "Youngjun Park",
+    "section": "Projects",
+    "text": "Projects\n\nMajor Research Projects\n\nUrban Pedestrian Pattern Prediction System (2022-2024)\n\nReal-time pedestrian flow prediction using smartphone GPS data\nWinner of KAIST-NYU Innovation Award\n\nAI-based Real Estate Valuation Model (2023-2024)\n\nDevelopment of accommodation demand prediction model using Airbnb data\nAchieved 85% accuracy\n\nSmart City Integrated Platform (2021-2023)\n\nIntegrated analysis of IoT sensor data and urban planning information\nApplied to Daejeon Metropolitan City Smart City Project\n\n\nPlease refer to the Design page for a complete list of projects."
   },
   {
-    "objectID": "design.html#intersection-of-research-and-design",
-    "href": "design.html#intersection-of-research-and-design",
-    "title": "Design",
-    "section": "Intersection of Research and Design",
-    "text": "Intersection of Research and Design\n\nInterdisciplinary Collaboration\nConnection points between research and design practice to be explained.\n\n\nExperimental Projects\nCases of applying research results to actual design to be introduced.\n\n\nFuture Directions\nFuture directions of research-based design to be presented."
+    "objectID": "index.html#awards-honors",
+    "href": "index.html#awards-honors",
+    "title": "Youngjun Park",
+    "section": "Awards · Honors",
+    "text": "Awards · Honors\n\nKAIST-NYU Innovation Award (2024)\n\nRecognition for outstanding research achievements in urban data analysis\n\nExcellent Paper Award, Architectural Institute of Korea (2022)\nBest Graduation Project Award, Seoul National University Department of Architecture (2013)"
   },
   {
-    "objectID": "design.html#project-portfolio",
-    "href": "design.html#project-portfolio",
-    "title": "Design",
-    "section": "Project Portfolio",
-    "text": "Project Portfolio\nPortfolio of major design projects to be added."
+    "objectID": "index.html#technical-skills",
+    "href": "index.html#technical-skills",
+    "title": "Youngjun Park",
+    "section": "Technical Skills",
+    "text": "Technical Skills\n\nProgramming & Data Science\n\nPython: pandas, numpy, scikit-learn, PyTorch\nR: tidyverse, ggplot2, shiny\nSQL: PostgreSQL, MySQL\nGIS: QGIS, ArcGIS, PostGIS\nWeb: HTML/CSS, JavaScript, Quarto\n\n\n\nUrban Design & Architecture\n\nCAD: AutoCAD, Rhino, Grasshopper\nBIM: Revit, ArchiCAD\nVisualization: SketchUp, V-Ray, KeyShot\nAnalysis: Urban Network Analysis, Space Syntax\n\n\n\nResearch Methodology\n\nSpatial statistical analysis, network analysis, machine learning, deep learning\nSurvey design, interview methodology\nLiterature review, case study analysis"
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "Overview and direction of research combining data science with urban planning to be written."
+    "objectID": "index.html#professional-service",
+    "href": "index.html#professional-service",
+    "title": "Youngjun Park",
+    "section": "Professional Service",
+    "text": "Professional Service\n\nReviewer, Korea Planning Association (2023-Present)\nEditorial Board Member, Journal of the Architectural Institute of Korea (2022-2024)\nAdvisory Committee Member, Daejeon Metropolitan City Smart City Committee (2021-Present)\nMentor, KAIST Startup Support Center (2023-Present)"
   },
   {
-    "objectID": "research.html#research-overview",
-    "href": "research.html#research-overview",
-    "title": "Research",
-    "section": "",
-    "text": "Overview and direction of research combining data science with urban planning to be written."
-  },
-  {
-    "objectID": "research.html#publications",
-    "href": "research.html#publications",
-    "title": "Research",
-    "section": "Publications",
-    "text": "Publications\n\n2025\nOngoing papers and research to be presented will be written.\n\n\n2024\nList of 2024 publications to be written.\n\n\n2023\nList of 2023 publications to be written.\n\n\n2022 and Earlier\nMajor papers from previous years to be written."
-  },
-  {
-    "objectID": "research.html#research-projects",
-    "href": "research.html#research-projects",
-    "title": "Research",
-    "section": "Research Projects",
-    "text": "Research Projects\n\nOngoing Projects\nCurrent ongoing research projects to be written.\n\n\nCompleted Projects\nMajor completed research projects to be written."
-  },
-  {
-    "objectID": "research.html#research-interests",
-    "href": "research.html#research-interests",
-    "title": "Research",
-    "section": "Research Interests",
-    "text": "Research Interests\n\nUrban data analysis\nSmart city technology\nPedestrian behavior analysis\nAI-based urban planning\nAdditional research areas to be added."
+    "objectID": "index.html#patents-intellectual-property",
+    "href": "index.html#patents-intellectual-property",
+    "title": "Youngjun Park",
+    "section": "Patents · Intellectual Property",
+    "text": "Patents · Intellectual Property\n\nSmartphone GPS-based Urban Pedestrian Pattern Analysis System (Filed: 2023-10-15)\nAI-based Real Estate Valuation Method and System (Granted: 2024-03-22)\nData Analysis Platform for Urban Space Optimization (Filed: 2024-08-10)"
   },
   {
     "objectID": "teaching.html",
@@ -133,59 +112,80 @@
     "text": "Educational Materials\nEducational materials and curricula developed to be introduced."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
     "section": "",
-    "text": "Detailed introduction as an urban researcher and architect will be written here."
+    "text": "Overview and direction of research combining data science with urban planning to be written."
   },
   {
-    "objectID": "about.html#introduction",
-    "href": "about.html#introduction",
-    "title": "About",
+    "objectID": "research.html#research-overview",
+    "href": "research.html#research-overview",
+    "title": "Research",
     "section": "",
-    "text": "Detailed introduction as an urban researcher and architect will be written here."
+    "text": "Overview and direction of research combining data science with urban planning to be written."
   },
   {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "About",
-    "section": "Education",
-    "text": "Education\n\nDoctoral Degree\n\nPh.D. in Architecture, Seoul National University (2022)\n\nDissertation: [Title and research content to be written]\n\n\n\n\nMaster’s Degree\n\nM.S. in Urban Design, Seoul National University (2017)\n\nThesis: [Title to be written]\n\n\n\n\nBachelor’s Degree\n\nB.S. in Architecture, Seoul National University (2013)"
+    "objectID": "research.html#publications",
+    "href": "research.html#publications",
+    "title": "Research",
+    "section": "Publications",
+    "text": "Publications\n\n2025\nOngoing papers and research to be presented will be written.\n\n\n2024\nList of 2024 publications to be written.\n\n\n2023\nList of 2023 publications to be written.\n\n\n2022 and Earlier\nMajor papers from previous years to be written."
   },
   {
-    "objectID": "about.html#experience",
-    "href": "about.html#experience",
-    "title": "About",
-    "section": "Experience",
-    "text": "Experience\n\nCurrent Position\n\nPartner Architect, AR-GE Architects (2024-Present)\n\nMain responsibilities to be written\n\n\n\n\nPrevious Experience\n\nPostdoctoral Researcher, KAIST Urban AI Institute (2025)\nPostdoctoral Researcher, KAIST School of Computing (2022-2025)\nLecturer, Department of Architecture, Seoul National University (2021-2023)\nOfficer (First Lieutenant), Republic of Korea Army Corps of Engineers (2013-2015)"
+    "objectID": "research.html#research-projects",
+    "href": "research.html#research-projects",
+    "title": "Research",
+    "section": "Research Projects",
+    "text": "Research Projects\n\nOngoing Projects\nCurrent ongoing research projects to be written.\n\n\nCompleted Projects\nMajor completed research projects to be written."
   },
   {
-    "objectID": "about.html#technical-skills",
-    "href": "about.html#technical-skills",
-    "title": "About",
-    "section": "Technical Skills",
-    "text": "Technical Skills\n\nProgramming & Data Science\nTechnical skills list to be written.\n\n\nUrban Design & Architecture\nDesign tools and software list to be written.\n\n\nResearch Methodology\nResearch methods and analytical techniques to be written."
+    "objectID": "research.html#research-interests",
+    "href": "research.html#research-interests",
+    "title": "Research",
+    "section": "Research Interests",
+    "text": "Research Interests\n\nUrban data analysis\nSmart city technology\nPedestrian behavior analysis\nAI-based urban planning\nAdditional research areas to be added."
   },
   {
-    "objectID": "about.html#awards-and-honors",
-    "href": "about.html#awards-and-honors",
-    "title": "About",
-    "section": "Awards and Honors",
-    "text": "Awards and Honors\nAward records to be written."
+    "objectID": "design.html",
+    "href": "design.html",
+    "title": "Design",
+    "section": "",
+    "text": "Research-based design approach and philosophy to be written."
   },
   {
-    "objectID": "about.html#professional-service",
-    "href": "about.html#professional-service",
-    "title": "About",
-    "section": "Professional Service",
-    "text": "Professional Service\nProfessional activities and social contributions to be written."
+    "objectID": "design.html#design-philosophy",
+    "href": "design.html#design-philosophy",
+    "title": "Design",
+    "section": "",
+    "text": "Research-based design approach and philosophy to be written."
   },
   {
-    "objectID": "about.html#patents-intellectual-property",
-    "href": "about.html#patents-intellectual-property",
-    "title": "About",
-    "section": "Patents & Intellectual Property",
-    "text": "Patents & Intellectual Property\nPatents and intellectual property list to be written."
+    "objectID": "design.html#ar-ge-architects-introduction",
+    "href": "design.html#ar-ge-architects-introduction",
+    "title": "Design",
+    "section": "AR-GE Architects Introduction",
+    "text": "AR-GE Architects Introduction\nIntroduction to activities and projects at AR-GE Architects to be written."
+  },
+  {
+    "objectID": "design.html#research-based-design",
+    "href": "design.html#research-based-design",
+    "title": "Design",
+    "section": "Research-Based Design",
+    "text": "Research-Based Design\n\nAgentic AI-Based Design\nAI-powered architectural/urban design projects to be introduced.\n\n\nData-Driven Design\nDesign decision-making process through data analysis to be introduced.\n\n\nPublic Projects\nPublic sector architectural/urban design projects to be introduced."
+  },
+  {
+    "objectID": "design.html#intersection-of-research-and-design",
+    "href": "design.html#intersection-of-research-and-design",
+    "title": "Design",
+    "section": "Intersection of Research and Design",
+    "text": "Intersection of Research and Design\n\nInterdisciplinary Collaboration\nConnection points between research and design practice to be explained.\n\n\nExperimental Projects\nCases of applying research results to actual design to be introduced.\n\n\nFuture Directions\nFuture directions of research-based design to be presented."
+  },
+  {
+    "objectID": "design.html#project-portfolio",
+    "href": "design.html#project-portfolio",
+    "title": "Design",
+    "section": "Project Portfolio",
+    "text": "Project Portfolio\nPortfolio of major design projects to be added."
   }
 ]
