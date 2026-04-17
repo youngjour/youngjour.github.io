@@ -80,7 +80,7 @@ main.content, .page-columns main.content {
     flex-direction: unset;
     gap: 2rem;
     max-width: 100%;
-    padding: 0 1.5rem;
+    padding: 0;
     align-items: start;
   }
 
@@ -91,6 +91,20 @@ main.content, .page-columns main.content {
   .quarto-about-trestles > .about-contents {
     width: 100%;
     min-width: 0;
+  }
+
+  // About 페이지(trestles)만 상위 컨테이너 폭 제약 해제
+  // :has() 로 "trestles 를 포함하는 body" 를 타겟
+  body:has(.quarto-about-trestles) {
+    .quarto-container,
+    #quarto-document-content,
+    main#quarto-document-content,
+    .page-columns {
+      max-width: none !important;
+      width: 100%;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
   }
 }
 
