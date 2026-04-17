@@ -53,35 +53,42 @@
     "href": "index.html#introduction",
     "title": "박영준",
     "section": "Introduction",
-    "text": "Introduction\n반갑습니다. 도시 연구자이자 건축가 박영준입니다.\n건축 및 도시설계 지식을 바탕으로, 데이터 사이언스 기법을 활용하여 합리적이고 근거 기반의 도시 연구 및 디자인을 탐구하고 있습니다.\n현재 아게 건축사사무소의 파트너 건축가로 활동하며, Agentic AI를 활용한 건축/도시 설계 솔루션 연구 개발에 참여하고 있습니다."
+    "text": "Introduction\n반갑습니다. 도시 연구자이자 건축가 박영준입니다.\n이 거리가 실제로 사람을 걷게 만드는가, 이 공원은 계획의도대로 잘 이용되는가, 이 동네에 대한 인식은 사람마다 어떻게 다른가.\n이런 질문들을 쫓아 스마트폰 GPS 데이터, 도시 컴퓨팅 시스템, ML/DL과 인공지능까지 공부를 확장해왔습니다. 서울대학교에서 도시설계학 석사와 건축학 박사를 마치고 KAIST 전산학부와 도시인공지능연구소에서 연구를 수행하였으며, 현재는 ar-ge inc. 의 공동창립자이자 CTO로 Agentic AI 기반의 건축·도시 설계 에이전트 시스템을 개발하고 있습니다.\n건축의 전통적 언어와 데이터 사이언스의 분석 도구를 같은 책상 위에 놓고, 근거 기반의 도시 연구와 설계 실무를 탐구하는 중입니다."
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "박영준",
     "section": "Education",
-    "text": "Education\n\n박사과정\n\n건축학 박사, 서울대학교 (2022)\n\n연구주제: 스마트폰 GPS 데이터를 활용한 도시 보행 패턴 분석\n\n\n\n\n석사과정\n\n도시설계학 석사, 서울대학교 (2017)\n\n논문: 도시 공간 구조와 인간 행동의 상관관계 분석\n\n\n\n\n학사과정\n\n건축학 학사, 서울대학교 (2013)"
+    "text": "Education\n\n건축학 박사 · 서울대학교 · 2022\n\n연구 주제: 스마트폰 데이터 기반 보행 활동 분석과 신체활동 증진을 위한 도시계획시설 계획\n\n도시설계학 석사 · 서울대학교 · 2017\n\n논문: 주부들의 자가용 이용 행태와 근린 내 이동 특성에 관한 연구\n\n건축학 학사 · 서울대학교 · 2013"
   },
   {
     "objectID": "index.html#career",
     "href": "index.html#career",
     "title": "박영준",
     "section": "Career",
-    "text": "Career\n\n현재\n\n파트너 건축가, 아게 건축사사무소 (2024-현재)\n\nAI 기반 건축/도시 설계 솔루션 연구개발 총괄\n스마트시티 프로젝트 기술 자문\n\n\n\n\n과거 경력\n\n박사후연구원, KAIST 도시인공지능연구소 (2025)\n박사후연구원, KAIST 전산학부 (2022-2025)\n강사, 서울대학교 건축학과 (2021-2023)\n장교 (중위), 대한민국 육군 공병 (2013-2015)"
-  },
-  {
-    "objectID": "index.html#research-works",
-    "href": "index.html#research-works",
-    "title": "박영준",
-    "section": "Research Works",
-    "text": "Research Works\n주요 연구 주제\n\n도시 컴퓨팅 시스템\n스마트폰·GPS 데이터 기반 보행 활동 분석\n스마트시티 AI 응용\n대규모 언어모델(LLM) 기반 도시 예측\n\n전체 논문·발표 목록은 Research 페이지를 참고해주세요."
+    "text": "Career\n공동창립자 · 이사 · CTO — ar-ge 건축사사무소 (ar-ge inc.) 현재\n\nAgentic AI 기반의 건축·도시 설계 솔루션 개발\n연구·기술 조직 운영\n공공부문 건축·도시 설계 실무\n\n외부 자문 — KAIST 도시인공지능연구소 현재\n박사후 연구원 — KAIST 도시인공지능연구소 2025\n\n도시인공지능연구소 운영 보조\n학제간 및 국제 협력 연구 프로젝트 관리\nMulti-agent system 과 Urban Foundation Model 연구\nAI Seoul 2025 참가 및 MIT-KAIST 연구 성과 전시\n\n박사후 연구원 — KAIST 전산학부 2022 – 2025\n\nIoT 에지 컴퓨팅 기반 스마트시티 기술 연구\nSpatiotemporal analysis, graph network, LLM embedding 등 도시 데이터 처리 방법론 연구\n연구실 내 도시연구그룹 ‘DeepUrban’ 운영\n\n강사 — 서울대학교 건축학과 2021 – 2024\n\n도시설계연구: 보행-도시 데이터 분석 (건축학 전공 대학원 과정)\n도시설계론: 옛날 도시설계, 요즘 도시설계 (협동과정 도시설계학 전공 대학원 과정)\n\n장교 (중위) — 대한민국 육군 공병 2013 – 2015\n\n실작전 수행 및 조직 관리\nDMZ 작전 지뢰탐지제거조장\n\n\n\n\n## Research Works\n\n\n전체 논문·발표 목록과 각 주제의 상세는 Research 페이지 에 정리되어 있습니다.\n\n\n박사과정 · 공간 통계와 모바일 위치 데이터 — 서울대학교 건축학과\n\n\n- Park et al. (2022) Int. J. Environmental Research and Public Health — 비활동/활동 인구의 공원 보행 차이 - Park et al. (2021) HERD Journal — COVID-19 국면의 보행 활동 변화\n\n\n박사후 · ML/DL 과 도시 컴퓨팅 — KAIST 전산학부\n\n\n- Han, Park et al. (2023) CIKM — 도시 활동 기반 시공간 교통 예측 - Lee, Park et al. (2025) ASONAM — LLM 임베딩 기반 Airbnb 트렌드 예측 - Park, Han et al. (2023) ACSP — 개인 통행 데이터의 언어 모델링 적용\n\n\n박사후 · 에이전트와 파운데이션 모델 — KAIST 도시인공지능연구소\n\n\n- Park et al. (2025, in-review) npj Urban Sustainability — Food Desert 의 site-specific factor 분석\n\n\n현재 · Agentic AI 기반 설계 시스템 — ar-ge inc."
   },
   {
     "objectID": "index.html#projects",
     "href": "index.html#projects",
     "title": "박영준",
     "section": "Projects",
-    "text": "Projects\n\n주요 연구 프로젝트\n\n도시 보행 패턴 예측 시스템 (2022-2024)\n\n스마트폰 GPS 데이터를 활용한 실시간 보행 흐름 예측\nKAIST-NYU 혁신상 수상\n\nAI 기반 부동산 가치 평가 모델 (2023-2024)\n\nAirbnb 데이터를 활용한 숙박 수요 예측 모델 개발\n정확도 85% 달성\n\n스마트시티 통합 플랫폼 (2021-2023)\n\nIoT 센서 데이터와 도시 계획 정보 통합 분석\n대전광역시 스마트시티 프로젝트 적용\n\n\n전체 프로젝트 목록은 Design 페이지를 참고해주세요."
+    "text": "Projects\n주요 연구 프로젝트 5건입니다. 전체 목록은 Research 페이지 참고.\nGS–KAIST 스마트시티 연구센터 (2024–2025) 박사후 연구원 · KAIST GS건설 · AI 기반 도시 시스템 개발 및 스마트시티 기술 연구 · 산학 대형 연구센터 운영 및 연구 참여.\n대규모 언어모델 기반 멀티모달 시공간 도시 예측 모델 연구 (2024–2025) 박사후 연구원 · KAIST 한국연구재단 · Project No. RS-2024-00356597 · LLM 및 시공간 데이터 기법을 활용한 도시 예측 모델 개발.\n자가 학습 기반 Autonomic IoT 에지 컴퓨팅 기술 연구 (2022–2025) 박사후 연구원 · KAIST 과기정통부 SW 스타랩 장기 과제 · Project No. RS-2019-II191126 · IoT 스마트 도시 환경 내 에지 컴퓨팅 기술 적용.\n개별 GPS 경로 분석을 통한 근린 내 걷기실천 비교 연구 (2019–2021) 연구장학금 수혜자 · 서울대학교 한국연구재단 학문후속세대 · 스마트폰 GPS 경로 데이터 기반의 보행 활동 및 도시계획시설 분석 연구.\nWalkON 스마트폰 앱 개발을 위한 보행 데이터 분석 (2019–2020) 외부연구원 · 연구팀장 · 스왈라비(주) 보행 데이터 분석과 건강증진 서비스 기획. 박사 연구의 실무 응용."
+  },
+  {
+    "objectID": "index.html#professional-service",
+    "href": "index.html#professional-service",
+    "title": "박영준",
+    "section": "Professional Service",
+    "text": "Professional Service\n저널 리뷰어 Scientific Reports · BMC Public Health · Archives of Public Health · Frontiers in Public Health\n연구 자문 KAIST 도시인공지능연구소 · 건축공간연구원(AURI)\n산학 협력 GS건설 · 기아자동차-이노션 · 스왈라비\n특강 · 세미나 서울대학교 건축학과 · KAIST 전산학부 · 한국기술교육대학교 건축공학과 · 중앙대학교 건축학과"
+  },
+  {
+    "objectID": "index.html#patents-intellectual-property",
+    "href": "index.html#patents-intellectual-property",
+    "title": "박영준",
+    "section": "Patents · Intellectual Property",
+    "text": "Patents · Intellectual Property\n\n한국 특허 (출원) 10-2024-0108083 — 신경망 모델을 이용한 주택 가치 추정 방법 및 장치\n한국 특허 (등록) 10-23679770000 — 상업용 부동산 정보 제공 방법 및 서버\n한국 저작권 (등록) C-2023-062275 — 지리 데이터 시각화 프로그램"
   },
   {
     "objectID": "index.html#awards-honors",
@@ -91,157 +98,87 @@
     "text": "Awards · Honors\n\nKAIST-NYU 혁신상 (2024)\n\n도시 데이터 분석 우수 연구 성과 인정\n\n우수 논문상, 한국건축학회 (2022)\n최우수 졸업작품상, 서울대학교 건축학과 (2013)"
   },
   {
-    "objectID": "index.html#technical-skills",
-    "href": "index.html#technical-skills",
-    "title": "박영준",
-    "section": "Technical Skills",
-    "text": "Technical Skills\n\n프로그래밍 & 데이터 사이언스\n\nPython: pandas, numpy, scikit-learn, PyTorch\nR: tidyverse, ggplot2, shiny\nSQL: PostgreSQL, MySQL\nGIS: QGIS, ArcGIS, PostGIS\nWeb: HTML/CSS, JavaScript, Quarto\n\n\n\n도시 설계 & 건축\n\nCAD: AutoCAD, Rhino, Grasshopper\nBIM: Revit, ArchiCAD\nVisualization: SketchUp, V-Ray, KeyShot\nAnalysis: Urban Network Analysis, Space Syntax\n\n\n\n연구 방법론\n\n공간 통계 분석, 네트워크 분석, 머신러닝, 딥러닝\n설문조사 설계, 인터뷰 방법론\n문헌 연구, 사례 분석"
-  },
-  {
-    "objectID": "index.html#professional-service",
-    "href": "index.html#professional-service",
-    "title": "박영준",
-    "section": "Professional Service",
-    "text": "Professional Service\n\n심사위원, 대한국토·도시계획학회 (2023-현재)\n편집위원, 한국건축학회지 (2022-2024)\n자문위원, 대전광역시 스마트시티 위원회 (2021-현재)\n멘토, KAIST 창업지원센터 (2023-현재)"
-  },
-  {
-    "objectID": "index.html#patents-intellectual-property",
-    "href": "index.html#patents-intellectual-property",
-    "title": "박영준",
-    "section": "Patents · Intellectual Property",
-    "text": "Patents · Intellectual Property\n\n스마트폰 GPS 기반 도시 보행 패턴 분석 시스템 (출원: 2023-10-15)\nAI 기반 부동산 가치 평가 방법 및 시스템 (등록: 2024-03-22)\n도시 공간 최적화를 위한 데이터 분석 플랫폼 (출원: 2024-08-10)"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "도시 연구자이자 건축가로서의 상세한 소개가 이곳에 작성됩니다."
-  },
-  {
-    "objectID": "about.html#소개",
-    "href": "about.html#소개",
-    "title": "About",
-    "section": "",
-    "text": "도시 연구자이자 건축가로서의 상세한 소개가 이곳에 작성됩니다."
-  },
-  {
-    "objectID": "about.html#학력",
-    "href": "about.html#학력",
-    "title": "About",
-    "section": "학력",
-    "text": "학력\n\n박사과정\n\n건축학 박사, 서울대학교 (2022)\n\n연구주제: [논문 제목과 연구 내용을 작성할 예정]\n\n\n\n\n석사과정\n\n도시설계학 석사, 서울대학교 (2017)\n\n논문: [논문 제목을 작성할 예정]\n\n\n\n\n학사과정\n\n건축학 학사, 서울대학교 (2013)"
-  },
-  {
-    "objectID": "about.html#경력",
-    "href": "about.html#경력",
-    "title": "About",
-    "section": "경력",
-    "text": "경력\n\n현재\n\n파트너 건축가, 아게 건축사사무소 (2024-현재)\n\n주요 업무 내용을 작성할 예정\n\n\n\n\n과거 경력\n\n박사후연구원, KAIST 도시인공지능연구소 (2025)\n박사후연구원, KAIST 전산학부 (2022-2025)\n강사, 서울대학교 건축학과 (2021-2023)\n장교 (중위), 대한민국 육군 공병 (2013-2015)"
-  },
-  {
-    "objectID": "about.html#기술-역량",
-    "href": "about.html#기술-역량",
-    "title": "About",
-    "section": "기술 역량",
-    "text": "기술 역량\n\n프로그래밍 & 데이터 사이언스\n기술 스킬 목록을 작성할 예정입니다.\n\n\n도시 설계 & 건축\n설계 도구 및 소프트웨어 목록을 작성할 예정입니다.\n\n\n연구 방법론\n연구 방법론과 분석 기법을 작성할 예정입니다."
-  },
-  {
-    "objectID": "about.html#수상-및-표창",
-    "href": "about.html#수상-및-표창",
-    "title": "About",
-    "section": "수상 및 표창",
-    "text": "수상 및 표창\n수상 내역을 작성할 예정입니다."
-  },
-  {
-    "objectID": "about.html#전문-활동",
-    "href": "about.html#전문-활동",
-    "title": "About",
-    "section": "전문 활동",
-    "text": "전문 활동\n전문 활동 및 사회 기여를 작성할 예정입니다."
-  },
-  {
-    "objectID": "about.html#특허-및-지식재산권",
-    "href": "about.html#특허-및-지식재산권",
-    "title": "About",
-    "section": "특허 및 지식재산권",
-    "text": "특허 및 지식재산권\n특허 및 지식재산권 목록을 작성할 예정입니다."
-  },
-  {
     "objectID": "design.html",
     "href": "design.html",
     "title": "Design",
     "section": "",
-    "text": "연구 기반 설계 접근법과 철학을 작성할 예정입니다."
+    "text": "건축과 도시설계는 제 연구의 출발점이자, 연구의 성과를 다시 적용하는 실천의 장이기도 합니다. 석사 시절의 스튜디오 작업에서 출발하여 공모전, 사이드 프로젝트를 거쳐, 현재는 ar-ge inc. 에서 공공을 위한 건축과 공간을 설계하고 있습니다. 종이 위의 제안에서 실제 지어지는 건축으로, 개인 작업에서 팀 협업으로 이어지는 과정에서 설계가 마주하는 질문도 함께 변해왔습니다. 설계 과정에서 축적된 관찰은 다시 제 연구의 질문으로 되돌아갑니다.\n\n\n\nStart-up Campus City: Economic Decline of Sinchon and Generative Potentials of Young People\n\n\n연도 · 2016\n장소 · 신촌, 서울\n유형 · 도시설계 · 석사 스튜디오\n소속 · 서울대학교 공과대학 협동과정 도시설계학전공 · 석사 3학기\n스튜디오 · 환경대학원 Environmental Design Studio\n지도 · 서예례 (Studio Director)\n역할 · 단독 연구·설계 (Investigator)\n수상 · 서울대학교 환경대학원 도시설계 작품전 최우수상\n\n\n신촌은 한국 대학 문화의 상징적 장소였습니다. 1880년대 광혜원 의학교에서 시작된 고등교육 기관들이 집적되며 20세기 후반 청년 문화의 중심지로 성장했지만, 2000년대 이후 연세대 송도 캠퍼스 개설과 홍대 상권의 부상 속에서 지역 경제는 장기간 침체를 겪었습니다. 이 프로젝트는 “신촌의 침체는 정말 경쟁 상권 문제인가, 아니면 청년들이 필요한 공간이 달라진 것인가” 라는 질문에서 출발했습니다.\n리서치 단계에서는 신촌의 역사적 타임라인, 주요 대학들의 재학생 추이, 신문 기사 분석, 그리고 현장 답사를 통해 지역의 경제적 쇠락과 청년층 변화를 추적했습니다. 흥미롭게도 당시 청년들은 학업 종료 후 사회 진출 단계에서 창업 경험과 실무 교육의 부재 를 가장 큰 어려움으로 꼽고 있었고, 이는 기존 대학 공간 안에서는 해소되기 어려운 요구였습니다.\n이 관찰을 바탕으로, 서울시·신촌 상인회·주요 대학·패션/IT 대기업이 함께 운영하는 ‘신촌 거리대학’ (Shinchon Street College) 을 제안했습니다. 청년들이 학교 밖에서 직접 제품을 만들고 판매하며 창업 노하우와 기술 교육을 받을 수 있는 분산형 캠퍼스 모델입니다. 신촌 지역을 4개의 설계 영역으로 나누어 각각 다른 주체와 프로그램을 배치했습니다.\n\nMADE in sinchon · 지역 상인과의 협업으로 제작·판매 공간\ngonna be BIG · 패션/IT 대기업과 교육 학원이 지원하는 멘토링 클러스터\nOCCUPY the street · 대학이 유휴 공간을 확보한 창업 가로\nSTAY our basecamp · 인근 모텔과 주거 시설을 활용한 청년 체류 공간\n\n본 프로젝트는 대상지의 문제와 가능성을 분석하는 디자인 과정의 완성도 를 평가받아 서울대학교 환경대학원 도시설계 작품전 최우수상을 수상했습니다. 설계 이후 신촌은 서울시의 도시재생 활성화 지역으로 지정되어 관련 공공사업이 진행되었으며, 이 스튜디오 작업은 이후 제 박사 연구에서 물리적 공간과 청년 행태의 상호작용 을 정량적으로 분석하는 연구 주제로 이어졌습니다.\n\n\n\n\nRe-interpreting the 1988 Seoul Olympic Marathon Course\n\n\n연도 · 2016\n장소 · 서울 · 1988 올림픽 마라톤 코스 (여의도–강남–잠실)\n유형 · 도시설계 · 국제 학생 공모전\n공모전 · The 15th Korea–Japan–China International Students Conference for Landscape Architecture Design\n역할 · 단독 출품 (Investigator)\n\n\n1988년, 187명의 마라토너들이 새로 개통된 서울의 도로를 달렸습니다. 여의도 · 강남 · 잠실을 잇는 이 코스는 당시 서울이라는 도시 자체를 세계에 선보이는 상징적 경로 였습니다. 2016년의 같은 도로는 다른 의미의 “달리기” 로 채워져 있습니다 — 매일 아침 수많은 사람들이 출퇴근으로 지쳐가는 고밀도 도심의 주요 간선이 되어 있는 것입니다. 이 프로젝트는 같은 공간이 스포츠 이벤트의 무대에서 일상의 압박 장치로 변한 시간의 전복을 출발점으로 삼았습니다.\n한·중·일 세 나라는 모두 올림픽 개최국(도쿄 1964, 서울 1988, 베이징 2008)이었고, 각 도시의 마라톤 코스는 자국의 대표적 경관을 세계에 보여주는 상징적 장치로 기능했습니다. 이 공모전은 2016년 시점에서 세 도시가 자신들의 마라톤 코스를 어떻게 다시 읽을 것인가를 묻는 자리였습니다.\n서울 코스에 대한 제 해석은 자동차 중심으로 포화된 이 회랑에 다양한 이동 수단의 결절점을 삽입하는 것 이었습니다. 자전거, 지하철, 버스, 수상 택시, 페리 — 이미 서울에 존재하지만 서로 이어지지 않는 교통 수단들이 마라톤 코스의 주요 거점에서 만나도록 설계했습니다. “매일 달리느라 지친” 시민들에게 잠시 멈추고 이어 탈 수 있는 그린 스테이션(GREEN station) 을 제공하는 것이 핵심 아이디어입니다.\n두 개의 모듈적 제안으로 구체화했습니다.\n\n2×2 GREEN MODULE · 버스전용차로와 자전거 정거장을 결합한 소규모 공원형 허브. 지하철 역 인근에 배치되어 지하–지상–자전거의 환승을 한 자리에 묶고, 회색 교통 인프라 사이에 작은 녹지를 확보합니다.\nDECK & BIG WHEEL · 한강 다리를 수직으로 적층하여 더블데크로 재구성. 상단은 차량 및 보행·자전거 도로, 하단은 수상 교통이 정박하는 플랫폼입니다. 수상 교통으로 도착한 사용자가 별도 이동 없이 다리 위 자전거 도로로 바로 이어 탈 수 있습니다.\n\n프로젝트의 타이틀 “Running Everyday” 는 두 개의 달리기를 겹쳐 놓습니다 — 1988년의 마라토너, 그리고 오늘의 출근길 시민. 설계 제안은 이 회랑을 기념비가 아닌 일상의 회복 장치 로 재정의하려는 시도였습니다.\n\n\n\n\n\n\n연도 · 2016–2017\n유형 · 무대 디자인 · 학생 연극\n공연 · 서울대학교 총연극회 겨울 소공연 Last Show\n역할 · 미술감독 (Art Director) · 기획·설계·제작·설치 전반\n기간 · 약 3개월\n\n\n학생 연극 동아리 서울대학교 총연극회 의 겨울 소공연 Last Show 에서 무대를 디자인했습니다. 대본을 읽고 공간 구성을 계획하는 단계부터 도면화, 실제 제작과 설치까지 전 과정을 맡았습니다. 도시의 회랑이나 지역 마스터플랜과는 다른 스케일 — 여러 인물이 하나의 실내에서 교차하는 작은 무대 한 칸 — 이지만, 이야기의 흐름에 맞춰 공간을 설계한다 는 점에서는 오히려 건축의 원형에 가까운 작업이었습니다.\n일상의 방 하나를 무대 위에 옮기되, 배우의 동선과 장면 전환이 가능하도록 요소들을 조직했습니다. 현관·거실·침실·화장실이 한 장면 안에 공존하면서도 각 공간의 감각이 충돌하지 않도록 재질과 조명의 경계를 나누는 것이 설계의 핵심이었습니다. 건축·도시 외의 스케일에서 공간을 설계해본 흔치 않은 경험이었고, 이 프로젝트 이후 “보는 사람의 움직임이 공간을 완성한다” 는 관점이 제 설계 사고의 한 축으로 자리잡았습니다.\n\n\n\n\nA First Urban Design Studio · Reconnecting the Stadium with the City\n\n\n연도 · 2015 (9월–12월)\n장소 · 서울 잠실 종합운동장 일대\n유형 · 도시설계 · 석사 스튜디오 · 첫 도시설계 작업\n소속 · 서울대학교 공과대학 협동과정 도시설계학전공 · 석사 1학기\n역할 · 단독 연구·설계\n\n\n석사과정 첫 학기(2015년 가을)에 수행한, 제 첫 도시설계 스튜디오 작업 입니다. 당시 서울시가 잠실 종합운동장 일대의 리모델링을 본격적으로 논의하기 시작하던 시점이었고, 이 프로젝트는 그 공공 담론에 학생으로서 제 나름의 안을 더해본 작업이었습니다.\n잠실 주경기장은 엄청난 관객석 규모와 대지 면적에도 불구하고 도시적 맥락을 충분히 끌어안지 못하는 공간이었습니다. 사방이 간선 도로로 둘러싸여 있고, 한강변의 워터프론트는 어떤 쓰임새도 없이 방치되어 있었습니다. 유일하게 활성화된 진입은 남쪽 올림픽 단지 방향이었고, 일상적으로 기능하는 시설은 남쪽의 야구장 정도였습니다. 주경기장은 도시 안의 거대한 고립된 땅에 가까웠습니다.\n제 제안의 핵심은 서쪽 삼성동 방향으로 새로운 주 진입을 열어 주경기장과 한강을 관통하는 축을 만드는 것 이었습니다.\n\n서–동 축의 데크 광장 · 기존 도로에서 차량으로 접근 가능한 데크가 주경기장을 감싸며 한강변까지 이어집니다. 기존의 남북 진입 축에 수직한 새로운 흐름을 만들어, 주경기장과 야구장이 하나의 연속된 활성 영역이 되도록 했습니다.\n탄천 하천변의 진입 광장 · 탄천에서 경기장 일대로 올라올 수 있는 대형 광장. 보행·자전거 접근성을 크게 확장합니다.\n한강변 수변 활성화 · 도시 농업과 관객용 수변 공원을 배치하여, 경기가 없는 날에도 한강변이 상시 사용되도록 합니다.\n운영 동선과 시민 동선의 분리 · 경기장 부속 시설은 새로운 데크 아래에 배치하여 시민의 보행 경험을 방해하지 않도록 했습니다.\n남동쪽 상업 용지 · 새롭게 확보한 상업 프로그램으로 경기장 일대를 스포츠 이벤트가 없어도 매일 방문할 수 있는 상업 거리 로 재정의했습니다.\n\n첫 도시설계 작업이었던 만큼 해법보다는 “도시 맥락을 읽어내는 방식” 을 배우는 과정이 더 컸습니다. 경기장이라는 특수 건축 유형이 도시 속에서 고립되는 일반적 현상을, 접근성과 축의 재편으로 풀어보려 했던 첫 시도입니다. 이후 석사·박사로 이어지는 도시설계 연구의 시작점 이 된 프로젝트이기도 합니다.\n\n\n\n\nA Residential Care Home for Elderly Adults with Developmental Disabilities\n\n\n연도 · 2024– · 진행 중 · 시공 착수\n장소 · 강화도\n클라이언트 · 사회복지법인 우리마을\n유형 · 건축 · 복지 시설 · 신축\n역할 · 대지 분석 · 컨셉 설계 · 배치 계획 (ar-ge inc. 팀 작업)\n상태 · 실제 시공 착수 — 제가 설계에 참여한 프로젝트 중 첫 실제 건축물\n\n\n*ar-ge inc. 에서 진행 중인, 제가 설계에 참여한 프로젝트 중 처음으로 실제 지어지는 건축물 입니다. 클라이언트인 ’강화 우리 마을’은 발달장애인들을 어릴 때부터 오랜 세월 보살펴온 사회복지법인입니다. 그 분들이 함께 성장하여 이제 노년기에 접어들며, 생애 내내 지내온 공동체 안에서 노년을 이어갈 수 있는 발달장애 노인 전용 그룹홈 이 필요하게 되었습니다. 이 프로젝트는 그 요청에서 출발했습니다.\n설계의 핵심 결정은 단순합니다 — 기존 건물을 그대로 유지하고, 새 건물을 그 옆에 조심스럽게 놓는 것. 이용자들이 생애 내내 살아온 공간의 기억은 노년기에 오히려 더 중요해집니다. 새로운 시설로 옮겨가는 것이 아니라 익숙한 장소의 연장 으로 느낄 수 있도록, 기존 건축물과의 관계를 설계의 출발점으로 삼았습니다. 배치 계획 단계에서 기존 건물의 방향성과 진입 동선을 면밀히 분석하여, 새 건물이 기존 건물과 자연스러운 마당을 형성하도록 조정했습니다.\n건축의 디테일 역시 기존 건축물과 호응하는 재료와 질감 으로 결정되었습니다. 벽돌 마감의 톤, 지붕의 형태, 창호의 비례 — 새 건물이 두드러지지 않고 기존 장소에 녹아들도록 하는 작업이었습니다. 거주자들의 일상이 이 공간에서 자연스럽게 이어질 수 있도록, 건물 앞의 공원과의 관계 역시 설계 초기 단계부터 함께 고려했습니다.\n이 프로젝트는 제가 학생 시절부터 이어온 설계 작업들과는 다른 층위의 경험입니다. 제안이 아니라 실제 세워지는 건축 이며, 그 공간 안에서 구체적인 사람들이 삶을 이어갈 것이라는 사실이 설계의 모든 결정에 무게를 더했습니다. ar-ge inc. 팀과 함께, 대지 분석에서 컨셉, 배치까지 설계 초기 단계 전반에 참여했습니다.\n\n\n\n\nA Public Housing Proposal that Embraces the Landscape\n\n\n연도 · 2024\n장소 · 충청북도 단양군\n유형 · 건축 · 공공 공동주택 · 설계 공모전\n공모전 · 단양군 행복올래 플랫폼 공동주택 설계 공모\n역할 · 대지 분석 · 기본 설계 (ar-ge inc. 팀 작업)\n결과 · 입상작 선정\n\n\n*ar-ge inc. 에서 참여한 공공 공동주택 설계 공모전입니다. 한국의 공동주택은 대부분 획일적이고 균일한 볼륨 으로 지어집니다. 같은 평면, 같은 높이, 같은 배치가 전국 어디서나 반복됩니다. 이 프로젝트는 그 관성을 거스르려는 시도였습니다.\n대상지의 경사를 그대로 받아들이는 것이 첫 결정이었습니다. 평지화해서 동일한 높이의 건물을 세우는 대신, 지형의 높낮이에 따라 건물의 층수를 조정 했습니다. 그 다음, 평면을 직선으로 배열하는 대신 중앙에서 꺾이는 매스 로 구성했습니다. 이 꺾임이 만드는 효과가 작품의 제목 — ‘감싸 안는 집’ — 그대로입니다. 네 동의 건물이 각기 다른 각도로 꺾이며 중심의 외부 공간을 안쪽으로 품는 배치가 됩니다. 주민들은 사방으로 열린 외부가 아니라 공동체가 공유하는 감싸인 마당 을 갖게 됩니다.\n평면에서도 단순한 반복을 피했습니다. 꺾인 지점의 내부 공간을 수직 동선과 보조 기능 실 로 구성하여, 가족 구성이나 라이프스타일이 바뀌어도 유연하게 적응할 수 있도록 설계했습니다. 공동주택이 평생 거주지가 될 수 있다는 현실적 요구에 대한 한 가지 응답입니다.\n이 프로젝트에서 저는 대상지 분석과 기본 설계 단계에 참여했습니다. 작업 과정에서 공공을 위한 시설과 공간이 어떠해야 하는지에 대한 ar-ge 팀 내부의 깊은 토론 이 오랫동안 기억에 남습니다. 공모전의 1등을 차지하지는 못했지만 입상작으로 선정되어, 이러한 접근이 설계 심사에서도 의미 있게 받아들여졌다는 확인을 받은 작업이었습니다."
   },
   {
-    "objectID": "design.html#설계-철학",
-    "href": "design.html#설계-철학",
+    "objectID": "design.html#university-x-city",
+    "href": "design.html#university-x-city",
     "title": "Design",
     "section": "",
-    "text": "연구 기반 설계 접근법과 철학을 작성할 예정입니다."
+    "text": "Start-up Campus City: Economic Decline of Sinchon and Generative Potentials of Young People\n\n\n연도 · 2016\n장소 · 신촌, 서울\n유형 · 도시설계 · 석사 스튜디오\n소속 · 서울대학교 공과대학 협동과정 도시설계학전공 · 석사 3학기\n스튜디오 · 환경대학원 Environmental Design Studio\n지도 · 서예례 (Studio Director)\n역할 · 단독 연구·설계 (Investigator)\n수상 · 서울대학교 환경대학원 도시설계 작품전 최우수상\n\n\n신촌은 한국 대학 문화의 상징적 장소였습니다. 1880년대 광혜원 의학교에서 시작된 고등교육 기관들이 집적되며 20세기 후반 청년 문화의 중심지로 성장했지만, 2000년대 이후 연세대 송도 캠퍼스 개설과 홍대 상권의 부상 속에서 지역 경제는 장기간 침체를 겪었습니다. 이 프로젝트는 “신촌의 침체는 정말 경쟁 상권 문제인가, 아니면 청년들이 필요한 공간이 달라진 것인가” 라는 질문에서 출발했습니다.\n리서치 단계에서는 신촌의 역사적 타임라인, 주요 대학들의 재학생 추이, 신문 기사 분석, 그리고 현장 답사를 통해 지역의 경제적 쇠락과 청년층 변화를 추적했습니다. 흥미롭게도 당시 청년들은 학업 종료 후 사회 진출 단계에서 창업 경험과 실무 교육의 부재 를 가장 큰 어려움으로 꼽고 있었고, 이는 기존 대학 공간 안에서는 해소되기 어려운 요구였습니다.\n이 관찰을 바탕으로, 서울시·신촌 상인회·주요 대학·패션/IT 대기업이 함께 운영하는 ‘신촌 거리대학’ (Shinchon Street College) 을 제안했습니다. 청년들이 학교 밖에서 직접 제품을 만들고 판매하며 창업 노하우와 기술 교육을 받을 수 있는 분산형 캠퍼스 모델입니다. 신촌 지역을 4개의 설계 영역으로 나누어 각각 다른 주체와 프로그램을 배치했습니다.\n\nMADE in sinchon · 지역 상인과의 협업으로 제작·판매 공간\ngonna be BIG · 패션/IT 대기업과 교육 학원이 지원하는 멘토링 클러스터\nOCCUPY the street · 대학이 유휴 공간을 확보한 창업 가로\nSTAY our basecamp · 인근 모텔과 주거 시설을 활용한 청년 체류 공간\n\n본 프로젝트는 대상지의 문제와 가능성을 분석하는 디자인 과정의 완성도 를 평가받아 서울대학교 환경대학원 도시설계 작품전 최우수상을 수상했습니다. 설계 이후 신촌은 서울시의 도시재생 활성화 지역으로 지정되어 관련 공공사업이 진행되었으며, 이 스튜디오 작업은 이후 제 박사 연구에서 물리적 공간과 청년 행태의 상호작용 을 정량적으로 분석하는 연구 주제로 이어졌습니다."
   },
   {
-    "objectID": "design.html#ar-ge-건축사사무소-소개",
-    "href": "design.html#ar-ge-건축사사무소-소개",
+    "objectID": "design.html#running-everyday",
+    "href": "design.html#running-everyday",
     "title": "Design",
-    "section": "AR-GE 건축사사무소 소개",
-    "text": "AR-GE 건축사사무소 소개\n아게 건축사사무소에서의 활동과 프로젝트 소개를 작성할 예정입니다."
+    "section": "",
+    "text": "Re-interpreting the 1988 Seoul Olympic Marathon Course\n\n\n연도 · 2016\n장소 · 서울 · 1988 올림픽 마라톤 코스 (여의도–강남–잠실)\n유형 · 도시설계 · 국제 학생 공모전\n공모전 · The 15th Korea–Japan–China International Students Conference for Landscape Architecture Design\n역할 · 단독 출품 (Investigator)\n\n\n1988년, 187명의 마라토너들이 새로 개통된 서울의 도로를 달렸습니다. 여의도 · 강남 · 잠실을 잇는 이 코스는 당시 서울이라는 도시 자체를 세계에 선보이는 상징적 경로 였습니다. 2016년의 같은 도로는 다른 의미의 “달리기” 로 채워져 있습니다 — 매일 아침 수많은 사람들이 출퇴근으로 지쳐가는 고밀도 도심의 주요 간선이 되어 있는 것입니다. 이 프로젝트는 같은 공간이 스포츠 이벤트의 무대에서 일상의 압박 장치로 변한 시간의 전복을 출발점으로 삼았습니다.\n한·중·일 세 나라는 모두 올림픽 개최국(도쿄 1964, 서울 1988, 베이징 2008)이었고, 각 도시의 마라톤 코스는 자국의 대표적 경관을 세계에 보여주는 상징적 장치로 기능했습니다. 이 공모전은 2016년 시점에서 세 도시가 자신들의 마라톤 코스를 어떻게 다시 읽을 것인가를 묻는 자리였습니다.\n서울 코스에 대한 제 해석은 자동차 중심으로 포화된 이 회랑에 다양한 이동 수단의 결절점을 삽입하는 것 이었습니다. 자전거, 지하철, 버스, 수상 택시, 페리 — 이미 서울에 존재하지만 서로 이어지지 않는 교통 수단들이 마라톤 코스의 주요 거점에서 만나도록 설계했습니다. “매일 달리느라 지친” 시민들에게 잠시 멈추고 이어 탈 수 있는 그린 스테이션(GREEN station) 을 제공하는 것이 핵심 아이디어입니다.\n두 개의 모듈적 제안으로 구체화했습니다.\n\n2×2 GREEN MODULE · 버스전용차로와 자전거 정거장을 결합한 소규모 공원형 허브. 지하철 역 인근에 배치되어 지하–지상–자전거의 환승을 한 자리에 묶고, 회색 교통 인프라 사이에 작은 녹지를 확보합니다.\nDECK & BIG WHEEL · 한강 다리를 수직으로 적층하여 더블데크로 재구성. 상단은 차량 및 보행·자전거 도로, 하단은 수상 교통이 정박하는 플랫폼입니다. 수상 교통으로 도착한 사용자가 별도 이동 없이 다리 위 자전거 도로로 바로 이어 탈 수 있습니다.\n\n프로젝트의 타이틀 “Running Everyday” 는 두 개의 달리기를 겹쳐 놓습니다 — 1988년의 마라토너, 그리고 오늘의 출근길 시민. 설계 제안은 이 회랑을 기념비가 아닌 일상의 회복 장치 로 재정의하려는 시도였습니다."
   },
   {
-    "objectID": "design.html#연구-기반-설계",
-    "href": "design.html#연구-기반-설계",
+    "objectID": "design.html#stage-design-for-a-student-play",
+    "href": "design.html#stage-design-for-a-student-play",
     "title": "Design",
-    "section": "연구 기반 설계",
-    "text": "연구 기반 설계\n\nAgentic AI 기반 설계\nAI를 활용한 건축/도시 설계 프로젝트들을 소개할 예정입니다.\n\n\n데이터 기반 설계\n데이터 분석을 통한 설계 의사결정 과정을 소개할 예정입니다.\n\n\n공공 프로젝트\n공공부문 건축/도시 설계 프로젝트들을 소개할 예정입니다."
+    "section": "",
+    "text": "연도 · 2016–2017\n유형 · 무대 디자인 · 학생 연극\n공연 · 서울대학교 총연극회 겨울 소공연 Last Show\n역할 · 미술감독 (Art Director) · 기획·설계·제작·설치 전반\n기간 · 약 3개월\n\n\n학생 연극 동아리 서울대학교 총연극회 의 겨울 소공연 Last Show 에서 무대를 디자인했습니다. 대본을 읽고 공간 구성을 계획하는 단계부터 도면화, 실제 제작과 설치까지 전 과정을 맡았습니다. 도시의 회랑이나 지역 마스터플랜과는 다른 스케일 — 여러 인물이 하나의 실내에서 교차하는 작은 무대 한 칸 — 이지만, 이야기의 흐름에 맞춰 공간을 설계한다 는 점에서는 오히려 건축의 원형에 가까운 작업이었습니다.\n일상의 방 하나를 무대 위에 옮기되, 배우의 동선과 장면 전환이 가능하도록 요소들을 조직했습니다. 현관·거실·침실·화장실이 한 장면 안에 공존하면서도 각 공간의 감각이 충돌하지 않도록 재질과 조명의 경계를 나누는 것이 설계의 핵심이었습니다. 건축·도시 외의 스케일에서 공간을 설계해본 흔치 않은 경험이었고, 이 프로젝트 이후 “보는 사람의 움직임이 공간을 완성한다” 는 관점이 제 설계 사고의 한 축으로 자리잡았습니다."
   },
   {
-    "objectID": "design.html#연구와-설계의-접점",
-    "href": "design.html#연구와-설계의-접점",
+    "objectID": "design.html#jamsil-sports-complex-reimagined",
+    "href": "design.html#jamsil-sports-complex-reimagined",
     "title": "Design",
-    "section": "연구와 설계의 접점",
-    "text": "연구와 설계의 접점\n\n학제간 협력\n연구와 설계 실무의 연결점을 설명할 예정입니다.\n\n\n실험적 프로젝트\n연구 성과를 실제 설계에 적용한 사례들을 소개할 예정입니다.\n\n\n미래 방향성\n연구 기반 설계의 미래 방향성을 제시할 예정입니다."
+    "section": "",
+    "text": "A First Urban Design Studio · Reconnecting the Stadium with the City\n\n\n연도 · 2015 (9월–12월)\n장소 · 서울 잠실 종합운동장 일대\n유형 · 도시설계 · 석사 스튜디오 · 첫 도시설계 작업\n소속 · 서울대학교 공과대학 협동과정 도시설계학전공 · 석사 1학기\n역할 · 단독 연구·설계\n\n\n석사과정 첫 학기(2015년 가을)에 수행한, 제 첫 도시설계 스튜디오 작업 입니다. 당시 서울시가 잠실 종합운동장 일대의 리모델링을 본격적으로 논의하기 시작하던 시점이었고, 이 프로젝트는 그 공공 담론에 학생으로서 제 나름의 안을 더해본 작업이었습니다.\n잠실 주경기장은 엄청난 관객석 규모와 대지 면적에도 불구하고 도시적 맥락을 충분히 끌어안지 못하는 공간이었습니다. 사방이 간선 도로로 둘러싸여 있고, 한강변의 워터프론트는 어떤 쓰임새도 없이 방치되어 있었습니다. 유일하게 활성화된 진입은 남쪽 올림픽 단지 방향이었고, 일상적으로 기능하는 시설은 남쪽의 야구장 정도였습니다. 주경기장은 도시 안의 거대한 고립된 땅에 가까웠습니다.\n제 제안의 핵심은 서쪽 삼성동 방향으로 새로운 주 진입을 열어 주경기장과 한강을 관통하는 축을 만드는 것 이었습니다.\n\n서–동 축의 데크 광장 · 기존 도로에서 차량으로 접근 가능한 데크가 주경기장을 감싸며 한강변까지 이어집니다. 기존의 남북 진입 축에 수직한 새로운 흐름을 만들어, 주경기장과 야구장이 하나의 연속된 활성 영역이 되도록 했습니다.\n탄천 하천변의 진입 광장 · 탄천에서 경기장 일대로 올라올 수 있는 대형 광장. 보행·자전거 접근성을 크게 확장합니다.\n한강변 수변 활성화 · 도시 농업과 관객용 수변 공원을 배치하여, 경기가 없는 날에도 한강변이 상시 사용되도록 합니다.\n운영 동선과 시민 동선의 분리 · 경기장 부속 시설은 새로운 데크 아래에 배치하여 시민의 보행 경험을 방해하지 않도록 했습니다.\n남동쪽 상업 용지 · 새롭게 확보한 상업 프로그램으로 경기장 일대를 스포츠 이벤트가 없어도 매일 방문할 수 있는 상업 거리 로 재정의했습니다.\n\n첫 도시설계 작업이었던 만큼 해법보다는 “도시 맥락을 읽어내는 방식” 을 배우는 과정이 더 컸습니다. 경기장이라는 특수 건축 유형이 도시 속에서 고립되는 일반적 현상을, 접근성과 축의 재편으로 풀어보려 했던 첫 시도입니다. 이후 석사·박사로 이어지는 도시설계 연구의 시작점 이 된 프로젝트이기도 합니다."
   },
   {
-    "objectID": "design.html#프로젝트-포트폴리오",
-    "href": "design.html#프로젝트-포트폴리오",
+    "objectID": "design.html#강화-우리-마을-발달장애-노인-그룹홈",
+    "href": "design.html#강화-우리-마을-발달장애-노인-그룹홈",
     "title": "Design",
-    "section": "프로젝트 포트폴리오",
-    "text": "프로젝트 포트폴리오\n주요 설계 프로젝트들의 포트폴리오를 추가할 예정입니다."
+    "section": "",
+    "text": "A Residential Care Home for Elderly Adults with Developmental Disabilities\n\n\n연도 · 2024– · 진행 중 · 시공 착수\n장소 · 강화도\n클라이언트 · 사회복지법인 우리마을\n유형 · 건축 · 복지 시설 · 신축\n역할 · 대지 분석 · 컨셉 설계 · 배치 계획 (ar-ge inc. 팀 작업)\n상태 · 실제 시공 착수 — 제가 설계에 참여한 프로젝트 중 첫 실제 건축물\n\n\n*ar-ge inc. 에서 진행 중인, 제가 설계에 참여한 프로젝트 중 처음으로 실제 지어지는 건축물 입니다. 클라이언트인 ’강화 우리 마을’은 발달장애인들을 어릴 때부터 오랜 세월 보살펴온 사회복지법인입니다. 그 분들이 함께 성장하여 이제 노년기에 접어들며, 생애 내내 지내온 공동체 안에서 노년을 이어갈 수 있는 발달장애 노인 전용 그룹홈 이 필요하게 되었습니다. 이 프로젝트는 그 요청에서 출발했습니다.\n설계의 핵심 결정은 단순합니다 — 기존 건물을 그대로 유지하고, 새 건물을 그 옆에 조심스럽게 놓는 것. 이용자들이 생애 내내 살아온 공간의 기억은 노년기에 오히려 더 중요해집니다. 새로운 시설로 옮겨가는 것이 아니라 익숙한 장소의 연장 으로 느낄 수 있도록, 기존 건축물과의 관계를 설계의 출발점으로 삼았습니다. 배치 계획 단계에서 기존 건물의 방향성과 진입 동선을 면밀히 분석하여, 새 건물이 기존 건물과 자연스러운 마당을 형성하도록 조정했습니다.\n건축의 디테일 역시 기존 건축물과 호응하는 재료와 질감 으로 결정되었습니다. 벽돌 마감의 톤, 지붕의 형태, 창호의 비례 — 새 건물이 두드러지지 않고 기존 장소에 녹아들도록 하는 작업이었습니다. 거주자들의 일상이 이 공간에서 자연스럽게 이어질 수 있도록, 건물 앞의 공원과의 관계 역시 설계 초기 단계부터 함께 고려했습니다.\n이 프로젝트는 제가 학생 시절부터 이어온 설계 작업들과는 다른 층위의 경험입니다. 제안이 아니라 실제 세워지는 건축 이며, 그 공간 안에서 구체적인 사람들이 삶을 이어갈 것이라는 사실이 설계의 모든 결정에 무게를 더했습니다. ar-ge inc. 팀과 함께, 대지 분석에서 컨셉, 배치까지 설계 초기 단계 전반에 참여했습니다."
+  },
+  {
+    "objectID": "design.html#단양-행복올래-플랫폼-감싸-안는-집",
+    "href": "design.html#단양-행복올래-플랫폼-감싸-안는-집",
+    "title": "Design",
+    "section": "",
+    "text": "A Public Housing Proposal that Embraces the Landscape\n\n\n연도 · 2024\n장소 · 충청북도 단양군\n유형 · 건축 · 공공 공동주택 · 설계 공모전\n공모전 · 단양군 행복올래 플랫폼 공동주택 설계 공모\n역할 · 대지 분석 · 기본 설계 (ar-ge inc. 팀 작업)\n결과 · 입상작 선정\n\n\n*ar-ge inc. 에서 참여한 공공 공동주택 설계 공모전입니다. 한국의 공동주택은 대부분 획일적이고 균일한 볼륨 으로 지어집니다. 같은 평면, 같은 높이, 같은 배치가 전국 어디서나 반복됩니다. 이 프로젝트는 그 관성을 거스르려는 시도였습니다.\n대상지의 경사를 그대로 받아들이는 것이 첫 결정이었습니다. 평지화해서 동일한 높이의 건물을 세우는 대신, 지형의 높낮이에 따라 건물의 층수를 조정 했습니다. 그 다음, 평면을 직선으로 배열하는 대신 중앙에서 꺾이는 매스 로 구성했습니다. 이 꺾임이 만드는 효과가 작품의 제목 — ‘감싸 안는 집’ — 그대로입니다. 네 동의 건물이 각기 다른 각도로 꺾이며 중심의 외부 공간을 안쪽으로 품는 배치가 됩니다. 주민들은 사방으로 열린 외부가 아니라 공동체가 공유하는 감싸인 마당 을 갖게 됩니다.\n평면에서도 단순한 반복을 피했습니다. 꺾인 지점의 내부 공간을 수직 동선과 보조 기능 실 로 구성하여, 가족 구성이나 라이프스타일이 바뀌어도 유연하게 적응할 수 있도록 설계했습니다. 공동주택이 평생 거주지가 될 수 있다는 현실적 요구에 대한 한 가지 응답입니다.\n이 프로젝트에서 저는 대상지 분석과 기본 설계 단계에 참여했습니다. 작업 과정에서 공공을 위한 시설과 공간이 어떠해야 하는지에 대한 ar-ge 팀 내부의 깊은 토론 이 오랫동안 기억에 남습니다. 공모전의 1등을 차지하지는 못했지만 입상작으로 선정되어, 이러한 접근이 설계 심사에서도 의미 있게 받아들여졌다는 확인을 받은 작업이었습니다."
   },
   {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "데이터 사이언스와 도시 계획을 결합한 연구의 개요와 방향성을 작성할 예정입니다."
+    "text": "제 연구는 행태 활동 기반, 근거 기반의 도시설계 를 일관된 목표로 두고, 이를 뒷받침하는 방법론을 단계적으로 확장해왔습니다. 박사과정에서 데이터 사이언스와 통계학에 빠져들어, KAIST에서 딥러닝과 스마트시티 도메인으로 확장했고, 지금은 AI 에이전트 시스템을 건축·도시 설계에 직접 접목하는 단계에 들어섰습니다."
   },
   {
     "objectID": "research.html#연구-소개",
     "href": "research.html#연구-소개",
     "title": "Research",
     "section": "",
-    "text": "데이터 사이언스와 도시 계획을 결합한 연구의 개요와 방향성을 작성할 예정입니다."
+    "text": "제 연구는 행태 활동 기반, 근거 기반의 도시설계 를 일관된 목표로 두고, 이를 뒷받침하는 방법론을 단계적으로 확장해왔습니다. 박사과정에서 데이터 사이언스와 통계학에 빠져들어, KAIST에서 딥러닝과 스마트시티 도메인으로 확장했고, 지금은 AI 에이전트 시스템을 건축·도시 설계에 직접 접목하는 단계에 들어섰습니다."
   },
   {
-    "objectID": "research.html#논문",
-    "href": "research.html#논문",
+    "objectID": "research.html#publications",
+    "href": "research.html#publications",
     "title": "Research",
-    "section": "논문",
-    "text": "논문\n\n2025년\n진행 중인 논문과 발표 예정인 연구를 작성할 예정입니다.\n\n\n2024년\n2024년 발표 논문 목록을 작성할 예정입니다.\n\n\n2023년\n2023년 발표 논문 목록을 작성할 예정입니다.\n\n\n2022년 이전\n이전 연도 주요 논문들을 작성할 예정입니다."
+    "section": "Publications",
+    "text": "Publications\n\nWorking Papers\n\nPark, Youngjun; Na, Jihye; Jang, Keonhee; Lee, Dongman; Kwon, Changhyun; Yoon, Yoonjin. (2025) “Food Deserts in Context: How Site-Specific Factors Reshape Food Deserts Discussion.” Submitted to npj Urban Sustainability (in-review).\n\n\n\n2025\n\nLee, Hongju; Park, Youngjun; An, Jisun; Lee, Dongman. (2025) “Enhancing Regional Airbnb Trend Forecasting Using LLM-Based Embeddings of Accessibility and Human Mobility.” ASONAM 2025. [Published]\nPark, Youngjun; Bae, Hyungchan; An, Jisun; Lee, Dongman. (2025) “A Model for Monthly, Local-Level Airbnb Changes Using Public Dataset.” Proceedings of the 7th International Conference on Tourism Research, 8(1), 214–223. [Published]\n\n\n\n2024\n\nPark, Youngjun; Han, Sumin. (2024) “Enhancing Population Predictions in Developing Area through Building Construction Data.” Association of European Schools of Planning (AESOP’24), poster session.\nHan, Sumin; Park, Youngjun; Sabir, Sonia; An, Jisun; Lee, Dongman. (2024) “Improving Real Estate Appraisal with POI Integration and Areal Embedding.” DMO-FinTech’24: Workshop on Decision Making and Optimization in Financial Technologies (PAKDD’24). [Preprint]\nPark, Youngjun; Han, Sumin; Park, Doyun; Bae, Hyeongchan; Nguyen, Thanh Tung; Lee, Dongman. (2024) “Integrative Geospatial Visualization for Urban Mobility Analysis.” Korea Computer Congress (KCC’24). [Published]\nElmoursi, Ahmad; Han, Sumin; Bae, Hyungchan; Park, Youngjun; Nguyen, Thanh Tung; Lee, Dongman. (2024) “Enhancing Geospatial Recommendations through Natural Language Processing with Large Language Models.” Korea Computer Congress (KCC’24). [Published]\n\n\n\n2023\n\nHan, Sumin; Park, Youngjun; Lee, Minji; An, Jisun; Lee, Dongman. (2023) “Enhancing Spatio-temporal Traffic Prediction through Urban Human Activity Analysis.” CIKM 2023, 689–698. [Published]\nPark, Youngjun; Han, Sumin; An, Jisun; Lee, Dongman. (2023) “Encoding Urban Trajectory as a Language: Deep Learning Insights for Human Mobility Pattern.” Association of Collegiate Schools of Planning (ACSP ’23). [PDF]\n\n\n\n2022\n\nPark, Youngjun; Lee, Sunjae; Park, Sohyun. (2022) “Differences in park walking, comparing the physically inactive and active groups: data from mHealth monitoring system in Seoul.” International Journal of Environmental Research and Public Health, 19(1), 395. [Published]\nPark, Youngjun. (2022) “Parks and Healthy Walking: smartphone physical activity recognition data for place and walking.” Urban Design Institute of Korea.\n\n\n\n2021\n\nPark, Youngjun; Chung, Haegwon; Park, Sohyun. (2021) “Changes of walking activity during the first cycle phases of COVID-19 pandemic: A case study of Seoul, Korea.” HERD: Health Environments Research & Design Journal, 14(4), 43–57. [Published]\nJeong, Jiwoon; Park, Youngjun; Park, Sohyun. (2021) “Safety-critical events in bicycle lanes in Jongno, Seoul.” Journal of Urbanism: International Research on Placemaking and Urban Sustainability, 16(1), 1–24. [Published]\n\n\n\n2019\n\nPark, Youngjun; Park, Sohyun. (2019) “Car-use and Non-work Travel of Housewives in Residential Neighborhood of Seoul.” Seoul Research, 20(1), 45–59. [Published]\n\n\n\n2017\n\nPark, Youngjun; Park, Sohyun. (2017) “A Study on the Location of Car-sharing in the Neighborhood Area and Replacement of Vehicle Ownership in Community.” Urban Design Institute of Korea."
   },
   {
-    "objectID": "research.html#연구-프로젝트",
-    "href": "research.html#연구-프로젝트",
+    "objectID": "research.html#research-projects",
+    "href": "research.html#research-projects",
     "title": "Research",
-    "section": "연구 프로젝트",
-    "text": "연구 프로젝트\n\n진행 중인 프로젝트\n현재 진행 중인 연구 프로젝트들을 작성할 예정입니다.\n\n\n완료된 프로젝트\n완료된 주요 연구 프로젝트들을 작성할 예정입니다."
+    "section": "Research Projects",
+    "text": "Research Projects\nGS–KAIST 스마트시티 연구센터 (2024–2025) 박사후 연구원 · KAIST · GS건설\nAI 기반 비접촉 마약 탐지 기술 연구 (2024–2025) 박사후 연구원 · KAIST · 과학기술정보통신부 · RS-2024-00459749\n대규모 언어모델 기반 멀티모달 시공간 도시 예측 모델 연구 (2024–2025) 박사후 연구원 · KAIST · 한국연구재단 · RS-2024-00356597\n자가 학습 기반 Autonomic IoT 에지 컴퓨팅 기술 연구 (2022–2025) 박사후 연구원 · SW StarLab Project, KAIST · 과학기술정보통신부 · RS-2019-II191126\nAI 기반 스마트모빌리티 시스템 개발 (2022–2024) 참여 연구원 · 대구광역시 · KAIST · N04230030\n정부 예산 대상 보행자 관련 사업 텍스트 분석 (2022–2023) 연구 용역 · 건축공간연구원(AURI)\n개별 GPS 경로 분석을 통한 근린 내 걷기실천 비교 연구 (2019–2021) 연구장학금 수혜자 · 한국연구재단 학문후속세대 · 서울대학교\nWalkON 스마트폰 앱 개발을 위한 보행 데이터 분석 (2019–2020) 연구팀장, 외부소속기관 참여연구원 · 스왈라비(주)\n영유아 공간복지를 위한 GIS 분석 연구 (2018–2019) 연구 조교, 외부소속기관 참여연구원 · 이화여자대학교 건축학과\n베트남 후에시 ODA사업 도시기본계획 수립 연구 (2015–2016) 연구 조교 · 한국국제협력단(KOICA) · 서울대학교 환경대학원"
   },
   {
-    "objectID": "research.html#연구-관심-분야",
-    "href": "research.html#연구-관심-분야",
+    "objectID": "research.html#patents-intellectual-property",
+    "href": "research.html#patents-intellectual-property",
     "title": "Research",
-    "section": "연구 관심 분야",
-    "text": "연구 관심 분야\n\n도시 데이터 분석\n스마트 시티 기술\n보행 행태 분석\nAI 기반 도시 계획\n기타 연구 분야들을 추가할 예정입니다."
+    "section": "Patents · Intellectual Property",
+    "text": "Patents · Intellectual Property\n\n한국 특허 (출원) 10-2024-0108083 — 신경망 모델을 이용한 주택 가치 추정 방법 및 장치\n한국 특허 (등록) 10-23679770000 — 상업용 부동산 정보 제공 방법 및 서버\n한국 저작권 (등록) C-2023-062275 — 지리 데이터 시각화 프로그램"
   }
 ]
