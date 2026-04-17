@@ -1,42 +1,44 @@
 ---
 title: "Youngjun Park"
-subtitle: "Urban Researcher & Architect"
-pagetitle: "Youngjun Park - Urban Researcher & Architect"
-description-meta: "Personal website of Youngjun Park, urban researcher and architect. Combining data science techniques with architectural and urban design knowledge."
-page-layout: full
-toc: false
+subtitle: "Co-founder · CTO, ar-ge inc."
+pagetitle: "Youngjun Park"
+description-meta: "Youngjun Park — Architect and urban data scientist. Co-founder and CTO at ar-ge inc."
+toc: true
+toc-location: right
+toc-depth: 2
+page-layout: article
 about:
   template: trestles
   image: ../assets/images/youngjun.jpg
-  image-width: 16em
+  image-width: 12em
   image-shape: round
   links:
     - icon: envelope
       text: Email
       href: mailto:youngjourpark@gmail.com
-    - icon: mortarboard-fill
+    - icon: mortarboard
       text: Google Scholar
       href: https://scholar.google.com/citations?user=sGRKN6UAAAAJ
-      target: _blank
-    - icon: person-badge
-      text: ORCID
+    - text: ORCID
       href: https://orcid.org/0000-0002-4254-2268
-      target: _blank
     - icon: github
       text: GitHub
       href: https://github.com/youngjour
-      target: _blank
     - icon: linkedin
       text: LinkedIn
       href: https://linkedin.com/in/youngjourpark
-      target: _blank
 ---
 
-<div class="persona-badges">
-  <span>Architect</span>
-  <span>Urban Data Scientist</span>
-  <span>CTO</span>
-</div>
+::: {.persona-badges}
+<span>Architect</span>
+<span>Urban Data Scientist</span>
+<span>CTO</span>
+:::
+
+::: {.cv-download}
+[⬇ CV (English)](../assets/cv_en.pdf){.btn-cv}
+[⬇ CV (한국어)](../assets/cv_ko.pdf){.btn-cv}
+:::
 
 ## Introduction
 
@@ -46,10 +48,97 @@ Based on my knowledge in architecture and urban design, I explore rational and e
 
 Currently, I work as a partner architect at AR-GE Architects, participating in research and development of architectural/urban design solutions using Agentic AI.
 
-[Learn more about me](about.qmd) | [View my research](research.qmd) | [Explore design projects](design.qmd)
+## Education
 
-::: {.contact-info}
-**Current Position**: Partner Architect at AR-GE Architects
-**Email**: youngjourpark@gmail.com
-**Location**: Daejeon, South Korea
-:::
+### Doctoral Degree
+- **Ph.D. in Architecture**, Seoul National University (2022)
+  - Dissertation: Urban Pedestrian Pattern Analysis Using Smartphone GPS Data
+
+### Master's Degree
+- **M.S. in Urban Design**, Seoul National University (2017)
+  - Thesis: Analysis of Correlation between Urban Spatial Structure and Human Behavior
+
+### Bachelor's Degree
+- **B.S. in Architecture**, Seoul National University (2013)
+
+## Career
+
+### Current Position
+- **Partner Architect**, AR-GE Architects (2024-Present)
+  - Lead AI-based architectural/urban design solution research and development
+  - Technical advisory for smart city projects
+
+### Previous Experience
+- **Postdoctoral Researcher**, KAIST Urban AI Institute (2025)
+- **Postdoctoral Researcher**, KAIST School of Computing (2022-2025)
+- **Lecturer**, Department of Architecture, Seoul National University (2021-2023)
+- **Officer (First Lieutenant)**, Republic of Korea Army Corps of Engineers (2013-2015)
+
+## Research Works
+
+**Main Research Areas**
+
+- Urban Computing Systems
+- Smartphone/GPS Data-based Pedestrian Activity Analysis
+- Smart City AI Applications
+- Large Language Model (LLM)-based Urban Prediction
+
+Please refer to the [Research page](research.qmd) for a complete list of publications and presentations.
+
+## Projects
+
+### Major Research Projects
+
+- **Urban Pedestrian Pattern Prediction System** (2022-2024)
+  - Real-time pedestrian flow prediction using smartphone GPS data
+  - Winner of KAIST-NYU Innovation Award
+
+- **AI-based Real Estate Valuation Model** (2023-2024)
+  - Development of accommodation demand prediction model using Airbnb data
+  - Achieved 85% accuracy
+
+- **Smart City Integrated Platform** (2021-2023)
+  - Integrated analysis of IoT sensor data and urban planning information
+  - Applied to Daejeon Metropolitan City Smart City Project
+
+Please refer to the [Design page](design.qmd) for a complete list of projects.
+
+## Awards · Honors
+
+- **KAIST-NYU Innovation Award** (2024)
+  - Recognition for outstanding research achievements in urban data analysis
+- **Excellent Paper Award**, Architectural Institute of Korea (2022)
+- **Best Graduation Project Award**, Seoul National University Department of Architecture (2013)
+
+## Technical Skills
+
+### Programming & Data Science
+- **Python**: pandas, numpy, scikit-learn, PyTorch
+- **R**: tidyverse, ggplot2, shiny
+- **SQL**: PostgreSQL, MySQL
+- **GIS**: QGIS, ArcGIS, PostGIS
+- **Web**: HTML/CSS, JavaScript, Quarto
+
+### Urban Design & Architecture
+- **CAD**: AutoCAD, Rhino, Grasshopper
+- **BIM**: Revit, ArchiCAD
+- **Visualization**: SketchUp, V-Ray, KeyShot
+- **Analysis**: Urban Network Analysis, Space Syntax
+
+### Research Methodology
+- Spatial statistical analysis, network analysis, machine learning, deep learning
+- Survey design, interview methodology
+- Literature review, case study analysis
+
+## Professional Service
+
+- **Reviewer**, Korea Planning Association (2023-Present)
+- **Editorial Board Member**, Journal of the Architectural Institute of Korea (2022-2024)
+- **Advisory Committee Member**, Daejeon Metropolitan City Smart City Committee (2021-Present)
+- **Mentor**, KAIST Startup Support Center (2023-Present)
+
+## Patents · Intellectual Property
+
+- **Smartphone GPS-based Urban Pedestrian Pattern Analysis System** (Filed: 2023-10-15)
+- **AI-based Real Estate Valuation Method and System** (Granted: 2024-03-22)
+- **Data Analysis Platform for Urban Space Optimization** (Filed: 2024-08-10)
