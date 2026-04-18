@@ -76,7 +76,7 @@ main.content, .page-columns main.content {
 @media (min-width: 992px) {
   .quarto-about-trestles {
     display: grid !important;
-    grid-template-columns: 220px minmax(0, 1fr) 180px !important;
+    grid-template-columns: 180px minmax(0, 1fr) 180px !important;
     flex-direction: unset;
     gap: 2rem;
     max-width: 100%;
