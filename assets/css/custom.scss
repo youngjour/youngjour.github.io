@@ -76,7 +76,7 @@ main.content, .page-columns main.content {
 @media (min-width: 992px) {
   .quarto-about-trestles {
     display: grid !important;
-    grid-template-columns: 260px minmax(0, 1fr) 180px !important;
+    grid-template-columns: 220px minmax(0, 1fr) 180px !important;
     flex-direction: unset;
     gap: 2rem;
     max-width: 100%;
@@ -98,12 +98,21 @@ main.content, .page-columns main.content {
   body:has(.quarto-about-trestles) {
     .quarto-container,
     #quarto-document-content,
-    main#quarto-document-content,
-    .page-columns {
+    main#quarto-document-content {
       max-width: none !important;
       width: 100%;
       padding-left: 1.5rem;
       padding-right: 1.5rem;
+    }
+
+    // Quarto 의 .page-columns 는 14컬럼 grid 로 본문을 ~800px 에 캡함.
+    // About 페이지에서는 이 grid 를 완전히 해제해서 trestles 의 3단 grid 가
+    // 부모 전체 폭으로 확장되도록 한다.
+    .page-columns {
+      display: block !important;
+      grid-template-columns: none !important;
+      max-width: none !important;
+      width: 100%;
     }
   }
 }
