@@ -10,7 +10,7 @@ page-layout: article
 about:
   template: trestles
   image: ../assets/images/youngjun.jpg
-  image-width: 12em
+  image-width: 8em
   image-shape: round
   links:
     - icon: envelope
