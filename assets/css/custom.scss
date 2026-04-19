@@ -472,24 +472,19 @@ a[role="button"] {
         line-height: 1.4;
       }
 
-      // 소셜 링크 가로 아이콘 행
+      // 소셜 링크 카드 내부 상단 구분선 유지
+      // (버튼 자체 스타일은 데스크톱 규칙 상속 — padding·width 180px 유지)
       .about-links {
         clear: both;
         padding-top: 10px;
         margin-top: 10px;
         border-top: 1px solid #e8e8e8;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 8px 14px;
 
         .about-link {
           font-size: 0.75rem;
-          padding: 0;
 
-          // 아이콘만 우선, 텍스트는 옆에 작게
           i, .bi {
             font-size: 0.875rem;
-            margin-right: 4px;
           }
         }
       }
