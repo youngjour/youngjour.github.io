@@ -76,7 +76,7 @@ main.content, .page-columns main.content {
 @media (min-width: 992px) {
   .quarto-about-trestles {
     display: grid !important;
-    grid-template-columns: 180px minmax(0, 1fr) 180px !important;
+    grid-template-columns: 200px minmax(0, 1fr) 180px !important;
     flex-direction: unset;
     gap: 2rem;
     max-width: 100%;
@@ -179,11 +179,11 @@ ul, ol {
   }
 }
 
-// 사이드바 소셜 링크 — 수직 1열·동일 폭
+// 사이드바 소셜 링크 — 수직 1열·폭 180px·중앙 정렬
 .quarto-about-trestles .about-entity .about-links {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  align-items: center;
   gap: 0.5rem;
   margin-top: 1rem;
   width: 100%;
@@ -200,7 +200,7 @@ ul, ol {
     color: #333;
     background: #ffffff;
     text-decoration: none;
-    width: 100%;
+    width: 180px;
     margin: 0;
     transition: all 0.15s ease;
 
@@ -214,6 +214,20 @@ ul, ol {
       font-size: 1rem;
       flex-shrink: 0;
     }
+  }
+
+  // ORCID 링크에 SVG 아이콘 추가 (Bootstrap Icons 에 없어서 ::before 로 처리)
+  // SVG 를 data URI 로 인라인해서 한/영 사이트 빌드 경로 문제 회피
+  .about-link[href*="orcid.org"]::before {
+    content: "";
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0zMiAxNmMwIDguODM3LTcuMTYzIDE2LTE2IDE2LTguODM4IDAtMTYtNy4xNjMtMTYtMTZDMCA3LjE2MiA3LjE2MiAwIDE2IDBjOC44MzcgMCAxNiA3LjE2MiAxNiAxNloiIGZpbGw9IiMwMDAiLz4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE4LjgxMyA5LjYzN2gtNS40NXYxMy45aDUuNDc0YzQuNTU1IDAgNy4zNS0zLjM3OCA3LjM1LTYuOTUgMC0xLjYzNS0uNTYyLTMuMzcyLTEuNzctNC43MDQtMS4yMTUtMS4zMzYtMy4wNjUtMi4yNDYtNS42MDUtMi4yNDZaTTE4LjYgMjEuM2gtMi44MTN2LTkuNDI1SDE4LjVjMS44MjMgMCAzLjEyLjU1MiAzLjk2IDEuNC44NDIuODQ5IDEuMjUyIDIuMDIxIDEuMjUyIDMuMzEyIDAgLjc4NC0uMjM5IDEuOTY3LS45OTMgMi45NDgtLjc0NS45NjktMi4wMSAxLjc2NS00LjExOSAxLjc2NVptNS4zMTEtNC4wMjZjLS4yNTEgMS43NC0xLjQ5NCA0LjI3Ni01LjMxMSA0LjI3NmgtMy4wNjNIMTguNmMzLjgxNyAwIDUuMDYtMi41MzYgNS4zMTEtNC4yNzZabTEuODEyLTIuNDA1Yy0uNjU3LTIuNjAxLTIuODUtNC45ODItNi45MS00Ljk4MmgtNS4yIDUuMmM0LjA2IDAgNi4yNTMgMi4zOCA2LjkxIDQuOTgyWm0uMjE1IDEuNzE4Wk04LjM2MyA5LjY3NXYxMy44ODdoMi40MjVWOS42NzVIOC4zNjNabTIuMTc1IDEzLjYzN0g4LjYxMmgxLjkyNVpNOS41NzUgOC42NWMuODQgMCAxLjUxMy0uNjg5IDEuNTEzLTEuNTEzIDAtLjgyMy0uNjczLTEuNTEyLTEuNTEzLTEuNTEyLS44MzggMC0xLjUxMi42NzQtMS41MTIgMS41MTMgMCAuODIzLjY3MiAxLjUxMiAxLjUxMiAxLjUxMloiIGZpbGw9IiNmZmYiLz4KPC9zdmc+Cg==");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-shrink: 0;
   }
 }
 
@@ -304,6 +318,7 @@ a {
 
   .cv-download.sidebar-relocated {
     flex-direction: column;
+    align-items: center;
     gap: 0.5rem;
     margin: 0;
     margin-top: 1rem;
@@ -312,7 +327,7 @@ a {
     width: 100%;
 
     .btn-cv, a {
-      width: 100%;
+      width: 180px;
       text-align: center;
       justify-content: center;
       font-size: 0.75rem;
