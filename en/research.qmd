@@ -62,6 +62,7 @@ During my Ph.D. I became immersed in data science and statistics; at KAIST I exp
 ### 2017
 
 - **Park, Youngjun**; Park, Sohyun. (2017) "A Study on the Location of Car-sharing in the Neighborhood Area and Replacement of Vehicle Ownership in Community." *Urban Design Institute of Korea*.
+
 ---
 
 ## Research Projects

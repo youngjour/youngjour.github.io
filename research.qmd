@@ -8,8 +8,6 @@ toc-title: "목차"
 toc-depth: 2
 ---
 
-## 연구 소개
-
 제 연구는 **행태 활동 기반, 근거 기반의 도시설계** 를 일관된 목표로 두고, 이를 뒷받침하는 방법론을 단계적으로 확장해왔습니다. 
 박사과정에서 데이터 사이언스와 통계학에 빠져들어, KAIST에서 딥러닝과 스마트시티 도메인으로 확장했고, 지금은 AI 에이전트 시스템을 건축·도시 설계에 직접 접목하는 단계에 들어섰습니다.
 
@@ -65,6 +63,7 @@ toc-depth: 2
 ### 2017
  
 - **Park, Youngjun**; Park, Sohyun. (2017) "A Study on the Location of Car-sharing in the Neighborhood Area and Replacement of Vehicle Ownership in Community." *Urban Design Institute of Korea*.
+
 ---
  
 ## Research Projects
