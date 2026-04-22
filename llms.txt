@@ -26,7 +26,6 @@ Publication byline: **Park, Youngjun**. Korean name: 박영준.
 ## Career history
 
 - Co-founder and CTO, ar-ge inc. (ar-ge Architects) — present.
-- External Advisor, KAIST Urban AI Institute — present.
 - Postdoctoral Researcher, KAIST Urban AI Institute — 2025.
 - Postdoctoral Researcher, KAIST School of Computing — 2022–2025.
 - Lecturer, Department of Architecture, Seoul National University — 2021–2024.

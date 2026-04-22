@@ -39,17 +39,17 @@ career:
         - "Leading the research and engineering organization"
         - "Public-sector architectural and urban design practice"
 
-  - id: kaist-uai-advisor
-    title:
-      ko: "외부 자문"
-      en: "External Advisor"
-    employer:
-      ko: "KAIST 도시인공지능연구소"
-      en: "KAIST Urban AI Institute"
-    period:
-      ko: "현재"
-      en: "Present"
-    bullets: null
+  # - id: kaist-uai-advisor
+  #   title:
+  #     ko: "외부 자문"
+  #     en: "External Advisor"
+  #   employer:
+  #     ko: "KAIST 도시인공지능연구소"
+  #     en: "KAIST Urban AI Institute"
+  #   period:
+  #     ko: "현재"
+  #     en: "Present"
+  #   bullets: null
 
   - id: kaist-uai-postdoc
     title:
