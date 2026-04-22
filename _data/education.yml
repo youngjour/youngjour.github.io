@@ -1,0 +1,48 @@
+# Education entries.
+#
+# The About-page bullet is built from degree / institution / year plus an
+# optional sub-bullet `detail_label: detail`. The llms.txt entry uses the
+# same data but with a more compact form (`detail.llms` override when the
+# hand-curated llms version differs from the English site text).
+
+education:
+  - id: snu-phd-arch
+    degree:
+      ko: "건축학 박사"
+      en: "Ph.D. in Architecture"
+    institution:
+      ko: "서울대학교"
+      en: "Seoul National University"
+    year: 2022
+    detail_label:
+      ko: "연구 주제"
+      en: "Dissertation"
+    detail:
+      ko: "스마트폰 데이터 기반 보행 활동 분석과 신체활동 증진을 위한 도시계획시설 계획"
+      en: "Analysis of pedestrian activity using smartphone data, and urban planning facilities for the promotion of physical activity"
+      llms: "smartphone-data-based pedestrian activity analysis and urban planning facilities for physical-activity promotion"
+
+  - id: snu-ms-udp
+    degree:
+      ko: "도시설계학 석사"
+      en: "M.S. in Urban Design"
+    institution:
+      ko: "서울대학교"
+      en: "Seoul National University"
+    year: 2017
+    detail_label:
+      ko: "논문"
+      en: "Thesis"
+    detail:
+      ko: "주부들의 자가용 이용 행태와 근린 내 이동 특성에 관한 연구"
+      en: "A study on homemakers' automobile use behavior and intra-neighborhood travel characteristics"
+      llms: "homemakers' automobile use behavior and intra-neighborhood travel characteristics"
+
+  - id: snu-bs-arch
+    degree:
+      ko: "건축학 학사"
+      en: "B.S. in Architecture"
+    institution:
+      ko: "서울대학교"
+      en: "Seoul National University"
+    year: 2013

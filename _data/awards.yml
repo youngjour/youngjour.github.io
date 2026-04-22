@@ -1,0 +1,120 @@
+# Awards, honors, and competitive wins.
+#
+# Categories are declared in `award_categories:` — the build script
+# errors if an award references an unknown category.
+#
+# Renderer convention:
+#   - category: academic → title rendered in **bold** on the site.
+#   - category: sports   → title rendered as a plain bullet.
+# The CV generator (Phase 3b) groups by category.
+
+award_categories:
+  - id: academic
+    label:
+      ko: "학술·전문"
+      en: "Academic and Professional"
+  - id: sports
+    label:
+      ko: "스포츠"
+      en: "Sports"
+
+awards:
+  - id: kaist-nyu-g-school-2023
+    year: 2023
+    category: academic
+    title:
+      ko: "G-School 최우수 혁신상"
+      en: "G-School Best Innovation Award"
+    context:
+      ko: "KAIST-NYU Young Researcher Day"
+      en: "KAIST–NYU Young Researcher Day"
+
+  - id: compas-lh-2023
+    year: 2023
+    category: academic
+    title:
+      ko: "1등상, AI 기반 인구 예측"
+      en: "First Prize, AI-based Population Prediction"
+    context:
+      ko: "COMPAS 데이터 분석 경진대회, 한국토지주택공사(LH)"
+      en: "COMPAS Data Analysis Competition, Korea Land & Housing Corporation (LH)"
+
+  - id: aik-master-thesis-2018
+    year: 2018
+    category: academic
+    title:
+      ko: "우수졸업논문상"
+      en: "Outstanding Graduation Thesis Award"
+    context:
+      ko: "대한건축학회 석사 학위 논문"
+      en: "Master's thesis, Architectural Institute of Korea"
+
+  - id: snu-gses-best-2017
+    year: 2017
+    category: academic
+    title:
+      ko: "최우수상"
+      en: "Best Prize"
+    context:
+      ko: "서울대학교 환경대학원 설계 작품전"
+      en: "Design Works Exhibition, Graduate School of Environmental Studies, Seoul National University"
+
+  - id: kia-future-talent-2016
+    year: 2016
+    category: academic
+    title:
+      ko: "미래건축교육인재 선발"
+      en: "Selected as Future Architectural Education Talent"
+    context:
+      ko: "한국건축가협회"
+      en: "Korean Institute of Architects"
+
+  - id: rok-army-junior-officer-2014
+    year: 2014
+    category: academic
+    title:
+      ko: "우수초임장교 선발"
+      en: "Selected as Outstanding Junior Officer"
+    context:
+      ko: "대한민국 육군"
+      en: "Republic of Korea Army"
+
+  - id: snu-tennis-mens-doubles-2017
+    year: 2017
+    category: sports
+    title:
+      ko: "우승, 남자복식"
+      en: "Champion, Men's Doubles"
+    context:
+      ko: "서울대학교 종합체육대회 테니스"
+      en: "SNU Athletic Games, Tennis"
+
+  - id: snu-tennis-mixed-doubles-2017
+    year: 2017
+    category: sports
+    title:
+      ko: "우승, 혼합복식"
+      en: "Champion, Mixed Doubles"
+    context:
+      ko: "서울대학교 종합체육대회 테니스"
+      en: "SNU Athletic Games, Tennis"
+
+  - id: snu-tennis-mens-singles-2017
+    year: 2017
+    category: sports
+    title:
+      ko: "우승, 남자단식"
+      en: "Champion, Men's Singles"
+    context:
+      ko: "서울대학교 종합체육대회 테니스"
+      en: "SNU Athletic Games, Tennis"
+
+  - id: snu-football-acro-2013
+    year: 2013
+    category: sports
+    title:
+      ko: "우승, 팀 ACRO"
+      en: "Champion, Team ACRO"
+    context:
+      ko: "서울대학교 종합체육대회 축구"
+      en: "SNU Athletic Games, Football"

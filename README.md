@@ -68,16 +68,24 @@ cd en && quarto preview .
 
 ## Content data
 
-Publications, research projects, and patents are stored as structured
-YAML under `_data/` and are the **single source of truth** for the
-Research page full list, the About-page highlights, and the matching
-sections of `llms.txt`. The files in `_includes/*.qmd` and the
-publications / projects / patents sections of `llms.txt` are generated
-outputs — do not hand-edit them.
+Most site facts are stored as structured YAML under `_data/` and are the
+**single source of truth** for the pages, `llms.txt`, and (once the CV
+pipeline lands) the CV PDFs. The files in `_includes/*.qmd` and the
+data-driven sections of `llms.txt` are generated outputs — do not
+hand-edit them.
 
 - `_data/publications.yml` — publications (papers, talks, posters).
 - `_data/projects.yml` — funded research projects.
 - `_data/patents.yml` — patents and copyrights.
+- `_data/profile.yml` — name, byline, identifiers, current affiliations,
+  and the `llms.txt` blockquote summary.
+- `_data/education.yml` — degree entries.
+- `_data/career.yml` — chronological positions shown on the About page
+  and in `llms.txt` "Career history".
+- `_data/awards.yml` — awards and honors (categorised).
+- `_data/service.yml` — professional service (reviewer, advisory,
+  industry collaborations, invited lectures).
+- `_data/teaching.yml` — course metadata used by the CV generator.
 
 Run `python scripts/build.py` after editing any `_data/*.yml` file.
 The build step is also wired into `build.sh` and the GitHub Actions

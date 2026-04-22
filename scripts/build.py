@@ -1,14 +1,24 @@
 #!/usr/bin/env python3
-"""Tier 2 SSOT build step.
+"""SSOT build step.
 
-Loads _data/*.yml, validates required fields, renders the _templates/*.j2
-templates into _includes/*.qmd, and regenerates /llms.txt at the repo
-root. Run before `quarto render`.
+Loads `_data/*.yml`, validates required fields, renders `_templates/*.j2`
+into `_includes/*.qmd`, and regenerates `llms.txt` at the repo root. Run
+before `quarto render`.
+
+Data files:
+  publications.yml   papers, talks, posters
+  projects.yml       funded research projects
+  patents.yml        patents and copyrights
+  profile.yml        name, byline, identifiers, current affiliations
+  education.yml      degree entries
+  career.yml         chronological positions
+  awards.yml         awards and honors (categorised)
+  service.yml        professional service (reviewer, advisory, etc.)
+  teaching.yml       course metadata (Phase 3b CV only)
 """
 
 from __future__ import annotations
 
-import sys
 from pathlib import Path
 
 import yaml
@@ -222,7 +232,152 @@ def render_patent_llms_entry(pat: dict) -> str:
     return f"- {juris_label} {kind_label} ({status_label}) {num} — {title}."
 
 
-# ---------- section string composition (trailing newline per section) ----------
+# ---------- profile (llms.txt only; site identifiers live in index.qmd about.links) ----------
+
+def render_llms_identifiers(profile: dict) -> str:
+    ids = profile["identifiers"]
+    lines = [
+        f"- ORCID: https://orcid.org/{ids['orcid']}",
+        f"- Google Scholar: https://scholar.google.com/citations?user={ids['scholar_id']}",
+        f"- GitHub: https://github.com/{ids['github']}",
+        f"- LinkedIn: https://linkedin.com/in/{ids['linkedin']}",
+        f"- Email: {ids['email']}",
+    ]
+    return "\n".join(lines) + "\n"
+
+
+def render_llms_affiliation(aff: dict) -> str:
+    inst_en = aff["institution"]["en"]
+    role_llms = aff["role"].get("llms") or aff["role"]["en"]
+    status = aff["status"]["en"]
+    url = aff.get("url")
+    name = f"[{inst_en}]({url})" if url else inst_en
+    return f"- {name} — {role_llms} ({status})."
+
+
+def render_llms_affiliations(profile: dict) -> str:
+    lines = [render_llms_affiliation(a) for a in profile["current_affiliations"]]
+    return "\n".join(lines) + "\n"
+
+
+# ---------- education ----------
+
+def render_education_entry(edu: dict, lang: str) -> str:
+    degree = edu["degree"][lang]
+    inst = edu["institution"][lang]
+    year = edu["year"]
+    lines = [f"- **{degree}** · {inst} · {year}"]
+    if edu.get("detail"):
+        label = edu["detail_label"][lang]
+        detail = edu["detail"][lang]
+        lines.append(f"  - {label}: {detail}")
+    return "\n".join(lines)
+
+
+def render_llms_education_entry(edu: dict) -> str:
+    degree = edu["degree"]["en"]
+    inst = edu["institution"]["en"]
+    year = edu["year"]
+    base = f"- {degree}, {inst}, {year}."
+    if edu.get("detail"):
+        label = edu["detail_label"]["en"]
+        detail = edu["detail"].get("llms") or edu["detail"]["en"]
+        base += f" {label}: {detail}."
+    return base
+
+
+# ---------- career ----------
+
+def normalize_llms_period(period_en: str) -> str:
+    """Strip spaces around en-dash and lowercase 'Present'."""
+    if period_en == "Present":
+        return "present"
+    return period_en.replace(" – ", "–").replace(" — ", "—")
+
+
+def render_career_entry(pos: dict, lang: str) -> str:
+    title = pos["title"][lang]
+    employer = pos["employer"][lang]
+    period = pos["period"][lang]
+    header = f"**{title}** — {employer}\n*{period}*"
+    bullets = pos.get("bullets")
+    if bullets and bullets.get(lang):
+        bullet_lines = "\n".join(f"- {b}" for b in bullets[lang])
+        return f"{header}\n\n{bullet_lines}"
+    return header
+
+
+def render_llms_career_entry(pos: dict) -> str:
+    title = pos["title"].get("llms") or pos["title"]["en"]
+    employer = pos["employer"].get("llms") or pos["employer"]["en"]
+    period_llms = pos["period"].get("llms") or normalize_llms_period(pos["period"]["en"])
+    return f"- {title}, {employer} — {period_llms}."
+
+
+# ---------- awards ----------
+
+def render_award_entry(aw: dict, lang: str) -> str:
+    title = aw["title"][lang]
+    context = aw["context"][lang]
+    year = aw["year"]
+    if aw["category"] == "academic":
+        return f"- **{title}** — {context} ({year})"
+    return f"- {title} — {context} ({year})"
+
+
+# ---------- professional service ----------
+
+_SERVICE_SECTION_KEYS = (
+    "journal_reviewer",
+    "research_advisory",
+    "industry_collaborations",
+    "invited_lectures",
+)
+
+
+def _service_items(service_data: dict, key: str, lang: str) -> list[str]:
+    """Return items for a section in the given lang, falling back to KO if EN is empty."""
+    entries = service_data["service"][key]
+    if lang == "en" and not entries["en"]:
+        return entries["ko"]
+    return entries[lang]
+
+
+def render_service_site(service_data: dict, lang: str) -> str:
+    labels = service_data["labels"]
+    parts = []
+    for key in _SERVICE_SECTION_KEYS:
+        items = _service_items(service_data, key, lang)
+        label = labels[key][lang]
+        parts.append(f"**{label}**\n" + " · ".join(items))
+    return "\n\n".join(parts) + "\n"
+
+
+def render_service_llms(service_data: dict) -> str:
+    labels = service_data["labels"]
+    lines = []
+    # Journal reviewer — italicise each entry, comma-join.
+    items = _service_items(service_data, "journal_reviewer", "en")
+    lines.append(
+        f"- {labels['journal_reviewer']['llms']}: "
+        + ", ".join(f"*{i}*" for i in items)
+        + "."
+    )
+    # Research advisory — plain, semicolon.
+    items = _service_items(service_data, "research_advisory", "en")
+    lines.append(
+        f"- {labels['research_advisory']['llms']}: " + "; ".join(items) + "."
+    )
+    # Industry collaborations — plain, semicolon.
+    items = _service_items(service_data, "industry_collaborations", "en")
+    lines.append(
+        f"- {labels['industry_collaborations']['llms']}: " + "; ".join(items) + "."
+    )
+    # Invited lectures are intentionally omitted from llms.txt.
+    return "\n".join(lines) + "\n"
+
+
+# ---------- section string composition ----------
 
 def compose_research_pub_section(groups: list[dict]) -> str:
     parts = []
@@ -239,7 +394,7 @@ def compose_llms_pub_section(groups: list[dict]) -> str:
 
 
 def compose_joined_blocks(entries: list[str]) -> str:
-    """Join entries with a blank line between (for multi-line project meta blocks)."""
+    """Join entries with a blank line between (for multi-line blocks)."""
     return "\n\n".join(entries) + "\n"
 
 
@@ -261,7 +416,19 @@ def compose_index_highlight_section(groups: list[dict]) -> str:
 
 # ---------- validation ----------
 
-def validate(publications, periods, projects, patents) -> None:
+def validate_all(
+    publications,
+    periods,
+    projects,
+    patents,
+    profile,
+    education,
+    career,
+    awards,
+    award_categories,
+    service_data,
+    courses,
+) -> None:
     # publications
     ids = set()
     plabels_ko = {p["label"]["ko"] for p in periods}
@@ -331,6 +498,85 @@ def validate(publications, periods, projects, patents) -> None:
             if key not in p:
                 raise SystemExit(f"Patent {pid}: missing '{key}'")
 
+    # profile
+    for key in ("name_en", "name_ko", "byline", "summary_llms", "identifiers", "current_affiliations"):
+        if key not in profile:
+            raise SystemExit(f"profile.yml: missing '{key}'")
+    for key in ("email", "orcid", "scholar_id", "github", "linkedin", "arge_url"):
+        if key not in profile["identifiers"]:
+            raise SystemExit(f"profile.yml: identifiers missing '{key}'")
+    for aff in profile["current_affiliations"]:
+        for key in ("institution", "role", "status"):
+            if key not in aff:
+                raise SystemExit(f"profile.yml: affiliation missing '{key}'")
+
+    # education
+    edu_ids = set()
+    for e in education:
+        eid = e.get("id") or ""
+        if not eid:
+            raise SystemExit(f"Education missing id: {e!r}")
+        if eid in edu_ids:
+            raise SystemExit(f"Duplicate education id: {eid}")
+        edu_ids.add(eid)
+        for key in ("degree", "institution", "year"):
+            if key not in e:
+                raise SystemExit(f"Education {eid}: missing '{key}'")
+        if e.get("detail") and "detail_label" not in e:
+            raise SystemExit(f"Education {eid}: detail requires detail_label")
+
+    # career
+    car_ids = set()
+    for p in career:
+        pid = p.get("id") or ""
+        if not pid:
+            raise SystemExit(f"Career missing id: {p!r}")
+        if pid in car_ids:
+            raise SystemExit(f"Duplicate career id: {pid}")
+        car_ids.add(pid)
+        for key in ("title", "employer", "period"):
+            if key not in p:
+                raise SystemExit(f"Career {pid}: missing '{key}'")
+
+    # awards
+    cat_ids = {c["id"] for c in award_categories}
+    aw_ids = set()
+    for a in awards:
+        aid = a.get("id") or ""
+        if not aid:
+            raise SystemExit(f"Award missing id: {a!r}")
+        if aid in aw_ids:
+            raise SystemExit(f"Duplicate award id: {aid}")
+        aw_ids.add(aid)
+        for key in ("year", "category", "title", "context"):
+            if key not in a:
+                raise SystemExit(f"Award {aid}: missing '{key}'")
+        if a["category"] not in cat_ids:
+            raise SystemExit(
+                f"Award {aid}: category '{a['category']}' is not one of "
+                f"the declared award_categories"
+            )
+
+    # service
+    for key in _SERVICE_SECTION_KEYS:
+        if key not in service_data["service"]:
+            raise SystemExit(f"service.yml: missing section '{key}'")
+        if key not in service_data["labels"]:
+            raise SystemExit(f"service.yml: missing label '{key}'")
+
+    # courses
+    co_ids = set()
+    for c in courses:
+        cid = c.get("id") or ""
+        if not cid:
+            raise SystemExit(f"Course missing id: {c!r}")
+        if cid in co_ids:
+            raise SystemExit(f"Duplicate course id: {cid}")
+        co_ids.add(cid)
+        for key in ("title", "institution", "level", "years"):
+            if key not in c:
+                raise SystemExit(f"Course {cid}: missing '{key}'")
+
 
 # ---------- main ----------
 
@@ -338,13 +584,29 @@ def build() -> None:
     pub_data = load_yaml(DATA_DIR / "publications.yml")
     proj_data = load_yaml(DATA_DIR / "projects.yml")
     pat_data = load_yaml(DATA_DIR / "patents.yml")
+    profile_data = load_yaml(DATA_DIR / "profile.yml")
+    edu_data = load_yaml(DATA_DIR / "education.yml")
+    career_data = load_yaml(DATA_DIR / "career.yml")
+    awards_data = load_yaml(DATA_DIR / "awards.yml")
+    service_data = load_yaml(DATA_DIR / "service.yml")
+    teaching_data = load_yaml(DATA_DIR / "teaching.yml")
 
     publications = pub_data["publications"]
     periods = pub_data["research_work_periods"]
     projects = proj_data["projects"]
     patents = pat_data["patents"]
+    profile = profile_data["profile"]
+    education = edu_data["education"]
+    career = career_data["career"]
+    awards = awards_data["awards"]
+    award_categories = awards_data["award_categories"]
+    courses = teaching_data["courses"]
 
-    validate(publications, periods, projects, patents)
+    validate_all(
+        publications, periods, projects, patents,
+        profile, education, career, awards, award_categories,
+        service_data, courses,
+    )
 
     working = [p for p in publications if p.get("status") == "in-review"]
     published = [p for p in publications if p.get("status") != "in-review"]
@@ -409,31 +671,41 @@ def build() -> None:
 
     INCLUDES_DIR.mkdir(exist_ok=True)
 
-    # Bodies (each ends with a single \n)
     bodies: dict[str, str] = {}
 
     for lang in ("ko", "en"):
-        groups = pub_groups(lang, "Working Papers")
-        bodies[f"research-publications.{lang}.qmd"] = compose_research_pub_section(groups)
-
+        # Existing (Tier 2)
+        bodies[f"research-publications.{lang}.qmd"] = compose_research_pub_section(
+            pub_groups(lang, "Working Papers")
+        )
         bodies[f"research-projects.{lang}.qmd"] = compose_joined_blocks(
             [render_project_research_entry(p, lang) for p in projects]
         )
         bodies[f"research-patents.{lang}.qmd"] = compose_joined_lines(
             [render_patent_entry(p, lang) for p in patents]
         )
-
         bodies[f"index-research-works-highlights.{lang}.qmd"] = (
             compose_index_highlight_section(highlight_groups(lang))
         )
         bodies[f"index-projects-highlights.{lang}.qmd"] = compose_joined_blocks(
-            [
-                render_project_index_entry(p, lang)
-                for p in projects if p.get("highlight")
-            ]
+            [render_project_index_entry(p, lang) for p in projects if p.get("highlight")]
         )
         bodies[f"index-patents.{lang}.qmd"] = compose_joined_lines(
             [render_patent_entry(p, lang) for p in patents]
+        )
+
+        # New (Phase 3a)
+        bodies[f"index-education.{lang}.qmd"] = compose_joined_lines(
+            [render_education_entry(e, lang) for e in education]
+        )
+        bodies[f"index-career.{lang}.qmd"] = compose_joined_blocks(
+            [render_career_entry(p, lang) for p in career]
+        )
+        bodies[f"index-awards.{lang}.qmd"] = compose_joined_lines(
+            [render_award_entry(a, lang) for a in awards]
+        )
+        bodies[f"index-professional-service.{lang}.qmd"] = render_service_site(
+            service_data, lang
         )
 
     for out_name, body in bodies.items():
@@ -441,11 +713,28 @@ def build() -> None:
         rendered = tpl.render(body=body)
         write_text(INCLUDES_DIR / out_name, rendered)
 
-    # llms.txt — full file
+    # llms.txt — full file, now fully data-driven
     llms_ctx = {
+        "name_en": profile["name_en"],
+        "name_ko": profile["name_ko"],
+        "byline": profile["byline"],
+        "summary": profile["summary_llms"],
+        "identifiers_section": render_llms_identifiers(profile),
+        "affiliations_section": render_llms_affiliations(profile),
+        "education_section": compose_joined_lines(
+            [render_llms_education_entry(e) for e in education]
+        ),
+        "career_section": compose_joined_lines(
+            [render_llms_career_entry(c) for c in career]
+        ),
         "pub_section": compose_llms_pub_section(llms_pub_groups()),
-        "proj_section": compose_joined_lines([render_project_llms_entry(p) for p in projects]),
-        "pat_section": compose_joined_lines([render_patent_llms_entry(p) for p in patents]),
+        "proj_section": compose_joined_lines(
+            [render_project_llms_entry(p) for p in projects]
+        ),
+        "pat_section": compose_joined_lines(
+            [render_patent_llms_entry(p) for p in patents]
+        ),
+        "service_section": render_service_llms(service_data),
     }
     llms_tpl = env.get_template("llms.txt.j2")
     llms_out = llms_tpl.render(**llms_ctx)
@@ -454,7 +743,11 @@ def build() -> None:
     print(
         f"{len(publications)} publications, "
         f"{len(projects)} projects, "
-        f"{len(patents)} patents"
+        f"{len(patents)} patents, "
+        f"{len(education)} education, "
+        f"{len(career)} career, "
+        f"{len(awards)} awards, "
+        f"{len(courses)} courses"
     )
 
 

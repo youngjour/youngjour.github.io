@@ -1,0 +1,28 @@
+# Course metadata used only by the CV generator (Phase 3b).
+# The prose course descriptions on the Teaching page stay hand-
+# maintained in `teaching.qmd` / `en/teaching.qmd`.
+
+courses:
+  - id: snu-udr-pedestrian
+    title:
+      ko: "도시설계연구(도시보행)"
+      en: "Urban Design Research — Urban Walking"
+    institution:
+      ko: "서울대학교 건축학과"
+      en: "Seoul National University, Dept. of Architecture"
+    level:
+      ko: "건축학 전공 대학원 과정"
+      en: "Graduate course, Architecture major"
+    years: "2020–2021"
+
+  - id: snu-udt-then-now
+    title:
+      ko: "도시설계론: 옛날 도시설계, 요즘 도시설계"
+      en: "Theories of Urban Design: Traditional and Contemporary"
+    institution:
+      ko: "서울대학교 협동과정 도시설계학전공"
+      en: "SNU Interdisciplinary Program in Urban Design"
+    level:
+      ko: "대학원 과정"
+      en: "Graduate course"
+    years: "2020–2021"

@@ -1,0 +1,130 @@
+# Chronological career positions. Shown on the About page "Career"
+# section (both languages) and in the "Career history" list in
+# llms.txt.
+#
+# Fields:
+#   title.{ko,en}           role title. `.llms` override only when the
+#                            llms sentence-case form differs (see
+#                            arge-cto: "Co-founder and CTO" vs the
+#                            site's "Co-founder · CTO").
+#   employer.{ko,en}        organisation. `.llms` override when the
+#                            llms re-orders / renames it.
+#   period.{ko,en}          display period for the site. llms form is
+#                            auto-normalised: "Present" → "present";
+#                            "2022 – 2025" → "2022–2025". Override with
+#                            `period.llms` only if auto-form is wrong.
+#   bullets.{ko,en}         optional sub-bullets under the position.
+#                            When absent or null, no list is rendered.
+
+career:
+  - id: arge-cto
+    title:
+      ko: "공동창립자 · CTO"
+      en: "Co-founder · CTO"
+      llms: "Co-founder and CTO"
+    employer:
+      ko: "ar-ge 건축사사무소 (ar-ge inc.)"
+      en: "ar-ge Architects (ar-ge inc.)"
+      llms: "ar-ge inc. (ar-ge Architects)"
+    period:
+      ko: "현재"
+      en: "Present"
+    bullets:
+      ko:
+        - "Agentic AI 기반의 건축·도시 설계 솔루션 개발"
+        - "연구·기술 조직 운영"
+        - "공공부문 건축·도시 설계 실무"
+      en:
+        - "Development of Agentic AI-based architectural and urban design solutions"
+        - "Leading the research and engineering organization"
+        - "Public-sector architectural and urban design practice"
+
+  - id: kaist-uai-advisor
+    title:
+      ko: "외부 자문"
+      en: "External Advisor"
+    employer:
+      ko: "KAIST 도시인공지능연구소"
+      en: "KAIST Urban AI Institute"
+    period:
+      ko: "현재"
+      en: "Present"
+    bullets: null
+
+  - id: kaist-uai-postdoc
+    title:
+      ko: "박사후 연구원"
+      en: "Postdoctoral Researcher"
+    employer:
+      ko: "KAIST 도시인공지능연구소"
+      en: "KAIST Urban AI Institute"
+    period:
+      ko: "2025"
+      en: "2025"
+    bullets:
+      ko:
+        - "도시인공지능연구소 운영 보조"
+        - "학제간 및 국제 협력 연구 프로젝트 관리"
+        - "Multi-agent system 과 Urban Foundation Model 연구"
+        - "AI Seoul 2025 참가 및 MIT-KAIST 연구 성과 전시"
+      en:
+        - "Supported institute operations"
+        - "Managed interdisciplinary and international collaborative research projects"
+        - "Research on multi-agent systems and Urban Foundation Models"
+        - "Participated in AI Seoul 2025 and exhibited MIT–KAIST research outcomes"
+
+  - id: kaist-soc-postdoc
+    title:
+      ko: "박사후 연구원"
+      en: "Postdoctoral Researcher"
+    employer:
+      ko: "KAIST 전산학부"
+      en: "KAIST School of Computing"
+    period:
+      ko: "2022 – 2025"
+      en: "2022 – 2025"
+    bullets:
+      ko:
+        - "IoT 에지 컴퓨팅 기반 스마트시티 기술 연구"
+        - "Spatiotemporal analysis, graph network, LLM embedding 등 도시 데이터 처리 방법론 연구"
+        - "연구실 내 도시연구그룹 'DeepUrban' 운영"
+      en:
+        - "Research on smart city technologies based on IoT edge computing"
+        - "Urban data processing methodologies including spatiotemporal analysis, graph networks, and LLM embeddings"
+        - "Led 'DeepUrban', the urban research group within the lab"
+
+  - id: snu-lecturer
+    title:
+      ko: "강사"
+      en: "Lecturer"
+    employer:
+      ko: "서울대학교 건축학과"
+      en: "Department of Architecture, Seoul National University"
+    period:
+      ko: "2021 – 2024"
+      en: "2021 – 2024"
+    bullets:
+      ko:
+        - "도시설계연구: 보행-도시 데이터 분석 (건축학 전공 대학원 과정)"
+        - "도시설계론: 옛날 도시설계, 요즘 도시설계 (협동과정 도시설계학 전공 대학원 과정)"
+      en:
+        - "Studies in Urban Design: Pedestrian–Urban Data Analysis (graduate course, Architecture)"
+        - "Theories of Urban Design: Traditional and Contemporary Urban Design (graduate course, Interdisciplinary Program in Urban Design)"
+
+  - id: rok-army-officer
+    title:
+      ko: "장교 (중위)"
+      en: "Officer (First Lieutenant)"
+    employer:
+      ko: "대한민국 육군 공병"
+      en: "Republic of Korea Army Corps of Engineers"
+    period:
+      ko: "2013 – 2015"
+      en: "2013 – 2015"
+    bullets:
+      ko:
+        - "실작전 수행 및 조직 관리"
+        - "DMZ 작전 지뢰탐지제거조장"
+      en:
+        - "Led live operational missions and unit management"
+        - "Mine-detection-and-removal team leader for DMZ operations"

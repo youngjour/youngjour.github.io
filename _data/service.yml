@@ -1,0 +1,74 @@
+# Professional service.
+#
+# The About-page "Professional Service" section, the llms.txt
+# "Professional service" section, and the CV all pull from here.
+#
+# Per-section `en: []` means "EN mirrors KO" — the renderer reuses
+# the KO list when the EN list is empty.
+#
+# Rendering:
+#   About page (both langs):
+#     **{labels.{lang}}**\n{items joined with " · "}
+#   llms.txt:
+#     - {labels.llms}: {items joined per rule below}.
+#     journal_reviewer       → items italicised with *…*, comma-joined
+#     research_advisory      → plain, "; "-joined
+#     industry_collaborations→ plain, "; "-joined
+#     invited_lectures       → NOT included in llms.txt.
+
+labels:
+  journal_reviewer:
+    ko: "저널 리뷰어"
+    en: "Journal Reviewer"
+    llms: "Journal reviewer"
+  research_advisory:
+    ko: "연구 자문"
+    en: "Research Advisory"
+    llms: "Research advisory"
+  industry_collaborations:
+    ko: "산학 협력"
+    en: "Industry–Academic Collaboration"
+    llms: "Industry–academic collaborations"
+  invited_lectures:
+    ko: "특강 · 세미나"
+    en: "Guest Lectures · Seminars"
+    llms: null
+
+service:
+  journal_reviewer:
+    ko:
+      - "Scientific Reports"
+      - "BMC Public Health"
+      - "Archives of Public Health"
+      - "Frontiers in Public Health"
+    en: []
+
+  research_advisory:
+    ko:
+      - "KAIST 도시인공지능연구소"
+      - "건축공간연구원(AURI)"
+    en:
+      - "KAIST Urban AI Institute"
+      - "Architecture & Urban Research Institute (AURI)"
+
+  industry_collaborations:
+    ko:
+      - "GS건설"
+      - "기아자동차-이노션"
+      - "스왈라비"
+    en:
+      - "GS E&C"
+      - "Kia Motors–Innocean"
+      - "Swallaby"
+
+  invited_lectures:
+    ko:
+      - "서울대학교 건축학과"
+      - "KAIST 전산학부"
+      - "한국기술교육대학교 건축공학과"
+      - "중앙대학교 건축학과"
+    en:
+      - "Dept. of Architecture, Seoul National University"
+      - "KAIST School of Computing"
+      - "Dept. of Architectural Engineering, KOREATECH"
+      - "Dept. of Architecture, Chung-Ang University"

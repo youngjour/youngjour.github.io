@@ -1,0 +1,43 @@
+# Identifiers, blockquote summary, and the "Current affiliations" list
+# used at the top of llms.txt. Site owner identity lives here.
+#
+# Per-language overrides for the "Current affiliations" role use `role.llms`
+# when the llms form diverges from role.en (e.g. "Co-founder and CTO" vs
+# the site's "Co-founder · CTO"). If `role.llms` is missing the renderer
+# falls back to role.en.
+
+profile:
+  name_en: "Youngjun Park"
+  name_ko: "박영준"
+  byline: "Park, Youngjun"
+  summary_llms: "Architect and urban data scientist. Co-founder and CTO of ar-ge inc. Ph.D. in Architecture, Seoul National University (2022). Former postdoctoral researcher at KAIST School of Computing (2022–2025) and KAIST Urban AI Institute (2025). Research in urban computing, smart cities, ML/DL for urban analysis, and Agentic AI for architectural and urban design."
+  identifiers:
+    email: "youngjourpark@gmail.com"
+    orcid: "0000-0002-4254-2268"
+    scholar_id: "sGRKN6UAAAAJ"
+    github: "youngjour"
+    linkedin: "youngjourpark"
+    arge_url: "https://ar-ge.kr"
+  current_affiliations:
+    - id: arge
+      institution:
+        ko: "ar-ge inc."
+        en: "ar-ge inc."
+      role:
+        ko: "공동창립자 · CTO"
+        en: "Co-founder · CTO"
+        llms: "Co-founder and CTO"
+      url: "https://ar-ge.kr"
+      status:
+        ko: "현재"
+        en: "present"
+    - id: kaist-uai-advisor
+      institution:
+        ko: "KAIST 도시인공지능연구소"
+        en: "KAIST Urban AI Institute"
+      role:
+        ko: "외부 자문"
+        en: "External Advisor"
+      status:
+        ko: "현재"
+        en: "present"
