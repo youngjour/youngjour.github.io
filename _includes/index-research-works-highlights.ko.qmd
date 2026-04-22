@@ -1,0 +1,16 @@
+**박사과정 · 공간 통계와 모바일 위치 데이터** — 서울대학교 건축학과
+
+- Park et al. (2022) *Int. J. Environmental Research and Public Health* — 비활동/활동 인구의 공원 보행 차이
+- Park et al. (2021) *HERD Journal* — COVID-19 국면의 보행 활동 변화
+
+**박사후 · ML/DL 과 도시 컴퓨팅** — KAIST 전산학부
+
+- Han, Park et al. (2023) *CIKM* — 도시 활동 기반 시공간 교통 예측
+- Lee, Park et al. (2025) *ASONAM* — LLM 임베딩 기반 Airbnb 트렌드 예측
+- Park, Han et al. (2023) *ACSP* — 개인 통행 데이터의 언어 모델링 적용
+
+**박사후 · 에이전트와 파운데이션 모델** — KAIST 도시인공지능연구소
+
+- Park et al. (2025, in-review) *npj Urban Sustainability* — Food Desert 의 site-specific factor 분석
+
+**현재 · Agentic AI 기반 설계 시스템** — ar-ge inc.

@@ -1,0 +1,19 @@
+**GS–KAIST Smart City Research Center** (2024–2025)
+*Postdoctoral Researcher* · KAIST
+GS E&C · AI-based urban system development and smart city technology research · Operation of and participation in a large industry–academic research center.
+
+**Multimodal Spatiotemporal Urban Prediction Models Based on Large Language Models** (2024–2025)
+*Postdoctoral Researcher* · KAIST
+National Research Foundation of Korea · Project No. RS-2024-00356597 · Development of urban prediction models using LLMs and spatiotemporal data methods.
+
+**Self-Learning Autonomic IoT Edge Computing Technology** (2022–2025)
+*Postdoctoral Researcher* · KAIST
+Ministry of Science and ICT, SW StarLab long-term project · Project No. RS-2019-II191126 · Application of edge computing technology in IoT smart city environments.
+
+**Comparative Study on Walking Practice within Neighborhoods via Individual GPS Trajectory Analysis** (2019–2021)
+*Research Grant Recipient* · Seoul National University
+National Research Foundation of Korea, Next-Generation Researcher Program · Analysis of pedestrian activity and urban planning facilities based on smartphone GPS trajectory data.
+
+**Pedestrian Data Analysis for WalkON Smartphone App Development** (2019–2020)
+*External Researcher · Research Team Lead* · Swallaby Inc.
+Pedestrian data analysis and health-promotion service design. Practical application of doctoral research.

@@ -1,6 +1,9 @@
 #!/bin/bash
 set -e
 
+echo "🏗  Building data includes from _data/..."
+python scripts/build.py
+
 echo "🇰🇷 Building Korean site..."
 quarto render .
 

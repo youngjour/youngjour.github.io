@@ -1,0 +1,370 @@
+# Single source of truth for publications.
+#
+# Ordering: newest-first within this list. The build script regroups by
+# year / status when rendering.
+#
+# Fields:
+#   id            kebab-case slug, unique across this file.
+#   year          integer.
+#   type          journal | conference | workshop | poster | other.
+#   status        published | in-review | accepted | poster.
+#   authors       ordered list; wrap site owner in ** **. Use long form
+#                 ("Park, Youngjun"); build script derives short form
+#                 for llms.txt.
+#   title         paper title, no trailing punctuation.
+#   venue.ko      venue name on Korean research page.
+#   venue.en      venue name on English research page.
+#   venue.llms    optional — venue name in llms.txt if it differs from
+#                 the research-page form (e.g. "AESOP'24" vs "AESOP '24").
+#   pages, volume, issue   optional; shown on both research and llms.
+#   doi           DOI string (no "https://doi.org/" prefix).
+#   url           fallback URL when no DOI (applied to both pages and
+#                 llms.txt).
+#   url_label     link text for the research page: Published | Preprint
+#                 | PDF.
+#   url_italic    defaults true; set false only to preserve the single
+#                 historical quirk where the link line is not wrapped in
+#                 asterisks (2019 "Car-use and Non-work Travel" paper).
+#   research_only_url   URL shown on the research page but NOT in
+#                 llms.txt (e.g. a Google Scholar search link).
+#   highlight     optional object; presence puts the paper on the
+#                 About-page "Research Works" highlight.
+#     period.{ko,en}   must exactly match one of the labels in
+#                       research_work_periods below.
+#     author_label     optional override; if absent, derived from
+#                       authors + owner position.
+#     venue_short      short venue form for About-page highlight
+#                       (language-independent, e.g. "CIKM").
+#     summary.{ko,en}  tail text after "— " on the About page.
+
+research_work_periods:
+  - label:
+      ko: "박사과정 · 공간 통계와 모바일 위치 데이터"
+      en: "Ph.D. · Spatial Statistics and Mobile Location Data"
+    affiliation:
+      ko: "서울대학교 건축학과"
+      en: "Dept. of Architecture, Seoul National University"
+  - label:
+      ko: "박사후 · ML/DL 과 도시 컴퓨팅"
+      en: "Postdoc · ML/DL and Urban Computing"
+    affiliation:
+      ko: "KAIST 전산학부"
+      en: "KAIST School of Computing"
+  - label:
+      ko: "박사후 · 에이전트와 파운데이션 모델"
+      en: "Postdoc · Agents and Foundation Models"
+    affiliation:
+      ko: "KAIST 도시인공지능연구소"
+      en: "KAIST Urban AI Institute"
+  - label:
+      ko: "현재 · Agentic AI 기반 설계 시스템"
+      en: "Current · Agentic AI-based Design Systems"
+    affiliation:
+      ko: "ar-ge inc."
+      en: "ar-ge inc."
+
+publications:
+  - id: food-deserts-npj-2025
+    year: 2025
+    type: journal
+    status: in-review
+    authors:
+      - "**Park, Youngjun**"
+      - "Na, Jihye"
+      - "Jang, Keonhee"
+      - "Lee, Dongman"
+      - "Kwon, Changhyun"
+      - "Yoon, Yoonjin"
+    title: "Food Deserts in Context: How Site-Specific Factors Reshape Food Deserts Discussion"
+    venue:
+      ko: "npj Urban Sustainability"
+      en: "npj Urban Sustainability"
+    highlight:
+      period:
+        ko: "박사후 · 에이전트와 파운데이션 모델"
+        en: "Postdoc · Agents and Foundation Models"
+      rank: 1
+      venue_short: "npj Urban Sustainability"
+      summary:
+        ko: "Food Desert 의 site-specific factor 분석"
+        en: "Site-specific factor analysis of food deserts"
+
+  - id: airbnb-asonam-2025
+    year: 2025
+    type: conference
+    status: published
+    authors:
+      - "Lee, Hongju"
+      - "**Park, Youngjun**"
+      - "An, Jisun"
+      - "Lee, Dongman"
+    title: "Enhancing Regional Airbnb Trend Forecasting Using LLM-Based Embeddings of Accessibility and Human Mobility"
+    venue:
+      ko: "ASONAM 2025"
+      en: "ASONAM 2025"
+    doi: "10.1007/978-3-032-13513-1_30"
+    url_label: "Published"
+    highlight:
+      period:
+        ko: "박사후 · ML/DL 과 도시 컴퓨팅"
+        en: "Postdoc · ML/DL and Urban Computing"
+      rank: 2
+      venue_short: "ASONAM"
+      summary:
+        ko: "LLM 임베딩 기반 Airbnb 트렌드 예측"
+        en: "LLM embedding-based Airbnb trend prediction"
+
+  - id: airbnb-ictr-2025
+    year: 2025
+    type: conference
+    status: published
+    authors:
+      - "**Park, Youngjun**"
+      - "Bae, Hyungchan"
+      - "An, Jisun"
+      - "Lee, Dongman"
+    title: "A Model for Monthly, Local-Level Airbnb Changes Using Public Dataset"
+    venue:
+      ko: "Proceedings of the 7th International Conference on Tourism Research"
+      en: "Proceedings of the 7th International Conference on Tourism Research"
+    volume: "8"
+    issue: "1"
+    pages: "214–223"
+    url: "https://papers.academic-conferences.org/index.php/ictr/article/view/3475"
+    url_label: "Published"
+
+  - id: population-aesop-2024
+    year: 2024
+    type: poster
+    status: poster
+    authors:
+      - "**Park, Youngjun**"
+      - "Han, Sumin"
+    title: "Enhancing Population Predictions in Developing Area through Building Construction Data"
+    venue:
+      ko: "Association of European Schools of Planning (AESOP'24)"
+      en: "Association of European Schools of Planning (AESOP'24)"
+      llms: "AESOP '24"
+
+  - id: real-estate-pakdd-2024
+    year: 2024
+    type: workshop
+    status: published
+    authors:
+      - "Han, Sumin"
+      - "**Park, Youngjun**"
+      - "Sabir, Sonia"
+      - "An, Jisun"
+      - "Lee, Dongman"
+    title: "Improving Real Estate Appraisal with POI Integration and Areal Embedding"
+    venue:
+      ko: "DMO-FinTech'24: Workshop on Decision Making and Optimization in Financial Technologies (PAKDD'24)"
+      en: "DMO-FinTech'24: Workshop on Decision Making and Optimization in Financial Technologies (PAKDD'24)"
+      llms: "DMO-FinTech '24, Workshop at PAKDD '24"
+    url: "https://arxiv.org/abs/2311.11812"
+    url_label: "Preprint"
+
+  - id: geovis-kcc-2024
+    year: 2024
+    type: conference
+    status: published
+    authors:
+      - "**Park, Youngjun**"
+      - "Han, Sumin"
+      - "Park, Doyun"
+      - "Bae, Hyeongchan"
+      - "Nguyen, Thanh Tung"
+      - "Lee, Dongman"
+    title: "Integrative Geospatial Visualization for Urban Mobility Analysis"
+    venue:
+      ko: "Korea Computer Congress (KCC'24)"
+      en: "Korea Computer Congress (KCC'24)"
+      llms: "Korea Computer Congress (KCC '24)"
+    url: "https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11861859"
+    url_label: "Published"
+
+  - id: georec-nlp-kcc-2024
+    year: 2024
+    type: conference
+    status: published
+    authors:
+      - "Elmoursi, Ahmad"
+      - "Han, Sumin"
+      - "Bae, Hyungchan"
+      - "**Park, Youngjun**"
+      - "Nguyen, Thanh Tung"
+      - "Lee, Dongman"
+    title: "Enhancing Geospatial Recommendations through Natural Language Processing with Large Language Models"
+    venue:
+      ko: "Korea Computer Congress (KCC'24)"
+      en: "Korea Computer Congress (KCC'24)"
+      llms: "Korea Computer Congress (KCC '24)"
+    url: "https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11862488"
+    url_label: "Published"
+
+  - id: traffic-cikm-2023
+    year: 2023
+    type: conference
+    status: published
+    authors:
+      - "Han, Sumin"
+      - "**Park, Youngjun**"
+      - "Lee, Minji"
+      - "An, Jisun"
+      - "Lee, Dongman"
+    title: "Enhancing Spatio-temporal Traffic Prediction through Urban Human Activity Analysis"
+    venue:
+      ko: "CIKM 2023"
+      en: "CIKM 2023"
+    pages: "689–698"
+    doi: "10.1145/3583780.3614867"
+    url_label: "Published"
+    highlight:
+      period:
+        ko: "박사후 · ML/DL 과 도시 컴퓨팅"
+        en: "Postdoc · ML/DL and Urban Computing"
+      rank: 1
+      venue_short: "CIKM"
+      summary:
+        ko: "도시 활동 기반 시공간 교통 예측"
+        en: "Spatiotemporal traffic prediction based on urban activity"
+
+  - id: trajectory-acsp-2023
+    year: 2023
+    type: conference
+    status: published
+    authors:
+      - "**Park, Youngjun**"
+      - "Han, Sumin"
+      - "An, Jisun"
+      - "Lee, Dongman"
+    title: "Encoding Urban Trajectory as a Language: Deep Learning Insights for Human Mobility Pattern"
+    venue:
+      ko: "Association of Collegiate Schools of Planning (ACSP '23)"
+      en: "Association of Collegiate Schools of Planning (ACSP '23)"
+    url_label: "PDF"
+    research_only_url: "https://scholar.google.com/scholar?oi=bibs&cluster=17000777907259289010&btnI=1&hl=ko&authuser=1"
+    highlight:
+      period:
+        ko: "박사후 · ML/DL 과 도시 컴퓨팅"
+        en: "Postdoc · ML/DL and Urban Computing"
+      rank: 3
+      author_label: "Park, Han et al."
+      venue_short: "ACSP"
+      summary:
+        ko: "개인 통행 데이터의 언어 모델링 적용"
+        en: "Language modeling applied to individual travel data"
+
+  - id: park-walking-ijerph-2022
+    year: 2022
+    type: journal
+    status: published
+    authors:
+      - "**Park, Youngjun**"
+      - "Lee, Sunjae"
+      - "Park, Sohyun"
+    title: "Differences in park walking, comparing the physically inactive and active groups: data from mHealth monitoring system in Seoul"
+    venue:
+      ko: "International Journal of Environmental Research and Public Health"
+      en: "International Journal of Environmental Research and Public Health"
+    volume: "19"
+    issue: "1"
+    pages: "395"
+    doi: "10.3390/ijerph19010395"
+    url_label: "Published"
+    highlight:
+      period:
+        ko: "박사과정 · 공간 통계와 모바일 위치 데이터"
+        en: "Ph.D. · Spatial Statistics and Mobile Location Data"
+      rank: 1
+      venue_short: "Int. J. Environmental Research and Public Health"
+      summary:
+        ko: "비활동/활동 인구의 공원 보행 차이"
+        en: "Differences in park walking between inactive and active populations"
+
+  - id: parks-healthy-udi-2022
+    year: 2022
+    type: other
+    status: published
+    authors:
+      - "**Park, Youngjun**"
+    title: "Parks and Healthy Walking: smartphone physical activity recognition data for place and walking"
+    venue:
+      ko: "Urban Design Institute of Korea"
+      en: "Urban Design Institute of Korea"
+
+  - id: covid-walking-herd-2021
+    year: 2021
+    type: journal
+    status: published
+    authors:
+      - "**Park, Youngjun**"
+      - "Chung, Haegwon"
+      - "Park, Sohyun"
+    title: "Changes of walking activity during the first cycle phases of COVID-19 pandemic: A case study of Seoul, Korea"
+    title_llms: "Changes of walking activity during the first cycle phases of the COVID-19 pandemic: a case study of Seoul, Korea"
+    venue:
+      ko: "HERD: Health Environments Research & Design Journal"
+      en: "HERD: Health Environments Research & Design Journal"
+    volume: "14"
+    issue: "4"
+    pages: "43–57"
+    doi: "10.1177/19375867211026571"
+    url_label: "Published"
+    highlight:
+      period:
+        ko: "박사과정 · 공간 통계와 모바일 위치 데이터"
+        en: "Ph.D. · Spatial Statistics and Mobile Location Data"
+      rank: 2
+      venue_short: "HERD Journal"
+      summary:
+        ko: "COVID-19 국면의 보행 활동 변화"
+        en: "Changes in pedestrian activity during the COVID-19 period"
+
+  - id: bicycle-jongno-2021
+    year: 2021
+    type: journal
+    status: published
+    authors:
+      - "Jeong, Jiwoon"
+      - "**Park, Youngjun**"
+      - "Park, Sohyun"
+    title: "Safety-critical events in bicycle lanes in Jongno, Seoul"
+    venue:
+      ko: "Journal of Urbanism: International Research on Placemaking and Urban Sustainability"
+      en: "Journal of Urbanism: International Research on Placemaking and Urban Sustainability"
+    volume: "16"
+    issue: "1"
+    pages: "1–24"
+    doi: "10.1080/17549175.2021.1933571"
+    url_label: "Published"
+
+  - id: car-use-snu-2019
+    year: 2019
+    type: journal
+    status: published
+    authors:
+      - "**Park, Youngjun**"
+      - "Park, Sohyun"
+    title: "Car-use and Non-work Travel of Housewives in Residential Neighborhood of Seoul"
+    venue:
+      ko: "Seoul Research"
+      en: "Seoul Research"
+    volume: "20"
+    issue: "1"
+    pages: "45–59"
+    url: "https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE08645864"
+    url_label: "Published"
+    url_italic: false
+
+  - id: car-sharing-udi-2017
+    year: 2017
+    type: other
+    status: published
+    authors:
+      - "**Park, Youngjun**"
+      - "Park, Sohyun"
+    title: "A Study on the Location of Car-sharing in the Neighborhood Area and Replacement of Vehicle Ownership in Community"
+    venue:
+      ko: "Urban Design Institute of Korea"
+      en: "Urban Design Institute of Korea"

@@ -1,0 +1,159 @@
+# Research projects / grants.
+#
+# Fields:
+#   id              kebab-case slug.
+#   title.{ko,en}   project title.
+#   period          string, en-dash separated (e.g. "2024–2025").
+#   research_meta   meta line shown under the title on the Research
+#                   page ({ko,en}). Include bold/italic markdown.
+#   highlight       true → appears in the About-page "Projects" top-5.
+#                   Exactly 5 projects must have highlight: true.
+#   index_meta      meta line shown on the About page ({ko,en}); often
+#                   shorter than research_meta. Required when
+#                   highlight: true.
+#   index_summary   summary paragraph shown below index_meta on the
+#                   About page ({ko,en}). Required when highlight: true.
+#   llms_line       trailing sentence in llms.txt after "{title} ({period}). ".
+#                   Handwritten for each entry to match the current
+#                   llms.txt.
+
+projects:
+  - id: gs-kaist-smartcity
+    title:
+      ko: "GS–KAIST 스마트시티 연구센터"
+      en: "GS–KAIST Smart City Research Center"
+    period: "2024–2025"
+    research_meta:
+      ko: "*박사후 연구원* · KAIST · GS건설"
+      en: "*Postdoctoral Researcher* · KAIST · GS E&C"
+    highlight: true
+    index_meta:
+      ko: "*박사후 연구원* · KAIST"
+      en: "*Postdoctoral Researcher* · KAIST"
+    index_summary:
+      ko: "GS건설 · AI 기반 도시 시스템 개발 및 스마트시티 기술 연구 · 산학 대형 연구센터 운영 및 연구 참여."
+      en: "GS E&C · AI-based urban system development and smart city technology research · Operation of and participation in a large industry–academic research center."
+    llms_line: "Postdoctoral Researcher, KAIST. Funded by GS E&C. Industry–academic center on AI-based urban systems and smart-city technologies."
+
+  - id: drug-detection
+    title:
+      ko: "AI 기반 비접촉 마약 탐지 기술 연구"
+      en: "AI-based Non-contact Drug Detection Technology"
+    period: "2024–2025"
+    research_meta:
+      ko: "*박사후 연구원* · KAIST · 과학기술정보통신부 · RS-2024-00459749"
+      en: "*Postdoctoral Researcher* · KAIST · Ministry of Science and ICT · RS-2024-00459749"
+    highlight: false
+    llms_line: "Postdoctoral Researcher, KAIST. Ministry of Science and ICT. RS-2024-00459749."
+
+  - id: llm-urban-pred
+    title:
+      ko: "대규모 언어모델 기반 멀티모달 시공간 도시 예측 모델 연구"
+      en: "Multimodal Spatiotemporal Urban Prediction Models Based on Large Language Models"
+    period: "2024–2025"
+    research_meta:
+      ko: "*박사후 연구원* · KAIST · 한국연구재단 · RS-2024-00356597"
+      en: "*Postdoctoral Researcher* · KAIST · National Research Foundation of Korea · RS-2024-00356597"
+    highlight: true
+    index_meta:
+      ko: "*박사후 연구원* · KAIST"
+      en: "*Postdoctoral Researcher* · KAIST"
+    index_summary:
+      ko: "한국연구재단 · Project No. RS-2024-00356597 · LLM 및 시공간 데이터 기법을 활용한 도시 예측 모델 개발."
+      en: "National Research Foundation of Korea · Project No. RS-2024-00356597 · Development of urban prediction models using LLMs and spatiotemporal data methods."
+    llms_line: "Postdoctoral Researcher, KAIST. National Research Foundation of Korea. RS-2024-00356597."
+
+  - id: iot-edge
+    title:
+      ko: "자가 학습 기반 Autonomic IoT 에지 컴퓨팅 기술 연구"
+      en: "Self-Learning Autonomic IoT Edge Computing Technology"
+    period: "2022–2025"
+    research_meta:
+      ko: "*박사후 연구원* · SW StarLab Project, KAIST · 과학기술정보통신부 · RS-2019-II191126"
+      en: "*Postdoctoral Researcher* · SW StarLab Project, KAIST · Ministry of Science and ICT · RS-2019-II191126"
+    highlight: true
+    index_meta:
+      ko: "*박사후 연구원* · KAIST"
+      en: "*Postdoctoral Researcher* · KAIST"
+    index_summary:
+      ko: "과기정통부 SW 스타랩 장기 과제 · Project No. RS-2019-II191126 · IoT 스마트 도시 환경 내 에지 컴퓨팅 기술 적용."
+      en: "Ministry of Science and ICT, SW StarLab long-term project · Project No. RS-2019-II191126 · Application of edge computing technology in IoT smart city environments."
+    llms_line: "Postdoctoral Researcher, SW StarLab long-term project, KAIST. Ministry of Science and ICT. RS-2019-II191126."
+
+  - id: smart-mobility
+    title:
+      ko: "AI 기반 스마트모빌리티 시스템 개발"
+      en: "Development of an AI-based Smart Mobility System"
+    period: "2022–2024"
+    research_meta:
+      ko: "*참여 연구원* · 대구광역시 · KAIST · N04230030"
+      en: "*Participating Researcher* · Daegu Metropolitan City · KAIST · N04230030"
+    highlight: false
+    llms_line: "Participating Researcher, KAIST. Daegu Metropolitan City. N04230030."
+
+  - id: auri-text-analysis
+    title:
+      ko: "정부 예산 대상 보행자 관련 사업 텍스트 분석"
+      en: "Text Analysis of Pedestrian-Related Government-Budget Projects"
+    period: "2022–2023"
+    research_meta:
+      ko: "*연구 용역* · 건축공간연구원(AURI)"
+      en: "*Research Service* · Architecture & Urban Research Institute (AURI)"
+    highlight: false
+    llms_line: "Research service. Architecture & Urban Research Institute (AURI)."
+
+  - id: walkon-gps
+    title:
+      ko: "개별 GPS 경로 분석을 통한 근린 내 걷기실천 비교 연구"
+      en: "Comparative Study on Walking Practice within Neighborhoods via Individual GPS Trajectory Analysis"
+    period: "2019–2021"
+    research_meta:
+      ko: "*연구장학금 수혜자* · 한국연구재단 학문후속세대 · 서울대학교"
+      en: "*Research Grant Recipient* · National Research Foundation of Korea, Next-Generation Researcher Program · Seoul National University"
+    highlight: true
+    index_meta:
+      ko: "*연구장학금 수혜자* · 서울대학교"
+      en: "*Research Grant Recipient* · Seoul National University"
+    index_summary:
+      ko: "한국연구재단 학문후속세대 · 스마트폰 GPS 경로 데이터 기반의 보행 활동 및 도시계획시설 분석 연구."
+      en: "National Research Foundation of Korea, Next-Generation Researcher Program · Analysis of pedestrian activity and urban planning facilities based on smartphone GPS trajectory data."
+    llms_line: "Research Grant Recipient, Seoul National University. NRF Next-Generation Researcher Program."
+
+  - id: walkon-app
+    title:
+      ko: "WalkON 스마트폰 앱 개발을 위한 보행 데이터 분석"
+      en: "Pedestrian Data Analysis for WalkON Smartphone App Development"
+    period: "2019–2020"
+    research_meta:
+      ko: "*연구팀장, 외부소속기관 참여연구원* · 스왈라비(주)"
+      en: "*Research Team Lead, Affiliated Researcher (External Organization)* · Swallaby Inc."
+    highlight: true
+    index_meta:
+      ko: "*외부연구원 · 연구팀장* · 스왈라비(주)"
+      en: "*External Researcher · Research Team Lead* · Swallaby Inc."
+    index_summary:
+      ko: "보행 데이터 분석과 건강증진 서비스 기획. 박사 연구의 실무 응용."
+      en: "Pedestrian data analysis and health-promotion service design. Practical application of doctoral research."
+    llms_line: "Research Team Lead and External Researcher, Swallaby Inc."
+
+  - id: gis-infant
+    title:
+      ko: "영유아 공간복지를 위한 GIS 분석 연구"
+      en: "GIS Analysis for Spatial Welfare of Infants and Young Children"
+    period: "2018–2019"
+    research_meta:
+      ko: "*연구 조교, 외부소속기관 참여연구원* · 이화여자대학교 건축학과"
+      en: "*Research Assistant, Affiliated Researcher (External Organization)* · Dept. of Architecture, Ewha Womans University"
+    highlight: false
+    llms_line: "Research Assistant, Department of Architecture, Ewha Womans University."
+
+  - id: hue-oda
+    title:
+      ko: "베트남 후에시 ODA사업 도시기본계획 수립 연구"
+      en: "Comprehensive Urban Plan for the Huế City ODA Project, Vietnam"
+    period: "2015–2016"
+    research_meta:
+      ko: "*연구 조교* · 한국국제협력단(KOICA) · 서울대학교 환경대학원"
+      en: "*Research Assistant* · Korea International Cooperation Agency (KOICA) · Graduate School of Environmental Studies, Seoul National University"
+    highlight: false
+    llms_line: "Research Assistant, Korea International Cooperation Agency (KOICA), Graduate School of Environmental Studies, Seoul National University."

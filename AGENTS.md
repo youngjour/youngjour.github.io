@@ -13,9 +13,12 @@ owner or a coding agent.
    in the repo root must be reviewed against its counterpart under `en/`
    in the same commit. If the KO version gains a publication, the EN
    version gains it too — in the same PR.
-2. **Facts live in multiple places by design.** There is no single source
-   of truth yet (that is a future Tier 2 refactor). Until then, follow
-   the checklists below literally.
+2. **Publications, projects, and patents have a single source of truth.**
+   `_data/publications.yml`, `_data/projects.yml`, and `_data/patents.yml`
+   drive every place those facts appear on the site and in `llms.txt`.
+   For everything else (career, education, awards, professional service,
+   teaching, design, identifiers) facts still live in multiple places —
+   follow the checklists below literally for those.
 3. **`llms.txt` is a mirror, not a draft.** If a fact changes on the site,
    `llms.txt` must be updated in the same commit. The reverse is not
    true — do not put anything in `llms.txt` that is not also on a page.
@@ -30,9 +33,9 @@ owner or a coding agent.
 
 | Fact type                 | KO file(s)                | EN file(s)                   | Also update                              |
 |---------------------------|---------------------------|------------------------------|------------------------------------------|
-| Publication (paper/talk)  | `research.qmd`, `index.qmd` (if it belongs in "Research Works" highlights) | `en/research.qmd`, `en/index.qmd` (same rule) | `llms.txt` (always); CV (see triggers) |
-| Research project / grant  | `research.qmd`, `index.qmd` (if it belongs in the 5-project Projects highlight) | `en/research.qmd`, `en/index.qmd` (same rule) | `llms.txt`; CV                           |
-| Patent / copyright / IP   | `index.qmd`, `research.qmd` | `en/index.qmd`, `en/research.qmd`           | `llms.txt`; CV                           |
+| Publication (paper/talk)  | `_data/publications.yml` (SSOT) — run `python scripts/build.py` | same SSOT | `llms.txt` (auto); CV (see triggers) |
+| Research project / grant  | `_data/projects.yml` (SSOT) — run `python scripts/build.py` | same SSOT | `llms.txt` (auto); CV |
+| Patent / copyright / IP   | `_data/patents.yml` (SSOT) — run `python scripts/build.py` | same SSOT | `llms.txt` (auto); CV |
 | Career position           | `index.qmd`               | `en/index.qmd`               | `llms.txt` ("Current affiliations" / "Career history"); CV |
 | Education                 | `index.qmd`               | `en/index.qmd`               | `llms.txt` ("Education"); CV             |
 | Award                     | `index.qmd`               | `en/index.qmd`               | CV (usually); `llms.txt` only if listed there |
@@ -47,38 +50,57 @@ owner or a coding agent.
 
 ### Adding a publication
 
-- [ ] Decide: is this a "research works" highlight (appears on the About
-      page) or only a full-list entry (Research page only)?
-- [ ] `research.qmd` — add under the correct year section. Use the same
-      citation format as existing entries. Bold the owner as
-      `**Park, Youngjun**`.
-- [ ] `en/research.qmd` — add the matching entry. Translate venue/title
-      conservatively; keep author list identical.
-- [ ] If it's a highlight: `index.qmd` "Research Works" — add a one-line
-      bullet. Counterpart in `en/index.qmd`.
-- [ ] `llms.txt` "Publications" — add under the matching year subsection.
-      Match the existing citation format exactly (author abbreviation,
-      bold owner, bare DOI URL).
+Publications live in `_data/publications.yml` (Tier 2 SSOT). The Research
+page, About-page highlights, and `llms.txt` are all generated from it by
+`scripts/build.py`. **Do not hand-edit `research.qmd`, `en/research.qmd`,
+`index.qmd`, `en/index.qmd`, or `llms.txt` for publication changes** —
+those changes will be overwritten on next build.
+
+- [ ] `_data/publications.yml` — add the entry at the top of the
+      `publications:` list. Required fields: `id`, `year`, `type`,
+      `authors`, `title`, `venue.ko`, `venue.en`, `status`. Bold the
+      owner as `**Park, Youngjun**`. Use long-form author names — the
+      build script derives the `Park, Y.` short form for `llms.txt`.
+- [ ] If the paper is a highlight (should appear on the About page),
+      set `highlight:` with `period.{ko,en}` (must exactly match a
+      label in `research_work_periods`), `venue_short`, `summary.{ko,en}`,
+      and — optionally — `rank` (integer; lower sorts first within the
+      period) and `author_label` (override for non-default citations
+      like "Park, Han et al.").
+- [ ] Run `python scripts/build.py`. Review the diff under `_includes/`
+      and the "Publications" section of `llms.txt`.
 - [ ] Verify DOI / URL resolves (HEAD request returns 200).
+- [ ] Commit `_data/publications.yml`, the regenerated `_includes/*.qmd`,
+      and `llms.txt` together.
 - [ ] CV re-export (see triggers).
 
 ### Adding a research project / grant
 
-- [ ] `research.qmd` "Research Projects" — add entry with period, role,
-      institution, funder, project number.
-- [ ] `en/research.qmd` — matching entry.
-- [ ] If top-5 impactful: `index.qmd` "Projects" — add; counterpart in
-      `en/index.qmd`.
-- [ ] `llms.txt` "Research projects" — add. Include project number.
+Projects live in `_data/projects.yml`. The Research page full list, the
+About-page top-5 highlight, and the `llms.txt` "Research projects"
+section are all generated from it.
+
+- [ ] `_data/projects.yml` — add the entry. Required fields: `id`,
+      `title.{ko,en}`, `period`, `research_meta.{ko,en}`, `llms_line`.
+- [ ] If top-5 impactful, set `highlight: true` and add `index_meta.{ko,en}`
+      plus `index_summary.{ko,en}`. At most 5 projects may be highlighted
+      at once (the build will fail otherwise).
+- [ ] Run `python scripts/build.py`. Review diffs under `_includes/` and
+      in `llms.txt`.
+- [ ] Commit `_data/projects.yml`, `_includes/*`, and `llms.txt` together.
 - [ ] CV re-export.
 
 ### Adding a patent / copyright
 
-- [ ] `research.qmd` "Patents · Intellectual Property" — add.
-- [ ] `en/research.qmd` — matching.
-- [ ] `index.qmd` same section — add.
-- [ ] `en/index.qmd` — matching.
-- [ ] `llms.txt` "Patents and intellectual property" — add.
+Patents live in `_data/patents.yml`. The Research-page section, the
+About-page section, and the `llms.txt` "Patents and intellectual property"
+section are all generated from it.
+
+- [ ] `_data/patents.yml` — add the entry. Required fields: `id`, `kind`
+      (`patent` or `copyright`), `status` (`filed` or `registered`),
+      `jurisdiction` (e.g. `KR`), `number`, `title.{ko,en}`.
+- [ ] Run `python scripts/build.py`. Review diffs.
+- [ ] Commit `_data/patents.yml`, `_includes/*`, and `llms.txt` together.
 - [ ] CV re-export.
 
 ### Changing a career position (new role, end date, affiliation)
@@ -161,10 +183,31 @@ Before you commit, run this mental pass:
    (EN) to confirm both build clean. If running in CI only, wait for the
    GitHub Actions run to go green before considering the change done.
 
+## Build workflow
+
+For any content that lives in `_data/*.yml`, edit the YAML file and run
+`python scripts/build.py` before `quarto preview` or `quarto render`.
+The build step is also run automatically in CI, but local previews
+reflect the current `_includes/` directory — stale includes will show
+stale content.
+
+```bash
+# Regenerate _includes/*.qmd and llms.txt from _data/
+python scripts/build.py
+```
+
+The build script validates required fields on load and exits with a
+clear error if anything is missing (e.g. a publication's `highlight.period`
+that doesn't match one of the declared `research_work_periods`, or more
+than five highlighted projects). Keep `_data/`, `_includes/`, and
+`llms.txt` in a single commit so the YAML and its rendered outputs never
+drift.
+
 ## Build & preview
 
 ```bash
-# Preview the Korean site
+# Regenerate data-driven includes, then preview
+python scripts/build.py
 quarto preview .
 
 # Preview the English site
@@ -175,11 +218,11 @@ cd en && quarto preview .
 ```
 
 Deployment is automatic on push to `main` via
-`.github/workflows/publish.yml`.
+`.github/workflows/publish.yml`, which runs `scripts/build.py` before
+`quarto render`.
 
 ## Future work
 
-This file will be slimmer once the Tier 2 refactor lands: `_data/*.yml`
-as single source of truth, `_includes/*.qmd` and `llms.txt` auto-
-generated from the data, and (Tier 3) the CV rendered from the same
-data. Until then, the checklists above are authoritative.
+Tier 3 would render the CV PDFs from the same `_data/*.yml` sources so
+that a CV re-export is automatic on any data change. Until that lands,
+re-exports are manual — see the triggers above.

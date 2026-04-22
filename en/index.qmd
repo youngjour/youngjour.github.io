@@ -111,22 +111,7 @@ I explore evidence-based urban research and design practice by placing the tradi
 
 A complete list of papers and presentations, with details for each topic, is organized on the [Research page](research.qmd).
 
-**Ph.D. · Spatial Statistics and Mobile Location Data** — Dept. of Architecture, Seoul National University
-
-- Park et al. (2022) *Int. J. Environmental Research and Public Health* — Differences in park walking between inactive and active populations
-- Park et al. (2021) *HERD Journal* — Changes in pedestrian activity during the COVID-19 period
-
-**Postdoc · ML/DL and Urban Computing** — KAIST School of Computing
-
-- Han, Park et al. (2023) *CIKM* — Spatiotemporal traffic prediction based on urban activity
-- Lee, Park et al. (2025) *ASONAM* — LLM embedding-based Airbnb trend prediction
-- Park, Han et al. (2023) *ACSP* — Language modeling applied to individual travel data
-
-**Postdoc · Agents and Foundation Models** — KAIST Urban AI Institute
-
-- Park et al. (2025, in-review) *npj Urban Sustainability* — Site-specific factor analysis of food deserts
-
-**Current · Agentic AI-based Design Systems** — ar-ge inc.
+{{< include ../_includes/index-research-works-highlights.en.qmd >}}
 
 ---
 
@@ -134,25 +119,7 @@ A complete list of papers and presentations, with details for each topic, is org
 
 Five major research projects. See the [Research page](research.qmd) for the complete list.
 
-**GS–KAIST Smart City Research Center** (2024–2025)
-*Postdoctoral Researcher* · KAIST
-GS E&C · AI-based urban system development and smart city technology research · Operation of and participation in a large industry–academic research center.
-
-**Multimodal Spatiotemporal Urban Prediction Models Based on Large Language Models** (2024–2025)
-*Postdoctoral Researcher* · KAIST
-National Research Foundation of Korea · Project No. RS-2024-00356597 · Development of urban prediction models using LLMs and spatiotemporal data methods.
-
-**Self-Learning Autonomic IoT Edge Computing Technology** (2022–2025)
-*Postdoctoral Researcher* · KAIST
-Ministry of Science and ICT, SW StarLab long-term project · Project No. RS-2019-II191126 · Application of edge computing technology in IoT smart city environments.
-
-**Comparative Study on Walking Practice within Neighborhoods via Individual GPS Trajectory Analysis** (2019–2021)
-*Research Grant Recipient* · Seoul National University
-National Research Foundation of Korea, Next-Generation Researcher Program · Analysis of pedestrian activity and urban planning facilities based on smartphone GPS trajectory data.
-
-**Pedestrian Data Analysis for WalkON Smartphone App Development** (2019–2020)
-*External Researcher · Research Team Lead* · Swallaby Inc.
-Pedestrian data analysis and health-promotion service design. Practical application of doctoral research.
+{{< include ../_includes/index-projects-highlights.en.qmd >}}
 
 ---
 
@@ -174,9 +141,7 @@ Dept. of Architecture, Seoul National University · KAIST School of Computing ·
 
 ## Patents · Intellectual Property
 
-- **Korean Patent (Filed)** 10-2024-0108083 — Method and apparatus for estimating housing value using a neural network model
-- **Korean Patent (Registered)** 10-23679770000 — Method and server for providing commercial real estate information
-- **Korean Copyright (Registered)** C-2023-062275 — Geographic data visualization program
+{{< include ../_includes/index-patents.en.qmd >}}
 
 ---
 

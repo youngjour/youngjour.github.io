@@ -1,0 +1,16 @@
+**Ph.D. · Spatial Statistics and Mobile Location Data** — Dept. of Architecture, Seoul National University
+
+- Park et al. (2022) *Int. J. Environmental Research and Public Health* — Differences in park walking between inactive and active populations
+- Park et al. (2021) *HERD Journal* — Changes in pedestrian activity during the COVID-19 period
+
+**Postdoc · ML/DL and Urban Computing** — KAIST School of Computing
+
+- Han, Park et al. (2023) *CIKM* — Spatiotemporal traffic prediction based on urban activity
+- Lee, Park et al. (2025) *ASONAM* — LLM embedding-based Airbnb trend prediction
+- Park, Han et al. (2023) *ACSP* — Language modeling applied to individual travel data
+
+**Postdoc · Agents and Foundation Models** — KAIST Urban AI Institute
+
+- Park et al. (2025, in-review) *npj Urban Sustainability* — Site-specific factor analysis of food deserts
+
+**Current · Agentic AI-based Design Systems** — ar-ge inc.

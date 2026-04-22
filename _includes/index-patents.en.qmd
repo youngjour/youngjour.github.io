@@ -1,0 +1,3 @@
+- **Korean Patent (Filed)** 10-2024-0108083 — Method and apparatus for estimating housing value using a neural network model
+- **Korean Patent (Registered)** 10-23679770000 — Method and server for providing commercial real estate information
+- **Korean Copyright (Registered)** C-2023-062275 — Geographic data visualization program

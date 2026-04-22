@@ -46,18 +46,45 @@ The Korean site is the root (`/`); the English site is published under `/en/`. T
 
 ## Local development
 
-Requires [Quarto CLI](https://quarto.org/docs/get-started/) (v1.4+).
+Requires [Quarto CLI](https://quarto.org/docs/get-started/) (v1.4+) and
+Python 3.10+.
 
 ```bash
+# Install the Python build dependencies (yaml + jinja2)
+pip install -r scripts/requirements.txt
+
+# Regenerate data-driven includes and llms.txt from _data/*.yml
+python scripts/build.py
+
 # Preview the Korean site with live reload
 quarto preview .
 
 # Preview the English site
 cd en && quarto preview .
 
-# Build both sites (outputs to _site/ and _site/en/)
+# Build both sites (runs the data build + outputs to _site/ and _site/en/)
 ./build.sh
 ```
+
+## Content data
+
+Publications, research projects, and patents are stored as structured
+YAML under `_data/` and are the **single source of truth** for the
+Research page full list, the About-page highlights, and the matching
+sections of `llms.txt`. The files in `_includes/*.qmd` and the
+publications / projects / patents sections of `llms.txt` are generated
+outputs — do not hand-edit them.
+
+- `_data/publications.yml` — publications (papers, talks, posters).
+- `_data/projects.yml` — funded research projects.
+- `_data/patents.yml` — patents and copyrights.
+
+Run `python scripts/build.py` after editing any `_data/*.yml` file.
+The build step is also wired into `build.sh` and the GitHub Actions
+workflow, so CI renders stay correct; local previews, however, reflect
+the files on disk — run the build manually before `quarto preview` if
+you just changed data. See [AGENTS.md](AGENTS.md) for the full
+per-change checklist.
 
 ## Deployment
 

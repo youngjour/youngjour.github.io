@@ -1,0 +1,49 @@
+### Working Papers
+
+- **Park, Youngjun**; Na, Jihye; Jang, Keonhee; Lee, Dongman; Kwon, Changhyun; Yoon, Yoonjin. (2025) "Food Deserts in Context: How Site-Specific Factors Reshape Food Deserts Discussion." *Submitted to npj Urban Sustainability* (in-review).
+
+### 2025
+
+- Lee, Hongju; **Park, Youngjun**; An, Jisun; Lee, Dongman. (2025) "Enhancing Regional Airbnb Trend Forecasting Using LLM-Based Embeddings of Accessibility and Human Mobility." *ASONAM 2025*.
+  *[[Published](https://doi.org/10.1007/978-3-032-13513-1_30)]*
+- **Park, Youngjun**; Bae, Hyungchan; An, Jisun; Lee, Dongman. (2025) "A Model for Monthly, Local-Level Airbnb Changes Using Public Dataset." *Proceedings of the 7th International Conference on Tourism Research*, 8(1), 214–223.
+  *[[Published](https://papers.academic-conferences.org/index.php/ictr/article/view/3475)]*
+
+### 2024
+
+- **Park, Youngjun**; Han, Sumin. (2024) "Enhancing Population Predictions in Developing Area through Building Construction Data." *Association of European Schools of Planning (AESOP'24)*, poster session.
+- Han, Sumin; **Park, Youngjun**; Sabir, Sonia; An, Jisun; Lee, Dongman. (2024) "Improving Real Estate Appraisal with POI Integration and Areal Embedding." *DMO-FinTech'24: Workshop on Decision Making and Optimization in Financial Technologies (PAKDD'24)*.
+  *[[Preprint](https://arxiv.org/abs/2311.11812)]*
+- **Park, Youngjun**; Han, Sumin; Park, Doyun; Bae, Hyeongchan; Nguyen, Thanh Tung; Lee, Dongman. (2024) "Integrative Geospatial Visualization for Urban Mobility Analysis." *Korea Computer Congress (KCC'24)*.
+  *[[Published](https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11861859)]*
+- Elmoursi, Ahmad; Han, Sumin; Bae, Hyungchan; **Park, Youngjun**; Nguyen, Thanh Tung; Lee, Dongman. (2024) "Enhancing Geospatial Recommendations through Natural Language Processing with Large Language Models." *Korea Computer Congress (KCC'24)*.
+  *[[Published](https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11862488)]*
+
+### 2023
+
+- Han, Sumin; **Park, Youngjun**; Lee, Minji; An, Jisun; Lee, Dongman. (2023) "Enhancing Spatio-temporal Traffic Prediction through Urban Human Activity Analysis." *CIKM 2023*, 689–698.
+  *[[Published](https://doi.org/10.1145/3583780.3614867)]*
+- **Park, Youngjun**; Han, Sumin; An, Jisun; Lee, Dongman. (2023) "Encoding Urban Trajectory as a Language: Deep Learning Insights for Human Mobility Pattern." *Association of Collegiate Schools of Planning (ACSP '23)*.
+  *[[PDF](https://scholar.google.com/scholar?oi=bibs&cluster=17000777907259289010&btnI=1&hl=ko&authuser=1)]*
+
+### 2022
+
+- **Park, Youngjun**; Lee, Sunjae; Park, Sohyun. (2022) "Differences in park walking, comparing the physically inactive and active groups: data from mHealth monitoring system in Seoul." *International Journal of Environmental Research and Public Health*, 19(1), 395.
+  *[[Published](https://doi.org/10.3390/ijerph19010395)]*
+- **Park, Youngjun**. (2022) "Parks and Healthy Walking: smartphone physical activity recognition data for place and walking." *Urban Design Institute of Korea*.
+
+### 2021
+
+- **Park, Youngjun**; Chung, Haegwon; Park, Sohyun. (2021) "Changes of walking activity during the first cycle phases of COVID-19 pandemic: A case study of Seoul, Korea." *HERD: Health Environments Research & Design Journal*, 14(4), 43–57.
+  *[[Published](https://doi.org/10.1177/19375867211026571)]*
+- Jeong, Jiwoon; **Park, Youngjun**; Park, Sohyun. (2021) "Safety-critical events in bicycle lanes in Jongno, Seoul." *Journal of Urbanism: International Research on Placemaking and Urban Sustainability*, 16(1), 1–24.
+  *[[Published](https://doi.org/10.1080/17549175.2021.1933571)]*
+
+### 2019
+
+- **Park, Youngjun**; Park, Sohyun. (2019) "Car-use and Non-work Travel of Housewives in Residential Neighborhood of Seoul." *Seoul Research*, 20(1), 45–59.
+  [[Published](https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE08645864)]
+
+### 2017
+
+- **Park, Youngjun**; Park, Sohyun. (2017) "A Study on the Location of Car-sharing in the Neighborhood Area and Replacement of Vehicle Ownership in Community." *Urban Design Institute of Korea*.
