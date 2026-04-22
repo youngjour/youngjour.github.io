@@ -24,12 +24,15 @@
 //   Professional Service → multi-line-list / single-line-entry
 //
 // Font setup:
-//   font-settings.font-family = "Pretendard" — Pretendard has solid
-//   Latin glyphs and covers Hangul, so a single family avoids missing-
-//   glyph boxes on `cv_ko.pdf`. Pretendard OTFs are committed under
-//   `cv/fonts/` and supplied via `--font-path`, so CI needs no extra
-//   font install. `font-settings.lang` is set from the build input so
-//   Typst applies Korean line-breaking rules to `cv_ko.pdf`.
+//   English build — no `font-settings` override; the template's
+//     shipped typography (serif) applies unchanged.
+//   Korean build — `font-settings.font-family` is overridden to a
+//     single Hangul-capable family so both Latin and Korean runs
+//     share one family (avoids the tonal mismatch of a Latin/Hangul
+//     fallback array). The OTFs are committed under `cv/fonts/` and
+//     supplied via `--font-path`, so CI needs no extra font install.
+//     `font-settings.lang: "ko"` also engages Typst's Korean
+//     line-breaking rules.
 
 #import "@preview/pro-academic-cv:0.1.0": *
 #import "strings.typ": strings
@@ -154,6 +157,18 @@
 // -------- Document --------
 
 #show: resume.with(
+  ..(if lang == "ko" {
+    (
+      font-settings: (
+        font-family: "Pretendard",
+        font-size: 10pt,
+        author-font-size: 25pt,
+        lang: "ko",
+      ),
+    )
+  } else {
+    (:)
+  }),
   author-info: (
     name: if lang == "ko" { profile.name_ko } else { profile.name_en },
     primary-info: [
@@ -172,16 +187,6 @@
     ],
     tertiary-info: profile.summary_llms,
   ),
-)
-
-// Let the template's shipped typography (Palatino-family serif) carry
-// the English build untouched. For the Korean build, re-set text with
-// a font array that keeps Palatino first for Latin glyphs and falls
-// back to Pretendard for Hangul, and flip `lang: ko` so Typst applies
-// Korean line-breaking rules.
-#set text(
-  font: if lang == "ko" { ("Palatino", "Pretendard") } else { "Palatino" },
-  lang: lang,
 )
 
 // -------- Education --------
