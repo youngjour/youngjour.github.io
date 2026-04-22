@@ -1,0 +1,122 @@
+# Youngjun Park (박영준)
+
+> Architect and urban data scientist. Co-founder and CTO of ar-ge inc. Ph.D. in Architecture, Seoul National University (2022). Former postdoctoral researcher at KAIST School of Computing (2022–2025) and KAIST Urban AI Institute (2025). Research in urban computing, smart cities, ML/DL for urban analysis, and Agentic AI for architectural and urban design.
+
+Publication byline: **Park, Youngjun**. Korean name: 박영준.
+
+## Identifiers
+
+- ORCID: https://orcid.org/0000-0002-4254-2268
+- Google Scholar: https://scholar.google.com/citations?user=sGRKN6UAAAAJ
+- GitHub: https://github.com/youngjour
+- LinkedIn: https://linkedin.com/in/youngjourpark
+- Email: youngjourpark@gmail.com
+
+## Current affiliations
+
+- [ar-ge inc.](https://ar-ge.kr) — Co-founder and CTO (present).
+- KAIST Urban AI Institute — External Advisor (present).
+
+## Education
+
+- Ph.D. in Architecture, Seoul National University, 2022. Dissertation: smartphone-data-based pedestrian activity analysis and urban planning facilities for physical-activity promotion.
+- M.S. in Urban Design, Seoul National University, 2017. Thesis: homemakers' automobile use behavior and intra-neighborhood travel characteristics.
+- B.S. in Architecture, Seoul National University, 2013.
+
+## Career history
+
+- Co-founder and CTO, ar-ge inc. (ar-ge Architects) — present.
+- External Advisor, KAIST Urban AI Institute — present.
+- Postdoctoral Researcher, KAIST Urban AI Institute — 2025.
+- Postdoctoral Researcher, KAIST School of Computing — 2022–2025.
+- Lecturer, Department of Architecture, Seoul National University — 2021–2024.
+- Officer (First Lieutenant), Republic of Korea Army Corps of Engineers — 2013–2015.
+
+## Site pages (Korean, primary)
+
+- [About / CV](https://youngjour.github.io/index.html): identity, education, career, selected projects, professional service, patents, awards.
+- [Research](https://youngjour.github.io/research.html): full publication list, conference presentations, funded research projects, patents and IP.
+- [Teaching](https://youngjour.github.io/teaching.html): SNU graduate courses (Urban Design Research, Theories of Urban Design), student collaborations, invited lectures.
+- [Design](https://youngjour.github.io/design.html): urban design and architectural projects, including student work and ar-ge inc. projects.
+
+## Site pages (English mirror)
+
+- [About / CV](https://youngjour.github.io/en/index.html)
+- [Research](https://youngjour.github.io/en/research.html)
+- [Teaching](https://youngjour.github.io/en/teaching.html)
+- [Design](https://youngjour.github.io/en/design.html)
+
+## Publications
+
+### Working papers
+
+- **Park, Y.**; Na, J.; Jang, K.; Lee, D.; Kwon, C.; Yoon, Y. (2025). Food Deserts in Context: How Site-Specific Factors Reshape Food Deserts Discussion. Submitted to *npj Urban Sustainability* (in review).
+
+### 2025
+
+- Lee, H.; **Park, Y.**; An, J.; Lee, D. (2025). Enhancing Regional Airbnb Trend Forecasting Using LLM-Based Embeddings of Accessibility and Human Mobility. *ASONAM 2025*. https://doi.org/10.1007/978-3-032-13513-1_30
+- **Park, Y.**; Bae, H.; An, J.; Lee, D. (2025). A Model for Monthly, Local-Level Airbnb Changes Using Public Dataset. *Proceedings of the 7th International Conference on Tourism Research*, 8(1), 214–223. https://papers.academic-conferences.org/index.php/ictr/article/view/3475
+
+### 2024
+
+- **Park, Y.**; Han, S. (2024). Enhancing Population Predictions in Developing Area through Building Construction Data. *AESOP '24*, poster session.
+- Han, S.; **Park, Y.**; Sabir, S.; An, J.; Lee, D. (2024). Improving Real Estate Appraisal with POI Integration and Areal Embedding. *DMO-FinTech '24, Workshop at PAKDD '24*. https://arxiv.org/abs/2311.11812
+- **Park, Y.**; Han, S.; Park, D.; Bae, H.; Nguyen, T. T.; Lee, D. (2024). Integrative Geospatial Visualization for Urban Mobility Analysis. *Korea Computer Congress (KCC '24)*. https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11861859
+- Elmoursi, A.; Han, S.; Bae, H.; **Park, Y.**; Nguyen, T. T.; Lee, D. (2024). Enhancing Geospatial Recommendations through Natural Language Processing with Large Language Models. *Korea Computer Congress (KCC '24)*. https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11862488
+
+### 2023
+
+- Han, S.; **Park, Y.**; Lee, M.; An, J.; Lee, D. (2023). Enhancing Spatio-temporal Traffic Prediction through Urban Human Activity Analysis. *CIKM 2023*, 689–698. https://doi.org/10.1145/3583780.3614867
+- **Park, Y.**; Han, S.; An, J.; Lee, D. (2023). Encoding Urban Trajectory as a Language: Deep Learning Insights for Human Mobility Pattern. *Association of Collegiate Schools of Planning (ACSP '23)*.
+
+### 2022
+
+- **Park, Y.**; Lee, S.; Park, S. (2022). Differences in park walking, comparing the physically inactive and active groups: data from mHealth monitoring system in Seoul. *International Journal of Environmental Research and Public Health*, 19(1), 395. https://doi.org/10.3390/ijerph19010395
+- **Park, Y.** (2022). Parks and Healthy Walking: smartphone physical activity recognition data for place and walking. *Urban Design Institute of Korea*.
+
+### 2021
+
+- **Park, Y.**; Chung, H.; Park, S. (2021). Changes of walking activity during the first cycle phases of the COVID-19 pandemic: a case study of Seoul, Korea. *HERD: Health Environments Research & Design Journal*, 14(4), 43–57. https://doi.org/10.1177/19375867211026571
+- Jeong, J.; **Park, Y.**; Park, S. (2021). Safety-critical events in bicycle lanes in Jongno, Seoul. *Journal of Urbanism: International Research on Placemaking and Urban Sustainability*, 16(1), 1–24. https://doi.org/10.1080/17549175.2021.1933571
+
+### 2019
+
+- **Park, Y.**; Park, S. (2019). Car-use and Non-work Travel of Housewives in Residential Neighborhood of Seoul. *Seoul Research*, 20(1), 45–59. https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE08645864
+
+### 2017
+
+- **Park, Y.**; Park, S. (2017). A Study on the Location of Car-sharing in the Neighborhood Area and Replacement of Vehicle Ownership in Community. *Urban Design Institute of Korea*.
+
+## Research projects
+
+- GS–KAIST Smart City Research Center (2024–2025). Postdoctoral Researcher, KAIST. Funded by GS E&C. Industry–academic center on AI-based urban systems and smart-city technologies.
+- AI-based Non-contact Drug Detection Technology (2024–2025). Postdoctoral Researcher, KAIST. Ministry of Science and ICT. RS-2024-00459749.
+- Multimodal Spatiotemporal Urban Prediction Models Based on Large Language Models (2024–2025). Postdoctoral Researcher, KAIST. National Research Foundation of Korea. RS-2024-00356597.
+- Self-Learning Autonomic IoT Edge Computing Technology (2022–2025). Postdoctoral Researcher, SW StarLab long-term project, KAIST. Ministry of Science and ICT. RS-2019-II191126.
+- Development of an AI-based Smart Mobility System (2022–2024). Participating Researcher, KAIST. Daegu Metropolitan City. N04230030.
+- Text Analysis of Pedestrian-Related Government-Budget Projects (2022–2023). Research service. Architecture & Urban Research Institute (AURI).
+- Comparative Study on Walking Practice within Neighborhoods via Individual GPS Trajectory Analysis (2019–2021). Research Grant Recipient, Seoul National University. NRF Next-Generation Researcher Program.
+- Pedestrian Data Analysis for WalkON Smartphone App Development (2019–2020). Research Team Lead and External Researcher, Swallaby Inc.
+- GIS Analysis for Spatial Welfare of Infants and Young Children (2018–2019). Research Assistant, Department of Architecture, Ewha Womans University.
+- Comprehensive Urban Plan for the Huế City ODA Project, Vietnam (2015–2016). Research Assistant, Korea International Cooperation Agency (KOICA), Graduate School of Environmental Studies, Seoul National University.
+
+## Patents and intellectual property
+
+- Korean Patent (Filed) 10-2024-0108083 — Method and apparatus for estimating housing value using a neural network model.
+- Korean Patent (Registered) 10-23679770000 — Method and server for providing commercial real estate information.
+- Korean Copyright (Registered) C-2023-062275 — Geographic data visualization program.
+
+## Professional service
+
+- Journal reviewer: *Scientific Reports*, *BMC Public Health*, *Archives of Public Health*, *Frontiers in Public Health*.
+- Research advisory: KAIST Urban AI Institute; Architecture & Urban Research Institute (AURI).
+- Industry–academic collaborations: GS E&C; Kia Motors–Innocean; Swallaby.
+
+## CV
+
+- [CV (English, PDF)](https://youngjour.github.io/assets/cv_en.pdf)
+- [CV (Korean, PDF)](https://youngjour.github.io/assets/cv_ko.pdf)
+
+## Optional
+
+- [Site source repository](https://github.com/youngjour/youngjour.github.io)

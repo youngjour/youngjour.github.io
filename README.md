@@ -4,6 +4,9 @@ Bilingual (Korean / English) academic website for Youngjun Park — architect, u
 
 Live site: [https://youngjour.github.io](https://youngjour.github.io)
 
+> Before changing any content on the site, read [AGENTS.md](AGENTS.md)
+> — it lists every file that must be touched for each type of update.
+
 ## Stack
 
 - **[Quarto](https://quarto.org/)** — static site generator

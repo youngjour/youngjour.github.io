@@ -5,7 +5,10 @@
       "WebFetch(domain:youngjour.github.io)",
       "Bash(git add assets/css/custom.scss)",
       "Bash(quarto render . --quiet)",
-      "Bash(quarto preview *)"
+      "Bash(quarto preview *)",
+      "Bash(quarto render *)",
+      "Bash(curl -sI --max-time 20 -A \"Mozilla/5.0\" https://ar-ge.kr/ -o /dev/null -w \"%{http_code} %{url_effective}\\\\n\")",
+      "Bash(curl -sI --max-time 20 -A \"Mozilla/5.0\" http://ar-ge.kr/ -L -o /dev/null -w \"%{http_code} %{url_effective}\\\\n\")"
     ],
     "deny": [],
     "ask": []

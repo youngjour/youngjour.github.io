@@ -3,6 +3,7 @@ project:
   output-dir: _site
   resources:
     - "robots.txt"
+    - "llms.txt"
     - "assets/"
   render:
     - "*.qmd"
