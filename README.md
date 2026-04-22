@@ -50,11 +50,14 @@ Requires [Quarto CLI](https://quarto.org/docs/get-started/) (v1.4+) and
 Python 3.10+.
 
 ```bash
-# Install the Python build dependencies (yaml + jinja2)
+# Install the Python build dependencies (yaml + jinja2 + typst)
 pip install -r scripts/requirements.txt
 
 # Regenerate data-driven includes and llms.txt from _data/*.yml
 python scripts/build.py
+
+# Regenerate the CV PDFs
+python scripts/build_cv.py
 
 # Preview the Korean site with live reload
 quarto preview .
@@ -62,9 +65,23 @@ quarto preview .
 # Preview the English site
 cd en && quarto preview .
 
-# Build both sites (runs the data build + outputs to _site/ and _site/en/)
+# Build data + CV + both sites (outputs _site/, _site/en/, assets/cv_*.pdf)
 ./build.sh
 ```
+
+### Building the CV
+
+`assets/cv_en.pdf` and `assets/cv_ko.pdf` are generated from the same
+`_data/*.yml` files that drive the site. The template is
+`cv/cv.typ` (Typst, pinned to the
+[`pro-academic-cv`](https://typst.app/universe/package/pro-academic-cv)
+package v0.1.0 by Wenhao Liao). Pretendard fonts are committed under
+`cv/fonts/` alongside the SIL OFL license.
+
+The `typst` PyPI package bundles the Typst compiler, so you only need
+`pip install -r scripts/requirements.txt` — no separate Typst CLI
+install. `scripts/build_cv.py` calls the compiler twice (once per
+language) and writes the PDFs into `assets/`.
 
 ## Content data
 

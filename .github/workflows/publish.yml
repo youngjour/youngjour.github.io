@@ -25,6 +25,9 @@ jobs:
       - name: Build data includes
         run: python scripts/build.py
 
+      - name: Build CV PDFs
+        run: python scripts/build_cv.py
+
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
