@@ -44,15 +44,12 @@ about:
 
 ## Introduction
 
-Hello. I'm Youngjun Park, an urban researcher and architect.
+Nice to meet you, I am Youngjun Park. I am an urban researcher and architect, as well as a co-founder and CTO of ar-ge inc., where I am developing Agentic AI-based architectural and urban design solutions.
 
-Does this street actually get people walking?
-Is this park being used the way it was planned?
-How does the perception of a neighborhood differ from one person to another?
+My work follows four threads: **research** that explores the city through behavioral data, **design** that builds places for the public, **engineering** that develops AI agent solution, and **education** that teaches urban design and urban data analysis.
 
-Chasing questions like these, I have extended my work into smartphone GPS data, urban computing systems, ML/DL, and artificial intelligence. I completed my M.S. in Urban Design and Ph.D. in Architecture at Seoul National University, and conducted research at KAIST's School of Computing and Urban AI Institute. I am currently co-founder and CTO of [ar-ge inc.](https://ar-ge.kr), developing Agentic AI-based architectural and urban design agent systems.
+These four domains, speaking different languages, converge on a single question: How can we design evidence-based and accountable cities?
 
-I explore evidence-based urban research and design practice by placing the traditional language of architecture and the analytical tools of data science on the same desk.
 
 ---
 
