@@ -28,69 +28,6 @@
     "text": "Invited Lectures · Seminars\n초청으로 진행한 특강 및 세미나입니다.\n\n서울대학교 건축학과 — 도시 데이터 분석과 설계 교육\nKAIST 전산학부 — 도시 컴퓨팅 및 스마트시티 연구\n한국기술교육대학교 건축공학과 — 스마트시티와 AI\n중앙대학교 건축학과 — 데이터 사이언스와 건축 연구"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "박영준",
-    "section": "",
-    "text": "도시 연구자 사람, 공간, 그리고 건물 책임감 있는 도시"
-  },
-  {
-    "objectID": "index.html#introduction",
-    "href": "index.html#introduction",
-    "title": "박영준",
-    "section": "Introduction",
-    "text": "Introduction\n반갑습니다, 박영준입니다. 도시 연구자이자 건축가이며, ar-ge inc. 공동창립자이자 CTO로 Agentic AI 기반의 건축·도시 설계 솔루션을 만들고 있습니다.\n제 작업은 네 개의 결로 이어집니다 — 행태 데이터로 도시를 읽는 연구, 공공을 위한 공간을 짓는 설계, AI 에이전트 시스템을 개발하는 엔지니어링, 그리고 도시설계·도시 데이터 분석을 가르치는 교육.\n서로 다른 언어를 쓰는 네 영역이 하나의 질문으로 수렴합니다 — 우리는 어떻게 근거 기반의, 그리고 책임감 있는 도시를 만들 수 있을까."
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "박영준",
-    "section": "Education",
-    "text": "Education\n\n건축학 박사 · 서울대학교 · 2022\n\n연구 주제: 스마트폰 데이터 기반 보행 활동 분석과 신체활동 증진을 위한 도시계획시설 계획\n\n도시설계학 석사 · 서울대학교 · 2017\n\n논문: 주부들의 자가용 이용 행태와 근린 내 이동 특성에 관한 연구\n\n건축학 학사 · 서울대학교 · 2013"
-  },
-  {
-    "objectID": "index.html#career",
-    "href": "index.html#career",
-    "title": "박영준",
-    "section": "Career",
-    "text": "Career\n공동창립자 · CTO — ar-ge 건축사사무소 (ar-ge inc.) 현재\n\nAgentic AI 기반의 건축·도시 설계 솔루션 개발\n연구·기술 조직 운영\n공공부문 건축·도시 설계 실무\n\n박사후 연구원 — KAIST 도시인공지능연구소 2025\n\n도시인공지능연구소 운영 보조\n학제간 및 국제 협력 연구 프로젝트 관리\nMulti-agent system 과 Urban Foundation Model 연구\nAI Seoul 2025 참가 및 MIT-KAIST 연구 성과 전시\n\n박사후 연구원 — KAIST 전산학부 2022 – 2025\n\nIoT 에지 컴퓨팅 기반 스마트시티 기술 연구\nSpatiotemporal analysis, graph network, LLM embedding 등 도시 데이터 처리 방법론 연구\n연구실 내 도시연구그룹 ‘DeepUrban’ 운영\n\n강사 — 서울대학교 건축학과 2021 – 2024\n\n도시설계연구: 보행-도시 데이터 분석 (건축학 전공 대학원 과정)\n도시설계론: 옛날 도시설계, 요즘 도시설계 (협동과정 도시설계학 전공 대학원 과정)\n\n장교 (중위) — 대한민국 육군 공병 2013 – 2015\n\n실작전 수행 및 조직 관리\nDMZ 작전 지뢰탐지제거조장"
-  },
-  {
-    "objectID": "index.html#research-works",
-    "href": "index.html#research-works",
-    "title": "박영준",
-    "section": "Research Works",
-    "text": "Research Works\n시기에 따라 제 연구의 변화를 볼 수 있는 대표 논문입니다. 전체 논문·발표 목록과 각 주제의 상세는 Research 페이지에 정리되어 있습니다.\n박사과정 · 공간 통계와 모바일 위치 데이터 — 서울대학교 건축학과\n\nPark et al. (2022) Int. J. Environmental Research and Public Health — 비활동/활동 인구의 공원 보행 차이\nPark et al. (2021) HERD Journal — COVID-19 국면의 보행 활동 변화\n\n박사후 · ML/DL 과 도시 컴퓨팅 — KAIST 전산학부\n\nHan, Park et al. (2023) CIKM — 도시 활동 기반 시공간 교통 예측\nLee, Park et al. (2025) ASONAM — LLM 임베딩 기반 Airbnb 트렌드 예측\nPark, Han et al. (2023) ACSP — 개인 통행 데이터의 언어 모델링 적용\n\n박사후 · 에이전트와 파운데이션 모델 — KAIST 도시인공지능연구소\n\nPark et al. (2025, in-review) npj Urban Sustainability — Food Desert 의 site-specific factor 분석\n\n현재 · Agentic AI 기반 설계 시스템 — ar-ge inc."
-  },
-  {
-    "objectID": "index.html#projects",
-    "href": "index.html#projects",
-    "title": "박영준",
-    "section": "Projects",
-    "text": "Projects\n주요 연구 프로젝트 5건입니다. 전체 목록은 Research 페이지에서 보실 수 있습니다다.\nGS–KAIST 스마트시티 연구센터 (2024–2025) 박사후 연구원 · KAIST GS건설 · AI 기반 도시 시스템 개발 및 스마트시티 기술 연구 · 산학 대형 연구센터 운영 및 연구 참여.\n대규모 언어모델 기반 멀티모달 시공간 도시 예측 모델 연구 (2024–2025) 박사후 연구원 · KAIST 한국연구재단 · Project No. RS-2024-00356597 · LLM 및 시공간 데이터 기법을 활용한 도시 예측 모델 개발.\n자가 학습 기반 Autonomic IoT 에지 컴퓨팅 기술 연구 (2022–2025) 박사후 연구원 · KAIST 과기정통부 SW 스타랩 장기 과제 · Project No. RS-2019-II191126 · IoT 스마트 도시 환경 내 에지 컴퓨팅 기술 적용.\n개별 GPS 경로 분석을 통한 근린 내 걷기실천 비교 연구 (2019–2021) 연구장학금 수혜자 · 서울대학교 한국연구재단 학문후속세대 · 스마트폰 GPS 경로 데이터 기반의 보행 활동 및 도시계획시설 분석 연구.\nWalkON 스마트폰 앱 개발을 위한 보행 데이터 분석 (2019–2020) 외부연구원 · 연구팀장 · 스왈라비(주) 보행 데이터 분석과 건강증진 서비스 기획. 박사 연구의 실무 응용."
-  },
-  {
-    "objectID": "index.html#professional-service",
-    "href": "index.html#professional-service",
-    "title": "박영준",
-    "section": "Professional Service",
-    "text": "Professional Service\n저널 리뷰어 Scientific Reports · BMC Public Health · Archives of Public Health · Frontiers in Public Health\n연구 자문 KAIST 도시인공지능연구소 · 건축공간연구원(AURI)\n산학 협력 GS건설 · 기아자동차-이노션 · 스왈라비\n특강 · 세미나 서울대학교 건축학과 · KAIST 전산학부 · 한국기술교육대학교 건축공학과 · 중앙대학교 건축학과"
-  },
-  {
-    "objectID": "index.html#patents-intellectual-property",
-    "href": "index.html#patents-intellectual-property",
-    "title": "박영준",
-    "section": "Patents · Intellectual Property",
-    "text": "Patents · Intellectual Property\n\n한국 특허 (출원) 10-2024-0108083 — 신경망 모델을 이용한 주택 가치 추정 방법 및 장치\n한국 특허 (등록) 10-23679770000 — 상업용 부동산 정보 제공 방법 및 서버\n한국 저작권 (등록) C-2023-062275 — 지리 데이터 시각화 프로그램"
-  },
-  {
-    "objectID": "index.html#awards-honors",
-    "href": "index.html#awards-honors",
-    "title": "박영준",
-    "section": "Awards · Honors",
-    "text": "Awards · Honors\n\nG-School 최우수 혁신상 — KAIST-NYU Young Researcher Day (2023)\n1등상, AI 기반 인구 예측 — COMPAS 데이터 분석 경진대회, 한국토지주택공사(LH) (2023)\n우수졸업논문상 — 대한건축학회 석사 학위 논문 (2018)\n최우수상 — 서울대학교 환경대학원 설계 작품전 (2017)\n미래건축교육인재 선발 — 한국건축가협회 (2016)\n우수초임장교 선발 — 대한민국 육군 (2014)\n우승, 남자복식 — 서울대학교 종합체육대회 테니스 (2017)\n우승, 혼합복식 — 서울대학교 종합체육대회 테니스 (2017)\n우승, 남자단식 — 서울대학교 종합체육대회 테니스 (2017)\n우승, 팀 ACRO — 서울대학교 종합체육대회 축구 (2013)"
-  },
-  {
     "objectID": "design.html",
     "href": "design.html",
     "title": "Design",
