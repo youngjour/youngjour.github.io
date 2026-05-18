@@ -1,98 +1,64 @@
 ---
-title: "Youngjun Park"
-subtitle: "Co-founder · CTO, ar-ge inc."
+title: ""
 pagetitle: "Youngjun Park"
 description-meta: "Youngjun Park — Architect and urban data scientist. Co-founder and CTO at ar-ge inc. Urban computing, smart cities, AI-driven urban analysis."
-toc: true
-toc-location: right
-toc-depth: 2
-page-layout: article
-about:
-  template: trestles
-  image: ../assets/images/youngjun.jpg
-  image-width: 8em
-  image-shape: round
-  links:
-    - icon: envelope
-      text: Email
-      href: mailto:youngjourpark@gmail.com
-    - icon: mortarboard
-      text: Google Scholar
-      href: https://scholar.google.com/citations?user=sGRKN6UAAAAJ
-    - text: ORCID
-      href: https://orcid.org/0000-0002-4254-2268
-    - icon: github
-      text: GitHub
-      href: https://github.com/youngjour
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com/in/youngjourpark
+page-layout: custom
+format:
+  html:
+    toc: false
 ---
+
+::: {.single-column-layout}
+
+<!-- Profile Header -->
+::: {.profile-header}
+![Youngjun Park](../assets/images/youngjun.jpg){.profile-image}
+
+::: {.profile-info}
+# Youngjun Park
+Co-founder · CTO, ar-ge inc.
 
 ::: {.persona-badges}
 <span>Urban Researcher</span>
 <span>Life, Space, Buildings</span>
 <span>Accountable City</span>
 :::
-
-::: {.cv-download}
-[⬇ CV (English)](../assets/cv_en.pdf){.btn-cv}
-[⬇ CV (한국어)](../assets/cv_ko.pdf){.btn-cv}
+:::
 :::
 
----
+<!-- Introduction -->
+::: {.intro-section}
+Nice to meet you, I am Youngjun Park.
+I am an urban researcher and architect, as well as a co-founder and CTO of **ar-ge inc.**, where I am developing Agentic AI-based architectural and urban design solutions.
 
-## Introduction
+My work follows four threads:
+1) **Research** that explores the city through behavioral data,
+2) **Design** that builds places for the public,
+3) **Engineering** that develops AI agent solutions,
+4) And **education** that teaches urban design and urban data analysis.
 
-Nice to meet you, I am Youngjun Park. I am an urban researcher and architect, as well as a co-founder and CTO of ar-ge inc., where I am developing Agentic AI-based architectural and urban design solutions.
+These four domains, speaking different languages, converge on a single question.
+**"How can we design evidence-based and accountable cities?"**
+:::
 
-My work follows four threads: **research** that explores the city through behavioral data, **design** that builds places for the public, **engineering** that develops AI agent solution, and **education** that teaches urban design and urban data analysis.
+<!-- Social Links -->
+::: {.social-links}
+<a href="mailto:youngjourpark@gmail.com" class="social-link-item">
+<i class="fas fa-envelope"></i><br>Email
+</a>
+<a href="https://scholar.google.com/citations?user=sGRKN6UAAAAJ" class="social-link-item">
+<i class="fas fa-graduation-cap"></i><br>Google Scholar
+</a>
+<a href="https://orcid.org/0000-0002-4254-2268" class="social-link-item">
+<i class="fab fa-orcid"></i><br>ORCID
+</a>
+<a href="https://github.com/youngjour" class="social-link-item">
+<i class="fab fa-github"></i><br>GitHub
+</a>
+<a href="https://linkedin.com/in/youngjourpark" class="social-link-item">
+<i class="fab fa-linkedin"></i><br>LinkedIn
+</a>
+:::
 
-These four domains, speaking different languages, converge on a single question: How can we design evidence-based and accountable cities?
+:::
 
-
----
-
-## Education
-
-{{< include ../_includes/index-education.en.qmd >}}
-
----
-
-## Career
-
-{{< include ../_includes/index-career.en.qmd >}}
-
----
-
-## Research Works
-
-A complete list of papers and presentations, with details for each topic, is organized on the [Research page](research.qmd).
-
-{{< include ../_includes/index-research-works-highlights.en.qmd >}}
-
----
-
-## Projects
-
-Five major research projects. See the [Research page](research.qmd) for the complete list.
-
-{{< include ../_includes/index-projects-highlights.en.qmd >}}
-
----
-
-## Professional Service
-
-{{< include ../_includes/index-professional-service.en.qmd >}}
-
----
-
-## Patents · Intellectual Property
-
-{{< include ../_includes/index-patents.en.qmd >}}
-
----
-
-## Awards · Honors
-
-{{< include ../_includes/index-awards.en.qmd >}}

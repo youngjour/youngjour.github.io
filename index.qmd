@@ -1,99 +1,63 @@
 ---
-title: "박영준"
-subtitle: "Co-founder · CTO, ar-ge inc."
+title: ""
 pagetitle: "박영준 | Youngjun Park"
 description-meta: "박영준 — 건축가, 도시 데이터 사이언티스트. ar-ge inc. 공동창립자 · CTO. 도시 컴퓨팅, 스마트시티, AI 기반 도시 분석."
-toc: true
-toc-location: right
-toc-title: "목차"
-toc-depth: 2
-page-layout: article
-about:
-  template: trestles
-  image: assets/images/youngjun.jpg
-  image-width: 8em
-  image-shape: round
-  links:
-    - icon: envelope
-      text: Email
-      href: mailto:youngjourpark@gmail.com
-    - icon: mortarboard
-      text: Google Scholar
-      href: https://scholar.google.com/citations?user=sGRKN6UAAAAJ
-    - text: ORCID
-      href: https://orcid.org/0000-0002-4254-2268
-    - icon: github
-      text: GitHub
-      href: https://github.com/youngjour
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com/in/youngjourpark
+page-layout: custom
+format:
+  html:
+    toc: false
 ---
+
+::: {.single-column-layout}
+
+<!-- 프로필 헤더 -->
+::: {.profile-header}
+![박영준](assets/images/youngjun.jpg){.profile-image}
+
+::: {.profile-info}
+# 박영준
+Co-founder · CTO, ar-ge inc.
 
 ::: {.persona-badges}
 <span>도시 연구자</span>
 <span>사람, 공간, 그리고 건물</span>
 <span>책임감 있는 도시</span>
 :::
-
-::: {.cv-download}
-[⬇ CV (한국어)](/assets/cv_ko.pdf){.btn-cv}
-[⬇ CV (English)](/assets/cv_en.pdf){.btn-cv}
+:::
 :::
 
----
+<!-- 소개글 -->
+::: {.intro-section}
+안녕하세요, 박영준입니다.
+도시 연구자이자 건축가이며, **ar-ge inc.** 공동창립자이자 CTO로 Agentic AI 기반의 건축·도시 설계 솔루션을 만들고 있습니다.
 
-## Introduction
+제 작업은 네 가지 결로 이루어집니다:
+1) 행태 데이터로 도시를 읽는 **연구**,
+2) 공공을 위한 공간을 짓는 **설계**,
+3) AI 에이전트 시스템을 개발하는 **엔지니어링**,
+4) 그리고 도시설계·도시 데이터 분석을 가르치는 **교육**.
 
-반갑습니다, 박영준입니다. 도시 연구자이자 건축가이며, ar-ge inc. 공동창립자이자 CTO로 Agentic AI 기반의 건축·도시 설계 솔루션을 만들고 있습니다.
+서로 다른 언어를 쓰는 네 영역은 하나의 질문으로 수렴합니다.
+**"우리는 어떻게 근거 기반의, 그리고 책임감 있는 도시를 만들 수 있을까."**
+:::
 
-제 작업은 네 개의 결로 이어집니다 — 행태 데이터로 도시를 읽는 **연구**, 공공을 위한 공간을 짓는 **설계**, AI 에이전트 시스템을 개발하는 **엔지니어링**, 그리고 도시설계·도시 데이터 분석을 가르치는 **교육**. 
+<!-- 하단 소셜 링크 -->
+::: {.social-links}
+<a href="mailto:youngjourpark@gmail.com" class="social-link-item">
+<i class="fas fa-envelope"></i><br>Email
+</a>
+<a href="https://scholar.google.com/citations?user=sGRKN6UAAAAJ" class="social-link-item">
+<i class="fas fa-graduation-cap"></i><br>Google Scholar
+</a>
+<a href="https://orcid.org/0000-0002-4254-2268" class="social-link-item">
+<i class="fab fa-orcid"></i><br>ORCID
+</a>
+<a href="https://github.com/youngjour" class="social-link-item">
+<i class="fab fa-github"></i><br>GitHub
+</a>
+<a href="https://linkedin.com/in/youngjourpark" class="social-link-item">
+<i class="fab fa-linkedin"></i><br>LinkedIn
+</a>
+:::
 
-서로 다른 언어를 쓰는 네 영역이 하나의 질문으로 수렴합니다 — 우리는 어떻게 근거 기반의, 그리고 책임감 있는 도시를 만들 수 있을까.
-
-
----
-
-## Education
-
-{{< include _includes/index-education.ko.qmd >}}
-
----
-
-## Career
-
-{{< include _includes/index-career.ko.qmd >}}
-
----
-
-## Research Works
-
-시기에 따라 제 연구의 변화를 볼 수 있는 대표 논문입니다. 전체 논문·발표 목록과 각 주제의 상세는 [Research 페이지](research.qmd)에 정리되어 있습니다.
-
-{{< include _includes/index-research-works-highlights.ko.qmd >}}
-
----
-
-## Projects
-
-주요 연구 프로젝트 5건입니다. 전체 목록은 [Research 페이지](research.qmd)에서 보실 수 있습니다다.
-
-{{< include _includes/index-projects-highlights.ko.qmd >}}
-
----
-
-## Professional Service
-
-{{< include _includes/index-professional-service.ko.qmd >}}
-
----
-
-## Patents · Intellectual Property
-
-{{< include _includes/index-patents.ko.qmd >}}
-
----
-
-## Awards · Honors
-
-{{< include _includes/index-awards.ko.qmd >}}
+:::
