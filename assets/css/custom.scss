@@ -430,52 +430,66 @@ a {
 
 // 하단 소셜 링크 - Font Awesome 아이콘 + 라벨
 .social-links {
-  display: flex !important;
-  flex-direction: row !important;
-  justify-content: center;
-  gap: 2rem;
   margin: 4rem 0 3rem 0;
   padding-top: 2rem;
   border-top: 1px solid #e8e8e8;
 
+  p {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    gap: 2rem !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .social-container {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    gap: 2rem !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
   .social-link-item {
     display: flex !important;
     flex-direction: column !important;
-    align-items: center;
-    text-decoration: none;
-    color: inherit;
-    transition: all 0.2s ease;
-    font-size: 0.7rem;
-    font-weight: 500;
-    text-align: center;
-    white-space: nowrap;
+    align-items: center !important;
+    text-decoration: none !important;
+    color: inherit !important;
+    transition: all 0.2s ease !important;
+    font-size: 0.7rem !important;
+    font-weight: 500 !important;
+    text-align: center !important;
+    white-space: nowrap !important;
 
     &:hover {
-      transform: translateY(-2px);
-      color: #1a5490;
+      transform: translateY(-2px) !important;
+      color: #1a5490 !important;
     }
 
     i, .fas, .fab {
-      font-size: 1.5rem;
-      color: #495057;
-      background: #f8f9fa;
-      border: 1px solid #e9ecef;
-      border-radius: 50%;
-      width: 44px;
-      height: 44px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 0.5rem;
-      transition: all 0.2s ease;
+      font-size: 1.5rem !important;
+      color: #495057 !important;
+      background: #f8f9fa !important;
+      border: 1px solid #e9ecef !important;
+      border-radius: 50% !important;
+      width: 44px !important;
+      height: 44px !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      margin-bottom: 0.5rem !important;
+      transition: all 0.2s ease !important;
     }
 
     &:hover i,
     &:hover .fas,
     &:hover .fab {
-      background: #1a5490;
-      border-color: #1a5490;
-      color: white;
+      background: #1a5490 !important;
+      border-color: #1a5490 !important;
+      color: white !important;
     }
   }
 }
