@@ -43,21 +43,9 @@ Co-founder · CTO, ar-ge inc.
 
 <!-- 하단 소셜 링크 -->
 ::: {.social-links}
-<a href="mailto:youngjourpark@gmail.com" class="social-link-item">
-<i class="fas fa-envelope"></i><br>Email
-</a>
-<a href="https://scholar.google.com/citations?user=sGRKN6UAAAAJ" class="social-link-item">
-<i class="fas fa-graduation-cap"></i><br>Google Scholar
-</a>
-<a href="https://orcid.org/0000-0002-4254-2268" class="social-link-item">
-<i class="fab fa-orcid"></i><br>ORCID
-</a>
-<a href="https://github.com/youngjour" class="social-link-item">
-<i class="fab fa-github"></i><br>GitHub
-</a>
-<a href="https://linkedin.com/in/youngjourpark" class="social-link-item">
-<i class="fab fa-linkedin"></i><br>LinkedIn
-</a>
+<div class="social-container">
+<a href="mailto:youngjourpark@gmail.com" class="social-link-item"><i class="fas fa-envelope"></i><br>Email</a><a href="https://scholar.google.com/citations?user=sGRKN6UAAAAJ" class="social-link-item"><i class="fas fa-graduation-cap"></i><br>Google Scholar</a><a href="https://orcid.org/0000-0002-4254-2268" class="social-link-item"><i class="fab fa-orcid"></i><br>ORCID</a><a href="https://github.com/youngjour" class="social-link-item"><i class="fab fa-github"></i><br>GitHub</a><a href="https://linkedin.com/in/youngjourpark" class="social-link-item"><i class="fab fa-linkedin"></i><br>LinkedIn</a>
+</div>
 :::
 
 :::
