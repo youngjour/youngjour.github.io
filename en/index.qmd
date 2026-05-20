@@ -31,13 +31,13 @@ Co-founder · CTO, ar-ge inc.
 Nice to meet you, I am Youngjun Park.
 I am an urban researcher and architect, as well as a co-founder and CTO of **ar-ge inc.**, where I am developing Agentic AI-based architectural and urban design solutions.
 
-My work follows four threads:
-1) **Research** that explores the city through behavioral data,
-2) **Design** that builds places for the public,
-3) **Engineering** that develops AI agent solutions,
+My work follows four threads:<br>
+1) **Research** that explores the city through behavioral data,<br>
+2) **Design** that builds places for the public,<br>
+3) **Engineering** that develops AI agent solutions,<br>
 4) And **education** that teaches urban design and urban data analysis.
 
-These four domains, speaking different languages, converge on a single question.
+These four domains, speaking different languages, converge on a single question.<br>
 **"How can we design evidence-based and accountable cities?"**
 :::
 
