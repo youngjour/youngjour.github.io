@@ -12,7 +12,7 @@ format:
 
 <!-- Profile Header -->
 ::: {.profile-header}
-![Youngjun Park](../assets/images/youngjun.jpg){.profile-image}
+![](../assets/images/youngjun.jpg){.profile-image}
 
 ::: {.profile-info}
 # Youngjun Park

@@ -12,7 +12,7 @@ format:
 
 <!-- 프로필 헤더 -->
 ::: {.profile-header}
-![박영준](assets/images/youngjun.jpg){.profile-image}
+![](assets/images/youngjun.jpg){.profile-image}
 
 ::: {.profile-info}
 # 박영준
