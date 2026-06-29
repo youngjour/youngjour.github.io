@@ -2,18 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://youngjour.github.io/teaching.html</loc>
-    <lastmod>2026-05-20T09:08:26.365Z</lastmod>
+    <lastmod>2026-06-29T13:34:38.220Z</lastmod>
   </url>
   <url>
-    <loc>https://youngjour.github.io/index.html</loc>
-    <lastmod>2026-05-20T09:08:26.364Z</lastmod>
+    <loc>https://youngjour.github.io/notes/posts/2026-06-29-public-and-its-problems.html</loc>
+    <lastmod>2026-06-29T13:34:38.219Z</lastmod>
+  </url>
+  <url>
+    <loc>https://youngjour.github.io/notes/index.html</loc>
+    <lastmod>2026-06-29T13:34:38.219Z</lastmod>
   </url>
   <url>
     <loc>https://youngjour.github.io/design.html</loc>
-    <lastmod>2026-05-20T09:08:26.362Z</lastmod>
+    <lastmod>2026-06-29T13:34:38.218Z</lastmod>
+  </url>
+  <url>
+    <loc>https://youngjour.github.io/index.html</loc>
+    <lastmod>2026-06-29T13:34:38.219Z</lastmod>
+  </url>
+  <url>
+    <loc>https://youngjour.github.io/notes/list.html</loc>
+    <lastmod>2026-06-29T13:34:38.219Z</lastmod>
   </url>
   <url>
     <loc>https://youngjour.github.io/research.html</loc>
-    <lastmod>2026-05-20T09:08:26.364Z</lastmod>
+    <lastmod>2026-06-29T13:34:38.220Z</lastmod>
   </url>
 </urlset>
