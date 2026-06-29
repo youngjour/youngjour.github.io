@@ -1,0 +1,12 @@
+---
+title: "Notes"
+pagetitle: "Notes | 박영준"
+description-meta: "박영준 — 도시계획·설계와 도시 데이터에 대한 생각을 손으로 적어 두는 노트."
+---
+
+<!-- 새 글 추가 시 아래 url을 최신 글로 교체 -->
+```{=html}
+<meta http-equiv="refresh" content="0; url=./posts/2026-06-29-public-and-its-problems.html">
+```
+
+최신 노트로 이동합니다. 자동으로 넘어가지 않으면 [여기를 누르세요](./posts/2026-06-29-public-and-its-problems.html).

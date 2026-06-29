@@ -1,0 +1,15 @@
+---
+title: "Notes"
+pagetitle: "Notes | 박영준"
+description-meta: "박영준 — 도시계획·설계와 도시 데이터에 대한 생각을 손으로 적어 두는 노트."
+listing:
+  contents: posts
+  sort: "date desc"
+  type: table
+  fields: [date, title]
+  sort-ui: false
+  filter-ui: false
+  date-format: "YYYY-MM-DD"
+---
+
+읽고 공부하며 떠오른 생각을 손으로 적어 두는 곳입니다.

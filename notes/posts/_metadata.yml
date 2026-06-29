@@ -1,0 +1,21 @@
+# 각 글 상단(제목 위)의 "전체 목록" 백링크 — 모든 글에 자동 적용.
+format:
+  html:
+    include-before-body:
+      text: |
+        <div class="notes-backlink" style="font-size:0.8rem; margin-bottom:0.75rem; opacity:0.75;">
+          <a href="../list.html">← 전체 목록</a>
+        </div>
+
+# 각 글 하단의 "다른 노트" 목록 설정.
+# 글 본문에서 ::: {#other-notes} 디브가 이 listing을 렌더한다.
+# (Quarto listing은 현재 글을 자동 제외하므로, 글이 2편 이상일 때부터 채워진다)
+listing:
+  id: other-notes
+  contents: "*.qmd"
+  sort: "date desc"
+  type: table
+  fields: [date, title]
+  sort-ui: false
+  filter-ui: false
+  date-format: "YYYY-MM-DD"

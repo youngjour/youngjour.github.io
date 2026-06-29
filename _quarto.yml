@@ -7,6 +7,7 @@ project:
     - "assets/"
   render:
     - "*.qmd"
+    - "notes/**/*.qmd"
     - "!en/"
 
 website:
@@ -36,6 +37,8 @@ website:
         href: teaching.qmd
       - text: "Design"
         href: design.qmd
+      - text: "Notes"
+        href: notes/index.qmd
     right:
       - text: '<i class="fas fa-globe"></i> EN'
         href: en/index.html
