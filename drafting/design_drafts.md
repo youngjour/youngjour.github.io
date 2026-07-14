@@ -124,7 +124,7 @@ toc-depth: 2
 **A Residential Care Home for Elderly Adults with Developmental Disabilities**
 
 ::: {.project-meta}
-- **연도** · 2024– · *진행 중 · 시공 착수*
+- **연도** · 2025– · *진행 중 · 시공 착수*
 - **장소** · 강화도
 - **클라이언트** · 사회복지법인 우리마을
 - **유형** · 건축 · 복지 시설 · 신축
@@ -149,7 +149,7 @@ toc-depth: 2
 **A Public Housing Proposal that Embraces the Landscape**
 
 ::: {.project-meta}
-- **연도** · 2024
+- **연도** · 2025
 - **장소** · 충청북도 단양군
 - **유형** · 건축 · 공공 공동주택 · 설계 공모전
 - **공모전** · 단양군 행복올래 플랫폼 공동주택 설계 공모

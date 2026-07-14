@@ -111,7 +111,7 @@ Because this was my first urban-design studio, what I took from it was not a res
 **A Residential Care Home for Elderly Adults with Developmental Disabilities**
 
 ::: {.project-meta}
-- **Year** · 2024– · *in progress · construction underway*
+- **Year** · 2025– · *in progress · construction underway*
 - **Location** · Ganghwa Island
 - **Client** · Urimaul Social Welfare Foundation
 - **Type** · Architecture · Welfare Facility · New Construction
@@ -136,7 +136,7 @@ This project is a different order of experience from the design work I had done 
 **A Public Housing Proposal that Embraces the Landscape**
 
 ::: {.project-meta}
-- **Year** · 2024
+- **Year** · 2025
 - **Location** · Danyang County, North Chungcheong Province
 - **Type** · Architecture · Public Multi-Family Housing · Design Competition
 - **Competition** · Danyang Happy-Olle Platform Public Housing Design Competition
