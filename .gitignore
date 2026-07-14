@@ -51,3 +51,6 @@ __pycache__/
 .Ruserdata
 
 /.quarto/
+
+# Working instructions (not published)
+prompts/
