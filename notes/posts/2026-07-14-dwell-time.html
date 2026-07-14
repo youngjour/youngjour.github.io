@@ -142,15 +142,15 @@ window.Quarto = {
 
 <meta property="og:title" content="풀 수 없다고 증명하고 접었던 문제 하나 — 체류시간 | 박영준">
 <meta property="og:description" content="박영준 — 건축가 · 도시 데이터 사이언티스트 · ar-ge inc. 공동창립자 및 CTO. 도시 컴퓨팅, 스마트시티, AI 기반 도시 분석.">
-<meta property="og:image" content="https://youngjour.github.io/assets/images/notes/dwell-underdetermined.svg">
+<meta property="og:image" content="https://youngjour.github.io/assets/images/notes/dwell-underdetermined-slide.svg">
 <meta property="og:site_name" content="Youngjun Park">
 <meta property="og:locale" content="ko_KR">
-<meta property="og:image:alt" content="P(t+1)=P(t)+A(t+1)-D(t+1) 방정식과, +5의 인구 변화를 만드는 여러 도착·출발 조합을 보여주는 다이어그램">
+<meta property="og:image:alt" content="'체류시간 추정 문제의 어려움' 발표 슬라이드. P(t+1)=P(t)+A(t+1)-D(t+1) 방정식에서 관찰값은 하나, 미지수는 둘이고, +5의 인구 변화를 만들 수 있는 여러 도착·출발 조합의 예시를 보여준다.">
 <meta name="twitter:title" content="풀 수 없다고 증명하고 접었던 문제 하나 — 체류시간 | 박영준">
 <meta name="twitter:description" content="박영준 — 건축가 · 도시 데이터 사이언티스트 · ar-ge inc. 공동창립자 및 CTO. 도시 컴퓨팅, 스마트시티, AI 기반 도시 분석.">
-<meta name="twitter:image" content="https://youngjour.github.io/assets/images/notes/dwell-underdetermined.svg">
+<meta name="twitter:image" content="https://youngjour.github.io/assets/images/notes/dwell-underdetermined-slide.svg">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image:alt" content="P(t+1)=P(t)+A(t+1)-D(t+1) 방정식과, +5의 인구 변화를 만드는 여러 도착·출발 조합을 보여주는 다이어그램">
+<meta name="twitter:image:alt" content="'체류시간 추정 문제의 어려움' 발표 슬라이드. P(t+1)=P(t)+A(t+1)-D(t+1) 방정식에서 관찰값은 하나, 미지수는 둘이고, +5의 인구 변화를 만들 수 있는 여러 도착·출발 조합의 예시를 보여준다.">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -235,7 +235,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">공개</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2026년 7월 11일</p>
+      <p class="date">2026년 7월 14일</p>
     </div>
   </div>
   
@@ -253,8 +253,8 @@ window.Quarto = {
 <p>여러 차례 시도가 막힌 끝에 그 문제를 형식적으로 적어 보았다. 풀이가 어려운 게 아니라, 풀 수 있는 형태의 문제가 아니었다. 관측되는 집계량이 주는 제약과 복원해야 할 미지수 사이의 관계가 애초에 유일한 해를 허락하지 않았다. 서로 다른 하루를 보낸 여러 사람이 정확히 같은 집계를 만들어낼 수 있었고, 집계를 거꾸로 돌려 개인의 머무름을 되찾는 일은 원리적으로 닫혀 있었다. 문제가 어렵다는 것이 아니라, 답이 없다는 것이 드러난 셈이었다.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="../../assets/images/notes/dwell-underdetermined.svg" class="img-fluid figure-img" alt="P(t+1)=P(t)+A(t+1)-D(t+1) 방정식과, +5의 인구 변화를 만드는 여러 도착·출발 조합을 보여주는 다이어그램"></p>
-<figcaption>관찰값(방 안 인원수의 변화)은 하나, 미지수(도착·출발)는 둘 — 유일한 해가 없는 미결정 시스템.</figcaption>
+<p><img src="../../assets/images/notes/dwell-underdetermined-slide.svg" class="img-fluid figure-img" alt="'체류시간 추정 문제의 어려움' 발표 슬라이드. P(t+1)=P(t)+A(t+1)-D(t+1) 방정식에서 관찰값은 하나, 미지수는 둘이고, +5의 인구 변화를 만들 수 있는 여러 도착·출발 조합의 예시를 보여준다."></p>
+<figcaption>당시 연구실 발표에 쓴 슬라이드. 관찰값(인원수의 변화)은 하나, 미지수(도착·출발)는 둘 — 유일한 해가 없는 미결정 시스템.</figcaption>
 </figure>
 </div>
 <p>이 결론이 혼자만의 것은 아니었다. 함께 논의한 교수님들은 애초에 “체류시간을 추정한다”는 문제 설정 자체가 막다른 길이라고 짚었다. 알고 싶은 것은 그 자리가 어떤 장소인가이지 체류시간이라는 숫자 자체가 아니지 않느냐는 것이었다. 증명해 보려고 시뮬레이션으로 기준값을 만들어 봐도, 그 기준값 자체가 또 하나의 추정일 뿐이었다. 그런 지적과 자각이 겹치면서, 나는 주제를 접었다.</p>
@@ -282,7 +282,7 @@ window.Quarto = {
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-listing-date-sort="1782691200000" data-listing-file-modified-sort="1783738256994" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="416" data-listing-title-sort="Public(공중)에 대한 논의 — Dewey의 글과 학생 시절 작업 하나" data-listing-filename-sort="2026-06-29-public-and-its-problems.qmd">
+<tr data-index="0" data-listing-date-sort="1782691200000" data-listing-file-modified-sort="1784011260933" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="416" data-listing-title-sort="Public(공중)에 대한 논의 — Dewey의 글과 학생 시절 작업 하나" data-listing-filename-sort="2026-06-29-public-and-its-problems.qmd">
 <td>
 <span class="listing-date">2026-06-29</span>
 </td>
