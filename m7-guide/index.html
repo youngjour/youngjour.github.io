@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>M7 Series — 초기 설정</title>
+<style>
+/* ============ 공통 ============ */
+* { margin:0; padding:0; box-sizing:border-box; }
+html, body { width:100%; height:100%; overflow:hidden; }
+body {
+  background:#000; color:#e8eaed;
+  font-family:'Segoe UI', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif;
+  -webkit-user-select:none; user-select:none;
+}
+.mono { font-family:'Consolas','SF Mono',monospace; }
+.scene {
+  position:absolute; inset:0; display:none;
+  flex-direction:column; align-items:center; justify-content:center;
+  text-align:center; opacity:0; transition:opacity 1s ease;
+}
+.scene.active { display:flex; opacity:1; }
+.scene.fading { opacity:0; }
+.hint {
+  position:absolute; bottom:4.5vh; left:0; right:0; text-align:center;
+  font-size:clamp(12px,1.8vmin,17px); color:#5f6368;
+  animation:pulse 2.6s ease-in-out infinite;
+}
+@keyframes pulse { 0%,100%{opacity:.4} 50%{opacity:1} }
+.step-label {
+  position:absolute; bottom:4.5vh; left:4vw;
+  font-size:clamp(11px,1.6vmin,15px); color:#3c4043; letter-spacing:.15em;
+}
+.blue { color:#8ab4f8; }
+button { font-family:inherit; }
+
+/* ============ 1. 부팅 ============ */
+#boot .logo {
+  font-size:clamp(28px,5.5vmin,58px); letter-spacing:.45em; font-weight:300;
+  color:#fff; opacity:0; transition:opacity 2.2s ease; margin-left:.45em;
+}
+#boot .msg {
+  margin-top:4vmin; font-size:clamp(15px,2.4vmin,24px); font-weight:300;
+  color:#9aa0a6; opacity:0; transition:opacity 1.8s ease;
+}
+#boot .logo.show, #boot .msg.show { opacity:1; }
+
+/* ============ 2. 잠금 ============ */
+#lock .lock-icon { width:6vmin; height:6vmin; min-width:34px; min-height:34px; margin-bottom:3.5vmin; opacity:.9; }
+#lock h2 { font-size:clamp(17px,2.8vmin,28px); font-weight:400; color:#e8eaed; margin-bottom:1.2vmin; }
+#lock .sub { font-size:clamp(13px,2vmin,19px); color:#9aa0a6; margin-bottom:4.5vmin; }
+#pin-dots { display:flex; gap:2.6vmin; margin-bottom:4.5vmin; transition:transform .1s; }
+#pin-dots span {
+  width:1.8vmin; height:1.8vmin; min-width:10px; min-height:10px; border-radius:50%;
+  border:1px solid #5f6368; transition:background .15s, border-color .15s;
+}
+#pin-dots span.fill { background:#8ab4f8; border-color:#8ab4f8; }
+#pin-dots.shake { animation:shake .45s ease; }
+@keyframes shake {
+  0%,100%{transform:translateX(0)} 20%{transform:translateX(-2.2vmin)}
+  40%{transform:translateX(2vmin)} 60%{transform:translateX(-1.4vmin)} 80%{transform:translateX(.8vmin)}
+}
+#pin-msg { min-height:2.6em; font-size:clamp(12px,1.9vmin,17px); color:#f28b82; margin-bottom:1vmin; }
+#keypad { display:grid; grid-template-columns:repeat(3, minmax(58px, 11vmin)); gap:1.6vmin; }
+#keypad button {
+  height:9vmin; min-height:50px; border-radius:50%;
+  background:#17181b; border:1px solid #2b2d31; color:#e8eaed;
+  font-size:clamp(17px,2.8vmin,26px); cursor:pointer;
+  transition:background .12s, transform .06s;
+  display:flex; align-items:center; justify-content:center;
+}
+#keypad button:hover { background:#232529; }
+#keypad button:active { background:#2f3136; transform:scale(.94); }
+#keypad button.ghost { background:none; border:none; }
+#lock.unlocked .lock-icon { filter:drop-shadow(0 0 12px rgba(138,180,248,.8)); }
+
+/* ============ 3. 신호 동조 ============ */
+#rgb h2 { font-size:clamp(16px,2.6vmin,26px); font-weight:400; margin-bottom:.8vmin; }
+#rgb .sub { font-size:clamp(12px,1.9vmin,17px); color:#9aa0a6; margin-bottom:3.2vmin; }
+#rgb-wrap { display:flex; align-items:center; gap:5vmin; }
+#rgb-stage {
+  position:relative; width:56vmin; max-width:60vw; aspect-ratio:3/2;
+  background:#000; overflow:hidden; border-radius:.6vmin;
+  outline:1px solid #26282c;
+}
+#tune-canvas { width:100%; height:100%; display:block; }
+#tune-signal {
+  position:absolute; top:1.6vmin; right:1.8vmin; font-size:clamp(11px,1.7vmin,15px);
+  color:#9aa0a6; letter-spacing:.1em; background:rgba(0,0,0,.45);
+  padding:.6vmin 1.4vmin; border-radius:.5vmin;
+}
+#rgb-controls { display:flex; flex-direction:column; gap:3.6vmin; text-align:left; }
+#rgb-controls label { display:block; font-size:clamp(12px,1.8vmin,16px); margin-bottom:1vmin; letter-spacing:.1em; color:#bdc1c6; }
+#rgb-controls input[type=range] {
+  -webkit-appearance:none; appearance:none; width:30vmin; min-width:170px; height:4px;
+  background:#2b2d31; border-radius:2px; outline:none; cursor:pointer;
+}
+#rgb-controls input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance:none; appearance:none; width:2.6vmin; height:2.6vmin; min-width:16px; min-height:16px;
+  border-radius:50%; background:#e8eaed; border:none;
+}
+#rgb-controls input[type=range]:disabled { opacity:.35; }
+#rgb-meta {
+  margin-top:3vmin; font-size:clamp(12px,1.9vmin,17px); color:#81c995;
+  min-height:1.6em; opacity:0; transition:opacity 1.2s;
+}
+#rgb-meta.show { opacity:1; }
+
+/* ============ 4. 갤러리 ============ */
+#gallery { justify-content:center; }
+#gal-title {
+  position:absolute; top:5vh; left:0; right:0;
+  font-size:clamp(13px,2vmin,19px); color:#9aa0a6; letter-spacing:.12em;
+}
+#gal-frame {
+  position:relative; width:100%; height:100%;
+  display:flex; align-items:center; justify-content:center;
+}
+#gal-img, #gal-video {
+  max-width:86vw; max-height:72vh; object-fit:contain;
+  border-radius:.4vmin; opacity:0; transition:opacity .8s ease;
+}
+#gal-img.show, #gal-video.show { opacity:1; }
+#gal-video { display:none; }
+#gal-cap {
+  position:absolute; bottom:8vh; left:0; right:0; text-align:center;
+  font-size:clamp(12px,1.9vmin,17px); color:#9aa0a6; letter-spacing:.06em;
+  opacity:0; transition:opacity .8s ease .3s;
+}
+#gal-cap.show { opacity:1; }
+#gal-cap .note { color:#5f6368; }
+#gal-frame.notice #gal-img { max-width:76vw; outline:1px solid #2b2d31; border-radius:1vmin; }
+#notice-label {
+  display:none; position:absolute; top:16vh; left:0; right:0;
+  font-size:clamp(13px,2vmin,19px); color:#8ab4f8; letter-spacing:.1em;
+}
+#gal-frame.notice #notice-label { display:block; }
+
+/* 회전 안내 오버레이 */
+#rotate-overlay {
+  position:absolute; inset:0; background:rgba(0,0,0,.88);
+  display:none; flex-direction:column; align-items:center; justify-content:center; gap:3.5vmin;
+  opacity:0; transition:opacity .8s; z-index:5;
+}
+#rotate-overlay.on { display:flex; opacity:1; }
+#rotate-overlay .r-icon { width:9vmin; height:9vmin; min-width:52px; min-height:52px; animation:rot 2.4s ease-in-out infinite; }
+@keyframes rot { 0%,15%{transform:rotate(0)} 55%,100%{transform:rotate(90deg)} }
+#rotate-overlay .r-main { font-size:clamp(16px,2.6vmin,26px); color:#e8eaed; }
+#rotate-overlay .r-sub { font-size:clamp(13px,2vmin,18px); color:#9aa0a6; }
+
+/* 카톡 알림 배너 */
+#kakao-banner {
+  position:absolute; top:2.5vh; left:50%; transform:translate(-50%,-160%);
+  width:min(88vw, 64vmin);
+  background:#1d1f23; border:1px solid #2b2d31; border-radius:2vmin;
+  padding:2.2vmin 2.6vmin; display:flex; align-items:center; gap:2.4vmin;
+  cursor:pointer; z-index:6; text-align:left;
+  transition:transform .7s cubic-bezier(.2,.9,.3,1.1);
+  box-shadow:0 1vmin 4vmin rgba(0,0,0,.6);
+}
+#kakao-banner.on { transform:translate(-50%,0); }
+#kakao-banner .k-icon {
+  width:6.4vmin; height:6.4vmin; min-width:38px; min-height:38px;
+  background:#fee500; border-radius:28%;
+  display:flex; align-items:center; justify-content:center; flex-shrink:0;
+}
+#kakao-banner .k-icon svg { width:60%; height:60%; }
+#kakao-banner .k-t1 { font-size:clamp(12px,1.9vmin,16px); color:#9aa0a6; margin-bottom:.5vmin; }
+#kakao-banner .k-t2 { font-size:clamp(14px,2.3vmin,20px); color:#e8eaed; }
+#kakao-banner .k-go { margin-left:auto; color:#8ab4f8; font-size:clamp(12px,1.9vmin,16px); flex-shrink:0; }
+
+/* ============ 5. 카카오톡 ============ */
+#kakao { background:#b2c7d9; justify-content:flex-start; cursor:default; }
+#kk-header {
+  width:100%; background:#b2c7d9; padding:max(2vmin,12px) 3.4vmin 1.6vmin;
+  display:flex; align-items:center; gap:3vmin; z-index:2; text-align:left;
+}
+#kk-header .kk-back { font-size:clamp(18px,3.4vmin,30px); color:#3d3d3d; font-weight:300; }
+#kk-header .kk-name { font-size:clamp(16px,3vmin,26px); color:#1e1e1e; font-weight:600; }
+#kk-header .kk-right { margin-left:auto; display:flex; gap:3vmin; color:#3d3d3d; font-size:clamp(15px,2.8vmin,24px); }
+#kk-body {
+  flex:1; width:100%; overflow-y:auto; padding:1.5vmin 3vmin 14vmin;
+  display:flex; flex-direction:column; gap:1.4vmin; scroll-behavior:smooth;
+}
+#kk-body::-webkit-scrollbar { display:none; }
+.kk-date {
+  align-self:center; background:rgba(0,0,0,.13); color:#f8f8f8;
+  font-size:clamp(11px,1.9vmin,15px); padding:.9vmin 3.2vmin; border-radius:99px;
+  margin:2.4vmin 0 1.2vmin; animation:kIn .5s ease both;
+  display:flex; align-items:center; gap:1vmin;
+}
+.kk-row { display:flex; align-items:flex-end; gap:1.2vmin; max-width:80%; animation:kIn .38s cubic-bezier(.2,.9,.3,1.1) both; }
+@keyframes kIn { from{opacity:0; transform:translateY(1.8vmin)} to{opacity:1; transform:none} }
+.kk-row.left { align-self:flex-start; }
+.kk-row.right { align-self:flex-end; flex-direction:row-reverse; }
+.kk-ava {
+  width:7vmin; height:7vmin; min-width:36px; min-height:36px;
+  border-radius:44%; background:#8a9aa8; align-self:flex-start; flex-shrink:0;
+  display:flex; align-items:center; justify-content:center; overflow:hidden;
+}
+.kk-ava svg { width:62%; height:62%; margin-top:12%; }
+.kk-stack { display:flex; flex-direction:column; }
+.kk-nm { font-size:clamp(11px,1.9vmin,15px); color:#556677; margin:0 0 .7vmin .4vmin; text-align:left; }
+.kk-bb {
+  padding:1.7vmin 2.4vmin; border-radius:1.8vmin;
+  font-size:clamp(14px,2.5vmin,21px); line-height:1.5; color:#1e1e1e;
+  text-align:left; white-space:pre-line; word-break:break-word;
+}
+.kk-row.left .kk-bb { background:#fff; border-top-left-radius:.4vmin; }
+.kk-row.right .kk-bb { background:#fee500; border-top-right-radius:.4vmin; }
+.kk-tm { font-size:clamp(10px,1.7vmin,13px); color:#66788a; flex-shrink:0; white-space:nowrap; }
+#kk-input {
+  position:absolute; bottom:0; left:0; right:0; background:#fff;
+  padding:max(2.2vmin,12px) 3.4vmin; display:flex; align-items:center; gap:3vmin;
+  color:#c3c6ca; font-size:clamp(14px,2.5vmin,20px); text-align:left; z-index:2;
+}
+#kk-input .plus { font-size:1.35em; color:#8d9298; font-weight:300; }
+#kk-input .field { flex:1; }
+#kk-input .kk-send {
+  color:#8d9298; font-size:1.1em;
+}
+
+/* ============ 6. 완료 ============ */
+#final .f-line {
+  font-size:clamp(17px,3vmin,30px); font-weight:300; color:#e8eaed;
+  line-height:2.1; opacity:0; transform:translateY(1.5vmin);
+  transition:opacity 1.6s ease, transform 1.6s ease;
+}
+#final .f-line.dim { color:#9aa0a6; font-size:clamp(15px,2.5vmin,24px); }
+#final .f-line.show { opacity:1; transform:none; }
+#final .f-check { margin-bottom:4vmin; width:7vmin; height:7vmin; min-width:40px; min-height:40px;
+  opacity:0; transition:opacity 1.6s ease; }
+#final .f-check.show { opacity:1; }
+</style>
+</head>
+<body>
+
+<!-- 1. 부팅 -->
+<section class="scene" id="boot">
+  <div class="logo">M7 SERIES</div>
+  <div class="msg">환영합니다. 초기 설정을 시작합니다.</div>
+  <div class="hint" style="opacity:0" id="boot-hint">계속하려면 확인 버튼을 누르세요</div>
+</section>
+
+<!-- 2. 잠금 -->
+<section class="scene" id="lock">
+  <svg class="lock-icon" viewBox="0 0 24 24" fill="none" stroke="#8ab4f8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <rect id="lock-body" x="4" y="10.5" width="16" height="10" rx="2"/>
+    <path id="lock-shackle" d="M8 10.5V7a4 4 0 0 1 8 0v3.5"/>
+  </svg>
+  <h2>이 기기는 발송자에 의해 잠금 설정되어 있습니다</h2>
+  <div class="sub">잠금 해제 코드: 발송자의 생일 (MMDD)</div>
+  <div id="pin-dots"><span></span><span></span><span></span><span></span></div>
+  <div id="pin-msg"></div>
+  <div id="keypad"></div>
+  <div class="step-label">설정 1 / 5 · 보안</div>
+</section>
+
+<!-- 3. 신호 동조 -->
+<section class="scene" id="rgb">
+  <h2>수신 신호 동조</h2>
+  <div class="sub">저장소에서 미확인 이미지 신호가 감지되었습니다. 주파수를 동조하여 수신하세요.</div>
+  <div id="rgb-wrap">
+    <div id="rgb-stage">
+      <canvas id="tune-canvas" width="840" height="560"></canvas>
+      <div id="tune-signal" class="mono">신호 강도 0%</div>
+    </div>
+    <div id="rgb-controls">
+      <div><label>주파수</label><input type="range" id="sl-f" min="0" max="100" step="1"></div>
+      <div><label>위상</label><input type="range" id="sl-p" min="0" max="100" step="1"></div>
+    </div>
+  </div>
+  <div id="rgb-meta" class="mono"></div>
+  <div class="step-label">설정 2 / 5 · 수신</div>
+</section>
+
+<!-- 4. 갤러리 (가로+세로 공용) -->
+<section class="scene" id="gallery">
+  <div id="gal-title">저장된 이미지 검증</div>
+  <div id="gal-frame">
+    <div id="notice-label">시스템 알림 아카이브</div>
+    <img id="gal-img" alt="">
+    <video id="gal-video" playsinline preload="auto"></video>
+    <div id="gal-cap" class="mono"></div>
+  </div>
+  <div id="rotate-overlay">
+    <svg class="r-icon" viewBox="0 0 24 24" fill="none" stroke="#8ab4f8" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="7" y="4" width="10" height="16" rx="1.6"/>
+      <path d="M20.5 9a8.5 8.5 0 0 0-3-4.5" ></path>
+      <path d="M20.5 9l.3-2.6M20.5 9l-2.6-.4" ></path>
+    </svg>
+    <div class="r-main">이 이미지는 세로 화면에 최적화되어 있습니다</div>
+    <div class="r-sub">기기를 시계 방향으로 회전하세요</div>
+  </div>
+  <div id="kakao-banner">
+    <div class="k-icon">
+      <svg viewBox="0 0 24 24" fill="#3c1e1e"><path d="M12 3C6.9 3 2.8 6.3 2.8 10.3c0 2.6 1.7 4.8 4.3 6.1l-.9 3.4c-.1.3.3.6.5.4l4-2.7c.4 0 .8.1 1.3.1 5.1 0 9.2-3.3 9.2-7.3S17.1 3 12 3z"/></svg>
+    </div>
+    <div>
+      <div class="k-t1">카카오톡 · 지금</div>
+      <div class="k-t2">미확인 메시지가 있습니다. 확인하세요.</div>
+    </div>
+    <div class="k-go">열기 ›</div>
+  </div>
+  <div class="hint" id="gal-hint">화면을 누르면 다음 이미지로 넘어갑니다</div>
+  <div class="step-label" id="gal-step">설정 3 / 5 · 저장소</div>
+</section>
+
+<!-- 5. 카카오톡 -->
+<section class="scene" id="kakao">
+  <div id="kk-header">
+    <span class="kk-back">‹</span>
+    <span class="kk-name">박영준</span>
+    <span class="kk-right"><span>⌕</span><span>☰</span></span>
+  </div>
+  <div id="kk-body"></div>
+  <div id="kk-input"><span class="plus">＋</span><span class="field">메시지 입력</span><span class="kk-send">#</span></div>
+</section>
+
+<audio id="bgm" loop preload="auto"></audio>
+
+<!-- 6. 완료 -->
+<section class="scene" id="final">
+  <svg class="f-check" viewBox="0 0 24 24" fill="none" stroke="#8ab4f8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="M8 12.5l2.6 2.6L16 9.5"/></svg>
+  <div class="f-line" id="f1">설정 완료.</div>
+  <div class="f-line dim" id="f2">이 모니터의 주 사용자: 김아로, 박영준</div>
+  <div class="f-line" id="f3" style="margin-top:2vmin">오래오래 함께 시청하세요.</div>
+</section>
+
+<script>
+/* ═══════════════════════ CONFIG ═══════════════════════ */
+const PIN = '0511';
+
+const TUNE_PHOTO = 'photos/만나기 전 아로.JPG';
+const TUNE_META = '수신 완료 — 촬영일: 우리가 만나기 전';
+
+const GALLERY_LAND = [
+  { src:'photos/IMG_0268.JPG',  cap:'날짜 미상 · 내가 좋아하는 아로 사진' },
+  { src:'photos/IMG_0388.JPG',  cap:'2025.10.12 · 처음 만난 영길리에서' },
+  { src:'photos/IMG_0474.jpg',  cap:'2025.11.14 (금) — 함께 살기?', notice:true },
+  { src:'photos/IMG_0581.JPG',  cap:'2025.12.12 · 만화카페에서' },
+  { src:'photos/IMG_0705.JPG',  cap:'2026.04.04 · 표정 뭐지' },
+  { src:'photos/IMG_0781.JPG',  cap:'2026.05.01 · 커피도 하는 프리랜서와' },
+  { src:'photos/IMG_E0826.JPG', cap:'2026.05.10 · 여행도 같이 다니고' },
+  { src:'photos/IMG_0830.JPG',  cap:'2026.05.10 · 왜 그렇게 보는거지? 사람 설레게', alt:'photos/IMG_0833.JPG' }
+];
+const GALLERY_PORT = [
+  { src:'photos/세로 피벗용.PNG', cap:'2025.12 · 첫 크리스마스' },
+  { src:'photos/IMG_0307.JPG',   cap:'2025.08.24 · 한 입만' },
+  { src:'photos/IMG_0686.JPG',   cap:'2026.03.16 · 열심히 공부하는 아로' },
+  { video:'photos/마지막 영상.MP4', cap:'2026.04.26 · 인생 네컷', last:true }
+];
+
+/* 배경 음악 — 첫 클릭 시 재생 시작, 반복 재생 */
+const BGM_SRC = 'music/ES_Pretty Little Moments - Airae (Version d59198e4) - fullmix_preview.mp3';
+
+/* 카톡 대본 — d: 이전 메시지로부터의 지연(ms) */
+const KK = [
+  { type:'date', label:'2025년 6월 30일 월요일', d:1200 },
+  { s:'L', t:'안녕하세요, 소개팅 연락처 받고 문자드려요', tm:'오후 5:40', d:1600 },
+  { s:'L', t:'박영준입니다!', tm:'오후 5:40', d:1300 },
+  { s:'R', t:'안녕하세요! 저는 김아로라고 합니다 :)', tm:'오후 5:47', d:2200 },
+  { s:'R', t:'저희 한다리씩 건너서 소개 받았네요ㅎㅎ', tm:'오후 5:47', d:1500 },
+  { s:'L', t:'그러게요 ㅎㅎ 오늘 어쩐지 날이 좋더라니', tm:'오후 5:52', d:2200 },
+  { s:'L', t:'좋은 일이 있으려고 그랬나본데요', tm:'오후 5:52', d:1700 },
+  { s:'R', t:'ㅋㅋㅋ좋아요 ㅎㅎㅎ 네넹 일단 우리 내일 얘기하고 5시 반에 영길리로 갈게요! 얼른 자고 우리 내일 보아용', tm:'오후 11:58', d:3400 },
+
+  { type:'date', label:'2025년 7월 7일 월요일', d:3000 },
+  { s:'R', t:'강아지 이름 솜이요!', tm:'오후 8:02', d:1500 },
+  { s:'L', t:'김솜이 ㅋㅋ 귀엽다, 하얀 솜 같고', tm:'오후 8:04', d:1500 },
+  { s:'R', t:'거침킥은 제 인생이에여… 진짜 대사도 다 외울걸여', tm:'오후 8:11', d:1400 },
+  { s:'L', t:'ㅋㅋㅋㅋ 한번 봐야겠다', tm:'오후 8:13', d:1100 },
+  { s:'R', t:'저는 힉스 보존이 먼지 모르는 사람임미당… ㅋㅋㅋㅋ', tm:'오후 8:20', d:1300 },
+  { s:'L', t:'힉스 입자... 페르미온과 보손... 대학물리를 한과목밖에 안 들어서 저도 모릅니다 ㅋㅋㅋㅋ', tm:'오후 8:24', d:1600 },
+  { s:'L', t:'하지만 나 그런 생각드는데', tm:'오후 8:26', d:2800 },
+  { s:'L', t:'너랑 이야기하다보면 한번씩', tm:'오후 8:26', d:2300 },
+  { s:'L', t:'내가 지금 머릿속에 생각이 엄청 빛나는 사람이랑 이야기하고 있구나', tm:'오후 8:27', d:2600 },
+  { s:'L', t:'나 아직 너에 대해 모르는게 많지만', tm:'오후 8:27', d:2400 },
+  { s:'L', t:'꽤 자주 놀랄때가 많아', tm:'오후 8:27', d:2400 },
+
+  { type:'date', label:'2025년 11월 28일 금요일', d:3600 },
+  { s:'R', t:'굿모닝이에요~.~ 오빠 어제 피곤했으니까 늦게까지 잤으먼 좋겟당', tm:'오전 8:51', d:1800 },
+  { s:'L', t:'아로야 굿모닝 ㅎㅎㅎ 난 아주 잘잤어', tm:'오전 9:14', d:1600 },
+  { s:'R', t:'아니양 오빠랑 팔짱끼고 걷는거 좋아요오', tm:'오전 9:32', d:1900 },
+  { s:'L', t:'ㅎㅎㅎ 나도 좋아', tm:'오전 9:35', d:1600 },
+  { s:'R', t:'ㅋㅋㅋㅋ남자친구가 줬다고하고 줬어요 ㅎㅎ 다들 우와 우와 잘먹겠습니다고 전해달라고ㅎㅎ', tm:'오후 1:02', d:2300 },
+  { s:'R', t:'아ㅋㅋㅋ남자친구 커피하시냐고 물어봤어요ㅋㅋㅋㅋ두명이', tm:'오후 1:03', d:1700 },
+  { s:'L', t:'ㅋㅋㅋㅋㅋㅋㅋㅋㅋ 커피도 합니다', tm:'오후 1:10', d:1700 },
+  { s:'L', t:'커피도 하는 프리랜서에요', tm:'오후 1:10', d:1500 },
+  { s:'R', t:'ㅋㅋ커피를 많이 좋아한다고 했어요', tm:'오후 1:18', d:1800 },
+  { s:'R', t:'잘마실게요 고마워요 ♥', tm:'오후 1:18', d:1700 },
+
+  { type:'date', label:'2026년 3월 10일 화요일', d:3600 },
+  { s:'R', t:'맞아 오삐 나 로즈마리 심었는데 ㅎㅎ 잘 자라고 있어요ㅎㅎ', tm:'오후 1:38', d:1800 },
+  { s:'L', t:'헐! 학교에서도 키우는거야?', tm:'오후 1:44', d:1500 },
+  { s:'L', t:'곳곳이 아로 밭이다 ㅋㅋ', tm:'오후 1:44', d:1300 },
+  { s:'L', t:'난 물 많이 주고 싶은걸 열심히 참으면서 키우고 있어', tm:'오후 1:46', d:1600 },
+  { s:'R', t:'귀여웡!!', tm:'오후 1:56', d:1600 },
+  { s:'R', t:'식물박사 똑똑준', tm:'오후 1:57', d:1400 },
+  { s:'L', t:'다음에 올때는 바질이 꽤 커져있을거야', tm:'오후 2:39', d:2000 },
+  { s:'R', t:'오빠가 너무 잘기르고 잇당 최고야!ㅎㅎ', tm:'오후 3:35', d:2200 },
+  { s:'R', t:'우리 나중에 바질이들 다 크면 바질샐러드 바질파스타 바질 샌드위치 해먹자구요 ♪', tm:'오후 3:35', d:3400 }
+];
+const KK_END_HOLD = 4200;
+
+/* ═══════════════════════ 유틸 / 씬 전환 ═══════════════════════ */
+const $ = s => document.querySelector(s);
+let sceneBusy = false;
+function goScene(id, cb) {
+  if (sceneBusy) return;
+  sceneBusy = true;
+  const cur = document.querySelector('.scene.active');
+  if (cur) cur.classList.add('fading');
+  setTimeout(() => {
+    if (cur) { cur.classList.remove('active','fading'); }
+    const nx = document.getElementById(id);
+    nx.classList.add('active');
+    setTimeout(() => sceneBusy = false, 700);
+    if (cb) cb();
+  }, cur ? 900 : 0);
+}
+
+/* 사진 프리로드 */
+[TUNE_PHOTO, ...GALLERY_LAND.map(g=>g.src), ...GALLERY_LAND.filter(g=>g.alt).map(g=>g.alt), ...GALLERY_PORT.map(g=>g.src)]
+  .filter(Boolean)
+  .forEach(src => { const i = new Image(); i.src = src; });
+
+/* ═══════════════════════ 1. 부팅 ═══════════════════════ */
+let bootReady = false;
+function startBoot() {
+  goScene('boot');
+  setTimeout(() => $('#boot .logo').classList.add('show'), 900);
+  setTimeout(() => $('#boot .msg').classList.add('show'), 2800);
+  setTimeout(() => { $('#boot-hint').style.opacity = ''; bootReady = true; }, 4400);
+}
+$('#boot').addEventListener('click', () => { if (bootReady) goScene('lock'); });
+
+/* ═══════════════════════ 2. 잠금 ═══════════════════════ */
+const keys = ['1','2','3','4','5','6','7','8','9','','0','⌫'];
+let pin = '';
+let lockDone = false;
+keys.forEach(k => {
+  const b = document.createElement('button');
+  if (k === '') { b.className = 'ghost'; b.disabled = true; }
+  else { b.textContent = k; b.addEventListener('click', () => pressKey(k)); }
+  $('#keypad').appendChild(b);
+});
+function renderDots() {
+  document.querySelectorAll('#pin-dots span').forEach((d,i) => d.classList.toggle('fill', i < pin.length));
+}
+function pressKey(k) {
+  if (lockDone) return;
+  if (k === '⌫') { pin = pin.slice(0,-1); renderDots(); $('#pin-msg').textContent=''; return; }
+  if (pin.length >= 4) return;
+  pin += k; renderDots();
+  if (pin.length === 4) setTimeout(checkPin, 250);
+}
+function checkPin() {
+  if (pin === PIN) {
+    lockDone = true;
+    $('#pin-msg').style.color = '#81c995';
+    $('#pin-msg').textContent = '코드가 확인되었습니다';
+    $('#lock-shackle').setAttribute('d','M8 10.5V7a4 4 0 0 1 8 0');
+    $('#lock').classList.add('unlocked');
+    setTimeout(() => goScene('rgb', initTune), 1400);
+  } else {
+    const dots = $('#pin-dots');
+    dots.classList.add('shake');
+    $('#pin-msg').textContent = '코드가 일치하지 않습니다 (남은 시도: 제한 없음)';
+    setTimeout(() => { dots.classList.remove('shake'); pin=''; renderDots(); }, 500);
+  }
+}
+addEventListener('keydown', e => {
+  if (!$('#lock').classList.contains('active')) return;
+  if (/^[0-9]$/.test(e.key)) pressKey(e.key);
+  if (e.key === 'Backspace') pressKey('⌫');
+});
+
+/* ═══════════════════════ 3. 신호 동조 ═══════════════════════ */
+const TUNE = {
+  targets: {}, solved: false, started: false,
+  img: null, raf: 0
+};
+const noiseCv = document.createElement('canvas');
+noiseCv.width = 168; noiseCv.height = 112;
+const noiseCtx = noiseCv.getContext('2d');
+function drawNoise() {
+  const d = noiseCtx.createImageData(noiseCv.width, noiseCv.height);
+  const a = d.data;
+  for (let i = 0; i < a.length; i += 4) {
+    const v = (Math.random()*255)|0;
+    a[i]=v; a[i+1]=v; a[i+2]=v; a[i+3]=255;
+  }
+  noiseCtx.putImageData(d, 0, 0);
+}
+function tuneClarity() {
+  const df = ($('#sl-f').value - TUNE.targets.f) / 100;
+  const dp = ($('#sl-p').value - TUNE.targets.p) / 100;
+  const dist = Math.sqrt(df*df + dp*dp);
+  return Math.max(0, 1 - dist / 0.42) ** 2.1;
+}
+function initTune() {
+  if (TUNE.started) return;
+  TUNE.started = true;
+  TUNE.img = new Image();
+  TUNE.img.src = TUNE_PHOTO;
+  ['f','p'].forEach(c => {
+    TUNE.targets[c] = 20 + Math.floor(Math.random()*60);
+    const sl = $('#sl-'+c);
+    let v;
+    do { v = Math.floor(Math.random()*101); } while (Math.abs(v - TUNE.targets[c]) < 30);
+    sl.value = v;
+  });
+  tuneFrame();
+}
+function tuneFrame() {
+  const cv = $('#tune-canvas'), ctx = cv.getContext('2d');
+  const c = TUNE.solved ? 1 : tuneClarity();
+  ctx.clearRect(0,0,cv.width,cv.height);
+  ctx.imageSmoothingEnabled = true;
+  if (TUNE.img && TUNE.img.naturalWidth) {
+    const jx = TUNE.solved ? 0 : (Math.random()-.5) * (1-c) * 26;
+    const jy = TUNE.solved ? 0 : (Math.random()-.5) * (1-c) * 8;
+    ctx.globalAlpha = c;
+    const iw = TUNE.img.naturalWidth, ih = TUNE.img.naturalHeight;
+    const s = Math.max(cv.width/iw, cv.height/ih);
+    const dw = iw*s, dh = ih*s;
+    ctx.drawImage(TUNE.img, (cv.width-dw)/2 + jx, (cv.height-dh)/2 + jy, dw, dh);
+  }
+  if (!TUNE.solved) {
+    drawNoise();
+    ctx.globalAlpha = Math.max(.08, 1 - c);
+    ctx.imageSmoothingEnabled = false;
+    ctx.drawImage(noiseCv, 0, 0, cv.width, cv.height);
+    ctx.globalAlpha = 1;
+    $('#tune-signal').textContent = '신호 강도 ' + Math.round(c*100) + '%';
+    const done = Math.abs($('#sl-f').value - TUNE.targets.f) <= 3 &&
+                 Math.abs($('#sl-p').value - TUNE.targets.p) <= 3;
+    if (done) { solveTune(); return; }
+    TUNE.raf = requestAnimationFrame(tuneFrame);
+  } else {
+    ctx.globalAlpha = 1;
+  }
+}
+function solveTune() {
+  TUNE.solved = true;
+  cancelAnimationFrame(TUNE.raf);
+  ['f','p'].forEach(c => $('#sl-'+c).disabled = true);
+  $('#tune-signal').textContent = '신호 강도 100%';
+  $('#tune-signal').style.color = '#81c995';
+  tuneFrame();
+  const meta = $('#rgb-meta');
+  setTimeout(() => { meta.textContent = TUNE_META; meta.classList.add('show'); }, 1000);
+  setTimeout(() => {
+    $('#rgb .sub').textContent = '이미지 수신이 완료되었습니다. 계속하려면 화면을 누르세요.';
+    $('#rgb').addEventListener('click', () => goScene('gallery', initGallery), { once:true });
+  }, 2400);
+}
+
+/* ═══════════════════════ 4. 갤러리 ═══════════════════════ */
+const GAL = { list: GALLERY_LAND, idx: -1, phase: 'land', locked: false, altTimer: null };
+function initGallery() { nextPhoto(); }
+function showPhoto(item) {
+  const img = $('#gal-img'), vid = $('#gal-video'), cap = $('#gal-cap');
+  clearInterval(GAL.altTimer);
+  img.classList.remove('show'); vid.classList.remove('show'); cap.classList.remove('show');
+  $('#gal-frame').classList.toggle('notice', !!item.notice);
+  setTimeout(() => {
+    cap.textContent = item.cap;
+    cap.classList.add('show');
+    if (item.video) {
+      img.style.display = 'none';
+      vid.style.display = 'block';
+      vid.src = item.video;
+      vid.muted = true;
+      vid.loop = true;
+      vid.classList.add('show');
+      vid.onerror = () => $('#kakao-banner').classList.add('on');
+      vid.play().catch(() => {});
+      setTimeout(() => $('#kakao-banner').classList.add('on'), 4500);
+      return;
+    }
+    vid.style.display = 'none';
+    img.style.display = '';
+    img.src = item.src;
+    img.classList.add('show');
+    if (item.alt) {
+      let flip = false;
+      GAL.altTimer = setInterval(() => {
+        flip = !flip;
+        img.src = flip ? item.alt : item.src;
+      }, 900);
+    }
+  }, 450);
+}
+function nextPhoto() {
+  if (GAL.locked) return;
+  GAL.idx++;
+  if (GAL.idx < GAL.list.length) {
+    const item = GAL.list[GAL.idx];
+    if (GAL.phase === 'port' && item.last) {
+      GAL.locked = true;
+      $('#gal-hint').style.opacity = '0';
+      if (!item.video) setTimeout(() => $('#kakao-banner').classList.add('on'), 2600);
+    }
+    showPhoto(item);
+    return;
+  }
+  if (GAL.phase === 'land') {
+    GAL.locked = true;
+    $('#gal-hint').style.opacity = '0';
+    $('#rotate-overlay').classList.add('on');
+    waitForPortrait();
+  }
+}
+$('#gallery').addEventListener('click', e => {
+  if (e.target.closest('#kakao-banner')) return;
+  if ($('#rotate-overlay').classList.contains('on')) return;
+  nextPhoto();
+});
+
+/* 피벗 감지 */
+let portraitStarted = false;
+function enterPortrait() {
+  if (portraitStarted) return;
+  portraitStarted = true;
+  $('#rotate-overlay').classList.remove('on');
+  $('#gal-title').textContent = '세로 이미지 검증';
+  $('#gal-step').textContent = '설정 4 / 5 · 디스플레이 회전';
+  $('#gal-hint').style.opacity = '';
+  GAL.list = GALLERY_PORT; GAL.idx = -1; GAL.phase = 'port'; GAL.locked = false;
+  nextPhoto();
+}
+function isPortrait() { return innerHeight > innerWidth; }
+function waitForPortrait() {
+  if (isPortrait()) { setTimeout(enterPortrait, 600); return; }
+  addEventListener('resize', function onR() {
+    if (isPortrait()) { removeEventListener('resize', onR); setTimeout(enterPortrait, 800); }
+  });
+}
+$('#kakao-banner').addEventListener('click', () => {
+  $('#kakao-banner').classList.remove('on');
+  goScene('kakao', playKakao);
+});
+
+/* ═══════════════════════ 5. 카카오톡 ═══════════════════════ */
+const AVATAR_SVG = '<svg viewBox="0 0 24 24" fill="#dfe5ea"><circle cx="12" cy="8.2" r="4.2"/><path d="M3.5 22c.8-4.6 4.3-7 8.5-7s7.7 2.4 8.5 7z"/></svg>';
+function playKakao() {
+  const body = $('#kk-body');
+  let i = 0, elapsed = 600;
+  KK.forEach(m => {
+    elapsed += m.d;
+    setTimeout(() => {
+      if (m.type === 'date') {
+        const el = document.createElement('div');
+        el.className = 'kk-date';
+        el.textContent = m.label;
+        body.appendChild(el);
+      } else {
+        const row = document.createElement('div');
+        row.className = 'kk-row ' + (m.s === 'L' ? 'left' : 'right');
+        if (m.s === 'L') {
+          row.innerHTML = `<div class="kk-ava">${AVATAR_SVG}</div>
+            <div class="kk-stack"><div class="kk-nm">박영준</div><div class="kk-bb"></div></div>
+            <div class="kk-tm">${m.tm}</div>`;
+        } else {
+          row.innerHTML = `<div class="kk-stack"><div class="kk-bb"></div></div><div class="kk-tm">${m.tm}</div>`;
+        }
+        row.querySelector('.kk-bb').textContent = m.t;
+        body.appendChild(row);
+      }
+      body.scrollTop = body.scrollHeight;
+    }, elapsed);
+  });
+  setTimeout(showFinal, elapsed + KK_END_HOLD);
+}
+
+/* ═══════════════════════ 배경 음악 ═══════════════════════ */
+let bgmStarted = false;
+function startBgm() {
+  if (bgmStarted || !BGM_SRC) return;
+  bgmStarted = true;
+  const a = $('#bgm');
+  a.src = BGM_SRC;
+  a.volume = 0.45;
+  a.play().catch(() => {});
+}
+addEventListener('pointerdown', startBgm, { once:true });
+addEventListener('keydown', startBgm, { once:true });
+
+/* ═══════════════════════ 6. 완료 ═══════════════════════ */
+function showFinal() {
+  goScene('final', () => {
+    setTimeout(() => $('#final .f-check').classList.add('show'), 800);
+    setTimeout(() => $('#f1').classList.add('show'), 1600);
+    setTimeout(() => $('#f2').classList.add('show'), 3200);
+    setTimeout(() => $('#f3').classList.add('show'), 4800);
+  });
+}
+
+/* ═══════════════════════ 공통 키 (리허설용) ═══════════════════════ */
+addEventListener('keydown', e => {
+  if (e.key === 'Enter' && $('#boot').classList.contains('active') && bootReady) goScene('lock');
+  if (e.key === 'p' || e.key === 'P') {
+    if ($('#rotate-overlay').classList.contains('on')) enterPortrait();
+  }
+  if (e.key === 'n' || e.key === 'N') {
+    const order = ['boot','lock','rgb','gallery','kakao','final'];
+    const cur = document.querySelector('.scene.active');
+    const i = order.indexOf(cur && cur.id);
+    if (i === 0) { goScene('lock'); return; }
+    if (i === 1) { goScene('rgb', initTune); return; }
+    if (i === 2) { goScene('gallery', initGallery); return; }
+    if (i === 3 && GAL.phase === 'land') { $('#rotate-overlay').classList.add('on'); enterPortrait(); return; }
+    if (i === 3 && GAL.phase === 'port') { goScene('kakao', playKakao); return; }
+    if (i === 4) { showFinal(); return; }
+  }
+});
+
+window.__test = { TUNE, GAL, KK, solveTune };
+startBoot();
+</script>
+</body>
+</html>
