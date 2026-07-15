@@ -2,6 +2,7 @@
 _site/
 .quarto/
 *.html
+!m7-guide/**
 /.luarc.json
 
 # Jupyter notebook outputs
@@ -52,5 +53,5 @@ __pycache__/
 
 /.quarto/
 
-# Working instructions (not published)
+# Working instructions and reports (not published)
 prompts/

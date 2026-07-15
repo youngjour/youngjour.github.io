@@ -5,6 +5,7 @@ project:
     - "robots.txt"
     - "llms.txt"
     - "assets/"
+    - "m7-guide/"
   render:
     - "*.qmd"
     - "notes/**/*.qmd"
