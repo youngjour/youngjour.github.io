@@ -1,33 +1,5 @@
 [
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "My research holds behavior- and activity-based, evidence-based urban design as a consistent goal, and I have progressively extended the methodologies that support it. During my Ph.D. I became immersed in data science and statistics; at KAIST I expanded into deep learning and the smart city domain; and I have now entered a stage of directly integrating AI agent systems into architectural and urban design."
-  },
-  {
-    "objectID": "research.html#publications",
-    "href": "research.html#publications",
-    "title": "Research",
-    "section": "Publications",
-    "text": "Publications\n\nWorking Papers\n\nPark, Youngjun; Na, Jihye; Jang, Keonhee; Lee, Dongman; Kwon, Changhyun; Yoon, Yoonjin. (2025) “Food Deserts in Context: How Site-Specific Factors Reshape Food Deserts Discussion.” Submitted to npj Urban Sustainability (in-review).\n\n\n\n2025\n\nLee, Hongju; Park, Youngjun; An, Jisun; Lee, Dongman. (2025) “Enhancing Regional Airbnb Trend Forecasting Using LLM-Based Embeddings of Accessibility and Human Mobility.” ASONAM 2025. [Published]\nPark, Youngjun; Bae, Hyungchan; An, Jisun; Lee, Dongman. (2025) “A Model for Monthly, Local-Level Airbnb Changes Using Public Dataset.” Proceedings of the 7th International Conference on Tourism Research, 8(1), 214–223. [Published]\n\n\n\n2024\n\nPark, Youngjun; Han, Sumin. (2024) “Enhancing Population Predictions in Developing Area through Building Construction Data.” Association of European Schools of Planning (AESOP’24), poster session.\nHan, Sumin; Park, Youngjun; Sabir, Sonia; An, Jisun; Lee, Dongman. (2024) “Improving Real Estate Appraisal with POI Integration and Areal Embedding.” DMO-FinTech’24: Workshop on Decision Making and Optimization in Financial Technologies (PAKDD’24). [Preprint]\nPark, Youngjun; Han, Sumin; Park, Doyun; Bae, Hyeongchan; Nguyen, Thanh Tung; Lee, Dongman. (2024) “Integrative Geospatial Visualization for Urban Mobility Analysis.” Korea Computer Congress (KCC’24). [Published]\nElmoursi, Ahmad; Han, Sumin; Bae, Hyungchan; Park, Youngjun; Nguyen, Thanh Tung; Lee, Dongman. (2024) “Enhancing Geospatial Recommendations through Natural Language Processing with Large Language Models.” Korea Computer Congress (KCC’24). [Published]\n\n\n\n2023\n\nHan, Sumin; Park, Youngjun; Lee, Minji; An, Jisun; Lee, Dongman. (2023) “Enhancing Spatio-temporal Traffic Prediction through Urban Human Activity Analysis.” CIKM 2023, 689–698. [Published]\nPark, Youngjun; Han, Sumin; An, Jisun; Lee, Dongman. (2023) “Encoding Urban Trajectory as a Language: Deep Learning Insights for Human Mobility Pattern.” Association of Collegiate Schools of Planning (ACSP ’23). [PDF]\n\n\n\n2022\n\nPark, Youngjun; Lee, Sunjae; Park, Sohyun. (2022) “Differences in park walking, comparing the physically inactive and active groups: data from mHealth monitoring system in Seoul.” International Journal of Environmental Research and Public Health, 19(1), 395. [Published]\nPark, Youngjun. (2022) “Parks and Healthy Walking: smartphone physical activity recognition data for place and walking.” Urban Design Institute of Korea.\n\n\n\n2021\n\nPark, Youngjun; Chung, Haegwon; Park, Sohyun. (2021) “Changes of walking activity during the first cycle phases of COVID-19 pandemic: A case study of Seoul, Korea.” HERD: Health Environments Research & Design Journal, 14(4), 43–57. [Published]\nJeong, Jiwoon; Park, Youngjun; Park, Sohyun. (2021) “Safety-critical events in bicycle lanes in Jongno, Seoul.” Journal of Urbanism: International Research on Placemaking and Urban Sustainability, 16(1), 1–24. [Published]\n\n\n\n2019\n\nPark, Youngjun; Park, Sohyun. (2019) “Car-use and Non-work Travel of Housewives in Residential Neighborhood of Seoul.” Seoul Research, 20(1), 45–59. [Published]\n\n\n\n2017\n\nPark, Youngjun; Park, Sohyun. (2017) “A Study on the Location of Car-sharing in the Neighborhood Area and Replacement of Vehicle Ownership in Community.” Urban Design Institute of Korea."
-  },
-  {
-    "objectID": "research.html#research-projects",
-    "href": "research.html#research-projects",
-    "title": "Research",
-    "section": "Research Projects",
-    "text": "Research Projects\nGS–KAIST Smart City Research Center (2024–2025) Postdoctoral Researcher · KAIST · GS E&C\nAI-based Non-contact Drug Detection Technology (2024–2025) Postdoctoral Researcher · KAIST · Ministry of Science and ICT · RS-2024-00459749\nMultimodal Spatiotemporal Urban Prediction Models Based on Large Language Models (2024–2025) Postdoctoral Researcher · KAIST · National Research Foundation of Korea · RS-2024-00356597\nSelf-Learning Autonomic IoT Edge Computing Technology (2022–2025) Postdoctoral Researcher · SW StarLab Project, KAIST · Ministry of Science and ICT · RS-2019-II191126\nDevelopment of an AI-based Smart Mobility System (2022–2024) Participating Researcher · Daegu Metropolitan City · KAIST · N04230030\nText Analysis of Pedestrian-Related Government-Budget Projects (2022–2023) Research Service · Architecture & Urban Research Institute (AURI)\nComparative Study on Walking Practice within Neighborhoods via Individual GPS Trajectory Analysis (2019–2021) Research Grant Recipient · National Research Foundation of Korea, Next-Generation Researcher Program · Seoul National University\nPedestrian Data Analysis for WalkON Smartphone App Development (2019–2020) Research Team Lead, Affiliated Researcher (External Organization) · Swallaby Inc.\nGIS Analysis for Spatial Welfare of Infants and Young Children (2018–2019) Research Assistant, Affiliated Researcher (External Organization) · Dept. of Architecture, Ewha Womans University\nComprehensive Urban Plan for the Huế City ODA Project, Vietnam (2015–2016) Research Assistant · Korea International Cooperation Agency (KOICA) · Graduate School of Environmental Studies, Seoul National University"
-  },
-  {
-    "objectID": "research.html#patents-intellectual-property",
-    "href": "research.html#patents-intellectual-property",
-    "title": "Research",
-    "section": "Patents · Intellectual Property",
-    "text": "Patents · Intellectual Property\n\nKorean Patent (Filed) 10-2024-0108083 — Method and apparatus for estimating housing value using a neural network model\nKorean Patent (Registered) 10-23679770000 — Method and server for providing commercial real estate information\nKorean Copyright (Registered) C-2023-062275 — Geographic data visualization program"
-  },
-  {
     "objectID": "teaching.html",
     "href": "teaching.html",
     "title": "Teaching",
@@ -54,6 +26,34 @@
     "title": "Teaching",
     "section": "Invited Lectures · Seminars",
     "text": "Invited Lectures · Seminars\nInvited lectures and seminars I have given.\n\nSeoul National University, Department of Architecture — Urban data analysis and design education\nKAIST School of Computing — Urban computing and smart city research\nKOREATECH (Korea University of Technology and Education), Department of Architectural Engineering — Smart cities and AI\nChung-Ang University, Department of Architecture — Data science and architectural research"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research holds behavior- and activity-based, evidence-based urban design as a consistent goal, and I have progressively extended the methodologies that support it. During my Ph.D. I became immersed in data science and statistics; at KAIST I expanded into deep learning and the smart city domain; and I have now entered a stage of directly integrating AI agent systems into architectural and urban design."
+  },
+  {
+    "objectID": "research.html#publications",
+    "href": "research.html#publications",
+    "title": "Research",
+    "section": "Publications",
+    "text": "Publications\n\nWorking Papers\n\nPark, Youngjun; Na, Jihye; Jang, Keonhee; Lee, Dongman; Kwon, Changhyun; Yoon, Yoonjin. (2025) “Food Deserts in Context: How Site-Specific Factors Reshape Food Deserts Discussion.” Submitted to npj Urban Sustainability (in-review).\n\n\n\n2025\n\nLee, Hongju; Park, Youngjun; An, Jisun; Lee, Dongman. (2025) “Enhancing Regional Airbnb Trend Forecasting Using LLM-Based Embeddings of Accessibility and Human Mobility.” ASONAM 2025. [Published]\nPark, Youngjun; Bae, Hyungchan; An, Jisun; Lee, Dongman. (2025) “A Model for Monthly, Local-Level Airbnb Changes Using Public Dataset.” Proceedings of the 7th International Conference on Tourism Research, 8(1), 214–223. [Published]\n\n\n\n2024\n\nPark, Youngjun; Han, Sumin. (2024) “Enhancing Population Predictions in Developing Area through Building Construction Data.” Association of European Schools of Planning (AESOP’24), poster session.\nHan, Sumin; Park, Youngjun; Sabir, Sonia; An, Jisun; Lee, Dongman. (2024) “Improving Real Estate Appraisal with POI Integration and Areal Embedding.” DMO-FinTech’24: Workshop on Decision Making and Optimization in Financial Technologies (PAKDD’24). [Preprint]\nPark, Youngjun; Han, Sumin; Park, Doyun; Bae, Hyeongchan; Nguyen, Thanh Tung; Lee, Dongman. (2024) “Integrative Geospatial Visualization for Urban Mobility Analysis.” Korea Computer Congress (KCC’24). [Published]\nElmoursi, Ahmad; Han, Sumin; Bae, Hyungchan; Park, Youngjun; Nguyen, Thanh Tung; Lee, Dongman. (2024) “Enhancing Geospatial Recommendations through Natural Language Processing with Large Language Models.” Korea Computer Congress (KCC’24). [Published]\n\n\n\n2023\n\nHan, Sumin; Park, Youngjun; Lee, Minji; An, Jisun; Lee, Dongman. (2023) “Enhancing Spatio-temporal Traffic Prediction through Urban Human Activity Analysis.” CIKM 2023, 689–698. [Published]\nPark, Youngjun; Han, Sumin; An, Jisun; Lee, Dongman. (2023) “Encoding Urban Trajectory as a Language: Deep Learning Insights for Human Mobility Pattern.” Association of Collegiate Schools of Planning (ACSP ’23). [PDF]\n\n\n\n2022\n\nPark, Youngjun; Lee, Sunjae; Park, Sohyun. (2022) “Differences in park walking, comparing the physically inactive and active groups: data from mHealth monitoring system in Seoul.” International Journal of Environmental Research and Public Health, 19(1), 395. [Published]\nPark, Youngjun. (2022) “Parks and Healthy Walking: smartphone physical activity recognition data for place and walking.” Urban Design Institute of Korea.\n\n\n\n2021\n\nPark, Youngjun; Chung, Haegwon; Park, Sohyun. (2021) “Changes of walking activity during the first cycle phases of COVID-19 pandemic: A case study of Seoul, Korea.” HERD: Health Environments Research & Design Journal, 14(4), 43–57. [Published]\nJeong, Jiwoon; Park, Youngjun; Park, Sohyun. (2021) “Safety-critical events in bicycle lanes in Jongno, Seoul.” Journal of Urbanism: International Research on Placemaking and Urban Sustainability, 16(1), 1–24. [Published]\n\n\n\n2019\n\nPark, Youngjun; Park, Sohyun. (2019) “Car-use and Non-work Travel of Housewives in Residential Neighborhood of Seoul.” Seoul Research, 20(1), 45–59. [Published]\n\n\n\n2017\n\nPark, Youngjun; Park, Sohyun. (2017) “A Study on the Location of Car-sharing in the Neighborhood Area and Replacement of Vehicle Ownership in Community.” Urban Design Institute of Korea."
+  },
+  {
+    "objectID": "research.html#research-projects",
+    "href": "research.html#research-projects",
+    "title": "Research",
+    "section": "Research Projects",
+    "text": "Research Projects\nGS–KAIST Smart City Research Center (2024–2025) Postdoctoral Researcher · KAIST · GS E&C\nAI-based Non-contact Drug Detection Technology (2024–2025) Postdoctoral Researcher · KAIST · Ministry of Science and ICT · RS-2024-00459749\nMultimodal Spatiotemporal Urban Prediction Models Based on Large Language Models (2024–2025) Postdoctoral Researcher · KAIST · National Research Foundation of Korea · RS-2024-00356597\nSelf-Learning Autonomic IoT Edge Computing Technology (2022–2025) Postdoctoral Researcher · SW StarLab Project, KAIST · Ministry of Science and ICT · RS-2019-II191126\nDevelopment of an AI-based Smart Mobility System (2022–2024) Participating Researcher · Daegu Metropolitan City · KAIST · N04230030\nText Analysis of Pedestrian-Related Government-Budget Projects (2022–2023) Research Service · Architecture & Urban Research Institute (AURI)\nComparative Study on Walking Practice within Neighborhoods via Individual GPS Trajectory Analysis (2019–2021) Research Grant Recipient · National Research Foundation of Korea, Next-Generation Researcher Program · Seoul National University\nPedestrian Data Analysis for WalkON Smartphone App Development (2019–2020) Research Team Lead, Affiliated Researcher (External Organization) · Swallaby Inc.\nGIS Analysis for Spatial Welfare of Infants and Young Children (2018–2019) Research Assistant, Affiliated Researcher (External Organization) · Dept. of Architecture, Ewha Womans University\nComprehensive Urban Plan for the Huế City ODA Project, Vietnam (2015–2016) Research Assistant · Korea International Cooperation Agency (KOICA) · Graduate School of Environmental Studies, Seoul National University"
+  },
+  {
+    "objectID": "research.html#patents-intellectual-property",
+    "href": "research.html#patents-intellectual-property",
+    "title": "Research",
+    "section": "Patents · Intellectual Property",
+    "text": "Patents · Intellectual Property\n\nKorean Patent (Filed) 10-2024-0108083 — Method and apparatus for estimating housing value using a neural network model\nKorean Patent (Registered) 10-23679770000 — Method and server for providing commercial real estate information\nKorean Copyright (Registered) C-2023-062275 — Geographic data visualization program"
   },
   {
     "objectID": "design.html",

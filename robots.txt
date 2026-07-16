@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
 Sitemap: https://youngjour.github.io/sitemap.xml
+Sitemap: https://youngjour.github.io/en/sitemap.xml
