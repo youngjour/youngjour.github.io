@@ -5,6 +5,12 @@ description-meta: "Youngjun Park — research publications, conference presentat
 toc: true
 toc-location: right
 toc-depth: 2
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link rel="canonical" href="https://youngjour.github.io/en/research.html">
+          <meta property="og:url" content="https://youngjour.github.io/en/research.html">
 ---
 
 My research holds **behavior- and activity-based, evidence-based urban design** as a consistent goal, and I have progressively extended the methodologies that support it.

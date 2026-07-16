@@ -6,6 +6,11 @@ page-layout: custom
 format:
   html:
     toc: false
+    include-in-header:
+      - text: |
+          <link rel="canonical" href="https://youngjour.github.io/en/">
+          <meta property="og:type" content="profile">
+          <meta property="og:url" content="https://youngjour.github.io/en/">
 ---
 
 ::: {.single-column-layout}
