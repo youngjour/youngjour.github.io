@@ -3,6 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Unlisted page: reachable by direct URL only. Keep out of search / SEO / AI (GEO). -->
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex, noai, noimageai">
+<meta name="googlebot" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
 <title>M7 Series — 초기 설정</title>
 <style>
 /* ============ 공통 ============ */
@@ -231,6 +235,24 @@ button { font-family:inherit; }
 #final .f-check { margin-bottom:4vmin; width:7vmin; height:7vmin; min-width:40px; min-height:40px;
   opacity:0; transition:opacity 1.6s ease; }
 #final .f-check.show { opacity:1; }
+
+/* ============ 물리적 세로 피벗 보정 ============ */
+/* M7 모니터를 물리적으로 시계방향 90° 회전시킨 상태에서 콘텐츠가 똑바로 보이도록
+   CSS로 -90°(반시계) 회전시킨다. macOS 화면 회전 감지에 의존하지 않는다.
+   모니터를 반대 방향으로 돌렸다면 'r' 키로 방향을 뒤집을 수 있다. */
+:root { --rot: -90deg; }
+body.pivoted .scene.active {
+  inset: auto; top: 50%; left: 50%;
+  width: 100vh; height: 100vw;
+  transform: translate(-50%, -50%) rotate(var(--rot));
+}
+/* 회전된 갤러리 내부: vw↔vh 스왑으로 세로 프레임 기준 재정렬 */
+body.pivoted #gal-title { top: 5vw; }
+body.pivoted #gal-img, body.pivoted #gal-video { max-width: 86vh; max-height: 72vw; }
+body.pivoted #gal-cap { bottom: 8vw; }
+body.pivoted #gal-hint { bottom: 4.5vw; }
+body.pivoted #gal-step { bottom: 4.5vw; left: 4vh; }
+body.pivoted #kakao-banner { top: 2.5vw; }
 </style>
 </head>
 <body>
@@ -290,7 +312,7 @@ button { font-family:inherit; }
       <path d="M20.5 9l.3-2.6M20.5 9l-2.6-.4" ></path>
     </svg>
     <div class="r-main">이 이미지는 세로 화면에 최적화되어 있습니다</div>
-    <div class="r-sub">기기를 시계 방향으로 회전하세요</div>
+    <div class="r-sub">모니터를 시계 방향으로 90° 돌린 뒤 화면을 누르세요</div>
   </div>
   <div id="kakao-banner">
     <div class="k-icon">
@@ -610,12 +632,12 @@ function nextPhoto() {
     GAL.locked = true;
     $('#gal-hint').style.opacity = '0';
     $('#rotate-overlay').classList.add('on');
-    waitForPortrait();
+    /* 화면 회전 감지 없이, 오버레이 상태에서 화면을 누르면 세로 단계로 진입 */
   }
 }
 $('#gallery').addEventListener('click', e => {
   if (e.target.closest('#kakao-banner')) return;
-  if ($('#rotate-overlay').classList.contains('on')) return;
+  if ($('#rotate-overlay').classList.contains('on')) { enterPortrait(); return; }
   nextPhoto();
 });
 
@@ -624,6 +646,7 @@ let portraitStarted = false;
 function enterPortrait() {
   if (portraitStarted) return;
   portraitStarted = true;
+  document.body.classList.add('pivoted');   /* 이후 씬은 CSS로 -90° 회전 */
   $('#rotate-overlay').classList.remove('on');
   $('#gal-title').textContent = '세로 이미지 검증';
   $('#gal-step').textContent = '설정 4 / 5 · 디스플레이 회전';
@@ -714,6 +737,15 @@ addEventListener('keydown', e => {
     if (i === 3 && GAL.phase === 'land') { $('#rotate-overlay').classList.add('on'); enterPortrait(); return; }
     if (i === 3 && GAL.phase === 'port') { goScene('kakao', playKakao); return; }
     if (i === 4) { showFinal(); return; }
+  }
+});
+
+/* 세로 피벗 방향 보정 — 모니터를 반대로 돌렸으면 'r'로 회전 방향 뒤집기 */
+addEventListener('keydown', e => {
+  if (e.key === 'r' || e.key === 'R') {
+    const s = document.documentElement.style;
+    const cur = (s.getPropertyValue('--rot').trim()) || '-90deg';
+    s.setProperty('--rot', cur === '-90deg' ? '90deg' : '-90deg');
   }
 });
 
