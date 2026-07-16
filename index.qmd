@@ -8,6 +8,7 @@ format:
     toc: false
     include-in-header:
       - text: |
+          <meta name="google-site-verification" content="60fNfCjNcwBPeSmaK04-fRgNIm7A-qfN-YfJbEUSEx0">
           <link rel="canonical" href="https://youngjour.github.io/">
           <meta property="og:type" content="profile">
           <meta property="og:url" content="https://youngjour.github.io/">
