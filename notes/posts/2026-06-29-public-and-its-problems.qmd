@@ -1,7 +1,7 @@
 ---
-title: "Public(공중)에 대한 논의 — Dewey의 글과 학생 시절 작업 하나"
+title: "Public(공중)에 대한 논의: Dewey의 글과 학생 시절 작업 하나"
 date: "2026-06-29"
-pagetitle: "Public(공중)에 대한 논의 | 박영준"
+pagetitle: "Public(공중)에 대한 논의: Dewey의 글과 학생 시절 작업 하나 | 박영준"
 description-meta: "Lippmann의 회의론에 대한 Dewey의 응답을 읽으며, 가려진 공중(eclipse of the public)이라는 개념이 도시계획·설계에 무엇을 말하는지, 그리고 2016년 신촌 도시설계 작업을 다시 본 기록."
 ---
 

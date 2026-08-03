@@ -1,7 +1,7 @@
 ---
-title: "사람들의 의견을 그리는 일 — Deliberation Field"
+title: "사람들의 의견을 그리는 일: Deliberation Field"
 date: "2026-07-19"
-pagetitle: "사람들의 의견을 그리는 일 — Deliberation Field | 박영준"
+pagetitle: "사람들의 의견을 그리는 일: Deliberation Field | 박영준"
 description-meta: "베를린 전시 《Da:zwischen》에 출품한 미디어 아트 Deliberation Field에 대한 기록 — 데이터 시각화가 아니라, 사람들의 의견이 설득되고 반발하고 소용돌이치는 상호작용을 그린 작품."
 ---
 
