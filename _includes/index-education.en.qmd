@@ -1,5 +1,3 @@
-- **Ph.D. in Architecture** · Seoul National University · 2022
-  - Dissertation: Analysis of pedestrian activity using smartphone data, and urban planning facilities for the promotion of physical activity
-- **M.S. in Urban Design** · Seoul National University · 2017
-  - Thesis: A study on homemakers' automobile use behavior and intra-neighborhood travel characteristics
-- **B.S. in Architecture** · Seoul National University · 2013
+- [2022]{.cv-year} Ph.D. in Architecture · Seoul National University
+- [2017]{.cv-year} M.S. in Urban Design · Seoul National University
+- [2013]{.cv-year} B.S. in Architecture · Seoul National University

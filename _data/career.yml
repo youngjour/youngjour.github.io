@@ -27,15 +27,16 @@ career:
       en: "ar-ge Architects (ar-ge inc.)"
       llms: "ar-ge inc. (ar-ge Architects)"
     period:
-      ko: "현재"
-      en: "Present"
+      ko: "2025 – 현재"
+      en: "2025 – Present"
+      llms: "2025–present"
     bullets:
       ko:
-        - "Agentic AI 기반의 건축·도시 설계 솔루션 개발"
+        - "Agentic AI 기반의 건축·도시 설계 도구 개발"
         - "연구·기술 조직 운영"
         - "공공부문 건축·도시 설계 실무"
       en:
-        - "Development of Agentic AI-based architectural and urban design solutions"
+        - "Development of Agentic AI-based architectural and urban design tools"
         - "Leading the research and engineering organization"
         - "Public-sector architectural and urban design practice"
 
@@ -78,8 +79,8 @@ career:
       ko: "박사후 연구원"
       en: "Postdoctoral Researcher"
     employer:
-      ko: "KAIST 전산학부"
-      en: "KAIST School of Computing"
+      ko: "KAIST 정보전자연구소"
+      en: "KAIST Information and Electronics Research Institute"
     period:
       ko: "2022 – 2025"
       en: "2022 – 2025"
@@ -112,6 +113,7 @@ career:
         - "Theories of Urban Design: Traditional and Contemporary Urban Design (graduate course, Interdisciplinary Program in Urban Design)"
 
   - id: rok-army-officer
+    en_hidden: true          # 국문 트리에만 노출 (영문 About 제외); llms.txt에는 유지
     title:
       ko: "장교 (중위)"
       en: "Officer (First Lieutenant)"

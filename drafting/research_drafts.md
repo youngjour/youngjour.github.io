@@ -36,7 +36,7 @@ toc-depth: 2
  
 # Research
  
-제 연구는 **행태 활동 기반, 근거 기반의 도시설계** 를 일관된 목표로 두고, 이를 뒷받침하는 방법론을 단계적으로 확장해왔습니다. 연구 궤적의 개요는 [About 페이지](index.qmd#research-works) 에 정리되어 있으며, 전체 논문 목록은 [Google Scholar](https://scholar.google.com/citations?user=sGRKN6UAAAAJ) 에서도 확인하실 수 있습니다.
+제 연구는 **행태 활동 기반의 도시설계** 를 일관된 목표로 두고, 이를 뒷받침하는 방법론을 단계적으로 확장해왔습니다. 연구 궤적의 개요는 [About 페이지](index.qmd#research-works) 에 정리되어 있으며, 전체 논문 목록은 [Google Scholar](https://scholar.google.com/citations?user=sGRKN6UAAAAJ) 에서도 확인하실 수 있습니다.
  
 ## Publications
  

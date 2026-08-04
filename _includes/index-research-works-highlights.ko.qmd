@@ -11,6 +11,6 @@
 
 **박사후 · 에이전트와 파운데이션 모델** — KAIST 도시인공지능연구소
 
-- Park et al. (2025, in-review) *npj Urban Sustainability* — Food Desert 의 site-specific factor 분석
+- Park et al. (2025) *npj Urban Sustainability* — Food Desert 의 site-specific factor 분석
 
 **현재 · Agentic AI 기반 설계 시스템** — ar-ge inc.

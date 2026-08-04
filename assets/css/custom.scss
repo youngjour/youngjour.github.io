@@ -428,6 +428,48 @@ a {
   }
 }
 
+// About 하단 학력·경력 블록 (내용은 _data → _includes 에서 렌더)
+.cv-section {
+  margin: 3rem 0;
+  font-size: 1rem;
+  line-height: 1.6;
+
+  h3 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #1a5490;
+    margin: 2.5rem 0 0.75rem 0;
+  }
+
+  // compact 한 줄 항목: 왼쪽 연도/라벨 열 + 내용
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  li {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .cv-year {
+    flex: 0 0 9.5rem;
+    color: #666;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@media (max-width: 600px) {
+  .cv-section li {
+    flex-direction: column;
+    gap: 0.1rem;
+    margin-bottom: 0.7rem;
+  }
+  .cv-section .cv-year { flex-basis: auto; }
+}
+
 // 하단 소셜 링크 - Font Awesome 아이콘 + 라벨
 .social-links {
   margin: 4rem 0 3rem 0;

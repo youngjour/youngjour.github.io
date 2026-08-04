@@ -19,7 +19,7 @@ I served as a lecturer in the Department of Architecture at Seoul National Unive
 
 ### 도시설계연구(도시보행): Urban Design Research — Urban Walking
 
-*Graduate course, Architecture major · Seoul National University · 2020–2021*
+*Graduate course, Architecture major · Seoul National University · 2021*
 
 An **introductory course designed for graduate students in Architecture entering the urban design field for the first time**. It introduces the purpose of urban design, how design processes unfold, and current issues in the field, and shows how design, research, spatial programming, and urban planning interlock.
 
@@ -56,7 +56,7 @@ The table below pairs the theoretical topic of each week with the corresponding 
 
 ### 도시설계론: Theories of Urban Design — Traditional and Contemporary
 
-*Graduate course, Interdisciplinary Program in Urban Design · Seoul National University · 2020–2021*
+*Graduate course, Interdisciplinary Program in Urban Design · Seoul National University · 2021*
 
 A course covering the theoretical foundations and research process that students of urban design need in order to **grow into researchers in their own right**. The underlying premise is that research is a **two-way process that continually crosses between phenomena and theory** — starting from real urban phenomena to develop theoretical frameworks, and conversely, applying established theory to interpret complex situations. The **key mediator of this movement is data, and the principal object of study is the case**.
 

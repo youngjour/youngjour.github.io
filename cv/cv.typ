@@ -119,6 +119,7 @@
   let status = p.at("status", default: "published")
   if status == "poster" { return ", poster session" }
   if status == "in-review" { return ", in review" }
+  if status == "accepted" { return " (accepted)" }
   let vol = p.at("volume", default: "")
   let iss = p.at("issue", default: "")
   let pages = p.at("pages", default: "")

@@ -6,6 +6,8 @@ project:
     - "llms.txt"
     - "assets/"
     - "m7-guide/"
+    - ".nojekyll"
+    - ".well-known/"
   render:
     - "*.qmd"
     - "notes/**/*.qmd"
@@ -13,7 +15,7 @@ project:
 
 website:
   title: "Youngjun Park"
-  description: "박영준 — 건축가 · 도시 데이터 사이언티스트 · ar-ge inc. 공동창립자 및 CTO. 도시 컴퓨팅, 스마트시티, AI 기반 도시 분석."
+  description: "박영준 — 도시연구자, 건축가. 사람들의 활동과 의견이 도시계획에 어떻게 반영될 수 있는지 연구합니다. 건축학 박사, ar-ge inc. 공동창립자·CTO."
   site-url: "https://youngjour.github.io"
   image: "/assets/images/og-image.jpg"
   favicon: "assets/icons/favicon.ico"
@@ -73,7 +75,7 @@ format:
           <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
           <link rel="stylesheet" as="style" crossorigin
                 href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     include-after-body:
       - text: |
           <script src="/assets/js/relocate-sidebar-elements.js"></script>

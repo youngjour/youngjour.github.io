@@ -1,9 +1,10 @@
-### Working Papers
+### 2026
 
-- **Park, Youngjun**; Na, Jihye; Jang, Keonhee; Lee, Dongman; Kwon, Changhyun; Yoon, Yoonjin. (2025) "Food Deserts in Context: How Site-Specific Factors Reshape Food Deserts Discussion." *Submitted to npj Urban Sustainability* (in-review).
+- **Park, Youngjun**; Lee, Sejin. (2026) "Virtual Public Hearing Simulation using Large Language Model-based Multi-Agent System: Focused on the Public Hearing for the Rural Spatial Restructuring and Regeneration Plan." *Urban Design Institute of Korea* (accepted).
 
 ### 2025
 
+- **Park, Youngjun**; Na, Jihye; Jang, Keonhee; Lee, Dongman; Kwon, Changhyun; Yoon, Yoonjin. (2025) "Food Deserts in Context: How Site-Specific Factors Reshape Food Deserts Discussion." *npj Urban Sustainability* (accepted).
 - Lee, Hongju; **Park, Youngjun**; An, Jisun; Lee, Dongman. (2025) "Enhancing Regional Airbnb Trend Forecasting Using LLM-Based Embeddings of Accessibility and Human Mobility." *ASONAM 2025*.
   *[[Published](https://doi.org/10.1007/978-3-032-13513-1_30)]*
 - **Park, Youngjun**; Bae, Hyungchan; An, Jisun; Lee, Dongman. (2025) "A Model for Monthly, Local-Level Airbnb Changes Using Public Dataset." *Proceedings of the 7th International Conference on Tourism Research*, 8(1), 214–223.

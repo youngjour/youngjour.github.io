@@ -1,7 +1,13 @@
 ---
 title: ""
-pagetitle: "Youngjun Park"
-description-meta: "Youngjun Park — Architect and urban data scientist. Co-founder and CTO at ar-ge inc. Urban computing, smart cities, AI-driven urban analysis."
+pagetitle: "Urban Researcher · Architect"
+description-meta: "Youngjun Park — urban researcher and architect. On how people's activity and opinion can reach the way cities get planned. Ph.D. in Architecture. Co-founder & CTO, ar-ge inc."
+open-graph:
+  title: "Youngjun Park — Urban Researcher · Architect"
+  description: "On how people's activity and opinion can reach the way cities get planned. Ph.D. in Architecture · Co-founder & CTO, ar-ge inc."
+twitter-card:
+  title: "Youngjun Park — Urban Researcher · Architect"
+  description: "On how people's activity and opinion can reach the way cities get planned. Ph.D. in Architecture · Co-founder & CTO, ar-ge inc."
 page-layout: custom
 format:
   html:
@@ -11,6 +17,57 @@ format:
           <link rel="canonical" href="https://youngjour.github.io/en/">
           <meta property="og:type" content="profile">
           <meta property="og:url" content="https://youngjour.github.io/en/">
+          <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "ProfilePage",
+            "inLanguage": "en",
+            "mainEntity": {
+              "@type": "Person",
+              "@id": "https://youngjour.github.io/en/",
+              "name": "Youngjun Park",
+              "alternateName": "박영준",
+              "givenName": "Youngjun",
+              "familyName": "Park",
+              "url": "https://youngjour.github.io/en/",
+              "image": "https://youngjour.github.io/assets/images/youngjun.jpg",
+              "jobTitle": ["Urban Researcher", "Architect", "Co-founder & CTO, ar-ge inc."],
+              "worksFor": {
+                "@type": "Organization",
+                "name": "ar-ge inc.",
+                "url": "https://ar-ge.kr"
+              },
+              "affiliation": [
+                {
+                  "@type": "Organization",
+                  "name": "KAIST Information and Electronics Research Institute"
+                },
+                {
+                  "@type": "Organization",
+                  "name": "KAIST Urban AI Institute"
+                }
+              ],
+              "alumniOf": {
+                "@type": "CollegeOrUniversity",
+                "name": "Seoul National University"
+              },
+              "knowsAbout": ["Urban computing", "Machine learning for urban analysis", "Agentic AI", "Urban design", "Architecture", "latent publics", "urban simulation", "agent-based modeling"],
+              "identifier": {
+                "@type": "PropertyValue",
+                "propertyID": "ORCID",
+                "value": "0000-0002-4254-2268"
+              },
+              "sameAs": [
+                "https://orcid.org/0000-0002-4254-2268",
+                "https://scholar.google.com/citations?user=sGRKN6UAAAAJ",
+                "https://github.com/youngjour",
+                "https://linkedin.com/in/youngjourpark",
+                "https://x.com/latentpublics",
+                "https://bsky.app/profile/youngjour.bsky.social"
+              ]
+            }
+          }
+          </script>
 ---
 
 ::: {.single-column-layout}
@@ -21,35 +78,45 @@ format:
 
 ::: {.profile-info}
 # Youngjun Park
-Co-founder · CTO, ar-ge inc.
+Urban researcher · Architect<br>
+How can people's activity and opinion reach the way cities get planned?
 
 ::: {.persona-badges}
 <span>Urban Researcher</span>
 <span>Life, Space, Buildings</span>
-<span>Accountable City</span>
+<span>Latent Publics</span>
 :::
 :::
 :::
 
 <!-- Introduction -->
 ::: {.intro-section}
-Nice to meet you, I am Youngjun Park.
-I am an urban researcher and architect, as well as a co-founder and CTO of **ar-ge inc.**, where I am developing Agentic AI-based architectural and urban design solutions.
+Nice to meet you. I am Youngjun Park, and I study cities.<br>
+I work on how people's activity, behavior, and opinion can reach the way cities get planned,<br>
+and on how far what surfaces that way can be trusted.
 
-My work follows four threads:<br>
-1) **Research** that explores the city through behavioral data,<br>
-2) **Design** that builds places for the public,<br>
-3) **Engineering** that develops AI agent solutions,<br>
-4) And **education** that teaches urban design and urban data analysis.
+Toward that question, my work divides into four:<br>
+1) **Research** grounded in statistics and data,<br>
+2) **Design** in architecture and urban design,<br>
+3) **Programming** that builds AI agent systems,<br>
+4) And **teaching** urban design and urban data analysis.
+:::
 
-These four domains, speaking different languages, converge on a single question.<br>
-**"How can we design evidence-based and accountable cities?"**
+<!-- Education & Experience — SSOT: _data → _includes (scripts/build.py). Army entry is en_hidden. -->
+::: {.cv-section}
+### Education
+
+{{< include ../_includes/index-education.en.qmd >}}
+
+### Experience
+
+{{< include ../_includes/index-career.en.qmd >}}
 :::
 
 <!-- Social Links -->
 ::: {.social-links}
 <div class="social-container">
-<a href="mailto:youngjourpark@gmail.com" class="social-link-item"><i class="fas fa-envelope"></i><br>Email</a><a href="https://scholar.google.com/citations?user=sGRKN6UAAAAJ" class="social-link-item"><i class="fas fa-graduation-cap"></i><br>Google Scholar</a><a href="https://orcid.org/0000-0002-4254-2268" class="social-link-item"><i class="fab fa-orcid"></i><br>ORCID</a><a href="https://github.com/youngjour" class="social-link-item"><i class="fab fa-github"></i><br>GitHub</a><a href="https://linkedin.com/in/youngjourpark" class="social-link-item"><i class="fab fa-linkedin"></i><br>LinkedIn</a>
+<a href="mailto:youngjourpark@gmail.com" class="social-link-item"><i class="fas fa-envelope"></i><br>Email</a><a href="https://scholar.google.com/citations?user=sGRKN6UAAAAJ" class="social-link-item"><i class="fas fa-graduation-cap"></i><br>Google Scholar</a><a href="https://orcid.org/0000-0002-4254-2268" class="social-link-item"><i class="fab fa-orcid"></i><br>ORCID</a><a href="https://github.com/youngjour" class="social-link-item"><i class="fab fa-github"></i><br>GitHub</a><a href="https://linkedin.com/in/youngjourpark" class="social-link-item"><i class="fab fa-linkedin"></i><br>LinkedIn</a><a href="https://x.com/latentpublics" class="social-link-item"><i class="fab fa-x-twitter"></i><br>X</a><a href="https://bsky.app/profile/youngjour.bsky.social" class="social-link-item"><i class="fab fa-bluesky"></i><br>Bluesky</a>
 </div>
 :::
 

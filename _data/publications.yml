@@ -64,10 +64,25 @@ research_work_periods:
       en: "ar-ge inc."
 
 publications:
+  - id: urban-design-llm-hearing-2026
+    year: 2026
+    type: journal
+    status: accepted
+    # 국문 제목: 언어모델 기반 멀티에이전트 시스템을 활용한 가상 주민 공청회 시뮬레이션:
+    #            농촌공간 재구조화 및 재생 기본계획 주민 공청회를 중심으로
+    # 「도시설계」(한국도시설계학회, KCI) 특집호 '도시설계와 인공지능'. DOI/링크 미정.
+    authors:
+      - "**Park, Youngjun**"
+      - "Lee, Sejin"
+    title: "Virtual Public Hearing Simulation using Large Language Model-based Multi-Agent System: Focused on the Public Hearing for the Rural Spatial Restructuring and Regeneration Plan"
+    venue:
+      ko: "Urban Design Institute of Korea"
+      en: "Urban Design Institute of Korea"
+
   - id: food-deserts-npj-2025
     year: 2025
     type: journal
-    status: in-review
+    status: accepted
     authors:
       - "**Park, Youngjun**"
       - "Na, Jihye"

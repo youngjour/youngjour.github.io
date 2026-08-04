@@ -84,6 +84,8 @@ def research_suffix(p: dict) -> str:
     status = p.get("status", "published")
     if status == "in-review":
         return " (in-review)"
+    if status == "accepted":
+        return " (accepted)"
     if status == "poster":
         return ", poster session"
     vol = p.get("volume") or ""
@@ -141,6 +143,8 @@ def render_llms_entry(p: dict) -> str:
     year = p["year"]
     if p.get("status") == "in-review":
         venue_part = f"Submitted to *{venue}* (in review)"
+    elif p.get("status") == "accepted":
+        venue_part = f"*{venue}* (accepted)"
     elif p.get("status") == "poster":
         venue_part = f"*{venue}*, poster session"
     else:
@@ -263,15 +267,12 @@ def render_llms_affiliations(profile: dict) -> str:
 # ---------- education ----------
 
 def render_education_entry(edu: dict, lang: str) -> str:
+    # Compact one-line form for the About page: year column + degree · institution.
+    # (Thesis/dissertation detail is intentionally omitted here; the CV keeps it.)
     degree = edu["degree"][lang]
     inst = edu["institution"][lang]
     year = edu["year"]
-    lines = [f"- **{degree}** · {inst} · {year}"]
-    if edu.get("detail"):
-        label = edu["detail_label"][lang]
-        detail = edu["detail"][lang]
-        lines.append(f"  - {label}: {detail}")
-    return "\n".join(lines)
+    return f"- [{year}]{{.cv-year}} {degree} · {inst}"
 
 
 def render_llms_education_entry(edu: dict) -> str:
@@ -296,15 +297,12 @@ def normalize_llms_period(period_en: str) -> str:
 
 
 def render_career_entry(pos: dict, lang: str) -> str:
+    # Compact one-line form for the About page: period column + title — employer.
+    # (Per-position bullets are intentionally omitted here; the CV keeps them.)
     title = pos["title"][lang]
     employer = pos["employer"][lang]
     period = pos["period"][lang]
-    header = f"**{title}** — {employer}\n*{period}*"
-    bullets = pos.get("bullets")
-    if bullets and bullets.get(lang):
-        bullet_lines = "\n".join(f"- {b}" for b in bullets[lang])
-        return f"{header}\n\n{bullet_lines}"
-    return header
+    return f"- [{period}]{{.cv-year}} {title} — {employer}"
 
 
 def render_llms_career_entry(pos: dict) -> str:
@@ -698,8 +696,13 @@ def build() -> None:
         bodies[f"index-education.{lang}.qmd"] = compose_joined_lines(
             [render_education_entry(e, lang) for e in education]
         )
-        bodies[f"index-career.{lang}.qmd"] = compose_joined_blocks(
-            [render_career_entry(p, lang) for p in career]
+        # Army officer entry carries en_hidden: shown only in the Korean
+        # About tree, per the identity-rewrite spec. llms.txt keeps it.
+        career_for_lang = [
+            p for p in career if not (lang == "en" and p.get("en_hidden"))
+        ]
+        bodies[f"index-career.{lang}.qmd"] = compose_joined_lines(
+            [render_career_entry(p, lang) for p in career_for_lang]
         )
         bodies[f"index-awards.{lang}.qmd"] = compose_joined_lines(
             [render_award_entry(a, lang) for a in awards]
