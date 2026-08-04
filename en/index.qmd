@@ -63,7 +63,7 @@ format:
                 "https://github.com/youngjour",
                 "https://linkedin.com/in/youngjourpark",
                 "https://x.com/latentpublics",
-                "https://bsky.app/profile/youngjour.bsky.social"
+                "https://bsky.app/profile/youngjour.github.io"
               ]
             }
           }
@@ -116,7 +116,7 @@ Toward that question, my work divides into four:<br>
 <!-- Social Links -->
 ::: {.social-links}
 <div class="social-container">
-<a href="mailto:youngjourpark@gmail.com" class="social-link-item"><i class="fas fa-envelope"></i><br>Email</a><a href="https://scholar.google.com/citations?user=sGRKN6UAAAAJ" class="social-link-item"><i class="fas fa-graduation-cap"></i><br>Google Scholar</a><a href="https://orcid.org/0000-0002-4254-2268" class="social-link-item"><i class="fab fa-orcid"></i><br>ORCID</a><a href="https://github.com/youngjour" class="social-link-item"><i class="fab fa-github"></i><br>GitHub</a><a href="https://linkedin.com/in/youngjourpark" class="social-link-item"><i class="fab fa-linkedin"></i><br>LinkedIn</a><a href="https://x.com/latentpublics" class="social-link-item"><i class="fab fa-x-twitter"></i><br>X</a><a href="https://bsky.app/profile/youngjour.bsky.social" class="social-link-item"><i class="fab fa-bluesky"></i><br>Bluesky</a>
+<a href="mailto:youngjourpark@gmail.com" class="social-link-item"><i class="fas fa-envelope"></i><br>Email</a><a href="https://scholar.google.com/citations?user=sGRKN6UAAAAJ" class="social-link-item"><i class="fas fa-graduation-cap"></i><br>Google Scholar</a><a href="https://orcid.org/0000-0002-4254-2268" class="social-link-item"><i class="fab fa-orcid"></i><br>ORCID</a><a href="https://github.com/youngjour" class="social-link-item"><i class="fab fa-github"></i><br>GitHub</a><a href="https://linkedin.com/in/youngjourpark" class="social-link-item"><i class="fab fa-linkedin"></i><br>LinkedIn</a><a href="https://x.com/latentpublics" class="social-link-item"><i class="fab fa-x-twitter"></i><br>X</a><a href="https://bsky.app/profile/youngjour.github.io" class="social-link-item"><i class="fab fa-bluesky"></i><br>Bluesky</a>
 </div>
 :::
 
