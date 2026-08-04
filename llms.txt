@@ -1,6 +1,6 @@
 # Youngjun Park (박영준)
 
-> Architect and urban data scientist. Co-founder and CTO of ar-ge inc. Ph.D. in Architecture, Seoul National University (2022). Former postdoctoral researcher at KAIST School of Computing (2022–2025) and KAIST Urban AI Institute (2025). Research in urban computing, smart cities, ML/DL for urban analysis, and Agentic AI for architectural and urban design.
+> Architect and urban data scientist. Co-founder and CTO of ar-ge inc. Ph.D. in Architecture, Seoul National University (2022). Former postdoctoral researcher at KAIST Information and Electronics Research Institute (2022–2025) and KAIST Urban AI Institute (2025). Research in urban computing, smart cities, ML/DL for urban analysis, and Agentic AI for architectural and urban design.
 
 Publication byline: **Park, Youngjun**. Korean name: 박영준.
 
@@ -25,9 +25,9 @@ Publication byline: **Park, Youngjun**. Korean name: 박영준.
 
 ## Career history
 
-- Co-founder and CTO, ar-ge inc. (ar-ge Architects) — present.
+- Co-founder and CTO, ar-ge inc. (ar-ge Architects) — 2025–present.
 - Postdoctoral Researcher, KAIST Urban AI Institute — 2025.
-- Postdoctoral Researcher, KAIST School of Computing — 2022–2025.
+- Postdoctoral Researcher, KAIST Information and Electronics Research Institute — 2022–2025.
 - Lecturer, Department of Architecture, Seoul National University — 2021–2024.
 - Officer (First Lieutenant), Republic of Korea Army Corps of Engineers — 2013–2015.
 
@@ -47,12 +47,13 @@ Publication byline: **Park, Youngjun**. Korean name: 박영준.
 
 ## Publications
 
-### Working papers
+### 2026
 
-- **Park, Y.**; Na, J.; Jang, K.; Lee, D.; Kwon, C.; Yoon, Y. (2025). Food Deserts in Context: How Site-Specific Factors Reshape Food Deserts Discussion. Submitted to *npj Urban Sustainability* (in review).
+- **Park, Y.**; Lee, S. (2026). Virtual Public Hearing Simulation using Large Language Model-based Multi-Agent System: Focused on the Public Hearing for the Rural Spatial Restructuring and Regeneration Plan. *Urban Design Institute of Korea* (accepted).
 
 ### 2025
 
+- **Park, Y.**; Na, J.; Jang, K.; Lee, D.; Kwon, C.; Yoon, Y. (2025). Food Deserts in Context: How Site-Specific Factors Reshape Food Deserts Discussion. *npj Urban Sustainability* (accepted).
 - Lee, H.; **Park, Y.**; An, J.; Lee, D. (2025). Enhancing Regional Airbnb Trend Forecasting Using LLM-Based Embeddings of Accessibility and Human Mobility. *ASONAM 2025*. https://doi.org/10.1007/978-3-032-13513-1_30
 - **Park, Y.**; Bae, H.; An, J.; Lee, D. (2025). A Model for Monthly, Local-Level Airbnb Changes Using Public Dataset. *Proceedings of the 7th International Conference on Tourism Research*, 8(1), 214–223. https://papers.academic-conferences.org/index.php/ictr/article/view/3475
 
