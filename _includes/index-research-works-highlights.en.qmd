@@ -11,6 +11,7 @@
 
 **Postdoc · Agents and Foundation Models** — KAIST Urban AI Institute
 
-- Park et al. (2025) *npj Urban Sustainability* — Site-specific factor analysis of food deserts
+- Park et al. (2026) *npj Urban Sustainability* — Site-specific factor analysis of food deserts
+- Park et al. (2026) *도시설계 (UDIK)* — LLM multi-agent virtual public hearing simulation
 
 **Current · Agentic AI-based Design Systems** — ar-ge inc.

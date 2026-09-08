@@ -67,22 +67,34 @@ publications:
   - id: urban-design-llm-hearing-2026
     year: 2026
     type: journal
-    status: accepted
+    status: published
     # 국문 제목: 언어모델 기반 멀티에이전트 시스템을 활용한 가상 주민 공청회 시뮬레이션:
     #            농촌공간 재구조화 및 재생 기본계획 주민 공청회를 중심으로
-    # 「도시설계」(한국도시설계학회, KCI) 특집호 '도시설계와 인공지능'. DOI/링크 미정.
+    # 「도시설계」(한국도시설계학회, KCI) 특집호 '도시설계와 인공지능'. Vol.27 No.4 (통권 136호) 게재.
     authors:
       - "**Park, Youngjun**"
       - "Lee, Sejin"
     title: "Virtual Public Hearing Simulation using Large Language Model-based Multi-Agent System: Focused on the Public Hearing for the Rural Spatial Restructuring and Regeneration Plan"
     venue:
-      ko: "Urban Design Institute of Korea"
-      en: "Urban Design Institute of Korea"
+      ko: "도시설계(한국도시설계학회지)"
+      en: "Journal of the Urban Design Institute of Korea"
+    volume: "27"
+    issue: "4"
+    pages: "61–78"
+    highlight:
+      period:
+        ko: "박사후 · 에이전트와 파운데이션 모델"
+        en: "Postdoc · Agents and Foundation Models"
+      rank: 2
+      venue_short: "도시설계 (UDIK)"
+      summary:
+        ko: "LLM 멀티에이전트 기반 가상 주민 공청회 시뮬레이션"
+        en: "LLM multi-agent virtual public hearing simulation"
 
   - id: food-deserts-npj-2025
-    year: 2025
+    year: 2026
     type: journal
-    status: accepted
+    status: published
     authors:
       - "**Park, Youngjun**"
       - "Na, Jihye"
@@ -94,6 +106,9 @@ publications:
     venue:
       ko: "npj Urban Sustainability"
       en: "npj Urban Sustainability"
+    doi: "10.1038/s42949-026-00458-2"
+    url_label: "Published"
+    # accepted-manuscript fast access 단계. final version of record 공개 시 volume/article no. 추가 예정.
     highlight:
       period:
         ko: "박사후 · 에이전트와 파운데이션 모델"
