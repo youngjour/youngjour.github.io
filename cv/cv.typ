@@ -22,6 +22,7 @@
 //     `number-style: "descending"` matches academic convention (most
 //     recent entry has the highest number).
 //   Professional Service → multi-line-list / single-line-entry
+//   Recent Talks and Activities → r2c2-entry-list (from `_data/talks.yml`)
 //
 // Font setup:
 //   English build — no `font-settings` override; the template's
@@ -52,6 +53,7 @@
 #let projects_list = yaml("/_data/projects.yml").projects
 #let patents_list = yaml("/_data/patents.yml").patents
 #let courses_list = yaml("/_data/teaching.yml").courses
+#let talks_list = yaml("/_data/talks.yml").talks
 
 // -------- Helpers --------
 
@@ -172,8 +174,9 @@
   }),
   author-info: (
     name: if lang == "ko" { profile.name_ko } else { profile.name_en },
+    // Every current affiliation as "role, institution", joined with " · ".
     primary-info: [
-      #profile.current_affiliations.at(0).role.at(lang), #profile.current_affiliations.at(0).institution.at(lang)
+      #profile.current_affiliations.map(a => a.role.at(lang) + ", " + a.institution.at(lang)).join(" · ")
       #sym.bar.v
       #link("mailto:" + profile.identifiers.email)[#profile.identifiers.email]
     ],
@@ -298,6 +301,21 @@
   single-line-entry([#s.research_advisory], service-items("research_advisory").join(" · "), []),
   single-line-entry([#s.industry_collaborations], service-items("industry_collaborations").join(" · "), []),
   single-line-entry([#s.invited_lectures], service-items("invited_lectures").join(" · "), []),
+)
+
+// -------- Recent Talks and Activities --------
+
+== #s.talks
+#r2c2-entry-list(
+  ..talks_list.map(t => (
+    entry-header-args: (
+      top-left: t.title.at(lang),
+      top-right: t.date,
+      bottom-left: t.kind.at(lang) + " · " + t.venue.at(lang),
+      bottom-right: "",
+    ),
+    list-items: (),
+  ))
 )
 
 // -------- Teaching --------

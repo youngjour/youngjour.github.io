@@ -1,5 +1,5 @@
 **Journal Reviewer**
-Scientific Reports · BMC Public Health · Archives of Public Health · Frontiers in Public Health
+Scientific Reports · Scientific Data · BMC Public Health · Archives of Public Health · Frontiers in Public Health · AESOP (conference)
 
 **Research Advisory**
 KAIST Urban AI Institute · Architecture & Urban Research Institute (AURI)
@@ -8,4 +8,4 @@ KAIST Urban AI Institute · Architecture & Urban Research Institute (AURI)
 GS E&C · Kia Motors–Innocean · Swallaby
 
 **Guest Lectures · Seminars**
-Dept. of Architecture, Seoul National University · KAIST School of Computing · Dept. of Architectural Engineering, KOREATECH · Dept. of Architecture, Chung-Ang University
+Dept. of Architecture, Seoul National University · KAIST School of Computing · Dept. of Architectural Engineering, KOREATECH · Dept. of Architecture, Chung-Ang University · Dept. of Architecture, Kookmin University · School of Architecture, Changwon National University

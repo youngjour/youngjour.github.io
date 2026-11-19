@@ -1,4 +1,5 @@
-- [2025 – Present]{.cv-year} Co-founder · CTO — ar-ge Architects (ar-ge inc.)
-- [2025]{.cv-year} Postdoctoral Researcher — KAIST Urban AI Institute
-- [2022 – 2025]{.cv-year} Postdoctoral Researcher — KAIST Information and Electronics Research Institute
-- [2021 – 2024]{.cv-year} Lecturer — Department of Architecture, Seoul National University
+- [2026 – Present]{.cv-year} Founder, Deep Urban
+- [2025 – Present]{.cv-year} Co-founder · CTO, ar-ge Architects (ar-ge inc.)
+- [2025]{.cv-year} Postdoctoral Researcher, KAIST Urban AI Institute
+- [2022 – 2025]{.cv-year} Postdoctoral Researcher, KAIST Information and Electronics Research Institute
+- [2021 – 2024]{.cv-year} Lecturer, Department of Architecture, Seoul National University

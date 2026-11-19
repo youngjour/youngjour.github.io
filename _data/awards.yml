@@ -19,6 +19,16 @@ award_categories:
       en: "Sports"
 
 awards:
+  - id: kaist-overedge-2026
+    year: 2026
+    category: academic
+    title:
+      ko: "예비창업가 50인 선정"
+      en: "Selected as one of 50 Prospective Founders"
+    context:
+      ko: "KAIST OverEdge 글로벌 AI 1인 창업 프로그램, KAIST 창업원·AI대학원"
+      en: "KAIST OverEdge Global AI Solo-Founder Program, KAIST Startup Institute & Graduate School of AI"
+
   - id: kaist-nyu-g-school-2023
     year: 2023
     category: academic

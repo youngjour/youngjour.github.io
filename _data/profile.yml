@@ -10,7 +10,7 @@ profile:
   name_en: "Youngjun Park"
   name_ko: "박영준"
   byline: "Park, Youngjun"
-  summary_llms: "Architect and urban data scientist. Co-founder and CTO of ar-ge inc. Ph.D. in Architecture, Seoul National University (2022). Former postdoctoral researcher at KAIST Information and Electronics Research Institute (2022–2025) and KAIST Urban AI Institute (2025). Research in urban computing, smart cities, ML/DL for urban analysis, and Agentic AI for architectural and urban design."
+  summary_llms: "Architect and urban data scientist. Co-founder and CTO of ar-ge inc. and Founder of Deep Urban. Ph.D. in Architecture, Seoul National University (2022). Former postdoctoral researcher at KAIST Information and Electronics Research Institute (2022–2025) and KAIST Urban AI Institute (2025). Research in urban computing, smart cities, ML/DL for urban analysis, and Agentic AI for architectural and urban design."
   identifiers:
     email: "youngjourpark@gmail.com"
     orcid: "0000-0002-4254-2268"
@@ -31,13 +31,13 @@ profile:
       status:
         ko: "현재"
         en: "present"
-    - id: kaist-uai-advisor
+    - id: deepurban
       institution:
-        ko: "KAIST 도시인공지능연구소"
-        en: "KAIST Urban AI Institute"
+        ko: "딥어반"
+        en: "Deep Urban"
       role:
-        ko: "외부 자문"
-        en: "External Advisor"
+        ko: "창립자"
+        en: "Founder"
       status:
         ko: "현재"
         en: "present"

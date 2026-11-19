@@ -1,0 +1,69 @@
+# Recent talks and activities. Rendered in the CV ("Recent Talks and
+# Activities" / "최근 강연 및 활동") in list order (newest first).
+# `site: true` entries are also listed on the Teaching page under
+# "Invited Lectures · Seminars".
+talks:
+  - id: koreatech-2026-11
+    date: "2026.11"
+    site: true
+    title:
+      ko: "데이터 기반 도시계획"
+      en: "Data-driven Urban Planning"
+    kind:
+      ko: "초청 특강"
+      en: "Invited lecture"
+    venue:
+      ko: "한국기술교육대학교 건축공학과, 학부 빅데이터 분석 수업"
+      en: "Dept. of Architectural Engineering, KOREATECH (undergraduate big-data analysis course)"
+
+  - id: kookmin-2026-11
+    date: "2026.11"
+    site: true
+    title:
+      ko: "합성인구 기반 참여형 도시계획"
+      en: "Synthetic Populations for Participatory Urban Planning"
+    kind:
+      ko: "초청 특강"
+      en: "Invited lecture"
+    venue:
+      ko: "국민대학교 건축학과, 4학년 도시계획 수업"
+      en: "Dept. of Architecture, Kookmin University (4th-year urban planning course)"
+
+  - id: gh-network-2026-10
+    date: "2026.10"
+    site: false
+    title:
+      ko: "부동산·도시개발을 위한 합성인구 AI 서비스"
+      en: "Synthetic-Population AI Services for Real Estate and Urban Development"
+    kind:
+      ko: "초청 발표"
+      en: "Invited presentation"
+    venue:
+      ko: "경기도·GH·건설부동산 업계 임원 네트워크 미팅"
+      en: "Executive network meeting of Gyeonggi Province, GH, and real-estate and development firms"
+
+  - id: changwon-2026-10
+    date: "2026.10"
+    site: true
+    title:
+      ko: "합성인구 기반 건축·도시계획 활용 전략"
+      en: "Using Synthetic Populations in Architectural and Urban Planning"
+    kind:
+      ko: "초청 특강"
+      en: "Invited lecture"
+    venue:
+      ko: "창원대학교 건축학부"
+      en: "School of Architecture, Changwon National University"
+
+  - id: anglican-forum-2026
+    date: "2026.02–04"
+    site: false
+    title:
+      ko: "대한성공회 서울주교좌성당 축성 100주년 기념 건축포럼"
+      en: "Architecture Forum for the 100th Anniversary of the Consecration of Seoul Anglican Cathedral"
+    kind:
+      ko: "기획·운영"
+      en: "Organizer"
+    venue:
+      ko: "대한성공회 서울주교좌성당 (ar-ge 건축사사무소)"
+      en: "Seoul Anglican Cathedral (with ar-ge Architects)"

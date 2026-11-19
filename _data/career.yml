@@ -17,6 +17,25 @@
 #                            When absent or null, no list is rendered.
 
 career:
+  - id: deepurban-founder
+    title:
+      ko: "창립자"
+      en: "Founder"
+    employer:
+      ko: "딥어반 (Deep Urban)"
+      en: "Deep Urban"
+    period:
+      ko: "2026 – 현재"
+      en: "2026 – Present"
+      llms: "2026–present"
+    bullets:
+      ko:
+        - "합성인구 기반 소셜 시뮬레이션 서비스 개발·운영: Million Answers(가상 설문), Persona Roundtable(가상 좌담회)"
+        - "기업 대상 AI 소비자 패널 자문 및 PoC"
+      en:
+        - "Development and operation of synthetic-population-based social simulation services: Million Answers (virtual surveys) and Persona Roundtable (virtual focus groups)"
+        - "Advisory and proof-of-concept work on AI consumer panels for industry clients"
+
   - id: arge-cto
     title:
       ko: "공동창립자 · CTO"

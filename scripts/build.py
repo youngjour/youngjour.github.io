@@ -15,6 +15,8 @@ Data files:
   awards.yml         awards and honors (categorised)
   service.yml        professional service (reviewer, advisory, etc.)
   teaching.yml       course metadata (Phase 3b CV only)
+  talks.yml          recent talks and activities (CV; `site: true` ones
+                     also on the Teaching page)
 """
 
 from __future__ import annotations
@@ -297,12 +299,12 @@ def normalize_llms_period(period_en: str) -> str:
 
 
 def render_career_entry(pos: dict, lang: str) -> str:
-    # Compact one-line form for the About page: period column + title — employer.
+    # Compact one-line form for the About page: period column + title, employer.
     # (Per-position bullets are intentionally omitted here; the CV keeps them.)
     title = pos["title"][lang]
     employer = pos["employer"][lang]
     period = pos["period"][lang]
-    return f"- [{period}]{{.cv-year}} {title} — {employer}"
+    return f"- [{period}]{{.cv-year}} {title}, {employer}"
 
 
 def render_llms_career_entry(pos: dict) -> str:
@@ -321,6 +323,16 @@ def render_award_entry(aw: dict, lang: str) -> str:
     if aw["category"] == "academic":
         return f"- **{title}** — {context} ({year})"
     return f"- {title} — {context} ({year})"
+
+
+# ---------- talks ----------
+
+def render_talk_site_entry(talk: dict, lang: str) -> str:
+    # Teaching page "Invited Lectures · Seminars" line (no em dash).
+    title = talk["title"][lang]
+    venue = talk["venue"][lang]
+    date = talk["date"]
+    return f"- **{title}** · {venue} ({date})"
 
 
 # ---------- professional service ----------
@@ -426,6 +438,7 @@ def validate_all(
     award_categories,
     service_data,
     courses,
+    talks,
 ) -> None:
     # publications
     ids = set()
@@ -575,6 +588,24 @@ def validate_all(
             if key not in c:
                 raise SystemExit(f"Course {cid}: missing '{key}'")
 
+    # talks
+    talk_ids = set()
+    for t in talks:
+        tid = t.get("id") or ""
+        if not tid:
+            raise SystemExit(f"Talk missing id: {t!r}")
+        if tid in talk_ids:
+            raise SystemExit(f"Duplicate talk id: {tid}")
+        talk_ids.add(tid)
+        for key in ("date", "site", "title", "kind", "venue"):
+            if key not in t or t[key] in (None, ""):
+                raise SystemExit(f"Talk {tid}: missing '{key}'")
+        if not isinstance(t["site"], bool):
+            raise SystemExit(f"Talk {tid}: 'site' must be true or false")
+        for key in ("title", "kind", "venue"):
+            if "ko" not in t[key] or "en" not in t[key]:
+                raise SystemExit(f"Talk {tid}: {key} needs ko and en")
+
 
 # ---------- main ----------
 
@@ -588,6 +619,7 @@ def build() -> None:
     awards_data = load_yaml(DATA_DIR / "awards.yml")
     service_data = load_yaml(DATA_DIR / "service.yml")
     teaching_data = load_yaml(DATA_DIR / "teaching.yml")
+    talks_data = load_yaml(DATA_DIR / "talks.yml")
 
     publications = pub_data["publications"]
     periods = pub_data["research_work_periods"]
@@ -599,11 +631,12 @@ def build() -> None:
     awards = awards_data["awards"]
     award_categories = awards_data["award_categories"]
     courses = teaching_data["courses"]
+    talks = talks_data["talks"]
 
     validate_all(
         publications, periods, projects, patents,
         profile, education, career, awards, award_categories,
-        service_data, courses,
+        service_data, courses, talks,
     )
 
     working = [p for p in publications if p.get("status") == "in-review"]
@@ -710,6 +743,9 @@ def build() -> None:
         bodies[f"index-professional-service.{lang}.qmd"] = render_service_site(
             service_data, lang
         )
+        bodies[f"teaching-talks.{lang}.qmd"] = compose_joined_lines(
+            [render_talk_site_entry(t, lang) for t in talks if t["site"]]
+        )
 
     for out_name, body in bodies.items():
         tpl = env.get_template(out_name + ".j2")
@@ -750,7 +786,8 @@ def build() -> None:
         f"{len(education)} education, "
         f"{len(career)} career, "
         f"{len(awards)} awards, "
-        f"{len(courses)} courses"
+        f"{len(courses)} courses, "
+        f"{len(talks)} talks"
     )
 
 

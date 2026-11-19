@@ -38,9 +38,11 @@ service:
   journal_reviewer:
     ko:
       - "Scientific Reports"
+      - "Scientific Data"
       - "BMC Public Health"
       - "Archives of Public Health"
       - "Frontiers in Public Health"
+      - "AESOP (conference)"
     en: []
 
   research_advisory:
@@ -67,8 +69,12 @@ service:
       - "KAIST 전산학부"
       - "한국기술교육대학교 건축공학과"
       - "중앙대학교 건축학과"
+      - "국민대학교 건축학과"
+      - "창원대학교 건축학부"
     en:
       - "Dept. of Architecture, Seoul National University"
       - "KAIST School of Computing"
       - "Dept. of Architectural Engineering, KOREATECH"
       - "Dept. of Architecture, Chung-Ang University"
+      - "Dept. of Architecture, Kookmin University"
+      - "School of Architecture, Changwon National University"

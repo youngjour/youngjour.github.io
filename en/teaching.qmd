@@ -122,7 +122,8 @@ Joint research and projects with students have consistently been a source of mut
 
 Invited lectures and seminars I have given.
 
-- **Seoul National University, Department of Architecture** — Urban data analysis and design education
-- **KAIST School of Computing** — Urban computing and smart city research
-- **KOREATECH (Korea University of Technology and Education), Department of Architectural Engineering** — Smart cities and AI
-- **Chung-Ang University, Department of Architecture** — Data science and architectural research
+{{< include ../_includes/teaching-talks.en.qmd >}}
+- **Seoul National University, Department of Architecture**: Urban data analysis and design education
+- **KAIST School of Computing**: Urban computing and smart city research
+- **KOREATECH (Korea University of Technology and Education), Department of Architectural Engineering**: Smart cities and AI
+- **Chung-Ang University, Department of Architecture**: Data science and architectural research
