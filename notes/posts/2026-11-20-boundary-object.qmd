@@ -1,6 +1,6 @@
 ---
 title: "Boundary object: npj 페이퍼와 KAIST에서의 연구"
-date: "2026-11-20"
+date: "2026-10-15"
 pagetitle: "Boundary object: npj 페이퍼와 KAIST에서의 연구 | 박영준"
 description-meta: "KAIST에서 서로 다른 분야의 연구자들과 함께 연구할 공통의 문제로 접근성(accessibility)을 제안하고, 그 대표 사례인 Food Deserts 리뷰 논문(npj Urban Sustainability)으로 이어진 과정, 그리고 KAIST 도시인공지능연구소에서의 경험에 대한 기록."
 ---
