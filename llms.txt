@@ -1,6 +1,6 @@
 # Youngjun Park (박영준)
 
-> Architect and urban data scientist. Co-founder and CTO of ar-ge inc. Ph.D. in Architecture, Seoul National University (2022). Former postdoctoral researcher at KAIST Information and Electronics Research Institute (2022–2025) and KAIST Urban AI Institute (2025). Research in urban computing, smart cities, ML/DL for urban analysis, and Agentic AI for architectural and urban design.
+> Architect and urban data scientist. Co-founder and CTO of ar-ge inc. and Founder of Deep Urban. Ph.D. in Architecture, Seoul National University (2022). Former postdoctoral researcher at KAIST Information and Electronics Research Institute (2022–2025) and KAIST Urban AI Institute (2025). Research in urban computing, smart cities, ML/DL for urban analysis, and Agentic AI for architectural and urban design.
 
 Publication byline: **Park, Youngjun**. Korean name: 박영준.
 
@@ -15,7 +15,7 @@ Publication byline: **Park, Youngjun**. Korean name: 박영준.
 ## Current affiliations
 
 - [ar-ge inc.](https://ar-ge.kr) — Co-founder and CTO (present).
-- KAIST Urban AI Institute — External Advisor (present).
+- Deep Urban — Founder (present).
 
 ## Education
 
@@ -25,6 +25,7 @@ Publication byline: **Park, Youngjun**. Korean name: 박영준.
 
 ## Career history
 
+- Founder, Deep Urban — 2026–present.
 - Co-founder and CTO, ar-ge inc. (ar-ge Architects) — 2025–present.
 - Postdoctoral Researcher, KAIST Urban AI Institute — 2025.
 - Postdoctoral Researcher, KAIST Information and Electronics Research Institute — 2022–2025.
@@ -108,7 +109,7 @@ Publication byline: **Park, Youngjun**. Korean name: 박영준.
 
 ## Professional service
 
-- Journal reviewer: *Scientific Reports*, *BMC Public Health*, *Archives of Public Health*, *Frontiers in Public Health*.
+- Journal reviewer: *Scientific Reports*, *Scientific Data*, *BMC Public Health*, *Archives of Public Health*, *Frontiers in Public Health*, *AESOP (conference)*.
 - Research advisory: KAIST Urban AI Institute; Architecture & Urban Research Institute (AURI).
 - Industry–academic collaborations: GS E&C; Kia Motors–Innocean; Swallaby.
 
